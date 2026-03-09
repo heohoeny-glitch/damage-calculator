@@ -688,7 +688,7 @@ function filterHeroes(query) {
   const dropdown = document.getElementById('heroDropdown');
   const q = query.toLowerCase().trim();
   const filtered = q
-    ? heroData.filter(h => h.name.toLowerCase().includes(q))
+    ? heroData.filter(h => h.name.toLowerCase().includes(q) || (h.name_kr && h.name_kr.includes(q)))
     : heroData;
 
   dropdown.innerHTML = filtered.slice(0, 50).map((h, i) => {
@@ -704,7 +704,7 @@ function filterHeroes(query) {
       <div class="hero-option" onclick="selectHero('${h.name.replace(/'/g, "\\'")}')">
         <img src="${portrait}" alt="${h.name}" onerror="this.style.display='none'">
         <div>
-          <div>${h.name}</div>
+          <div>${h.name_kr || h.name} <span style="color:#888;font-size:0.8em">(${h.name})</span></div>
           <div class="hero-talents-preview">${preview}</div>
         </div>
       </div>
@@ -719,14 +719,14 @@ function selectHero(name) {
   selectedHero = hero;
 
   // Update UI
-  document.getElementById('heroSearch').value = hero.name;
+  document.getElementById('heroSearch').value = (hero.name_kr || hero.name) + ' (' + hero.name + ')';
   document.getElementById('heroDropdown').classList.remove('open');
   document.getElementById('btnClearHero').style.display = 'inline-block';
 
   // Show hero info
   const infoEl = document.getElementById('selectedHeroInfo');
   infoEl.style.display = 'block';
-  document.getElementById('heroInfoName').textContent = hero.name;
+  document.getElementById('heroInfoName').innerHTML = (hero.name_kr || hero.name) + ' <span style="color:#888;font-size:0.8em">(' + hero.name + ')</span>';
   const portraitEl = document.getElementById('heroInfoPortrait');
   portraitEl.src = `images/portraits/${hero.name} Portrait.webp`;
   portraitEl.style.display = '';

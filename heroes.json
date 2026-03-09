@@ -23,7 +23,8 @@
       "Finishing Blow",
       "Venom",
       "Diagonal Parry"
-    ]
+    ],
+    "name_kr": "아다나"
   },
   {
     "name": "Agatha",
@@ -56,7 +57,8 @@
       "Split Second",
       "Venom",
       "Melee Parry"
-    ]
+    ],
+    "name_kr": "아가사"
   },
   {
     "name": "Agil",
@@ -91,7 +93,8 @@
       "Split Second",
       "Ballistic",
       "Sniper"
-    ]
+    ],
+    "name_kr": "아길"
   },
   {
     "name": "Ahzura",
@@ -126,7 +129,8 @@
       "Split Second",
       "Critical Heal",
       "Healing Touch"
-    ]
+    ],
+    "name_kr": "아주라"
   },
   {
     "name": "Aigror",
@@ -161,7 +165,8 @@
       "Split Second",
       "Rune of Fire",
       "Armor of Fire"
-    ]
+    ],
+    "name_kr": "아이그로"
   },
   {
     "name": "Akasha",
@@ -196,7 +201,8 @@
       "Split Second",
       "Melee Parry",
       "Rune of Sea"
-    ]
+    ],
+    "name_kr": "아카샤"
   },
   {
     "name": "Alaric",
@@ -229,7 +235,8 @@
       "Split Second",
       "Melee Parry",
       "Life Steal"
-    ]
+    ],
+    "name_kr": "알라릭"
   },
   {
     "name": "Aldebaran",
@@ -262,7 +269,8 @@
       "Split Second",
       "Diagonal Parry",
       "Finishing Blow"
-    ]
+    ],
+    "name_kr": "알데바란"
   },
   {
     "name": "Alyssandra",
@@ -297,7 +305,8 @@
       "Split Second",
       "Bleed Resistance",
       "Pacifist"
-    ]
+    ],
+    "name_kr": "알리산드라"
   },
   {
     "name": "Alyssandy",
@@ -332,7 +341,8 @@
       "Split Second",
       "Bleed Resistance",
       "Pacifist"
-    ]
+    ],
+    "name_kr": "앨리샌디"
   },
   {
     "name": "Amberwing",
@@ -367,7 +377,8 @@
       "Split Second",
       "Pact Against Undead",
       "Pact of Heroism"
-    ]
+    ],
+    "name_kr": "앰버윙"
   },
   {
     "name": "Amelia",
@@ -402,7 +413,8 @@
       "Split Second",
       "Critical Attack",
       "Song of Blood"
-    ]
+    ],
+    "name_kr": "아멜리아"
   },
   {
     "name": "Angus",
@@ -428,7 +440,8 @@
       "Ranged Parry",
       "Rend",
       "Whirlwind"
-    ]
+    ],
+    "name_kr": "앵거스"
   },
   {
     "name": "Apollus",
@@ -463,7 +476,8 @@
       "Split Second",
       "Inner Peace",
       "Death Ward"
-    ]
+    ],
+    "name_kr": "아폴루스"
   },
   {
     "name": "Aquatic Agil",
@@ -498,7 +512,8 @@
       "Split Second",
       "Ballistic",
       "Sniper"
-    ]
+    ],
+    "name_kr": "아쿠아틱 아길"
   },
   {
     "name": "Arafin",
@@ -533,7 +548,8 @@
       "Split Second",
       "Finishing Blow",
       "Diagonal Heal"
-    ]
+    ],
+    "name_kr": "아라핀"
   },
   {
     "name": "Ariane",
@@ -568,7 +584,8 @@
       "Split Second",
       "Rend",
       "Ranged Parry"
-    ]
+    ],
+    "name_kr": "아리안"
   },
   {
     "name": "Arilda",
@@ -601,7 +618,8 @@
       "Split Second",
       "Focus",
       "Melee Parry"
-    ]
+    ],
+    "name_kr": "아릴다"
   },
   {
     "name": "Arkhan",
@@ -627,7 +645,8 @@
       "Sniper",
       "Rend",
       "True Shot"
-    ]
+    ],
+    "name_kr": "아르칸"
   },
   {
     "name": "Arryn",
@@ -651,7 +670,8 @@
       "Melee Parry",
       "Backstab",
       "Backstab"
-    ]
+    ],
+    "name_kr": "아린"
   },
   {
     "name": "Ashtalon",
@@ -686,7 +706,8 @@
       "Split Second",
       "Ranged Parry",
       "Life Steal"
-    ]
+    ],
+    "name_kr": "애시탤론"
   },
   {
     "name": "Augar",
@@ -721,7 +742,8 @@
       "Split Second",
       "Rend",
       "Finishing Blow"
-    ]
+    ],
+    "name_kr": "오가르"
   },
   {
     "name": "Aurora",
@@ -756,7 +778,8 @@
       "Split Second",
       "Fortify",
       "Bad Medicine"
-    ]
+    ],
+    "name_kr": "오로라"
   },
   {
     "name": "Aveline",
@@ -791,7 +814,8 @@
       "Split Second",
       "Fortify",
       "Immobilizing Strike"
-    ]
+    ],
+    "name_kr": "애블린"
   },
   {
     "name": "Azgog",
@@ -826,7 +850,8 @@
       "Split Second",
       "Mighty Blow",
       "Melee Parry"
-    ]
+    ],
+    "name_kr": "아즈고그"
   },
   {
     "name": "Azurefang",
@@ -852,7 +877,8 @@
       "Diagonal Aim",
       "Poison Resistance",
       "Melee Parry"
-    ]
+    ],
+    "name_kr": "애저팽"
   },
   {
     "name": "Baldric",
@@ -887,7 +913,8 @@
       "Split Second",
       "Fortify",
       "Skirmisher"
-    ]
+    ],
+    "name_kr": "볼드릭"
   },
   {
     "name": "Bari",
@@ -922,7 +949,8 @@
       "Split Second",
       "Soul Blade",
       "Tumble"
-    ]
+    ],
+    "name_kr": "바리"
   },
   {
     "name": "Bastian",
@@ -957,7 +985,8 @@
       "Split Second",
       "Push",
       "Cold Resistance"
-    ]
+    ],
+    "name_kr": "바스티안"
   },
   {
     "name": "Beatrix",
@@ -992,7 +1021,8 @@
       "Split Second",
       "Pact Against Insects",
       "Pact of Heroism"
-    ]
+    ],
+    "name_kr": "베아트릭스"
   },
   {
     "name": "Belladonna",
@@ -1027,7 +1057,8 @@
       "Split Second",
       "Critical Attack",
       "Finishing Blow"
-    ]
+    ],
+    "name_kr": "벨라도나"
   },
   {
     "name": "Belle",
@@ -1062,7 +1093,8 @@
       "Split Second",
       "Rune of Sun",
       "Protector"
-    ]
+    ],
+    "name_kr": "벨"
   },
   {
     "name": "Beloved Brianna",
@@ -1097,7 +1129,8 @@
       "Split Second",
       "Tumble",
       "Cardinal Aim"
-    ]
+    ],
+    "name_kr": "Beloved Brianna"
   },
   {
     "name": "Blackfire",
@@ -1132,7 +1165,8 @@
       "Split Second",
       "Rune of Fire",
       "Cardinal Parry"
-    ]
+    ],
+    "name_kr": "블랙파이어"
   },
   {
     "name": "Blaise",
@@ -1165,7 +1199,8 @@
       "Split Second",
       "Mighty Blow",
       "Whirlwind"
-    ]
+    ],
+    "name_kr": "블레이스"
   },
   {
     "name": "Brakka",
@@ -1200,7 +1235,8 @@
       "Split Second",
       "Whirlwind",
       "Survivor"
-    ]
+    ],
+    "name_kr": "브라카"
   },
   {
     "name": "Bramble",
@@ -1235,7 +1271,8 @@
       "Split Second",
       "Brutal Attack",
       "Bloodlust"
-    ]
+    ],
+    "name_kr": "브램블"
   },
   {
     "name": "Bramble Rose",
@@ -1270,7 +1307,8 @@
       "Split Second",
       "Brutal Attack",
       "Bloodlust"
-    ]
+    ],
+    "name_kr": "브램블 로즈"
   },
   {
     "name": "Branchard",
@@ -1305,7 +1343,8 @@
       "Split Second",
       "Point Blank",
       "Finishing Blow"
-    ]
+    ],
+    "name_kr": "브랜차드"
   },
   {
     "name": "Brandon",
@@ -1338,7 +1377,8 @@
       "Split Second",
       "Rune of Sea",
       "Armor of Sea"
-    ]
+    ],
+    "name_kr": "브랜던"
   },
   {
     "name": "Brassblade",
@@ -1371,7 +1411,8 @@
       "Split Second",
       "Brutal Attack",
       "Raider Boost"
-    ]
+    ],
+    "name_kr": "브래스블레이드"
   },
   {
     "name": "Brianna",
@@ -1406,7 +1447,8 @@
       "Split Second",
       "Tumble",
       "Cardinal Aim"
-    ]
+    ],
+    "name_kr": "브리아나"
   },
   {
     "name": "Brightbrook",
@@ -1439,7 +1481,8 @@
       "Split Second",
       "Diagonal Parry",
       "Prepare"
-    ]
+    ],
+    "name_kr": "브라이트브룩"
   },
   {
     "name": "Broxx",
@@ -1472,7 +1515,8 @@
       "Split Second",
       "Brutal Attack",
       "Protector"
-    ]
+    ],
+    "name_kr": "브록스"
   },
   {
     "name": "Brula",
@@ -1507,7 +1551,8 @@
       "Split Second",
       "Brutal Attack",
       "Diagonal Aim"
-    ]
+    ],
+    "name_kr": "브룰라"
   },
   {
     "name": "Caldera",
@@ -1542,7 +1587,8 @@
       "Split Second",
       "Inner Peace",
       "Dodge"
-    ]
+    ],
+    "name_kr": "칼데라"
   },
   {
     "name": "Caledor",
@@ -1577,7 +1623,8 @@
       "Split Second",
       "Life Steal",
       "Focus"
-    ]
+    ],
+    "name_kr": "칼레도"
   },
   {
     "name": "Callista",
@@ -1612,7 +1659,8 @@
       "Split Second",
       "Pact Against Elementals",
       "Pact of Heroism"
-    ]
+    ],
+    "name_kr": "칼리스타"
   },
   {
     "name": "Camron",
@@ -1636,7 +1684,8 @@
       "Whirlwind",
       "Diagonal Parry",
       "Whirlwind"
-    ]
+    ],
+    "name_kr": "캠론"
   },
   {
     "name": "Caraway",
@@ -1669,7 +1718,8 @@
       "Split Second",
       "Magic Parry",
       "Diagonal Aim"
-    ]
+    ],
+    "name_kr": "캐러웨이"
   },
   {
     "name": "Carmine",
@@ -1704,7 +1754,8 @@
       "Split Second",
       "Crushing Blow",
       "Stunning Strike"
-    ]
+    ],
+    "name_kr": "카민"
   },
   {
     "name": "Cassandra",
@@ -1737,7 +1788,8 @@
       "Split Second",
       "Focus",
       "Diagonal Parry"
-    ]
+    ],
+    "name_kr": "카산드라"
   },
   {
     "name": "Cassius",
@@ -1772,7 +1824,8 @@
       "Split Second",
       "Tumble",
       "Testudo"
-    ]
+    ],
+    "name_kr": "카시우스"
   },
   {
     "name": "Celeste",
@@ -1805,7 +1858,8 @@
       "Split Second",
       "Prepare",
       "Melee Parry"
-    ]
+    ],
+    "name_kr": "셀레스트"
   },
   {
     "name": "Chivalrous Percival",
@@ -1840,7 +1894,8 @@
       "Split Second",
       "Triage",
       "Cardinal Heal"
-    ]
+    ],
+    "name_kr": "햅객 퍼시벌"
   },
   {
     "name": "Ciadrine",
@@ -1875,7 +1930,8 @@
       "Split Second",
       "Poison Resistance",
       "Rune of Sun"
-    ]
+    ],
+    "name_kr": "시아드린"
   },
   {
     "name": "Cindertongue",
@@ -1899,7 +1955,8 @@
       "Brutal Backstab",
       "Rune of Earth",
       "Brutal Backstab"
-    ]
+    ],
+    "name_kr": "신더텅"
   },
   {
     "name": "Cinderwhisk",
@@ -1934,7 +1991,8 @@
       "Split Second",
       "Protector",
       "Stunning Strike"
-    ]
+    ],
+    "name_kr": "신더위스크"
   },
   {
     "name": "Coalbone",
@@ -1956,7 +2014,8 @@
       "Melee Parry",
       "Extra Time",
       "Healing Focus"
-    ]
+    ],
+    "name_kr": "콜본"
   },
   {
     "name": "Coppermaw",
@@ -1982,7 +2041,8 @@
       "Point Blank",
       "Point Blank",
       "Point Blank"
-    ]
+    ],
+    "name_kr": "코퍼모"
   },
   {
     "name": "Coralgrin",
@@ -2015,7 +2075,8 @@
       "Split Second",
       "Ranged Parry",
       "Rune of Earth"
-    ]
+    ],
+    "name_kr": "코랄그린"
   },
   {
     "name": "Corinne",
@@ -2048,7 +2109,8 @@
       "Split Second",
       "Brutal Attack",
       "Diagonal Parry"
-    ]
+    ],
+    "name_kr": "코린느"
   },
   {
     "name": "Cragg",
@@ -2083,7 +2145,8 @@
       "Split Second",
       "Whirlwind",
       "Cardinal Parry"
-    ]
+    ],
+    "name_kr": "크래그"
   },
   {
     "name": "Crimson",
@@ -2118,7 +2181,8 @@
       "Split Second",
       "Ballistic",
       "Prepared Ignite"
-    ]
+    ],
+    "name_kr": "크림슨"
   },
   {
     "name": "Crystal",
@@ -2140,7 +2204,8 @@
       "Whirlwind",
       "Rune of Sea",
       "Whirlwind"
-    ]
+    ],
+    "name_kr": "크리스털"
   },
   {
     "name": "Daedra",
@@ -2175,7 +2240,8 @@
       "Split Second",
       "Critical Attack",
       "Finishing Blow"
-    ]
+    ],
+    "name_kr": "데이드라"
   },
   {
     "name": "Dahlia",
@@ -2201,7 +2267,8 @@
       "Diagonal Parry",
       "Diagonal Parry",
       "Brutal Backstab"
-    ]
+    ],
+    "name_kr": "달리아"
   },
   {
     "name": "Daryl",
@@ -2225,7 +2292,8 @@
       "Extra Time",
       "Ranged Parry",
       "Sniper"
-    ]
+    ],
+    "name_kr": "대릴"
   },
   {
     "name": "Dashing Lysander",
@@ -2258,7 +2326,8 @@
       "Split Second",
       "Ranged Parry",
       "Diagonal Aim"
-    ]
+    ],
+    "name_kr": "늠름한 리산드로스"
   },
   {
     "name": "Dawnshimmer",
@@ -2293,7 +2362,8 @@
       "Split Second",
       "Diagonal Aim",
       "Cardinal Parry"
-    ]
+    ],
+    "name_kr": "다운시머"
   },
   {
     "name": "Deathblossom",
@@ -2328,7 +2398,8 @@
       "Split Second",
       "Critical Attack",
       "Resurgence"
-    ]
+    ],
+    "name_kr": "데스블로섬"
   },
   {
     "name": "Dianthe",
@@ -2363,7 +2434,8 @@
       "Split Second",
       "Rend",
       "Song of Fire"
-    ]
+    ],
+    "name_kr": "디안테"
   },
   {
     "name": "Divine Einharl",
@@ -2398,7 +2470,8 @@
       "Split Second",
       "Bleed Resistance",
       "Bloodlust"
-    ]
+    ],
+    "name_kr": "디바인 아인할"
   },
   {
     "name": "Dolin",
@@ -2433,7 +2506,8 @@
       "Split Second",
       "Raider Boost",
       "Raider Surge"
-    ]
+    ],
+    "name_kr": "돌린"
   },
   {
     "name": "Dolorea",
@@ -2468,7 +2542,8 @@
       "Split Second",
       "Melee Parry",
       "Cardinal Parry"
-    ]
+    ],
+    "name_kr": "돌로리아"
   },
   {
     "name": "Dorian",
@@ -2490,7 +2565,8 @@
       "Chromatic Shield",
       "Rune of Sun",
       "Rune of Sun"
-    ]
+    ],
+    "name_kr": "도리안"
   },
   {
     "name": "Dracyian",
@@ -2525,7 +2601,8 @@
       "Split Second",
       "Rune of Moon",
       "Armor of Moon"
-    ]
+    ],
+    "name_kr": "드라시안"
   },
   {
     "name": "Draigh",
@@ -2560,7 +2637,8 @@
       "Split Second",
       "Finishing Blow",
       "Diagonal Heal"
-    ]
+    ],
+    "name_kr": "드라이"
   },
   {
     "name": "Drak",
@@ -2595,7 +2673,8 @@
       "Split Second",
       "Immune to Taunt",
       "Entangle"
-    ]
+    ],
+    "name_kr": "드락"
   },
   {
     "name": "Dralgion",
@@ -2630,7 +2709,8 @@
       "Split Second",
       "Resilient",
       "Cardinal Parry"
-    ]
+    ],
+    "name_kr": "드랄지온"
   },
   {
     "name": "Dravok",
@@ -2665,7 +2745,8 @@
       "Split Second",
       "Whirlwind",
       "Drainwhirl"
-    ]
+    ],
+    "name_kr": "드라보크"
   },
   {
     "name": "Drift",
@@ -2700,7 +2781,8 @@
       "Split Second",
       "Poison Resistance",
       "Prepared Freeze"
-    ]
+    ],
+    "name_kr": "드리프트"
   },
   {
     "name": "Durzol",
@@ -2735,7 +2817,8 @@
       "Split Second",
       "Life-Draining Backstab",
       "Tumble"
-    ]
+    ],
+    "name_kr": "더졸"
   },
   {
     "name": "Dusk",
@@ -2770,7 +2853,8 @@
       "Split Second",
       "Acid Resistance",
       "Prepared Freeze"
-    ]
+    ],
+    "name_kr": "더스크"
   },
   {
     "name": "Earthblood",
@@ -2803,7 +2887,8 @@
       "Split Second",
       "Brutal Attack",
       "Ranged Parry"
-    ]
+    ],
+    "name_kr": "어스벌러드"
   },
   {
     "name": "Ebon",
@@ -2838,7 +2923,8 @@
       "Split Second",
       "Rune of Moon",
       "Armor of Moon"
-    ]
+    ],
+    "name_kr": "에본"
   },
   {
     "name": "Einharl",
@@ -2873,7 +2959,8 @@
       "Split Second",
       "Bleed Resistance",
       "Bloodlust"
-    ]
+    ],
+    "name_kr": "아인할"
   },
   {
     "name": "Elesha",
@@ -2908,7 +2995,8 @@
       "Split Second",
       "Dodge",
       "Mighty Blow"
-    ]
+    ],
+    "name_kr": "엘레샤"
   },
   {
     "name": "Elethas",
@@ -2943,7 +3031,8 @@
       "Split Second",
       "Push",
       "Cardinal Parry"
-    ]
+    ],
+    "name_kr": "엘레타스"
   },
   {
     "name": "Elgar",
@@ -2967,7 +3056,8 @@
       "Healing Focus",
       "Diagonal Parry",
       "Diagonal Parry"
-    ]
+    ],
+    "name_kr": "엘가"
   },
   {
     "name": "Elgroth",
@@ -3002,7 +3092,8 @@
       "Split Second",
       "Whirlwind",
       "Skirmisher"
-    ]
+    ],
+    "name_kr": "엘그로스"
   },
   {
     "name": "Ellarion",
@@ -3037,7 +3128,8 @@
       "Split Second",
       "Melee Parry",
       "Finishing Blow"
-    ]
+    ],
+    "name_kr": "엘라리온"
   },
   {
     "name": "Ellie",
@@ -3072,7 +3164,8 @@
       "Split Second",
       "Tumble",
       "Skirmisher"
-    ]
+    ],
+    "name_kr": "엘리"
   },
   {
     "name": "Elliot",
@@ -3098,7 +3191,8 @@
       "Diagonal Parry",
       "Rune of Sun",
       "Soul Blade"
-    ]
+    ],
+    "name_kr": "엘리엇"
   },
   {
     "name": "Elmenora",
@@ -3133,7 +3227,8 @@
       "Split Second",
       "Tumble",
       "Life-Draining Backstab"
-    ]
+    ],
+    "name_kr": "엘메노라"
   },
   {
     "name": "Elora",
@@ -3168,7 +3263,8 @@
       "Split Second",
       "Brutal Attack",
       "Rend"
-    ]
+    ],
+    "name_kr": "엘로라"
   },
   {
     "name": "Embera",
@@ -3203,7 +3299,8 @@
       "Split Second",
       "Immune to Taunt",
       "Entangle"
-    ]
+    ],
+    "name_kr": "엠브라"
   },
   {
     "name": "Emberheart",
@@ -3225,7 +3322,8 @@
       "Extra Time",
       "Sniper",
       "Sniper"
-    ]
+    ],
+    "name_kr": "엠버하트"
   },
   {
     "name": "Emeraldcrown",
@@ -3258,7 +3356,8 @@
       "Split Second",
       "Diagonal Aim",
       "Magic Parry"
-    ]
+    ],
+    "name_kr": "에메랄드크라운"
   },
   {
     "name": "Emeray",
@@ -3291,7 +3390,8 @@
       "Split Second",
       "Whirlwind",
       "Raider Boost"
-    ]
+    ],
+    "name_kr": "에머레이"
   },
   {
     "name": "Emory",
@@ -3326,7 +3426,8 @@
       "Split Second",
       "Immune to Silence",
       "Healing Focus"
-    ]
+    ],
+    "name_kr": "에머리"
   },
   {
     "name": "Farris",
@@ -3359,7 +3460,8 @@
       "Split Second",
       "Ranged Parry",
       "Silencing Strike"
-    ]
+    ],
+    "name_kr": "파리스"
   },
   {
     "name": "Fawke",
@@ -3394,7 +3496,8 @@
       "Split Second",
       "Raider Boost",
       "Raider Surge"
-    ]
+    ],
+    "name_kr": "포크"
   },
   {
     "name": "Fayra",
@@ -3429,7 +3532,8 @@
       "Split Second",
       "Protector",
       "Aura of Immobilize"
-    ]
+    ],
+    "name_kr": "파리아"
   },
   {
     "name": "Fenreap",
@@ -3464,7 +3568,8 @@
       "Split Second",
       "Finishing Blow",
       "Prepare"
-    ]
+    ],
+    "name_kr": "펜리프"
   },
   {
     "name": "Fenris",
@@ -3499,7 +3604,8 @@
       "Split Second",
       "Finishing Blow",
       "Prepare"
-    ]
+    ],
+    "name_kr": "펜리스"
   },
   {
     "name": "Fimbryn",
@@ -3534,7 +3640,8 @@
       "Split Second",
       "Melee Parry",
       "Inner Peace"
-    ]
+    ],
+    "name_kr": "핌브린"
   },
   {
     "name": "Firesoul",
@@ -3569,7 +3676,8 @@
       "Split Second",
       "Magic Parry",
       "Rune of Fire"
-    ]
+    ],
+    "name_kr": "파이어소울"
   },
   {
     "name": "Flamescale",
@@ -3604,7 +3712,8 @@
       "Split Second",
       "Diagonal Parry",
       "Protector"
-    ]
+    ],
+    "name_kr": "플레임스케일"
   },
   {
     "name": "Flare",
@@ -3639,7 +3748,8 @@
       "Split Second",
       "Critical Attack",
       "Finishing Blow"
-    ]
+    ],
+    "name_kr": "플레어"
   },
   {
     "name": "Flicker",
@@ -3674,7 +3784,8 @@
       "Split Second",
       "Immune to Taunt",
       "Entangle"
-    ]
+    ],
+    "name_kr": "플리커"
   },
   {
     "name": "Flint",
@@ -3709,7 +3820,8 @@
       "Split Second",
       "Resolute",
       "Mighty Blow"
-    ]
+    ],
+    "name_kr": "플린트"
   },
   {
     "name": "Floralgrin",
@@ -3742,7 +3854,8 @@
       "Split Second",
       "Ranged Parry",
       "Rune of Sea"
-    ]
+    ],
+    "name_kr": "플로럴그린"
   },
   {
     "name": "Frida",
@@ -3768,7 +3881,8 @@
       "Ranged Parry",
       "Ranged Parry",
       "Whirlwind"
-    ]
+    ],
+    "name_kr": "프리다"
   },
   {
     "name": "Frostgar",
@@ -3803,7 +3917,8 @@
       "Split Second",
       "Mighty Blow",
       "Whirlwind"
-    ]
+    ],
+    "name_kr": "프로스트가르"
   },
   {
     "name": "Fulgrin",
@@ -3838,7 +3953,8 @@
       "Split Second",
       "Push",
       "Fortify"
-    ]
+    ],
+    "name_kr": "풀그린"
   },
   {
     "name": "Furia",
@@ -3871,7 +3987,8 @@
       "Split Second",
       "Brutal Attack",
       "Diagonal Parry"
-    ]
+    ],
+    "name_kr": "퓨리아"
   },
   {
     "name": "Garnabur",
@@ -3906,7 +4023,8 @@
       "Split Second",
       "Venom",
       "Foresight"
-    ]
+    ],
+    "name_kr": "가르나부르"
   },
   {
     "name": "Genert",
@@ -3941,7 +4059,8 @@
       "Split Second",
       "Triage",
       "Steady Heal"
-    ]
+    ],
+    "name_kr": "제너트"
   },
   {
     "name": "Geraint",
@@ -3967,7 +4086,8 @@
       "Mighty Blow",
       "Extra Time",
       "Mighty Blow"
-    ]
+    ],
+    "name_kr": "지레인트"
   },
   {
     "name": "Gharn",
@@ -4000,7 +4120,8 @@
       "Split Second",
       "Diagonal Parry",
       "Sniper"
-    ]
+    ],
+    "name_kr": "가른"
   },
   {
     "name": "Ghastly Cragg",
@@ -4035,7 +4156,8 @@
       "Split Second",
       "Whirlwind",
       "Cardinal Parry"
-    ]
+    ],
+    "name_kr": "섬뜩한 크래그"
   },
   {
     "name": "Giana",
@@ -4061,7 +4183,8 @@
       "Bloodlust",
       "Bloodlust",
       "Resilient"
-    ]
+    ],
+    "name_kr": "지아나"
   },
   {
     "name": "Gleam",
@@ -4096,7 +4219,8 @@
       "Split Second",
       "Raider Boost",
       "Raider Surge"
-    ]
+    ],
+    "name_kr": "Gleam"
   },
   {
     "name": "Glimmer",
@@ -4131,7 +4255,8 @@
       "Split Second",
       "Rune of Sun",
       "Prepared Rupture"
-    ]
+    ],
+    "name_kr": "글리머"
   },
   {
     "name": "Gloom",
@@ -4166,7 +4291,8 @@
       "Split Second",
       "Tumble",
       "Finishing Blow"
-    ]
+    ],
+    "name_kr": "글룸"
   },
   {
     "name": "Gobar",
@@ -4199,7 +4325,8 @@
       "Split Second",
       "Ranged Parry",
       "Push"
-    ]
+    ],
+    "name_kr": "고바르"
   },
   {
     "name": "Golarg",
@@ -4234,7 +4361,8 @@
       "Split Second",
       "Critical Attack",
       "Whirlwind"
-    ]
+    ],
+    "name_kr": "골라그"
   },
   {
     "name": "Goldclaw",
@@ -4267,7 +4395,8 @@
       "Split Second",
       "Prepare",
       "Triage"
-    ]
+    ],
+    "name_kr": "골드클로"
   },
   {
     "name": "Golden Lyra",
@@ -4302,7 +4431,8 @@
       "Split Second",
       "Bleed Resistance",
       "Protector"
-    ]
+    ],
+    "name_kr": "황금 라이라"
   },
   {
     "name": "Gorenag",
@@ -4337,7 +4467,8 @@
       "Split Second",
       "Rune of Fire",
       "Point Blank"
-    ]
+    ],
+    "name_kr": "고레나그"
   },
   {
     "name": "Gork",
@@ -4370,7 +4501,8 @@
       "Split Second",
       "Whirlwind",
       "Ranged Parry"
-    ]
+    ],
+    "name_kr": "고크"
   },
   {
     "name": "Gragnag",
@@ -4405,7 +4537,8 @@
       "Split Second",
       "Rune of Earth",
       "Point Blank"
-    ]
+    ],
+    "name_kr": "그락나그"
   },
   {
     "name": "Greymoon",
@@ -4438,7 +4571,8 @@
       "Split Second",
       "Brutal Backstab",
       "Diagonal Parry"
-    ]
+    ],
+    "name_kr": "그레이문"
   },
   {
     "name": "Grim Griselda",
@@ -4473,7 +4607,8 @@
       "Split Second",
       "Bleed Resistance",
       "Melee Parry"
-    ]
+    ],
+    "name_kr": "그림 그리셀다"
   },
   {
     "name": "Grimfang",
@@ -4506,7 +4641,8 @@
       "Split Second",
       "Critical Attack",
       "Blitz"
-    ]
+    ],
+    "name_kr": "그림팽"
   },
   {
     "name": "Grimholt",
@@ -4541,7 +4677,8 @@
       "Split Second",
       "Diagonal Parry",
       "Finishing Blow"
-    ]
+    ],
+    "name_kr": "그림홀트"
   },
   {
     "name": "Grimmor",
@@ -4567,7 +4704,8 @@
       "Melee Parry",
       "Whirlwind",
       "Slay Ooze"
-    ]
+    ],
+    "name_kr": "그리모"
   },
   {
     "name": "Grincholt",
@@ -4602,7 +4740,8 @@
       "Split Second",
       "Diagonal Parry",
       "Finishing Blow"
-    ]
+    ],
+    "name_kr": "그린콜트"
   },
   {
     "name": "Griselda",
@@ -4637,7 +4776,8 @@
       "Split Second",
       "Bleed Resistance",
       "Melee Parry"
-    ]
+    ],
+    "name_kr": "그리셀다"
   },
   {
     "name": "Grognard",
@@ -4672,7 +4812,8 @@
       "Split Second",
       "Cardinal Aim",
       "Fortify"
-    ]
+    ],
+    "name_kr": "그로나드"
   },
   {
     "name": "Gronn",
@@ -4705,7 +4846,8 @@
       "Split Second",
       "Diagonal Parry",
       "Point Blank"
-    ]
+    ],
+    "name_kr": "그론"
   },
   {
     "name": "Grunhild",
@@ -4740,7 +4882,8 @@
       "Split Second",
       "Poison Resistance",
       "Rune of Sun"
-    ]
+    ],
+    "name_kr": "그룬힐드"
   },
   {
     "name": "Hailcrest",
@@ -4775,7 +4918,8 @@
       "Split Second",
       "Rune of Sea",
       "Armor of Sea"
-    ]
+    ],
+    "name_kr": "헤일크레스트"
   },
   {
     "name": "Halo",
@@ -4810,7 +4954,8 @@
       "Split Second",
       "Bleed Resistance",
       "Pacifist"
-    ]
+    ],
+    "name_kr": "헤일로"
   },
   {
     "name": "Harvesting Elmenora",
@@ -4845,7 +4990,8 @@
       "Split Second",
       "Tumble",
       "Life-Draining Backstab"
-    ]
+    ],
+    "name_kr": "하베스팅 엘메노라"
   },
   {
     "name": "Heartwig",
@@ -4880,7 +5026,8 @@
       "Split Second",
       "Ballistic",
       "Venom"
-    ]
+    ],
+    "name_kr": "하트위그"
   },
   {
     "name": "Hedwig",
@@ -4915,7 +5062,8 @@
       "Split Second",
       "Ballistic",
       "Venom"
-    ]
+    ],
+    "name_kr": "헤드윅"
   },
   {
     "name": "Helio",
@@ -4948,7 +5096,8 @@
       "Split Second",
       "Ranged Parry",
       "Entangle"
-    ]
+    ],
+    "name_kr": "헬리오"
   },
   {
     "name": "Hemlock",
@@ -4983,7 +5132,8 @@
       "Split Second",
       "Ranged Parry",
       "Refresh"
-    ]
+    ],
+    "name_kr": "헴록"
   },
   {
     "name": "Hogard",
@@ -5007,7 +5157,8 @@
       "Extra Time",
       "Poison Resistance",
       "Finishing Blow"
-    ]
+    ],
+    "name_kr": "호가드"
   },
   {
     "name": "Idril",
@@ -5040,7 +5191,8 @@
       "Split Second",
       "Extra Time",
       "Fortify"
-    ]
+    ],
+    "name_kr": "이드릴"
   },
   {
     "name": "Illyria",
@@ -5075,7 +5227,8 @@
       "Split Second",
       "Magic Parry",
       "Diagonal Aim"
-    ]
+    ],
+    "name_kr": "일리리아"
   },
   {
     "name": "Iridian",
@@ -5101,7 +5254,8 @@
       "Point Blank",
       "Point Blank",
       "Magic Parry"
-    ]
+    ],
+    "name_kr": "이리디안"
   },
   {
     "name": "Iris",
@@ -5127,7 +5281,8 @@
       "Brutal Attack",
       "Rune of Sun",
       "Blitz"
-    ]
+    ],
+    "name_kr": "아이리스"
   },
   {
     "name": "Ixora",
@@ -5160,7 +5315,8 @@
       "Split Second",
       "Magic Parry",
       "Finishing Blow"
-    ]
+    ],
+    "name_kr": "익조라"
   },
   {
     "name": "Jade",
@@ -5182,7 +5338,8 @@
       "Diagonal Parry",
       "Prepare",
       "Diagonal Parry"
-    ]
+    ],
+    "name_kr": "제이드"
   },
   {
     "name": "Jenya",
@@ -5217,7 +5374,8 @@
       "Split Second",
       "Critical Attack",
       "Rune of Moon"
-    ]
+    ],
+    "name_kr": "제냐"
   },
   {
     "name": "Jules",
@@ -5239,7 +5397,8 @@
       "Diagonal Parry",
       "Rune of Sun",
       "Diagonal Parry"
-    ]
+    ],
+    "name_kr": "줄스"
   },
   {
     "name": "Juniper",
@@ -5274,7 +5433,8 @@
       "Split Second",
       "Diagonal Parry",
       "Immobilizing Strike"
-    ]
+    ],
+    "name_kr": "주니퍼"
   },
   {
     "name": "Kael",
@@ -5309,7 +5469,8 @@
       "Split Second",
       "Critical Attack",
       "Death Ward"
-    ]
+    ],
+    "name_kr": "카엘"
   },
   {
     "name": "Kazz",
@@ -5344,7 +5505,8 @@
       "Split Second",
       "Point Blank",
       "Mighty Blow"
-    ]
+    ],
+    "name_kr": "카즈"
   },
   {
     "name": "Kelp",
@@ -5370,7 +5532,8 @@
       "Resilient",
       "Venom",
       "Aura of Cold"
-    ]
+    ],
+    "name_kr": "켈프"
   },
   {
     "name": "Khadush",
@@ -5403,7 +5566,8 @@
       "Split Second",
       "Point Blank",
       "Fortify"
-    ]
+    ],
+    "name_kr": "카두시"
   },
   {
     "name": "Kharasta",
@@ -5436,7 +5600,8 @@
       "Split Second",
       "Melee Parry",
       "Venom"
-    ]
+    ],
+    "name_kr": "카라스타"
   },
   {
     "name": "Kharza",
@@ -5469,7 +5634,8 @@
       "Split Second",
       "Prepare",
       "Melee Parry"
-    ]
+    ],
+    "name_kr": "카르자"
   },
   {
     "name": "Korgan",
@@ -5504,7 +5670,8 @@
       "Split Second",
       "Point Blank",
       "Song of Poison"
-    ]
+    ],
+    "name_kr": "코간"
   },
   {
     "name": "Koshak",
@@ -5530,7 +5697,8 @@
       "Magic Parry",
       "Rune of Earth",
       "Immobilizing Strike"
-    ]
+    ],
+    "name_kr": "코샤크"
   },
   {
     "name": "Kral",
@@ -5556,7 +5724,8 @@
       "Diagonal Parry",
       "Focus",
       "Death Ward"
-    ]
+    ],
+    "name_kr": "크랄"
   },
   {
     "name": "Kvash",
@@ -5591,7 +5760,8 @@
       "Split Second",
       "Push",
       "Frostwhirl"
-    ]
+    ],
+    "name_kr": "크바시"
   },
   {
     "name": "Kyara",
@@ -5626,7 +5796,8 @@
       "Split Second",
       "Ballistic",
       "Sniper"
-    ]
+    ],
+    "name_kr": "키아라"
   },
   {
     "name": "Kyron",
@@ -5652,7 +5823,8 @@
       "Whirlwind",
       "Magic Parry",
       "Immovable"
-    ]
+    ],
+    "name_kr": "카이런"
   },
   {
     "name": "Lagoon",
@@ -5687,7 +5859,8 @@
       "Split Second",
       "Magic Parry",
       "Immovable"
-    ]
+    ],
+    "name_kr": "라군"
   },
   {
     "name": "Lia",
@@ -5720,7 +5893,8 @@
       "Split Second",
       "Rune of Sun",
       "Armor of Sun"
-    ]
+    ],
+    "name_kr": "리아"
   },
   {
     "name": "Lightheart",
@@ -5755,7 +5929,8 @@
       "Split Second",
       "Rune of Sun",
       "Armor of Sun"
-    ]
+    ],
+    "name_kr": "라이트하트"
   },
   {
     "name": "Lionel",
@@ -5788,7 +5963,8 @@
       "Split Second",
       "Brutal Attack",
       "Diagonal Parry"
-    ]
+    ],
+    "name_kr": "라이오넬"
   },
   {
     "name": "Liora",
@@ -5823,7 +5999,8 @@
       "Split Second",
       "Resilient",
       "Critical Attack: Rupture"
-    ]
+    ],
+    "name_kr": "리오라"
   },
   {
     "name": "Lobelia",
@@ -5858,7 +6035,8 @@
       "Split Second",
       "Sentinel",
       "Skirmisher"
-    ]
+    ],
+    "name_kr": "로벨리아"
   },
   {
     "name": "Lotus",
@@ -5893,7 +6071,8 @@
       "Split Second",
       "Immovable",
       "Whirlwind"
-    ]
+    ],
+    "name_kr": "로터스"
   },
   {
     "name": "Lucent Daedra",
@@ -5928,7 +6107,8 @@
       "Split Second",
       "Critical Attack",
       "Finishing Blow"
-    ]
+    ],
+    "name_kr": "루센트 데이드라"
   },
   {
     "name": "Lucia",
@@ -5954,7 +6134,8 @@
       "Diagonal Aim",
       "Pact Against Undead",
       "Rend"
-    ]
+    ],
+    "name_kr": "루시아"
   },
   {
     "name": "Lumi",
@@ -5987,7 +6168,8 @@
       "Split Second",
       "Sniper",
       "Exploit Weakness"
-    ]
+    ],
+    "name_kr": "루미"
   },
   {
     "name": "Luna",
@@ -6022,7 +6204,8 @@
       "Split Second",
       "Ranged Parry",
       "Rune of Sea"
-    ]
+    ],
+    "name_kr": "루나"
   },
   {
     "name": "Lunethar",
@@ -6057,7 +6240,8 @@
       "Split Second",
       "Prepare",
       "Death Ward"
-    ]
+    ],
+    "name_kr": "Lunethar(룬타르)"
   },
   {
     "name": "Lyra",
@@ -6092,7 +6276,8 @@
       "Split Second",
       "Cold Resistance",
       "Protector"
-    ]
+    ],
+    "name_kr": "라이라"
   },
   {
     "name": "Lysander",
@@ -6125,7 +6310,8 @@
       "Split Second",
       "Ranged Parry",
       "Diagonal Aim"
-    ]
+    ],
+    "name_kr": "리산드로스"
   },
   {
     "name": "Lythar",
@@ -6160,7 +6346,8 @@
       "Split Second",
       "Push",
       "Whirlwind"
-    ]
+    ],
+    "name_kr": "리타르"
   },
   {
     "name": "Magda",
@@ -6186,7 +6373,8 @@
       "Triage",
       "Focus",
       "Critical Heal"
-    ]
+    ],
+    "name_kr": "마그다"
   },
   {
     "name": "Malveria",
@@ -6221,7 +6409,8 @@
       "Split Second",
       "Cardinal Heal",
       "Reactive Armor"
-    ]
+    ],
+    "name_kr": "말베리아"
   },
   {
     "name": "Malzareth",
@@ -6256,7 +6445,8 @@
       "Split Second",
       "Resolute",
       "Death Ward"
-    ]
+    ],
+    "name_kr": "말자레스"
   },
   {
     "name": "Maple",
@@ -6291,7 +6481,8 @@
       "Split Second",
       "Cardinal Parry",
       "Finishing Blow"
-    ]
+    ],
+    "name_kr": "메이플"
   },
   {
     "name": "Marath",
@@ -6317,7 +6508,8 @@
       "Rune of Earth",
       "Diagonal Parry",
       "Cardinal Aim"
-    ]
+    ],
+    "name_kr": "마라스"
   },
   {
     "name": "Maribel",
@@ -6339,7 +6531,8 @@
       "Diagonal Parry",
       "Diagonal Parry",
       "Diagonal Parry"
-    ]
+    ],
+    "name_kr": "마리벨"
   },
   {
     "name": "Meraldon",
@@ -6363,7 +6556,8 @@
       "Healing Focus",
       "Melee Parry",
       "Melee Parry"
-    ]
+    ],
+    "name_kr": "메랄돈"
   },
   {
     "name": "Moonshade",
@@ -6398,7 +6592,8 @@
       "Split Second",
       "Life Steal",
       "Fortify"
-    ]
+    ],
+    "name_kr": "문셰이드"
   },
   {
     "name": "Moonshine",
@@ -6433,7 +6628,8 @@
       "Split Second",
       "Life Steal",
       "Fortify"
-    ]
+    ],
+    "name_kr": "문샤인"
   },
   {
     "name": "Moreia",
@@ -6468,7 +6664,8 @@
       "Split Second",
       "Pact Against Sylvans",
       "Pact of Heroism"
-    ]
+    ],
+    "name_kr": "모레이아"
   },
   {
     "name": "Morfyd",
@@ -6503,7 +6700,8 @@
       "Split Second",
       "Resilient",
       "Death Blow"
-    ]
+    ],
+    "name_kr": "모르피드"
   },
   {
     "name": "Mosstail",
@@ -6538,7 +6736,8 @@
       "Split Second",
       "Critical Heal",
       "Triage"
-    ]
+    ],
+    "name_kr": "모스테일"
   },
   {
     "name": "Murtag",
@@ -6573,7 +6772,8 @@
       "Split Second",
       "Pact Against Constructs",
       "Pact of Heroism"
-    ]
+    ],
+    "name_kr": "멀태그"
   },
   {
     "name": "Nargol",
@@ -6599,7 +6799,8 @@
       "Rune of Fire",
       "Rend",
       "Diagonal Parry"
-    ]
+    ],
+    "name_kr": "나르골"
   },
   {
     "name": "Needleroot",
@@ -6634,7 +6835,8 @@
       "Split Second",
       "Sniper",
       "Arcane Shield"
-    ]
+    ],
+    "name_kr": "니들루트"
   },
   {
     "name": "Nightmeria",
@@ -6669,7 +6871,8 @@
       "Split Second",
       "Cardinal Heal",
       "Triage"
-    ]
+    ],
+    "name_kr": "나이트메리아"
   },
   {
     "name": "Nightsong",
@@ -6704,7 +6907,8 @@
       "Split Second",
       "Inner Peace",
       "Cardinal Parry"
-    ]
+    ],
+    "name_kr": "나이트송"
   },
   {
     "name": "Nimbus",
@@ -6739,7 +6943,8 @@
       "Split Second",
       "Bloodlust",
       "Resilient"
-    ]
+    ],
+    "name_kr": "님버스"
   },
   {
     "name": "Nok",
@@ -6774,7 +6979,8 @@
       "Split Second",
       "Diagonal Parry",
       "Eagle Eye"
-    ]
+    ],
+    "name_kr": "Nok(노크)"
   },
   {
     "name": "November",
@@ -6807,7 +7013,8 @@
       "Split Second",
       "Critical Attack",
       "Sniper"
-    ]
+    ],
+    "name_kr": "노벰버"
   },
   {
     "name": "Nymeria",
@@ -6842,7 +7049,8 @@
       "Split Second",
       "Cardinal Heal",
       "Triage"
-    ]
+    ],
+    "name_kr": "니메리아"
   },
   {
     "name": "Oakscale",
@@ -6877,7 +7085,8 @@
       "Split Second",
       "Venom",
       "Skirmisher"
-    ]
+    ],
+    "name_kr": "오크스케일"
   },
   {
     "name": "Oasis",
@@ -6910,7 +7119,8 @@
       "Split Second",
       "Healing Wave",
       "Fortify"
-    ]
+    ],
+    "name_kr": "오아시스"
   },
   {
     "name": "Oberyn",
@@ -6945,7 +7155,8 @@
       "Split Second",
       "Ranged Parry",
       "Soul Blade"
-    ]
+    ],
+    "name_kr": "오버린"
   },
   {
     "name": "Oleander",
@@ -6971,7 +7182,8 @@
       "Rune of Earth",
       "Point Blank",
       "Point Blank"
-    ]
+    ],
+    "name_kr": "올리앤더"
   },
   {
     "name": "Onyx",
@@ -7006,7 +7218,8 @@
       "Split Second",
       "Grappling Hook",
       "Prepared Ignite"
-    ]
+    ],
+    "name_kr": "오닉스"
   },
   {
     "name": "Orik",
@@ -7041,7 +7254,8 @@
       "Split Second",
       "Critical Attack",
       "Dodge"
-    ]
+    ],
+    "name_kr": "오릭"
   },
   {
     "name": "Ormughai",
@@ -7076,7 +7290,8 @@
       "Split Second",
       "Fortify",
       "Death Blow"
-    ]
+    ],
+    "name_kr": "오무가이"
   },
   {
     "name": "Osric",
@@ -7100,7 +7315,8 @@
       "Finishing Blow",
       "Magic Parry",
       "Focus"
-    ]
+    ],
+    "name_kr": "오스릭"
   },
   {
     "name": "Ozgar",
@@ -7135,7 +7351,8 @@
       "Split Second",
       "Push",
       "Whirlwind"
-    ]
+    ],
+    "name_kr": "오즈가르"
   },
   {
     "name": "Penelope",
@@ -7168,7 +7385,8 @@
       "Split Second",
       "Diagonal Parry",
       "Point Blank"
-    ]
+    ],
+    "name_kr": "페넬로페"
   },
   {
     "name": "Percival",
@@ -7203,7 +7421,8 @@
       "Split Second",
       "Triage",
       "Pacifist"
-    ]
+    ],
+    "name_kr": "퍼시벌"
   },
   {
     "name": "Petalstep",
@@ -7238,7 +7457,8 @@
       "Split Second",
       "Tumble",
       "Whirlwind"
-    ]
+    ],
+    "name_kr": "페탈스텝"
   },
   {
     "name": "Primrose",
@@ -7271,7 +7491,8 @@
       "Split Second",
       "Melee Parry",
       "Diagonal Aim"
-    ]
+    ],
+    "name_kr": "프림로즈"
   },
   {
     "name": "Pyrrion",
@@ -7306,7 +7527,8 @@
       "Split Second",
       "Diagonal Parry",
       "Finishing Blow"
-    ]
+    ],
+    "name_kr": "피리온"
   },
   {
     "name": "Radek",
@@ -7341,7 +7563,8 @@
       "Split Second",
       "Tumble",
       "Finishing Blow"
-    ]
+    ],
+    "name_kr": "라데크"
   },
   {
     "name": "Radomyr",
@@ -7376,7 +7599,8 @@
       "Split Second",
       "Resilient",
       "Aura of Cold"
-    ]
+    ],
+    "name_kr": "라도미르"
   },
   {
     "name": "Radomyrrh",
@@ -7411,7 +7635,8 @@
       "Split Second",
       "Resilient",
       "Aura of Poison"
-    ]
+    ],
+    "name_kr": "라도미르"
   },
   {
     "name": "Ragnar",
@@ -7437,7 +7662,8 @@
       "Backstab",
       "Melee Parry",
       "Whirlwind"
-    ]
+    ],
+    "name_kr": "라그나르"
   },
   {
     "name": "Rakuhake",
@@ -7472,7 +7698,8 @@
       "Split Second",
       "Raider Boost",
       "Raider Surge"
-    ]
+    ],
+    "name_kr": "라쿠하케"
   },
   {
     "name": "Randolf",
@@ -7505,7 +7732,8 @@
       "Split Second",
       "Point Blank",
       "Fortify"
-    ]
+    ],
+    "name_kr": "랜돌프"
   },
   {
     "name": "Rathalok",
@@ -7540,7 +7768,8 @@
       "Split Second",
       "Prepare",
       "Death Ward"
-    ]
+    ],
+    "name_kr": "라살로크"
   },
   {
     "name": "Ravenna",
@@ -7575,7 +7804,8 @@
       "Split Second",
       "Immovable",
       "Skirmisher"
-    ]
+    ],
+    "name_kr": "라벤나"
   },
   {
     "name": "Raze",
@@ -7610,7 +7840,8 @@
       "Split Second",
       "Ballistic",
       "Mighty Blow"
-    ]
+    ],
+    "name_kr": "레이즈"
   },
   {
     "name": "Red-Eye",
@@ -7636,7 +7867,8 @@
       "Brutal Attack",
       "Diagonal Parry",
       "Slay Sylvan"
-    ]
+    ],
+    "name_kr": "레드 아이"
   },
   {
     "name": "Reveling Randolf",
@@ -7669,7 +7901,8 @@
       "Split Second",
       "Point Blank",
       "Fortify"
-    ]
+    ],
+    "name_kr": "향락의 랜돌프"
   },
   {
     "name": "Richard",
@@ -7704,7 +7937,8 @@
       "Split Second",
       "Cardinal Parry",
       "Focus"
-    ]
+    ],
+    "name_kr": "리처드"
   },
   {
     "name": "Ripple",
@@ -7739,7 +7973,8 @@
       "Split Second",
       "Exploit Weakness",
       "Aquatic Ambush"
-    ]
+    ],
+    "name_kr": "리플"
   },
   {
     "name": "River",
@@ -7765,7 +8000,8 @@
       "Melee Parry",
       "Diagonal Aim",
       "Diagonal Aim"
-    ]
+    ],
+    "name_kr": "리버"
   },
   {
     "name": "Robin",
@@ -7791,7 +8027,8 @@
       "Venom",
       "Venom",
       "Venom"
-    ]
+    ],
+    "name_kr": "로빈"
   },
   {
     "name": "Roderick",
@@ -7815,7 +8052,8 @@
       "Point Blank",
       "Magic Parry",
       "Point Blank"
-    ]
+    ],
+    "name_kr": "로데릭"
   },
   {
     "name": "Ruby",
@@ -7841,7 +8079,8 @@
       "Push",
       "Rend",
       "Slay Dragon"
-    ]
+    ],
+    "name_kr": "루비"
   },
   {
     "name": "Runeglow",
@@ -7874,7 +8113,8 @@
       "Split Second",
       "Brutal Attack",
       "Point Blank"
-    ]
+    ],
+    "name_kr": "룬글로우"
   },
   {
     "name": "Rurik",
@@ -7898,7 +8138,8 @@
       "Venom",
       "Rune of Moon",
       "Venom"
-    ]
+    ],
+    "name_kr": "루릭"
   },
   {
     "name": "Sandor",
@@ -7933,7 +8174,8 @@
       "Split Second",
       "Tumble",
       "Fortify"
-    ]
+    ],
+    "name_kr": "산도르"
   },
   {
     "name": "Sanguina",
@@ -7957,7 +8199,8 @@
       "Melee Parry",
       "Rune of Fire",
       "Finishing Blow"
-    ]
+    ],
+    "name_kr": "산기나"
   },
   {
     "name": "Sapphirecrown",
@@ -7990,7 +8233,8 @@
       "Split Second",
       "Diagonal Aim",
       "Magic Parry"
-    ]
+    ],
+    "name_kr": "사파이어크라운"
   },
   {
     "name": "Sauriel",
@@ -8025,7 +8269,8 @@
       "Split Second",
       "Raider Boost",
       "Raider Surge"
-    ]
+    ],
+    "name_kr": "사우리엘"
   },
   {
     "name": "Scarlet",
@@ -8060,7 +8305,8 @@
       "Split Second",
       "Blitz",
       "Bad Medicine"
-    ]
+    ],
+    "name_kr": "스칼렛"
   },
   {
     "name": "Scorch",
@@ -8095,7 +8341,8 @@
       "Split Second",
       "Rend",
       "Focus"
-    ]
+    ],
+    "name_kr": "스코치"
   },
   {
     "name": "Scylla",
@@ -8130,7 +8377,8 @@
       "Split Second",
       "Brutal Attack",
       "Rune of Earth"
-    ]
+    ],
+    "name_kr": "스킬라"
   },
   {
     "name": "Seraphina",
@@ -8156,7 +8404,8 @@
       "Extra Time",
       "Focus",
       "Resilient"
-    ]
+    ],
+    "name_kr": "세라피나"
   },
   {
     "name": "Serelune",
@@ -8191,7 +8440,8 @@
       "Split Second",
       "Critical Attack",
       "Mighty Blow"
-    ]
+    ],
+    "name_kr": "세렐룬"
   },
   {
     "name": "Serene",
@@ -8226,7 +8476,8 @@
       "Split Second",
       "Bloodlust",
       "Crushing Blow"
-    ]
+    ],
+    "name_kr": "세린"
   },
   {
     "name": "Shadowstep",
@@ -8261,7 +8512,8 @@
       "Split Second",
       "Tumble",
       "Whirlwind"
-    ]
+    ],
+    "name_kr": "섀도우스텝"
   },
   {
     "name": "Shadra",
@@ -8296,7 +8548,8 @@
       "Split Second",
       "Steady Heal",
       "Cardinal Heal"
-    ]
+    ],
+    "name_kr": "샤드라"
   },
   {
     "name": "Shadragon",
@@ -8331,7 +8584,8 @@
       "Split Second",
       "Steady Heal",
       "Cardinal Heal"
-    ]
+    ],
+    "name_kr": "샤드라곤"
   },
   {
     "name": "Shani",
@@ -8364,7 +8618,8 @@
       "Split Second",
       "Ranged Parry",
       "Venom"
-    ]
+    ],
+    "name_kr": "샤니"
   },
   {
     "name": "Sharpscale",
@@ -8390,7 +8645,8 @@
       "Extra Time",
       "Mighty Blow",
       "Push"
-    ]
+    ],
+    "name_kr": "샤프스케일"
   },
   {
     "name": "Shatterstorm",
@@ -8416,7 +8672,8 @@
       "Sniper",
       "Ranged Parry",
       "Sniper"
-    ]
+    ],
+    "name_kr": "섀터스톰"
   },
   {
     "name": "Shoal",
@@ -8451,7 +8708,8 @@
       "Split Second",
       "Melee Parry",
       "Pulverize"
-    ]
+    ],
+    "name_kr": "숄"
   },
   {
     "name": "Sigyn",
@@ -8484,7 +8742,8 @@
       "Split Second",
       "Diagonal Parry",
       "Healing Focus"
-    ]
+    ],
+    "name_kr": "사이진"
   },
   {
     "name": "Silverstring",
@@ -8519,7 +8778,8 @@
       "Split Second",
       "Cardinal Aim",
       "Song of Cold"
-    ]
+    ],
+    "name_kr": "실버스트링"
   },
   {
     "name": "Skylar",
@@ -8554,7 +8814,8 @@
       "Split Second",
       "Grappling Hook",
       "Blitz"
-    ]
+    ],
+    "name_kr": "스카일라"
   },
   {
     "name": "Skylash",
@@ -8589,7 +8850,8 @@
       "Split Second",
       "Tumble",
       "Frostwhirl"
-    ]
+    ],
+    "name_kr": "스카이래시"
   },
   {
     "name": "Skytail",
@@ -8615,7 +8877,8 @@
       "Focus",
       "Ranged Parry",
       "Focus"
-    ]
+    ],
+    "name_kr": "스카이테일"
   },
   {
     "name": "Sleetsong",
@@ -8650,7 +8913,8 @@
       "Split Second",
       "Inner Peace",
       "Cardinal Parry"
-    ]
+    ],
+    "name_kr": "슬릿송"
   },
   {
     "name": "Sol",
@@ -8683,7 +8947,8 @@
       "Split Second",
       "Point Blank",
       "Triage"
-    ]
+    ],
+    "name_kr": "솔"
   },
   {
     "name": "Sonya",
@@ -8716,7 +8981,8 @@
       "Split Second",
       "Diagonal Parry",
       "Point Blank"
-    ]
+    ],
+    "name_kr": "소냐"
   },
   {
     "name": "Sparklight",
@@ -8751,7 +9017,8 @@
       "Split Second",
       "Magic Parry",
       "Tumble"
-    ]
+    ],
+    "name_kr": "스파크"
   },
   {
     "name": "Sparrow",
@@ -8777,7 +9044,8 @@
       "Diagonal Parry",
       "Cardinal Aim",
       "Diagonal Parry"
-    ]
+    ],
+    "name_kr": "스패로우"
   },
   {
     "name": "Sprig",
@@ -8803,7 +9071,8 @@
       "Immune to Dazzled",
       "Magic Parry",
       "Focus"
-    ]
+    ],
+    "name_kr": "스피그"
   },
   {
     "name": "Spring Radek",
@@ -8838,7 +9107,8 @@
       "Split Second",
       "Tumble",
       "Finishing Blow"
-    ]
+    ],
+    "name_kr": "봄 라데크"
   },
   {
     "name": "Squall",
@@ -8871,7 +9141,8 @@
       "Split Second",
       "Critical Heal",
       "Fortify"
-    ]
+    ],
+    "name_kr": "스퀄"
   },
   {
     "name": "Stalker",
@@ -8904,7 +9175,8 @@
       "Split Second",
       "Ranged Parry",
       "Exploit Weakness"
-    ]
+    ],
+    "name_kr": "스토커"
   },
   {
     "name": "Starmist",
@@ -8939,7 +9211,8 @@
       "Split Second",
       "Magic Parry",
       "Fortify"
-    ]
+    ],
+    "name_kr": "스타미스트"
   },
   {
     "name": "Steelgrip",
@@ -8974,7 +9247,8 @@
       "Split Second",
       "Cold Resistance",
       "Resilient"
-    ]
+    ],
+    "name_kr": "스틸그립"
   },
   {
     "name": "Stormbreeze",
@@ -9009,7 +9283,8 @@
       "Split Second",
       "Critical Attack",
       "Dodge"
-    ]
+    ],
+    "name_kr": "스톰브리즈"
   },
   {
     "name": "Strixx",
@@ -9035,7 +9310,8 @@
       "Sniper",
       "Diagonal Parry",
       "Sniper"
-    ]
+    ],
+    "name_kr": "스트릭스"
   },
   {
     "name": "Summershine",
@@ -9070,7 +9346,8 @@
       "Split Second",
       "Finishing Blow",
       "Unstoppable Force"
-    ]
+    ],
+    "name_kr": "서머샤인"
   },
   {
     "name": "Sunmend",
@@ -9105,7 +9382,8 @@
       "Split Second",
       "Critical Heal",
       "Zeal of Life"
-    ]
+    ],
+    "name_kr": "선멘드"
   },
   {
     "name": "Sunstrike",
@@ -9138,7 +9416,8 @@
       "Split Second",
       "Resilient",
       "Slay Elemental"
-    ]
+    ],
+    "name_kr": "선스트라이크"
   },
   {
     "name": "Swiftcloud",
@@ -9173,7 +9452,8 @@
       "Split Second",
       "Whirlwind",
       "Inner Peace"
-    ]
+    ],
+    "name_kr": "스위프트클라우드"
   },
   {
     "name": "Sylvain",
@@ -9206,7 +9486,8 @@
       "Split Second",
       "Poison Resistance",
       "Diagonal Parry"
-    ]
+    ],
+    "name_kr": "실뱅"
   },
   {
     "name": "Tess",
@@ -9241,7 +9522,8 @@
       "Split Second",
       "Finishing Blow",
       "High Ground"
-    ]
+    ],
+    "name_kr": "테스"
   },
   {
     "name": "Thargor",
@@ -9267,7 +9549,8 @@
       "Ranged Parry",
       "Cardinal Parry",
       "Healing Focus"
-    ]
+    ],
+    "name_kr": "타고르"
   },
   {
     "name": "Thistle",
@@ -9302,7 +9585,8 @@
       "Split Second",
       "Magic Parry",
       "Prepared Rupture"
-    ]
+    ],
+    "name_kr": "시슬"
   },
   {
     "name": "Thronak",
@@ -9337,7 +9621,8 @@
       "Split Second",
       "Resilient",
       "Grappling Hook"
-    ]
+    ],
+    "name_kr": "스로낙"
   },
   {
     "name": "Thunderclaw",
@@ -9361,7 +9646,8 @@
       "Ranged Parry",
       "Extra Time",
       "Sniper"
-    ]
+    ],
+    "name_kr": "썬더클로"
   },
   {
     "name": "Tiordan",
@@ -9396,7 +9682,8 @@
       "Split Second",
       "Diagonal Parry",
       "Prepare"
-    ]
+    ],
+    "name_kr": "티올던"
   },
   {
     "name": "Torkan",
@@ -9429,7 +9716,8 @@
       "Split Second",
       "Ranged Parry",
       "Bloodlust"
-    ]
+    ],
+    "name_kr": "토르칸"
   },
   {
     "name": "Torrent",
@@ -9464,7 +9752,8 @@
       "Split Second",
       "Immune to Taunt",
       "Entangle"
-    ]
+    ],
+    "name_kr": "토렌트"
   },
   {
     "name": "Trillian",
@@ -9499,7 +9788,8 @@
       "Split Second",
       "Point Blank",
       "Cardinal Parry"
-    ]
+    ],
+    "name_kr": "트릴리안"
   },
   {
     "name": "Trisha",
@@ -9534,7 +9824,8 @@
       "Split Second",
       "Rune of Sea",
       "Armor of Sea"
-    ]
+    ],
+    "name_kr": "트리샤"
   },
   {
     "name": "Tristan",
@@ -9569,7 +9860,8 @@
       "Split Second",
       "Life Steal",
       "Push"
-    ]
+    ],
+    "name_kr": "트리스탄"
   },
   {
     "name": "Tropical Ariane",
@@ -9604,7 +9896,8 @@
       "Split Second",
       "Venom",
       "Ranged Parry"
-    ]
+    ],
+    "name_kr": "열대 아리안"
   },
   {
     "name": "Tsunami",
@@ -9639,7 +9932,8 @@
       "Split Second",
       "Tumble",
       "Melee Parry"
-    ]
+    ],
+    "name_kr": "쓰나미"
   },
   {
     "name": "Two-Talon",
@@ -9672,7 +9966,8 @@
       "Split Second",
       "Diagonal Parry",
       "Immobilizing Strike"
-    ]
+    ],
+    "name_kr": "투 탤론"
   },
   {
     "name": "Ugaz",
@@ -9705,7 +10000,8 @@
       "Split Second",
       "Rend",
       "Extra Time"
-    ]
+    ],
+    "name_kr": "우가즈"
   },
   {
     "name": "Urgax",
@@ -9740,7 +10036,8 @@
       "Split Second",
       "Blitz",
       "Song of Acid"
-    ]
+    ],
+    "name_kr": "우르각스"
   },
   {
     "name": "Urzmorga",
@@ -9775,7 +10072,8 @@
       "Split Second",
       "Fortify",
       "Bad Medicine"
-    ]
+    ],
+    "name_kr": "우즈모르가"
   },
   {
     "name": "Vaelith",
@@ -9810,7 +10108,8 @@
       "Split Second",
       "Tumble",
       "Mighty Blow"
-    ]
+    ],
+    "name_kr": "바엘리스"
   },
   {
     "name": "Valenor",
@@ -9845,7 +10144,8 @@
       "Split Second",
       "Rend",
       "Focus"
-    ]
+    ],
+    "name_kr": "발레노르"
   },
   {
     "name": "Valeria",
@@ -9880,7 +10180,8 @@
       "Split Second",
       "Disorienting Strike",
       "Cardinal Parry"
-    ]
+    ],
+    "name_kr": "발레리아"
   },
   {
     "name": "Vengeful Shani",
@@ -9913,7 +10214,8 @@
       "Split Second",
       "Ranged Parry",
       "Venom"
-    ]
+    ],
+    "name_kr": "복수의 샤니"
   },
   {
     "name": "Vera",
@@ -9946,7 +10248,8 @@
       "Split Second",
       "Melee Parry",
       "Finishing Blow"
-    ]
+    ],
+    "name_kr": "베라"
   },
   {
     "name": "Veridian",
@@ -9981,7 +10284,8 @@
       "Split Second",
       "Finishing Blow",
       "Fortify"
-    ]
+    ],
+    "name_kr": "베리디안"
   },
   {
     "name": "Violet",
@@ -10016,7 +10320,8 @@
       "Split Second",
       "Point Blank",
       "Death Ward"
-    ]
+    ],
+    "name_kr": "바이올렛"
   },
   {
     "name": "Voidtail",
@@ -10051,7 +10356,8 @@
       "Split Second",
       "Focus",
       "Slay Ooze"
-    ]
+    ],
+    "name_kr": "보이드테일"
   },
   {
     "name": "Vorlos",
@@ -10086,7 +10392,8 @@
       "Split Second",
       "Exploit Weakness",
       "Life Drain"
-    ]
+    ],
+    "name_kr": "보를로스"
   },
   {
     "name": "Wavescale",
@@ -10121,7 +10428,8 @@
       "Split Second",
       "Diagonal Parry",
       "Protector"
-    ]
+    ],
+    "name_kr": "웨이브스케일"
   },
   {
     "name": "Wild Caledor",
@@ -10156,7 +10464,8 @@
       "Split Second",
       "Life Steal",
       "Focus"
-    ]
+    ],
+    "name_kr": "와일드 칼레도"
   },
   {
     "name": "Wildfire",
@@ -10191,7 +10500,8 @@
       "Split Second",
       "Rune of Earth",
       "Cardinal Parry"
-    ]
+    ],
+    "name_kr": "와일드파이어"
   },
   {
     "name": "Wildheart",
@@ -10226,7 +10536,8 @@
       "Split Second",
       "Rune of Earth",
       "Armor of Earth"
-    ]
+    ],
+    "name_kr": "와일드하트"
   },
   {
     "name": "Willow",
@@ -10259,7 +10570,8 @@
       "Split Second",
       "Brutal Attack",
       "Whirlwind"
-    ]
+    ],
+    "name_kr": "윌로우"
   },
   {
     "name": "Windleaf",
@@ -10283,7 +10595,8 @@
       "Magic Parry",
       "Rend",
       "Rend"
-    ]
+    ],
+    "name_kr": "윈드리프"
   },
   {
     "name": "Wrathborne",
@@ -10318,7 +10631,8 @@
       "Split Second",
       "Melee Parry",
       "Prepare"
-    ]
+    ],
+    "name_kr": "래스본"
   },
   {
     "name": "Wulfgar",
@@ -10351,7 +10665,8 @@
       "Split Second",
       "Rend",
       "Focus"
-    ]
+    ],
+    "name_kr": "울프가르"
   },
   {
     "name": "Xaakt",
@@ -10386,7 +10701,8 @@
       "Split Second",
       "Immovable",
       "Mighty Blow"
-    ]
+    ],
+    "name_kr": "작트"
   },
   {
     "name": "Xiv",
@@ -10412,7 +10728,8 @@
       "Bardic Song",
       "Tumble",
       "Diagonal Parry"
-    ]
+    ],
+    "name_kr": "시브"
   },
   {
     "name": "Yazgak",
@@ -10447,7 +10764,8 @@
       "Split Second",
       "Tumble",
       "Cardinal Parry"
-    ]
+    ],
+    "name_kr": "야즈각"
   },
   {
     "name": "Yun",
@@ -10480,7 +10798,8 @@
       "Split Second",
       "Ranged Parry",
       "Finishing Blow"
-    ]
+    ],
+    "name_kr": "윤"
   },
   {
     "name": "Zana",
@@ -10504,7 +10823,8 @@
       "Ranged Parry",
       "Ranged Parry",
       "Focus"
-    ]
+    ],
+    "name_kr": "자나"
   },
   {
     "name": "Zenith",
@@ -10539,7 +10859,8 @@
       "Split Second",
       "Rune of Sun",
       "Armor of Sun"
-    ]
+    ],
+    "name_kr": "제니스"
   },
   {
     "name": "Zeyra",
@@ -10574,7 +10895,8 @@
       "Split Second",
       "Cardinal Parry",
       "Unstoppable Force"
-    ]
+    ],
+    "name_kr": "제이라"
   },
   {
     "name": "Zouen",
@@ -10603,6 +10925,7 @@
       "Magic Parry",
       "Focus",
       "}}\n\n|}\n[[Category:Barracks]]\n\n[[es:Talentos de Héroe SinFoto]]\n[[fr:Talents des Héros Sans Image]]"
-    ]
+    ],
+    "name_kr": "주엔"
   }
 ]
