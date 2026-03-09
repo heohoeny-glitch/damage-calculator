@@ -1,0 +1,874 @@
+[
+  {
+    "id": "AquaticAmbush",
+    "name": "Aquatic Ambush",
+    "file": "images/traits/red/TraitAquaticAmbush.webp",
+    "desc": "+25% bonus when attacking from a water square.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "ArcaneVibrations",
+    "name": "Arcane Vibrations",
+    "file": "images/traits/red/TraitArcaneVibrations.webp",
+    "desc": "Damage dealt by this Hero is not reduced by the Crystallian Trait. (Crystallian receives -90% damage unless attack exceeds health, and is unaffected by Finishing Blow)",
+    "pct": 90,
+    "category": "red"
+  },
+  {
+    "id": "Backstab",
+    "name": "Backstab",
+    "file": "images/traits/red/TraitBackstab.webp",
+    "desc": "25% bonus when there is an ally directly behind the target. \n\n(Ranged and Magic Attacks can only Backstab when the target is adjacent to attacker.)\n\n[Despite the tooltip, so far there is no known hero with a ranged/magic attack with Backstab, though a Spire/Dungeon Crawl buff can give a hero such benefits]",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "BadMedicine",
+    "name": "Bad Medicine",
+    "file": "images/traits/red/TraitBadMedicine.webp",
+    "desc": "Deals Poisoned, Acid or Weakening Poison randomly, when damaging enemies.",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "Ballistic",
+    "name": "Ballistic",
+    "file": "images/traits/red/TraitBallistic.webp",
+    "desc": "Can shoot Ranged attacks over 1 ally per .\n\nexclusive to Javalineers, only Agil and Aquatic Agil have multiple Ballistic talents without merging as of Nov 2024 (five star heroes can generally get an extra ballistic at merge 3)\nCategory:Talent",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "Blitz",
+    "name": "Blitz",
+    "file": "images/traits/red/TraitBlitz.webp",
+    "desc": "+25% attack bonus while at full Health.\n\n(it is technically above 99% of health, but most heroes with blitz don’t have enough health for this to really matter against most attacks)",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "BrutalAttack",
+    "name": "Brutal Attack",
+    "file": "images/traits/red/TraitBrutalAttack.webp",
+    "desc": "Reduces target's Defense by 25% of damage dealt.\n\nThis is mostly used to prevent healing (narrows down range where they can be healed), and make it harder for enemies to activate Resilience like effects. It may be bad with enemies who gain boosts with full health.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "BrutalBackstab",
+    "name": "Brutal Backstab",
+    "file": "images/traits/red/TraitBrutalBackstab.webp",
+    "desc": "When there is an ally directly behind the target, gain +25% attack bonus, and target's Defense is reduced by 25% of damage dealt.\n\n(Ranged and Magic Attacks can only Backstab when the target is adjacent to attacker.)",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "CardinalAim",
+    "name": "Cardinal Aim",
+    "file": "images/traits/red/TraitCardinalAim.webp",
+    "desc": "+25% attack bonus to attacks to four cardinal directions: North, South, East and West.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "ChordofBlitz",
+    "name": "Chord of Blitz",
+    "file": "images/traits/red/TraitChordofBlitz.webp",
+    "desc": "Allies within the support pattern gain +25% attack bonus while at full health.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "ChordofCardinalAim",
+    "name": "Chord of Cardinal Aim",
+    "file": "images/traits/red/TraitChordofCardinalAim.webp",
+    "desc": "Allies within the support pattern gain +25% attack bonus to cardinal attacks.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "ChordofCriticalAttack",
+    "name": "Chord of Critical Attack",
+    "file": "images/traits/red/TraitChordofCriticalAttack.webp",
+    "desc": "Allies within the support pattern gain +10% chance to deal a Critical Attack.\n\nCritical Attacks deal double damage.",
+    "pct": 10,
+    "category": "red"
+  },
+  {
+    "id": "ChordofExploitWeakness",
+    "name": "Chord of Exploit Weakness",
+    "file": "images/traits/red/TraitChordofExploitWeakness.webp",
+    "desc": "Allies within the support pattern gain +25% attack bonus to targets with less than 100% Health.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "ChordofPointBlank",
+    "name": "Chord of Point Blank",
+    "file": "images/traits/red/TraitChordofPointBlank.webp",
+    "desc": "Allies within the support pattern gain +25% attack bonus when attacking adjacent or diagonally adjacent targets.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "CriticalAttack",
+    "name": "Critical Attack",
+    "file": "images/traits/red/TraitCriticalAttack.webp",
+    "desc": "+10% chance to deal a Critical Attack.\n\nCritical Attacks deal double damage. (This effect is individually calculated for every attack that hits a target. So two hits on a big enemy can each land a critical attack. This attack fails on Ghosts)",
+    "pct": 10,
+    "category": "red"
+  },
+  {
+    "id": "CriticalAttackFreeze",
+    "name": "Critical Attack: Freeze",
+    "file": "images/traits/red/TraitCriticalAttackFreeze.webp",
+    "desc": "+10% chance to deal a Critical Hit. Critical Hits deal an extra Freeze when damaging enemies.",
+    "pct": 10,
+    "category": "red"
+  },
+  {
+    "id": "CriticalAttackIgnite",
+    "name": "Critical Attack: Ignite",
+    "file": "images/traits/red/TraitCriticalAttackIgnite.webp",
+    "desc": "+10% chance to deal a Critical Hit. Critical Hits deal an extra Burning when damaging enemies.",
+    "pct": 10,
+    "category": "red"
+  },
+  {
+    "id": "CriticalDistraction",
+    "name": "Critical Distraction",
+    "file": "images/traits/red/TraitCriticalDistraction.webp",
+    "desc": "Heroes with Critical Attack or Backstab have guaranteed Critical Attacks on enemies within this character's attack pattern.\n\n[Does not work with special named Backstabs such as Brutal Backstab, life draining backstab, but does work with heroes who have differently named Critical attacks. Does not affect themself if they have critical attack. They do not have to be the one to help pull off the backstab - your ally can backstab in any way they wish, as long as this character's attack includes the target]",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "CrushingBlow",
+    "name": "Crushing Blow",
+    "file": "images/traits/red/TraitCrushingBlow.webp",
+    "desc": "Deals Fracture when damaging a target.",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "Cutlass&Flintlock",
+    "name": "Cutlass & Flintlock",
+    "file": "images/traits/red/TraitCutlass&Flintlock.webp",
+    "desc": "If there are no targets in melee range, shoots in four cardinal directions instead.\n\nHeroes with this Trait still count as Melle Heroes for Quests, Dragonspire and Gear.",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "Dauntless",
+    "name": "Dauntless",
+    "file": "images/traits/red/TraitDauntless.webp",
+    "desc": "Able to deal up to twice the damage normally possible against Stalwart  and Sturdy  Enemies.",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "Dazzling",
+    "name": "Dazzling",
+    "file": "images/traits/red/TraitDazzling.webp",
+    "desc": "Deals 3x Dazzled on attack.",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "DeathBlow",
+    "name": "Death Blow",
+    "file": "images/traits/red/TraitDeathBlow.webp",
+    "desc": "Deals Inevitable Death when damaging enemies.\n\nPrevents Cheat Death from activating (even 2x Cheat Death). This status stays on the unit until the end of the battle.",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "DemoralizingStrike",
+    "name": "Demoralizing Strike",
+    "file": "images/traits/red/TraitDemoralizingStrike.webp",
+    "desc": "When attacking in only one direction, deals Demoralized on melee and ranged enemies.\n\nTarget also gains Strike Immunity.",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "DiagonalAim",
+    "name": "Diagonal Aim",
+    "file": "images/traits/red/TraitDiagonalAim.webp",
+    "desc": "25% bonus to diagonal attacks.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "DisorientingStrike",
+    "name": "Disorienting Strike",
+    "file": "images/traits/red/TraitDisorientingStrike.webp",
+    "desc": "Deals Disoriented on attack.\n\nTarget also gains Strike Immunity.",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "EagleEye",
+    "name": "Eagle Eye",
+    "file": "images/traits/red/TraitEagleEye.webp",
+    "desc": "Attacks have a +100% Critical Hit chance when there's at least 4 squares between the attacker and the target.\n\nWhen combined with a Magic Attack, only the nearest target is affected by this Trait.",
+    "pct": 100,
+    "category": "red"
+  },
+  {
+    "id": "Entangle",
+    "name": "Entangle",
+    "file": "images/traits/red/TraitEntangle.webp",
+    "desc": "Deals Entangled when dealing damage with Ranged Attacks. Big, Ethereal and Fleet-Footed enemies cannot be Entangled.",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "ExploitWeakness",
+    "name": "Exploit Weakness",
+    "file": "images/traits/red/TraitExploitWeakness.webp",
+    "desc": "+25% attack bonus to targets with less than 100% Health.\n\n(although unstated, this doesn’t apply to monsters above 99% health, in case you were facing a very specific situation)",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "FavoredOdds",
+    "name": "Favored Odds",
+    "file": "images/traits/red/TraitFavoredOdds.webp",
+    "desc": "+50% bonus to attacks when there are less or equal amount of enemies on the battlefield as heroes.",
+    "pct": 50,
+    "category": "red"
+  },
+  {
+    "id": "FinishingBlow",
+    "name": "Finishing Blow",
+    "file": "images/traits/red/TraitFinishingBlow.webp",
+    "desc": "25% bonus to attacks when it is required to kill the target.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "Flank",
+    "name": "Flank",
+    "file": "images/traits/red/TraitFlank.webp",
+    "desc": "All attacks against enemies within the attack pattern of this character gain 25% bonus.\n\n(This excludes the character themself)",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "Focus",
+    "name": "Focus",
+    "file": "images/traits/red/TraitFocus.webp",
+    "desc": "25% bonus when attacking in only one direction.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "Frostwhirl",
+    "name": "Frostwhirl",
+    "file": "images/traits/red/TraitFrostwhirl.webp",
+    "desc": "Deals Chilled when attacking in at least three directions.",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "Hamstring",
+    "name": "Hamstring",
+    "file": "images/traits/red/TraitHamstring.webp",
+    "desc": "Applies Hamstrung when damaging enemies.\n\nhamstring is exclusive to hunters.",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "HighGround",
+    "name": "High Ground",
+    "file": "images/traits/red/TraitHighGround.webp",
+    "desc": "+50% bonus when attacking from a Rubble Square.\n\nFlying enemies ignore this Trait.",
+    "pct": 50,
+    "category": "red"
+  },
+  {
+    "id": "IgnitionPoint",
+    "name": "Ignition Point",
+    "file": "images/traits/red/TraitIgnitionPoint.webp",
+    "desc": "Deals Burning if attack damage exceeds 50% of target's Health.",
+    "pct": 50,
+    "category": "red"
+  },
+  {
+    "id": "ImmobilizingStrike",
+    "name": "Immobilizing Strike",
+    "file": "images/traits/red/TraitImmobilizingStrike.webp",
+    "desc": "Applies Immobilized when damaging enemies.\n\nTarget also gains Strike Immunity for the rest of the Stage.",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "Majesty",
+    "name": "Majesty",
+    "file": "images/traits/red/TraitMajesty.webp",
+    "desc": "Allies within the support pattern gain 25% bonus.\n\n(The person with this ability is NOT inside their own support pattern. This ability does NOT go through walls or enemies)",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "MightyBlow",
+    "name": "Mighty Blow",
+    "file": "images/traits/red/TraitMightyBlow.webp",
+    "desc": "Pushes target by +1 square, or gains 25% bonus.\n\n(When combined with a Magic Attack, only the nearest target is affected by this Trait.)\n\nWhen Mighty Blow is activated, it pushes *all* the characters, both ally and enemy, behind the affected character. If mighty blow is activated, there is no bonus from extra mighty blows (even if the enemy would become impossible to push). For example, with three mighty blows and one space behind the enemy, you would push them one space and deal no more damage.\n\ntrivia: Elethas is the only Mage user with Mighty Blow, with up to three of them when fully ascended.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "NetGrab",
+    "name": "Net Grab",
+    "file": "images/traits/red/TraitNetGrab.webp",
+    "desc": "Net attacks pull targets to the attacker, and deal Hamstrung when dealing damage. If the same attack would push and pull a target, the target gets pulled.",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "OathofVengeance",
+    "name": "Oath of Vengeance",
+    "file": "images/traits/red/TraitOathofVengeance.webp",
+    "desc": "Gains 2x Fury and 1x Impenetrable Shield at the start of the Turn if another Hero without Oath Of Vengeance has died last Turn.",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "PactAgainstBeasts",
+    "name": "Pact Against Beasts",
+    "file": "images/traits/red/TraitPactAgainstBeasts.webp",
+    "desc": "Allies within the support pattern gain +25% bonus against Beast  enemies.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "PactAgainstConstructs",
+    "name": "Pact Against Constructs",
+    "file": "images/traits/red/TraitPactAgainstConstructs.webp",
+    "desc": "Allies within the support pattern gain +25% bonus against Construct  enemies.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "PactAgainstElementals",
+    "name": "Pact Against Elementals",
+    "file": "images/traits/red/TraitPactAgainstElementals.webp",
+    "desc": "Allies within the support pattern gain +25% bonus against Elemental  enemies.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "PactAgainstInsects",
+    "name": "Pact Against Insects",
+    "file": "images/traits/red/TraitPactAgainstInsects.webp",
+    "desc": "Allies within the support pattern gain +25% bonus against Insect  enemies.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "PactAgainstSylvans",
+    "name": "Pact Against Sylvans",
+    "file": "images/traits/red/TraitPactAgainstSylvans.webp",
+    "desc": "Allies within the support pattern gain +25% bonus against Sylvan enemies.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "PactAgainstUndead",
+    "name": "Pact Against Undead",
+    "file": "images/traits/red/TraitPactAgainstUndead.webp",
+    "desc": "Allies within the support pattern gain +25% bonus against Undead  enemies.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "PactofEarth",
+    "name": "Pact of Earth",
+    "file": "images/traits/red/TraitPactofEarth.webp",
+    "desc": "Allies within the support pattern gain 25% bonus against Blue enemies.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "PactofFire",
+    "name": "Pact of Fire",
+    "file": "images/traits/red/TraitPactofFire.webp",
+    "desc": "Allies within the support pattern gain 25% bonus against Green enemies.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "PactofHeroism",
+    "name": "Pact of Heroism",
+    "file": "images/traits/red/TraitPactofHeroism.webp",
+    "desc": "Allies within the support pattern gain +25% attack bonus, if they are the same Color as this Hero.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "PactofMoon",
+    "name": "Pact of Moon",
+    "file": "images/traits/red/TraitPactofMoon.webp",
+    "desc": "Allies within the support pattern gain 25% bonus against Light enemies.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "PactofSea",
+    "name": "Pact of Sea",
+    "file": "images/traits/red/TraitPactofSea.webp",
+    "desc": "Allies within the support pattern gain 25% bonus against Red enemies.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "PactofSun",
+    "name": "Pact of Sun",
+    "file": "images/traits/red/TraitPactofSun.webp",
+    "desc": "Allies within the support pattern gain 25% bonus against Dark enemies.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "Pistoleer",
+    "name": "Pistoleer",
+    "file": "images/traits/red/TraitPistoleer.webp",
+    "desc": "+25% bonus to ranged attacks.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "PointBlank",
+    "name": "Point Blank",
+    "file": "images/traits/red/TraitPointBlank.webp",
+    "desc": "+25% bonus when attacking adjacent or diagonally adjacent targets.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "Predator",
+    "name": "Predator",
+    "file": "images/traits/red/TraitPredator.webp",
+    "desc": "+50% bonus to attacks when the enemy has no allies in cardinally or diagonally adjacent squares.",
+    "pct": 50,
+    "category": "red"
+  },
+  {
+    "id": "Prepare",
+    "name": "Prepared",
+    "file": "images/traits/red/TraitPrepare.webp",
+    "desc": "+25% attack bonus to all attacks. Lost after attack. (Gained at the start of every Stage, and whenever not attacking during a turn.)",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "PreparedFreeze",
+    "name": "Prepared Freeze",
+    "file": "images/traits/red/TraitPreparedFreeze.webp",
+    "desc": "Applies Chilled on attack while Prepared .\n\n(Will only apply one chilled regardless of how many prepared, multiple \"prepared freeze\" would be necessary for multiple chilled)",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "PreparedIgnite",
+    "name": "Prepared Ignite",
+    "file": "images/traits/red/TraitPreparedIgnite.webp",
+    "desc": "Applies Burning on attack while Prepared .",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "PreparedRupture",
+    "name": "Prepared Rupture",
+    "file": "images/traits/red/TraitPreparedRupture.webp",
+    "desc": "Deals Internal Bleeding on damaged enemies while Prepared.",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "PreparedWeakened",
+    "name": "Prepared Weakened",
+    "file": "images/traits/red/TraitPreparedWeakened.webp",
+    "desc": "Applies Weakened on attack while Prepared. (Based on Prepared Freeze pattern: Applies [status] on attack while Prepared)",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "Rend",
+    "name": "Rend",
+    "file": "images/traits/red/TraitRend.webp",
+    "desc": "Applies Bleeding  when damaging enemies.",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "Resurgence",
+    "name": "Resurgence",
+    "file": "images/traits/red/TraitResurgence.webp",
+    "desc": "Gains Fury when damaged by attack and has no Fury.",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "RuneofEarth",
+    "name": "Rune of Earth",
+    "file": "images/traits/red/TraitRuneofEarth.webp",
+    "desc": "25% bonus against Blue targets.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "RuneofFire",
+    "name": "Rune of Fire",
+    "file": "images/traits/red/TraitRuneofFire.webp",
+    "desc": "25% bonus against Green targets.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "RuneofMoon",
+    "name": "Rune of Moon",
+    "file": "images/traits/red/TraitRuneofMoon.webp",
+    "desc": "25% bonus against Light targets.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "RuneofSea",
+    "name": "Rune of Sea",
+    "file": "images/traits/red/TraitRuneofSea.webp",
+    "desc": "25% bonus against Red targets.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "RuneofSun",
+    "name": "Rune of Sun",
+    "file": "images/traits/red/TraitRuneofSun.webp",
+    "desc": "25% bonus against Dark targets.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "SilencingStrike",
+    "name": "Silencing Strike",
+    "file": "images/traits/red/TraitSilencingStrike.webp",
+    "desc": "When attacking in only one direction, applies Silenced on magic-using enemies.\n\nTarget also gains Strike Immunity for the rest of the Stage.",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "SlayBeast",
+    "name": "Slay Beast",
+    "file": "images/traits/red/TraitSlayBeast.webp",
+    "desc": "+50% attack bonus against Beasts .",
+    "pct": 50,
+    "category": "red"
+  },
+  {
+    "id": "SlayCelestial",
+    "name": "Slay Celestial",
+    "file": "images/traits/red/TraitSlayCelestial.webp",
+    "desc": "+50% attack bonus against Celestials .",
+    "pct": 50,
+    "category": "red"
+  },
+  {
+    "id": "SlayDemon",
+    "name": "Slay Demon",
+    "file": "images/traits/red/TraitSlayDemon.webp",
+    "desc": "50% bonus against Demons .",
+    "pct": 50,
+    "category": "red"
+  },
+  {
+    "id": "SlayDragon",
+    "name": "Slay Dragon",
+    "file": "images/traits/red/TraitSlayDragon.webp",
+    "desc": "+50% attack bonus against Dragons .",
+    "pct": 50,
+    "category": "red"
+  },
+  {
+    "id": "SlayElemental",
+    "name": "Slay Elemental",
+    "file": "images/traits/red/TraitSlayElemental.webp",
+    "desc": "+50% attack bonus against Elementals .",
+    "pct": 50,
+    "category": "red"
+  },
+  {
+    "id": "SlayInsect",
+    "name": "Slay Insect",
+    "file": "images/traits/red/TraitSlayInsect.webp",
+    "desc": "50% bonus against Insects .",
+    "pct": 50,
+    "category": "red"
+  },
+  {
+    "id": "SlayLizard",
+    "name": "Slay Lizard",
+    "file": "images/traits/red/TraitSlayLizard.webp",
+    "desc": "50% bonus against Lizards .",
+    "pct": 50,
+    "category": "red"
+  },
+  {
+    "id": "SlayMonstrosity",
+    "name": "Slay Monstrosity",
+    "file": "images/traits/red/TraitSlayMonstrosity.webp",
+    "desc": "+50% attack bonus against Elite and Paragon  Monsters.",
+    "pct": 50,
+    "category": "red"
+  },
+  {
+    "id": "SlayOoze",
+    "name": "Slay Ooze",
+    "file": "images/traits/red/TraitSlayOoze.webp",
+    "desc": "+50% attack bonus against Ooze Monsters.",
+    "pct": 50,
+    "category": "red"
+  },
+  {
+    "id": "SlaySylvan",
+    "name": "Slay Sylvan",
+    "file": "images/traits/red/TraitSlaySylvan.webp",
+    "desc": "+50% attack bonus against sylvans.",
+    "pct": 50,
+    "category": "red"
+  },
+  {
+    "id": "SlayTroll",
+    "name": "Slay Troll",
+    "file": "images/traits/red/TraitSlayTroll.webp",
+    "desc": "+50% attack bonus against Trolls .",
+    "pct": 50,
+    "category": "red"
+  },
+  {
+    "id": "SlayUndead",
+    "name": "Slay Undead",
+    "file": "images/traits/red/TraitSlayUndead.webp",
+    "desc": "+50% bonus against the Undead  .",
+    "pct": 50,
+    "category": "red"
+  },
+  {
+    "id": "Sniper",
+    "name": "Sniper",
+    "file": "images/traits/red/TraitSniper.webp",
+    "desc": "+25% bonus when attacking targets at least 2 empty squares away.\n \n (When combined with a Magic Attack, only the nearest target is affected by this Trait.)",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "SoulBlade",
+    "name": "Soul Blade",
+    "file": "images/traits/red/TraitSoulBlade.webp",
+    "desc": "Deals normal damage against Ghosts  when attacking in only one direction. Does not work against Big Ghosts.",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "StunningStrike",
+    "name": "Stunning Strike",
+    "file": "images/traits/red/TraitStunningStrike.webp",
+    "desc": "Applies Stunned   if attack damage exceeds 0,5 of target's Health  .\n \n Target also gains Strike Immunity  , making them immune to       for the rest of the Stage.",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "Survivor",
+    "name": "Survivor",
+    "file": "images/traits/red/TraitSurvivor.webp",
+    "desc": "+50% attack bonus when at least half of your allies have died.",
+    "pct": 50,
+    "category": "red"
+  },
+  {
+    "id": "Swashbuckler",
+    "name": "Swashbuckler",
+    "file": "images/traits/red/TraitSwashbuckler.webp",
+    "desc": "+25% bonus to melee attacks.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "ToxicExposure",
+    "name": "Toxic Exposure",
+    "file": "images/traits/red/TraitToxicExposure.webp",
+    "desc": "Attacks against poisoned (Poisoned/Weakening Poison) enemies have a +100% Critical Hit chance.",
+    "pct": 100,
+    "category": "red"
+  },
+  {
+    "id": "TrueShot",
+    "name": "True Shot",
+    "file": "images/traits/red/TraitTrueShot.webp",
+    "desc": "Attacks by this Hero cannot be Dodged   .",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "UnstoppableForce",
+    "name": "Unstoppable Force",
+    "file": "images/traits/red/TraitUnstoppableForce.webp",
+    "desc": "Breaks Impenetrable Shield  on attack and deals normal damage.",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "Venom",
+    "name": "Venom",
+    "file": "images/traits/red/TraitVenom.webp",
+    "desc": "Applies Poisoned  when damaging enemies.",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "WateryGrave",
+    "name": "Watery Grave",
+    "file": "images/traits/red/TraitWateryGrave.webp",
+    "desc": "+25% attack bonus when attacking enemies in Water , and deal Immobilzed  when damaging them.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "WeakeningBackstab",
+    "name": "Weakening Backstab",
+    "file": "images/traits/red/TraitWeakeningBackstab.webp",
+    "desc": "+25% attack bonus when there is an ally directly behind the target, and deals Weakening Poison .\n\n(Ranged and Magic attacks can only Backstab when the target is adjacent to attacker.)",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "Whirlwind",
+    "name": "Whirlwind",
+    "file": "images/traits/red/TraitWhirlwind.webp",
+    "desc": "+25% bonus when attacking in at least three directions.",
+    "pct": 25,
+    "category": "red"
+  },
+  {
+    "id": "ZealofLife",
+    "name": "Zeal of Life",
+    "file": "images/traits/red/TraitZealofLife.webp",
+    "desc": "Gains Lifeburst after dealing damage.",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "AuraofCold",
+    "name": "Aura of Cold",
+    "file": "images/traits/red_square/TraitAuraofCold.webp",
+    "desc": "Deals Chilled to adjacent and diagonally adjacent attackers.",
+    "pct": 0,
+    "category": "red_square"
+  },
+  {
+    "id": "AuraofFire",
+    "name": "Aura of Fire",
+    "file": "images/traits/red_square/TraitAuraofFire.webp",
+    "desc": "Deals Burning to adjacent and diagonally adjacent attackers.",
+    "pct": 0,
+    "category": "red_square"
+  },
+  {
+    "id": "AuraofPoison",
+    "name": "Aura of Poison",
+    "file": "images/traits/red_square/TraitAuraofPoison.webp",
+    "desc": "Deals Poisoned  to adjacent and diagonally adjacent attackers.",
+    "pct": 0,
+    "category": "red_square"
+  },
+  {
+    "id": "SlayConstruct",
+    "name": "Slay Construct",
+    "file": "images/traits/red_square/TraitSlayConstruct.webp",
+    "desc": "50% bonus against Constructs .",
+    "pct": 50,
+    "category": "red_square"
+  },
+  {
+    "id": "Bloodlust",
+    "name": "Bloodlust",
+    "file": "images/traits/orange_gold/TraitBloodlust.webp",
+    "desc": "+25% bonus while below 50% health.",
+    "pct": 25,
+    "category": "orange_gold"
+  },
+  {
+    "id": "ChordofDiagonalAim",
+    "name": "Chord of Diagonal Aim",
+    "file": "images/traits/orange_gold/TraitChordofDiagonalAim.webp",
+    "desc": "Allies within the support pattern gain +25% attack bonus to diagonal attacks.",
+    "pct": 25,
+    "category": "orange_gold"
+  },
+  {
+    "id": "CriticalAttackRupture",
+    "name": "Critical Attack: Rupture",
+    "file": "images/traits/orange_gold/TraitCriticalAttackRupture.webp",
+    "desc": "+10% attack chance to deal a Critical Attack. Critical Attack deals an extra Internal Bleeding when damaging enemies.",
+    "pct": 10,
+    "category": "orange_gold"
+  },
+  {
+    "id": "Drainwhirl",
+    "name": "Drainwhirl",
+    "file": "images/traits/orange_gold/TraitDrainwhirl.webp",
+    "desc": "Regenerates 25% of damage inflicted to living enemies in Health when attacking in at least 3 directions.",
+    "pct": 25,
+    "category": "orange_gold"
+  },
+  {
+    "id": "InitiativeHeroicBlow",
+    "name": "Initiative: Heroic Blow",
+    "file": "images/traits/orange_gold/TraitInitiativeHeroicBlow.webp",
+    "desc": "When this character acts first, it pushes the target as far as possible or gains +100% attack bonus.",
+    "pct": 100,
+    "category": "orange_gold"
+  },
+  {
+    "id": "Life-DrainingBackstab",
+    "name": "Life-Draining Backstab",
+    "file": "images/traits/orange_gold/TraitLife-DrainingBackstab.webp",
+    "desc": "When there is an ally directly behind the target, gains +25% attack bonus, and regenerates +25% of damage inflicted to living enemies in Health.\n\n(Ranged and Magic Attacks can only Backstab when the target is adjacent to attacker.)",
+    "pct": 25,
+    "category": "orange_gold"
+  },
+  {
+    "id": "PowerChord",
+    "name": "Power Chord",
+    "file": "images/traits/orange_gold/TraitPowerChord.webp",
+    "desc": "Allies within the support pattern gain +25% attack bonus.",
+    "pct": 25,
+    "category": "orange_gold"
+  },
+  {
+    "id": "Pulverize",
+    "name": "Pulverize",
+    "file": "images/traits/orange_gold/TraitPulverize.webp",
+    "desc": "Deals Fracture when damaging a target.",
+    "pct": 0,
+    "category": "orange_gold"
+  },
+  {
+    "id": "Skirmisher",
+    "name": "Skirmisher",
+    "file": "images/traits/orange_gold/TraitSkirmisher.webp",
+    "desc": "+50% bonus to attacks when there are no allies in cardinally or diagonally adjacent squares.",
+    "pct": 50,
+    "category": "orange_gold"
+  },
+  {
+    "id": "Testudo",
+    "name": "Testudo",
+    "file": "images/traits/orange_gold/TraitTestudo.webp",
+    "desc": "Gains 2x Fortified when attacking in at least three directions.",
+    "pct": 0,
+    "category": "orange_gold"
+  }
+]

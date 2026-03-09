@@ -1,0 +1,10608 @@
+[
+  {
+    "name": "Adana",
+    "basic": [
+      "Shroud",
+      "Finishing Blow",
+      "Diagonal Parry",
+      "Finishing Blow"
+    ],
+    "ascension": [
+      "Dodge",
+      "Finishing Blow",
+      "Venom",
+      "Diagonal Parry"
+    ],
+    "merge": [],
+    "all": [
+      "Shroud",
+      "Finishing Blow",
+      "Diagonal Parry",
+      "Finishing Blow",
+      "Dodge",
+      "Finishing Blow",
+      "Venom",
+      "Diagonal Parry"
+    ]
+  },
+  {
+    "name": "Agatha",
+    "basic": [
+      "Shroud",
+      "Backstab",
+      "Diagonal Parry",
+      "Backstab",
+      "Prepare"
+    ],
+    "ascension": [
+      "Prepare",
+      "Melee Parry",
+      "Prepare"
+    ],
+    "merge": [
+      "Split Second",
+      "Venom",
+      "Melee Parry"
+    ],
+    "all": [
+      "Shroud",
+      "Backstab",
+      "Diagonal Parry",
+      "Backstab",
+      "Prepare",
+      "Prepare",
+      "Melee Parry",
+      "Prepare",
+      "Split Second",
+      "Venom",
+      "Melee Parry"
+    ]
+  },
+  {
+    "name": "Agil",
+    "basic": [
+      "Ballistic",
+      "Slay Dragon",
+      "Sniper",
+      "Magic Parry",
+      "Sniper",
+      "Bleed Resistance"
+    ],
+    "ascension": [
+      "Sniper",
+      "Ballistic",
+      "Rune of Sun"
+    ],
+    "merge": [
+      "Split Second",
+      "Ballistic",
+      "Sniper"
+    ],
+    "all": [
+      "Ballistic",
+      "Slay Dragon",
+      "Sniper",
+      "Magic Parry",
+      "Sniper",
+      "Bleed Resistance",
+      "Sniper",
+      "Ballistic",
+      "Rune of Sun",
+      "Split Second",
+      "Ballistic",
+      "Sniper"
+    ]
+  },
+  {
+    "name": "Ahzura",
+    "basic": [
+      "Syphon Life",
+      "Deadly Syphon",
+      "Dark Bargain",
+      "Critical Heal",
+      "Critical Heal",
+      "Death Ward"
+    ],
+    "ascension": [
+      "Healing Touch",
+      "Healing Touch",
+      "Death Ward"
+    ],
+    "merge": [
+      "Split Second",
+      "Critical Heal",
+      "Healing Touch"
+    ],
+    "all": [
+      "Syphon Life",
+      "Deadly Syphon",
+      "Dark Bargain",
+      "Critical Heal",
+      "Critical Heal",
+      "Death Ward",
+      "Healing Touch",
+      "Healing Touch",
+      "Death Ward",
+      "Split Second",
+      "Critical Heal",
+      "Healing Touch"
+    ]
+  },
+  {
+    "name": "Aigror",
+    "basic": [
+      "Barrier",
+      "Armor of Fire",
+      "Rune of Fire",
+      "Fire Resistance",
+      "Melee Parry",
+      "Melee Parry"
+    ],
+    "ascension": [
+      "Rune of Fire",
+      "Rune of Fire",
+      "Poison Resistance"
+    ],
+    "merge": [
+      "Split Second",
+      "Rune of Fire",
+      "Armor of Fire"
+    ],
+    "all": [
+      "Barrier",
+      "Armor of Fire",
+      "Rune of Fire",
+      "Fire Resistance",
+      "Melee Parry",
+      "Melee Parry",
+      "Rune of Fire",
+      "Rune of Fire",
+      "Poison Resistance",
+      "Split Second",
+      "Rune of Fire",
+      "Armor of Fire"
+    ]
+  },
+  {
+    "name": "Akasha",
+    "basic": [
+      "Life Drain",
+      "Slay Insect",
+      "Brutal Attack",
+      "Brutal Attack",
+      "Finishing Blow",
+      "Finishing Blow"
+    ],
+    "ascension": [
+      "Diagonal Parry",
+      "Finishing Blow",
+      "Extra Time"
+    ],
+    "merge": [
+      "Split Second",
+      "Melee Parry",
+      "Rune of Sea"
+    ],
+    "all": [
+      "Life Drain",
+      "Slay Insect",
+      "Brutal Attack",
+      "Brutal Attack",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Diagonal Parry",
+      "Finishing Blow",
+      "Extra Time",
+      "Split Second",
+      "Melee Parry",
+      "Rune of Sea"
+    ]
+  },
+  {
+    "name": "Alaric",
+    "basic": [
+      "Life Drain",
+      "Slay Demon",
+      "Diagonal Parry",
+      "Extra Time",
+      "Diagonal Parry"
+    ],
+    "ascension": [
+      "Focus",
+      "Focus",
+      "Rune of Moon"
+    ],
+    "merge": [
+      "Split Second",
+      "Melee Parry",
+      "Life Steal"
+    ],
+    "all": [
+      "Life Drain",
+      "Slay Demon",
+      "Diagonal Parry",
+      "Extra Time",
+      "Diagonal Parry",
+      "Focus",
+      "Focus",
+      "Rune of Moon",
+      "Split Second",
+      "Melee Parry",
+      "Life Steal"
+    ]
+  },
+  {
+    "name": "Aldebaran",
+    "basic": [
+      "Regrowth",
+      "Natural Harmony",
+      "Extra Time",
+      "Immune to Disorientation",
+      "Prepare"
+    ],
+    "ascension": [
+      "Disorienting Strike",
+      "Prepare",
+      "Prepare"
+    ],
+    "merge": [
+      "Split Second",
+      "Diagonal Parry",
+      "Finishing Blow"
+    ],
+    "all": [
+      "Regrowth",
+      "Natural Harmony",
+      "Extra Time",
+      "Immune to Disorientation",
+      "Prepare",
+      "Disorienting Strike",
+      "Prepare",
+      "Prepare",
+      "Split Second",
+      "Diagonal Parry",
+      "Finishing Blow"
+    ]
+  },
+  {
+    "name": "Alyssandra",
+    "basic": [
+      "Healing Ray",
+      "Lingering Heal",
+      "Diagonal Parry",
+      "Healing Focus",
+      "Healing Focus",
+      "Healing Focus"
+    ],
+    "ascension": [
+      "Refresh",
+      "Diagonal Parry",
+      "Healing Focus"
+    ],
+    "merge": [
+      "Split Second",
+      "Bleed Resistance",
+      "Pacifist"
+    ],
+    "all": [
+      "Healing Ray",
+      "Lingering Heal",
+      "Diagonal Parry",
+      "Healing Focus",
+      "Healing Focus",
+      "Healing Focus",
+      "Refresh",
+      "Diagonal Parry",
+      "Healing Focus",
+      "Split Second",
+      "Bleed Resistance",
+      "Pacifist"
+    ]
+  },
+  {
+    "name": "Alyssandy",
+    "basic": [
+      "Healing Ray",
+      "Lingering Heal",
+      "Diagonal Parry",
+      "Healing Focus",
+      "Healing Focus",
+      "Healing Focus"
+    ],
+    "ascension": [
+      "Refresh",
+      "Diagonal Parry",
+      "Healing Focus"
+    ],
+    "merge": [
+      "Split Second",
+      "Bleed Resistance",
+      "Pacifist"
+    ],
+    "all": [
+      "Healing Ray",
+      "Lingering Heal",
+      "Diagonal Parry",
+      "Healing Focus",
+      "Healing Focus",
+      "Healing Focus",
+      "Refresh",
+      "Diagonal Parry",
+      "Healing Focus",
+      "Split Second",
+      "Bleed Resistance",
+      "Pacifist"
+    ]
+  },
+  {
+    "name": "Amberwing",
+    "basic": [
+      "Majesty",
+      "Pact of Sun",
+      "Focus",
+      "Focus",
+      "Focus",
+      "Arcane Shield"
+    ],
+    "ascension": [
+      "Pact of Sun",
+      "Rune of Sun",
+      "Pact of Heroism"
+    ],
+    "merge": [
+      "Split Second",
+      "Pact Against Undead",
+      "Pact of Heroism"
+    ],
+    "all": [
+      "Majesty",
+      "Pact of Sun",
+      "Focus",
+      "Focus",
+      "Focus",
+      "Arcane Shield",
+      "Pact of Sun",
+      "Rune of Sun",
+      "Pact of Heroism",
+      "Split Second",
+      "Pact Against Undead",
+      "Pact of Heroism"
+    ]
+  },
+  {
+    "name": "Amelia",
+    "basic": [
+      "Bardic Song",
+      "Power Chord",
+      "Chromatic Song",
+      "Chord of Critical Attack",
+      "Critical Attack",
+      "Bardic Song"
+    ],
+    "ascension": [
+      "Tumble",
+      "Diagonal Parry",
+      "Chord of Critical Attack"
+    ],
+    "merge": [
+      "Split Second",
+      "Critical Attack",
+      "Song of Blood"
+    ],
+    "all": [
+      "Bardic Song",
+      "Power Chord",
+      "Chromatic Song",
+      "Chord of Critical Attack",
+      "Critical Attack",
+      "Bardic Song",
+      "Tumble",
+      "Diagonal Parry",
+      "Chord of Critical Attack",
+      "Split Second",
+      "Critical Attack",
+      "Song of Blood"
+    ]
+  },
+  {
+    "name": "Angus",
+    "basic": [
+      "Chromatic Shield",
+      "Rend",
+      "Ranged Parry",
+      "Ranged Parry"
+    ],
+    "ascension": [
+      "Whirlwind",
+      "Ranged Parry",
+      "Rend",
+      "Whirlwind"
+    ],
+    "merge": [],
+    "all": [
+      "Chromatic Shield",
+      "Rend",
+      "Ranged Parry",
+      "Ranged Parry",
+      "Whirlwind",
+      "Ranged Parry",
+      "Rend",
+      "Whirlwind"
+    ]
+  },
+  {
+    "name": "Apollus",
+    "basic": [
+      "Meditate",
+      "Inner Peace",
+      "Inner Peace",
+      "Inner Peace",
+      "Death Ward",
+      "Critical Attack"
+    ],
+    "ascension": [
+      "Critical Attack",
+      "Critical Attack: Ignite",
+      "Death Ward"
+    ],
+    "merge": [
+      "Split Second",
+      "Inner Peace",
+      "Death Ward"
+    ],
+    "all": [
+      "Meditate",
+      "Inner Peace",
+      "Inner Peace",
+      "Inner Peace",
+      "Death Ward",
+      "Critical Attack",
+      "Critical Attack",
+      "Critical Attack: Ignite",
+      "Death Ward",
+      "Split Second",
+      "Inner Peace",
+      "Death Ward"
+    ]
+  },
+  {
+    "name": "Aquatic Agil",
+    "basic": [
+      "Ballistic",
+      "Slay Dragon",
+      "Sniper",
+      "Magic Parry",
+      "Sniper",
+      "Bleed Resistance"
+    ],
+    "ascension": [
+      "Sniper",
+      "Ballistic",
+      "Rune of Sea"
+    ],
+    "merge": [
+      "Split Second",
+      "Ballistic",
+      "Sniper"
+    ],
+    "all": [
+      "Ballistic",
+      "Slay Dragon",
+      "Sniper",
+      "Magic Parry",
+      "Sniper",
+      "Bleed Resistance",
+      "Sniper",
+      "Ballistic",
+      "Rune of Sea",
+      "Split Second",
+      "Ballistic",
+      "Sniper"
+    ]
+  },
+  {
+    "name": "Arafin",
+    "basic": [
+      "Syphon Life",
+      "Deadly Syphon",
+      "Focus",
+      "Ranged Parry",
+      "Focus",
+      "Cardinal Heal"
+    ],
+    "ascension": [
+      "Ranged Parry",
+      "Focus",
+      "Cardinal Heal"
+    ],
+    "merge": [
+      "Split Second",
+      "Finishing Blow",
+      "Diagonal Heal"
+    ],
+    "all": [
+      "Syphon Life",
+      "Deadly Syphon",
+      "Focus",
+      "Ranged Parry",
+      "Focus",
+      "Cardinal Heal",
+      "Ranged Parry",
+      "Focus",
+      "Cardinal Heal",
+      "Split Second",
+      "Finishing Blow",
+      "Diagonal Heal"
+    ]
+  },
+  {
+    "name": "Ariane",
+    "basic": [
+      "Cardinal Aim",
+      "Rend",
+      "Ranged Parry",
+      "Sniper",
+      "Sniper",
+      "Sniper"
+    ],
+    "ascension": [
+      "Diagonal Aim",
+      "Rend",
+      "Ranged Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Rend",
+      "Ranged Parry"
+    ],
+    "all": [
+      "Cardinal Aim",
+      "Rend",
+      "Ranged Parry",
+      "Sniper",
+      "Sniper",
+      "Sniper",
+      "Diagonal Aim",
+      "Rend",
+      "Ranged Parry",
+      "Split Second",
+      "Rend",
+      "Ranged Parry"
+    ]
+  },
+  {
+    "name": "Arilda",
+    "basic": [
+      "Cardinal Parry",
+      "Rend",
+      "Rend",
+      "Chromatic Shield",
+      "Fortify"
+    ],
+    "ascension": [
+      "Cardinal Parry",
+      "Focus",
+      "Focus"
+    ],
+    "merge": [
+      "Split Second",
+      "Focus",
+      "Melee Parry"
+    ],
+    "all": [
+      "Cardinal Parry",
+      "Rend",
+      "Rend",
+      "Chromatic Shield",
+      "Fortify",
+      "Cardinal Parry",
+      "Focus",
+      "Focus",
+      "Split Second",
+      "Focus",
+      "Melee Parry"
+    ]
+  },
+  {
+    "name": "Arkhan",
+    "basic": [
+      "Hamstring",
+      "Slay Demon",
+      "Rend",
+      "Rend"
+    ],
+    "ascension": [
+      "Sniper",
+      "Sniper",
+      "Rend",
+      "True Shot"
+    ],
+    "merge": [],
+    "all": [
+      "Hamstring",
+      "Slay Demon",
+      "Rend",
+      "Rend",
+      "Sniper",
+      "Sniper",
+      "Rend",
+      "True Shot"
+    ]
+  },
+  {
+    "name": "Arryn",
+    "basic": [
+      "Shroud",
+      "Focus",
+      "Focus"
+    ],
+    "ascension": [
+      "Backstab",
+      "Melee Parry",
+      "Backstab",
+      "Backstab"
+    ],
+    "merge": [],
+    "all": [
+      "Shroud",
+      "Focus",
+      "Focus",
+      "Backstab",
+      "Melee Parry",
+      "Backstab",
+      "Backstab"
+    ]
+  },
+  {
+    "name": "Ashtalon",
+    "basic": [
+      "Berserk",
+      "Whirlwind",
+      "Whirlwind",
+      "Push",
+      "Push",
+      "Immovable"
+    ],
+    "ascension": [
+      "Flank",
+      "Fortify",
+      "Flank"
+    ],
+    "merge": [
+      "Split Second",
+      "Ranged Parry",
+      "Life Steal"
+    ],
+    "all": [
+      "Berserk",
+      "Whirlwind",
+      "Whirlwind",
+      "Push",
+      "Push",
+      "Immovable",
+      "Flank",
+      "Fortify",
+      "Flank",
+      "Split Second",
+      "Ranged Parry",
+      "Life Steal"
+    ]
+  },
+  {
+    "name": "Augar",
+    "basic": [
+      "Shroud",
+      "Brutal Attack",
+      "Brutal Attack",
+      "Rend",
+      "Armor of Blood",
+      "Impunity"
+    ],
+    "ascension": [
+      "Rune of Moon",
+      "Life-Draining Backstab",
+      "Armor of Blood"
+    ],
+    "merge": [
+      "Split Second",
+      "Rend",
+      "Finishing Blow"
+    ],
+    "all": [
+      "Shroud",
+      "Brutal Attack",
+      "Brutal Attack",
+      "Rend",
+      "Armor of Blood",
+      "Impunity",
+      "Rune of Moon",
+      "Life-Draining Backstab",
+      "Armor of Blood",
+      "Split Second",
+      "Rend",
+      "Finishing Blow"
+    ]
+  },
+  {
+    "name": "Aurora",
+    "basic": [
+      "Life Drain",
+      "Focus",
+      "Focus",
+      "Focus",
+      "Extra Time",
+      "Death Ward"
+    ],
+    "ascension": [
+      "Ranged Parry",
+      "Point Blank",
+      "Point Blank"
+    ],
+    "merge": [
+      "Split Second",
+      "Fortify",
+      "Bad Medicine"
+    ],
+    "all": [
+      "Life Drain",
+      "Focus",
+      "Focus",
+      "Focus",
+      "Extra Time",
+      "Death Ward",
+      "Ranged Parry",
+      "Point Blank",
+      "Point Blank",
+      "Split Second",
+      "Fortify",
+      "Bad Medicine"
+    ]
+  },
+  {
+    "name": "Aveline",
+    "basic": [
+      "Focus",
+      "Exploit Weakness",
+      "Exploit Weakness",
+      "Brutal Attack",
+      "Immobilizing Strike",
+      "Refresh"
+    ],
+    "ascension": [
+      "Cardinal Parry",
+      "Foresight",
+      "Rune of Earth"
+    ],
+    "merge": [
+      "Split Second",
+      "Fortify",
+      "Immobilizing Strike"
+    ],
+    "all": [
+      "Focus",
+      "Exploit Weakness",
+      "Exploit Weakness",
+      "Brutal Attack",
+      "Immobilizing Strike",
+      "Refresh",
+      "Cardinal Parry",
+      "Foresight",
+      "Rune of Earth",
+      "Split Second",
+      "Fortify",
+      "Immobilizing Strike"
+    ]
+  },
+  {
+    "name": "Azgog",
+    "basic": [
+      "Berserk",
+      "Fire Walker",
+      "Mighty Blow",
+      "Mighty Blow",
+      "Fortify",
+      "Life Drain"
+    ],
+    "ascension": [
+      "Stunning Strike",
+      "Melee Parry",
+      "Mighty Blow"
+    ],
+    "merge": [
+      "Split Second",
+      "Mighty Blow",
+      "Melee Parry"
+    ],
+    "all": [
+      "Berserk",
+      "Fire Walker",
+      "Mighty Blow",
+      "Mighty Blow",
+      "Fortify",
+      "Life Drain",
+      "Stunning Strike",
+      "Melee Parry",
+      "Mighty Blow",
+      "Split Second",
+      "Mighty Blow",
+      "Melee Parry"
+    ]
+  },
+  {
+    "name": "Azurefang",
+    "basic": [
+      "Cardinal Aim",
+      "Slay Insect",
+      "Melee Parry",
+      "Diagonal Aim"
+    ],
+    "ascension": [
+      "Diagonal Aim",
+      "Diagonal Aim",
+      "Poison Resistance",
+      "Melee Parry"
+    ],
+    "merge": [],
+    "all": [
+      "Cardinal Aim",
+      "Slay Insect",
+      "Melee Parry",
+      "Diagonal Aim",
+      "Diagonal Aim",
+      "Diagonal Aim",
+      "Poison Resistance",
+      "Melee Parry"
+    ]
+  },
+  {
+    "name": "Baldric",
+    "basic": [
+      "Cutlass & Flintlock",
+      "Dark Bargain",
+      "Pistoleer",
+      "Sentinel",
+      "Sentinel",
+      "Quick Attack"
+    ],
+    "ascension": [
+      "Cardinal Aim",
+      "Fire Resistance",
+      "Mighty Blow"
+    ],
+    "merge": [
+      "Split Second",
+      "Fortify",
+      "Skirmisher"
+    ],
+    "all": [
+      "Cutlass & Flintlock",
+      "Dark Bargain",
+      "Pistoleer",
+      "Sentinel",
+      "Sentinel",
+      "Quick Attack",
+      "Cardinal Aim",
+      "Fire Resistance",
+      "Mighty Blow",
+      "Split Second",
+      "Fortify",
+      "Skirmisher"
+    ]
+  },
+  {
+    "name": "Bari",
+    "basic": [
+      "Tumble",
+      "Slay Undead",
+      "Fortify",
+      "Fortify",
+      "Soul Blade",
+      "Critical Attack: Freeze"
+    ],
+    "ascension": [
+      "Backstab",
+      "Backstab",
+      "Critical Attack"
+    ],
+    "merge": [
+      "Split Second",
+      "Soul Blade",
+      "Tumble"
+    ],
+    "all": [
+      "Tumble",
+      "Slay Undead",
+      "Fortify",
+      "Fortify",
+      "Soul Blade",
+      "Critical Attack: Freeze",
+      "Backstab",
+      "Backstab",
+      "Critical Attack",
+      "Split Second",
+      "Soul Blade",
+      "Tumble"
+    ]
+  },
+  {
+    "name": "Bastian",
+    "basic": [
+      "Cardinal Parry",
+      "Protector",
+      "Fire Resistance",
+      "Protector",
+      "Push",
+      "Fortify"
+    ],
+    "ascension": [
+      "Push",
+      "Extra Time",
+      "Cardinal Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Push",
+      "Cold Resistance"
+    ],
+    "all": [
+      "Cardinal Parry",
+      "Protector",
+      "Fire Resistance",
+      "Protector",
+      "Push",
+      "Fortify",
+      "Push",
+      "Extra Time",
+      "Cardinal Parry",
+      "Split Second",
+      "Push",
+      "Cold Resistance"
+    ]
+  },
+  {
+    "name": "Beatrix",
+    "basic": [
+      "Majesty",
+      "Pact of Moon",
+      "Brutal Attack",
+      "Melee Parry",
+      "Rune of Moon",
+      "Rune of Moon"
+    ],
+    "ascension": [
+      "Pact of Moon",
+      "Melee Parry",
+      "Pact of Heroism"
+    ],
+    "merge": [
+      "Split Second",
+      "Pact Against Insects",
+      "Pact of Heroism"
+    ],
+    "all": [
+      "Majesty",
+      "Pact of Moon",
+      "Brutal Attack",
+      "Melee Parry",
+      "Rune of Moon",
+      "Rune of Moon",
+      "Pact of Moon",
+      "Melee Parry",
+      "Pact of Heroism",
+      "Split Second",
+      "Pact Against Insects",
+      "Pact of Heroism"
+    ]
+  },
+  {
+    "name": "Belladonna",
+    "basic": [
+      "Syphon Life",
+      "Deadly Syphon",
+      "Exploit Weakness",
+      "Exploit Weakness",
+      "Magic Parry",
+      "Vampirism"
+    ],
+    "ascension": [
+      "Triage",
+      "Magic Parry",
+      "Rune of Moon"
+    ],
+    "merge": [
+      "Split Second",
+      "Critical Attack",
+      "Finishing Blow"
+    ],
+    "all": [
+      "Syphon Life",
+      "Deadly Syphon",
+      "Exploit Weakness",
+      "Exploit Weakness",
+      "Magic Parry",
+      "Vampirism",
+      "Triage",
+      "Magic Parry",
+      "Rune of Moon",
+      "Split Second",
+      "Critical Attack",
+      "Finishing Blow"
+    ]
+  },
+  {
+    "name": "Belle",
+    "basic": [
+      "Cardinal Parry",
+      "Slay Demon",
+      "Fire Resistance",
+      "Chromatic Shield",
+      "Prepare",
+      "Cardinal Parry"
+    ],
+    "ascension": [
+      "Prepare",
+      "Flank",
+      "Immovable"
+    ],
+    "merge": [
+      "Split Second",
+      "Rune of Sun",
+      "Protector"
+    ],
+    "all": [
+      "Cardinal Parry",
+      "Slay Demon",
+      "Fire Resistance",
+      "Chromatic Shield",
+      "Prepare",
+      "Cardinal Parry",
+      "Prepare",
+      "Flank",
+      "Immovable",
+      "Split Second",
+      "Rune of Sun",
+      "Protector"
+    ]
+  },
+  {
+    "name": "Beloved Brianna",
+    "basic": [
+      "Tumble",
+      "Brutal Attack",
+      "Brutal Attack",
+      "Diagonal Aim",
+      "Diagonal Aim",
+      "Dodge"
+    ],
+    "ascension": [
+      "Whirlwind",
+      "Tumble",
+      "Tumble"
+    ],
+    "merge": [
+      "Split Second",
+      "Tumble",
+      "Cardinal Aim"
+    ],
+    "all": [
+      "Tumble",
+      "Brutal Attack",
+      "Brutal Attack",
+      "Diagonal Aim",
+      "Diagonal Aim",
+      "Dodge",
+      "Whirlwind",
+      "Tumble",
+      "Tumble",
+      "Split Second",
+      "Tumble",
+      "Cardinal Aim"
+    ]
+  },
+  {
+    "name": "Blackfire",
+    "basic": [
+      "Shroud",
+      "Finishing Blow",
+      "Brutal Backstab",
+      "Brutal Backstab",
+      "Melee Parry",
+      "Arcane Shield"
+    ],
+    "ascension": [
+      "Finishing Blow",
+      "Melee Parry",
+      "Brutal Backstab"
+    ],
+    "merge": [
+      "Split Second",
+      "Rune of Fire",
+      "Cardinal Parry"
+    ],
+    "all": [
+      "Shroud",
+      "Finishing Blow",
+      "Brutal Backstab",
+      "Brutal Backstab",
+      "Melee Parry",
+      "Arcane Shield",
+      "Finishing Blow",
+      "Melee Parry",
+      "Brutal Backstab",
+      "Split Second",
+      "Rune of Fire",
+      "Cardinal Parry"
+    ]
+  },
+  {
+    "name": "Blaise",
+    "basic": [
+      "Meditate",
+      "Push",
+      "Push",
+      "Push",
+      "Dodge"
+    ],
+    "ascension": [
+      "Dodge",
+      "Dodge",
+      "Prepare"
+    ],
+    "merge": [
+      "Split Second",
+      "Mighty Blow",
+      "Whirlwind"
+    ],
+    "all": [
+      "Meditate",
+      "Push",
+      "Push",
+      "Push",
+      "Dodge",
+      "Dodge",
+      "Dodge",
+      "Prepare",
+      "Split Second",
+      "Mighty Blow",
+      "Whirlwind"
+    ]
+  },
+  {
+    "name": "Brakka",
+    "basic": [
+      "Chromatic Shield",
+      "Whirlwind",
+      "Whirlwind",
+      "Whirlwind",
+      "Melee Parry",
+      "Drainwhirl"
+    ],
+    "ascension": [
+      "Melee Parry",
+      "Immune to Silence",
+      "Whirlwind"
+    ],
+    "merge": [
+      "Split Second",
+      "Whirlwind",
+      "Survivor"
+    ],
+    "all": [
+      "Chromatic Shield",
+      "Whirlwind",
+      "Whirlwind",
+      "Whirlwind",
+      "Melee Parry",
+      "Drainwhirl",
+      "Melee Parry",
+      "Immune to Silence",
+      "Whirlwind",
+      "Split Second",
+      "Whirlwind",
+      "Survivor"
+    ]
+  },
+  {
+    "name": "Bramble",
+    "basic": [
+      "Taunt",
+      "Resilient",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Melee Parry",
+      "Impunity"
+    ],
+    "ascension": [
+      "Fortify",
+      "Resilient",
+      "Brutal Attack"
+    ],
+    "merge": [
+      "Split Second",
+      "Brutal Attack",
+      "Bloodlust"
+    ],
+    "all": [
+      "Taunt",
+      "Resilient",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Melee Parry",
+      "Impunity",
+      "Fortify",
+      "Resilient",
+      "Brutal Attack",
+      "Split Second",
+      "Brutal Attack",
+      "Bloodlust"
+    ]
+  },
+  {
+    "name": "Bramble Rose",
+    "basic": [
+      "Taunt",
+      "Resilient",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Melee Parry",
+      "Impunity"
+    ],
+    "ascension": [
+      "Fortify",
+      "Resilient",
+      "Brutal Attack"
+    ],
+    "merge": [
+      "Split Second",
+      "Brutal Attack",
+      "Bloodlust"
+    ],
+    "all": [
+      "Taunt",
+      "Resilient",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Melee Parry",
+      "Impunity",
+      "Fortify",
+      "Resilient",
+      "Brutal Attack",
+      "Split Second",
+      "Brutal Attack",
+      "Bloodlust"
+    ]
+  },
+  {
+    "name": "Branchard",
+    "basic": [
+      "Sniper",
+      "Focus",
+      "Focus",
+      "Cold Resistance",
+      "Dodge",
+      "Life Steal"
+    ],
+    "ascension": [
+      "Focus",
+      "Dodge",
+      "Focus"
+    ],
+    "merge": [
+      "Split Second",
+      "Point Blank",
+      "Finishing Blow"
+    ],
+    "all": [
+      "Sniper",
+      "Focus",
+      "Focus",
+      "Cold Resistance",
+      "Dodge",
+      "Life Steal",
+      "Focus",
+      "Dodge",
+      "Focus",
+      "Split Second",
+      "Point Blank",
+      "Finishing Blow"
+    ]
+  },
+  {
+    "name": "Brandon",
+    "basic": [
+      "Barrier",
+      "Armor of Sea",
+      "Extra Time",
+      "Cold Resistance",
+      "Cardinal Parry"
+    ],
+    "ascension": [
+      "Prepare",
+      "Prepare",
+      "Rune of Sea"
+    ],
+    "merge": [
+      "Split Second",
+      "Rune of Sea",
+      "Armor of Sea"
+    ],
+    "all": [
+      "Barrier",
+      "Armor of Sea",
+      "Extra Time",
+      "Cold Resistance",
+      "Cardinal Parry",
+      "Prepare",
+      "Prepare",
+      "Rune of Sea",
+      "Split Second",
+      "Rune of Sea",
+      "Armor of Sea"
+    ]
+  },
+  {
+    "name": "Brassblade",
+    "basic": [
+      "Taunt",
+      "Raider",
+      "Slay Elemental",
+      "Critical Attack",
+      "Brutal Attack"
+    ],
+    "ascension": [
+      "Melee Parry",
+      "Melee Parry",
+      "Critical Attack"
+    ],
+    "merge": [
+      "Split Second",
+      "Brutal Attack",
+      "Raider Boost"
+    ],
+    "all": [
+      "Taunt",
+      "Raider",
+      "Slay Elemental",
+      "Critical Attack",
+      "Brutal Attack",
+      "Melee Parry",
+      "Melee Parry",
+      "Critical Attack",
+      "Split Second",
+      "Brutal Attack",
+      "Raider Boost"
+    ]
+  },
+  {
+    "name": "Brianna",
+    "basic": [
+      "Tumble",
+      "Brutal Attack",
+      "Brutal Attack",
+      "Diagonal Aim",
+      "Diagonal Aim",
+      "Dodge"
+    ],
+    "ascension": [
+      "Whirlwind",
+      "Tumble",
+      "Tumble"
+    ],
+    "merge": [
+      "Split Second",
+      "Tumble",
+      "Cardinal Aim"
+    ],
+    "all": [
+      "Tumble",
+      "Brutal Attack",
+      "Brutal Attack",
+      "Diagonal Aim",
+      "Diagonal Aim",
+      "Dodge",
+      "Whirlwind",
+      "Tumble",
+      "Tumble",
+      "Split Second",
+      "Tumble",
+      "Cardinal Aim"
+    ]
+  },
+  {
+    "name": "Brightbrook",
+    "basic": [
+      "Life Drain",
+      "Magic Parry",
+      "Venom",
+      "Poison Resistance",
+      "Venom"
+    ],
+    "ascension": [
+      "Magic Parry",
+      "Focus",
+      "Focus"
+    ],
+    "merge": [
+      "Split Second",
+      "Diagonal Parry",
+      "Prepare"
+    ],
+    "all": [
+      "Life Drain",
+      "Magic Parry",
+      "Venom",
+      "Poison Resistance",
+      "Venom",
+      "Magic Parry",
+      "Focus",
+      "Focus",
+      "Split Second",
+      "Diagonal Parry",
+      "Prepare"
+    ]
+  },
+  {
+    "name": "Broxx",
+    "basic": [
+      "Berserk",
+      "Water Walker",
+      "Prepare",
+      "Prepare",
+      "Prepare"
+    ],
+    "ascension": [
+      "Fortify",
+      "Diagonal Parry",
+      "Diagonal Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Brutal Attack",
+      "Protector"
+    ],
+    "all": [
+      "Berserk",
+      "Water Walker",
+      "Prepare",
+      "Prepare",
+      "Prepare",
+      "Fortify",
+      "Diagonal Parry",
+      "Diagonal Parry",
+      "Split Second",
+      "Brutal Attack",
+      "Protector"
+    ]
+  },
+  {
+    "name": "Brula",
+    "basic": [
+      "Berserk",
+      "Resilient",
+      "Resilient",
+      "Chromatic Shield",
+      "Diagonal Aim",
+      "Life Steal"
+    ],
+    "ascension": [
+      "Diagonal Aim",
+      "Life Steal",
+      "Immovable"
+    ],
+    "merge": [
+      "Split Second",
+      "Brutal Attack",
+      "Diagonal Aim"
+    ],
+    "all": [
+      "Berserk",
+      "Resilient",
+      "Resilient",
+      "Chromatic Shield",
+      "Diagonal Aim",
+      "Life Steal",
+      "Diagonal Aim",
+      "Life Steal",
+      "Immovable",
+      "Split Second",
+      "Brutal Attack",
+      "Diagonal Aim"
+    ]
+  },
+  {
+    "name": "Caldera",
+    "basic": [
+      "Meditate",
+      "Prepare",
+      "Prepare",
+      "Fleet-Footed",
+      "Dodge",
+      "Stunning Strike"
+    ],
+    "ascension": [
+      "Inner Peace",
+      "Inner Peace",
+      "Inner Peace"
+    ],
+    "merge": [
+      "Split Second",
+      "Inner Peace",
+      "Dodge"
+    ],
+    "all": [
+      "Meditate",
+      "Prepare",
+      "Prepare",
+      "Fleet-Footed",
+      "Dodge",
+      "Stunning Strike",
+      "Inner Peace",
+      "Inner Peace",
+      "Inner Peace",
+      "Split Second",
+      "Inner Peace",
+      "Dodge"
+    ]
+  },
+  {
+    "name": "Caledor",
+    "basic": [
+      "Hamstring",
+      "Magic Parry",
+      "Sniper",
+      "True Shot",
+      "Sniper",
+      "Disorienting Strike"
+    ],
+    "ascension": [
+      "Disorienting Strike",
+      "Magic Parry",
+      "Sniper"
+    ],
+    "merge": [
+      "Split Second",
+      "Life Steal",
+      "Focus"
+    ],
+    "all": [
+      "Hamstring",
+      "Magic Parry",
+      "Sniper",
+      "True Shot",
+      "Sniper",
+      "Disorienting Strike",
+      "Disorienting Strike",
+      "Magic Parry",
+      "Sniper",
+      "Split Second",
+      "Life Steal",
+      "Focus"
+    ]
+  },
+  {
+    "name": "Callista",
+    "basic": [
+      "Majesty",
+      "Pact of Sea",
+      "Extra Time",
+      "Melee Parry",
+      "Finishing Blow",
+      "Finishing Blow"
+    ],
+    "ascension": [
+      "Pact of Sea",
+      "Rune of Sea",
+      "Pact of Heroism"
+    ],
+    "merge": [
+      "Split Second",
+      "Pact Against Elementals",
+      "Pact of Heroism"
+    ],
+    "all": [
+      "Majesty",
+      "Pact of Sea",
+      "Extra Time",
+      "Melee Parry",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Pact of Sea",
+      "Rune of Sea",
+      "Pact of Heroism",
+      "Split Second",
+      "Pact Against Elementals",
+      "Pact of Heroism"
+    ]
+  },
+  {
+    "name": "Camron",
+    "basic": [
+      "Berserk",
+      "Push",
+      "Push"
+    ],
+    "ascension": [
+      "Melee Parry",
+      "Whirlwind",
+      "Diagonal Parry",
+      "Whirlwind"
+    ],
+    "merge": [],
+    "all": [
+      "Berserk",
+      "Push",
+      "Push",
+      "Melee Parry",
+      "Whirlwind",
+      "Diagonal Parry",
+      "Whirlwind"
+    ]
+  },
+  {
+    "name": "Caraway",
+    "basic": [
+      "Cardinal Aim",
+      "Slay Lizard",
+      "Brutal Attack",
+      "Cardinal Aim",
+      "Cardinal Aim"
+    ],
+    "ascension": [
+      "Cardinal Aim",
+      "Diagonal Parry",
+      "Diagonal Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Magic Parry",
+      "Diagonal Aim"
+    ],
+    "all": [
+      "Cardinal Aim",
+      "Slay Lizard",
+      "Brutal Attack",
+      "Cardinal Aim",
+      "Cardinal Aim",
+      "Cardinal Aim",
+      "Diagonal Parry",
+      "Diagonal Parry",
+      "Split Second",
+      "Magic Parry",
+      "Diagonal Aim"
+    ]
+  },
+  {
+    "name": "Carmine",
+    "basic": [
+      "Cutlass & Flintlock",
+      "Swashbuckler",
+      "Exploit Weakness",
+      "Exploit Weakness",
+      "Crushing Blow",
+      "Stunning Strike"
+    ],
+    "ascension": [
+      "Cardinal Parry",
+      "Extra Time",
+      "Stunning Strike"
+    ],
+    "merge": [
+      "Split Second",
+      "Crushing Blow",
+      "Stunning Strike"
+    ],
+    "all": [
+      "Cutlass & Flintlock",
+      "Swashbuckler",
+      "Exploit Weakness",
+      "Exploit Weakness",
+      "Crushing Blow",
+      "Stunning Strike",
+      "Cardinal Parry",
+      "Extra Time",
+      "Stunning Strike",
+      "Split Second",
+      "Crushing Blow",
+      "Stunning Strike"
+    ]
+  },
+  {
+    "name": "Cassandra",
+    "basic": [
+      "Cardinal Parry",
+      "Melee Parry",
+      "Mighty Blow",
+      "Melee Parry",
+      "Immobilizing Strike"
+    ],
+    "ascension": [
+      "Immobilizing Strike",
+      "Mighty Blow",
+      "Rune of Earth"
+    ],
+    "merge": [
+      "Split Second",
+      "Focus",
+      "Diagonal Parry"
+    ],
+    "all": [
+      "Cardinal Parry",
+      "Melee Parry",
+      "Mighty Blow",
+      "Melee Parry",
+      "Immobilizing Strike",
+      "Immobilizing Strike",
+      "Mighty Blow",
+      "Rune of Earth",
+      "Split Second",
+      "Focus",
+      "Diagonal Parry"
+    ]
+  },
+  {
+    "name": "Cassius",
+    "basic": [
+      "Tumble",
+      "Cardinal Aim",
+      "Cardinal Aim",
+      "Cardinal Aim",
+      "Sentinel",
+      "Critical Distraction"
+    ],
+    "ascension": [
+      "Sentinel",
+      "Immune to Demoralization",
+      "Tumble"
+    ],
+    "merge": [
+      "Split Second",
+      "Tumble",
+      "Testudo"
+    ],
+    "all": [
+      "Tumble",
+      "Cardinal Aim",
+      "Cardinal Aim",
+      "Cardinal Aim",
+      "Sentinel",
+      "Critical Distraction",
+      "Sentinel",
+      "Immune to Demoralization",
+      "Tumble",
+      "Split Second",
+      "Tumble",
+      "Testudo"
+    ]
+  },
+  {
+    "name": "Celeste",
+    "basic": [
+      "Majesty",
+      "Pact of Moon",
+      "Prepare",
+      "Ranged Parry",
+      "Prepare"
+    ],
+    "ascension": [
+      "Ranged Parry",
+      "Pact Against Beasts",
+      "Rune of Moon"
+    ],
+    "merge": [
+      "Split Second",
+      "Prepare",
+      "Melee Parry"
+    ],
+    "all": [
+      "Majesty",
+      "Pact of Moon",
+      "Prepare",
+      "Ranged Parry",
+      "Prepare",
+      "Ranged Parry",
+      "Pact Against Beasts",
+      "Rune of Moon",
+      "Split Second",
+      "Prepare",
+      "Melee Parry"
+    ]
+  },
+  {
+    "name": "Chivalrous Percival",
+    "basic": [
+      "Healing Aura",
+      "Lingering Heal",
+      "Immovable",
+      "Melee Parry",
+      "Melee Parry",
+      "Mighty Blow"
+    ],
+    "ascension": [
+      "Poison Resistance",
+      "Extra Time",
+      "Critical Heal"
+    ],
+    "merge": [
+      "Split Second",
+      "Triage",
+      "Cardinal Heal"
+    ],
+    "all": [
+      "Healing Aura",
+      "Lingering Heal",
+      "Immovable",
+      "Melee Parry",
+      "Melee Parry",
+      "Mighty Blow",
+      "Poison Resistance",
+      "Extra Time",
+      "Critical Heal",
+      "Split Second",
+      "Triage",
+      "Cardinal Heal"
+    ]
+  },
+  {
+    "name": "Ciadrine",
+    "basic": [
+      "Taunt",
+      "Sentinel",
+      "Sentinel",
+      "Bloodlust",
+      "Resilient",
+      "Critical Distraction"
+    ],
+    "ascension": [
+      "Immovable",
+      "Bloodlust",
+      "Resilient"
+    ],
+    "merge": [
+      "Split Second",
+      "Poison Resistance",
+      "Rune of Sun"
+    ],
+    "all": [
+      "Taunt",
+      "Sentinel",
+      "Sentinel",
+      "Bloodlust",
+      "Resilient",
+      "Critical Distraction",
+      "Immovable",
+      "Bloodlust",
+      "Resilient",
+      "Split Second",
+      "Poison Resistance",
+      "Rune of Sun"
+    ]
+  },
+  {
+    "name": "Cindertongue",
+    "basic": [
+      "Tumble",
+      "Backstab",
+      "Backstab"
+    ],
+    "ascension": [
+      "Brutal Backstab",
+      "Brutal Backstab",
+      "Rune of Earth",
+      "Brutal Backstab"
+    ],
+    "merge": [],
+    "all": [
+      "Tumble",
+      "Backstab",
+      "Backstab",
+      "Brutal Backstab",
+      "Brutal Backstab",
+      "Rune of Earth",
+      "Brutal Backstab"
+    ]
+  },
+  {
+    "name": "Cinderwhisk",
+    "basic": [
+      "Barrier",
+      "Armor of Fire",
+      "Rune of Fire",
+      "Fleet-Footed",
+      "Resilient",
+      "Refresh"
+    ],
+    "ascension": [
+      "Immovable",
+      "Armor of Fire",
+      "Sentinel"
+    ],
+    "merge": [
+      "Split Second",
+      "Protector",
+      "Stunning Strike"
+    ],
+    "all": [
+      "Barrier",
+      "Armor of Fire",
+      "Rune of Fire",
+      "Fleet-Footed",
+      "Resilient",
+      "Refresh",
+      "Immovable",
+      "Armor of Fire",
+      "Sentinel",
+      "Split Second",
+      "Protector",
+      "Stunning Strike"
+    ]
+  },
+  {
+    "name": "Coalbone",
+    "basic": [
+      "Healing Aura",
+      "Healing Focus"
+    ],
+    "ascension": [
+      "Healing Focus",
+      "Melee Parry",
+      "Extra Time",
+      "Healing Focus"
+    ],
+    "merge": [],
+    "all": [
+      "Healing Aura",
+      "Healing Focus",
+      "Healing Focus",
+      "Melee Parry",
+      "Extra Time",
+      "Healing Focus"
+    ]
+  },
+  {
+    "name": "Coppermaw",
+    "basic": [
+      "Life Drain",
+      "Focus",
+      "Melee Parry",
+      "Melee Parry"
+    ],
+    "ascension": [
+      "Focus",
+      "Point Blank",
+      "Point Blank",
+      "Point Blank"
+    ],
+    "merge": [],
+    "all": [
+      "Life Drain",
+      "Focus",
+      "Melee Parry",
+      "Melee Parry",
+      "Focus",
+      "Point Blank",
+      "Point Blank",
+      "Point Blank"
+    ]
+  },
+  {
+    "name": "Coralgrin",
+    "basic": [
+      "Cutlass & Flintlock",
+      "Pistoleer",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Brutal Attack"
+    ],
+    "ascension": [
+      "Ranged Parry",
+      "Ranged Parry",
+      "Brutal Attack"
+    ],
+    "merge": [
+      "Split Second",
+      "Ranged Parry",
+      "Rune of Earth"
+    ],
+    "all": [
+      "Cutlass & Flintlock",
+      "Pistoleer",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Brutal Attack",
+      "Ranged Parry",
+      "Ranged Parry",
+      "Brutal Attack",
+      "Split Second",
+      "Ranged Parry",
+      "Rune of Earth"
+    ]
+  },
+  {
+    "name": "Corinne",
+    "basic": [
+      "Cutlass & Flintlock",
+      "Swashbuckler",
+      "Melee Parry",
+      "Finishing Blow",
+      "Melee Parry"
+    ],
+    "ascension": [
+      "Finishing Blow",
+      "Finishing Blow",
+      "Extra Time"
+    ],
+    "merge": [
+      "Split Second",
+      "Brutal Attack",
+      "Diagonal Parry"
+    ],
+    "all": [
+      "Cutlass & Flintlock",
+      "Swashbuckler",
+      "Melee Parry",
+      "Finishing Blow",
+      "Melee Parry",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Extra Time",
+      "Split Second",
+      "Brutal Attack",
+      "Diagonal Parry"
+    ]
+  },
+  {
+    "name": "Cragg",
+    "basic": [
+      "Meditate",
+      "Slay Construct",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Whirlwind",
+      "Whirlwind"
+    ],
+    "ascension": [
+      "Push",
+      "Fortify",
+      "Critical Attack"
+    ],
+    "merge": [
+      "Split Second",
+      "Whirlwind",
+      "Cardinal Parry"
+    ],
+    "all": [
+      "Meditate",
+      "Slay Construct",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Whirlwind",
+      "Whirlwind",
+      "Push",
+      "Fortify",
+      "Critical Attack",
+      "Split Second",
+      "Whirlwind",
+      "Cardinal Parry"
+    ]
+  },
+  {
+    "name": "Crimson",
+    "basic": [
+      "Ballistic",
+      "Prepare",
+      "Prepare",
+      "Cardinal Parry",
+      "Prepared Ignite",
+      "Stunning Strike"
+    ],
+    "ascension": [
+      "Extra Time",
+      "Immune to Disorientation",
+      "Cardinal Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Ballistic",
+      "Prepared Ignite"
+    ],
+    "all": [
+      "Ballistic",
+      "Prepare",
+      "Prepare",
+      "Cardinal Parry",
+      "Prepared Ignite",
+      "Stunning Strike",
+      "Extra Time",
+      "Immune to Disorientation",
+      "Cardinal Parry",
+      "Split Second",
+      "Ballistic",
+      "Prepared Ignite"
+    ]
+  },
+  {
+    "name": "Crystal",
+    "basic": [
+      "Meditate",
+      "Melee Parry"
+    ],
+    "ascension": [
+      "Melee Parry",
+      "Whirlwind",
+      "Rune of Sea",
+      "Whirlwind"
+    ],
+    "merge": [],
+    "all": [
+      "Meditate",
+      "Melee Parry",
+      "Melee Parry",
+      "Whirlwind",
+      "Rune of Sea",
+      "Whirlwind"
+    ]
+  },
+  {
+    "name": "Daedra",
+    "basic": [
+      "Focus",
+      "Slay Insect",
+      "Focus",
+      "Exploit Weakness",
+      "Dodge",
+      "Critical Attack: Ignite"
+    ],
+    "ascension": [
+      "Exploit Weakness",
+      "Acid Resistance",
+      "Dodge"
+    ],
+    "merge": [
+      "Split Second",
+      "Critical Attack",
+      "Finishing Blow"
+    ],
+    "all": [
+      "Focus",
+      "Slay Insect",
+      "Focus",
+      "Exploit Weakness",
+      "Dodge",
+      "Critical Attack: Ignite",
+      "Exploit Weakness",
+      "Acid Resistance",
+      "Dodge",
+      "Split Second",
+      "Critical Attack",
+      "Finishing Blow"
+    ]
+  },
+  {
+    "name": "Dahlia",
+    "basic": [
+      "Shroud",
+      "Brutal Backstab",
+      "Brutal Backstab",
+      "Diagonal Parry"
+    ],
+    "ascension": [
+      "Focus",
+      "Diagonal Parry",
+      "Diagonal Parry",
+      "Brutal Backstab"
+    ],
+    "merge": [],
+    "all": [
+      "Shroud",
+      "Brutal Backstab",
+      "Brutal Backstab",
+      "Diagonal Parry",
+      "Focus",
+      "Diagonal Parry",
+      "Diagonal Parry",
+      "Brutal Backstab"
+    ]
+  },
+  {
+    "name": "Daryl",
+    "basic": [
+      "Hamstring",
+      "Slay Undead",
+      "Sniper"
+    ],
+    "ascension": [
+      "Sniper",
+      "Extra Time",
+      "Ranged Parry",
+      "Sniper"
+    ],
+    "merge": [],
+    "all": [
+      "Hamstring",
+      "Slay Undead",
+      "Sniper",
+      "Sniper",
+      "Extra Time",
+      "Ranged Parry",
+      "Sniper"
+    ]
+  },
+  {
+    "name": "Dashing Lysander",
+    "basic": [
+      "Tumble",
+      "Whirlwind",
+      "Rend",
+      "Whirlwind",
+      "Diagonal Parry"
+    ],
+    "ascension": [
+      "Diagonal Parry",
+      "Whirlwind",
+      "Whirlwind"
+    ],
+    "merge": [
+      "Split Second",
+      "Ranged Parry",
+      "Diagonal Aim"
+    ],
+    "all": [
+      "Tumble",
+      "Whirlwind",
+      "Rend",
+      "Whirlwind",
+      "Diagonal Parry",
+      "Diagonal Parry",
+      "Whirlwind",
+      "Whirlwind",
+      "Split Second",
+      "Ranged Parry",
+      "Diagonal Aim"
+    ]
+  },
+  {
+    "name": "Dawnshimmer",
+    "basic": [
+      "Chromatic Shield",
+      "Blitz",
+      "Blitz",
+      "Poison Resistance",
+      "Extra Time",
+      "Cardinal Aim"
+    ],
+    "ascension": [
+      "Cardinal Aim",
+      "Melee Parry",
+      "Melee Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Diagonal Aim",
+      "Cardinal Parry"
+    ],
+    "all": [
+      "Chromatic Shield",
+      "Blitz",
+      "Blitz",
+      "Poison Resistance",
+      "Extra Time",
+      "Cardinal Aim",
+      "Cardinal Aim",
+      "Melee Parry",
+      "Melee Parry",
+      "Split Second",
+      "Diagonal Aim",
+      "Cardinal Parry"
+    ]
+  },
+  {
+    "name": "Deathblossom",
+    "basic": [
+      "Berserk",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Immune to Demoralization",
+      "Immune to Withering",
+      "Initiative: Heroic Blow"
+    ],
+    "ascension": [
+      "Crushing Blow",
+      "Crushing Blow",
+      "Finishing Blow"
+    ],
+    "merge": [
+      "Split Second",
+      "Critical Attack",
+      "Resurgence"
+    ],
+    "all": [
+      "Berserk",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Immune to Demoralization",
+      "Immune to Withering",
+      "Initiative: Heroic Blow",
+      "Crushing Blow",
+      "Crushing Blow",
+      "Finishing Blow",
+      "Split Second",
+      "Critical Attack",
+      "Resurgence"
+    ]
+  },
+  {
+    "name": "Dianthe",
+    "basic": [
+      "Bardic Song",
+      "Power Chord",
+      "Ranged Parry",
+      "Chord of Exploit Weakness",
+      "Rend",
+      "Bardic Song"
+    ],
+    "ascension": [
+      "Tumble",
+      "Ranged Parry",
+      "Chord of Exploit Weakness"
+    ],
+    "merge": [
+      "Split Second",
+      "Rend",
+      "Song of Fire"
+    ],
+    "all": [
+      "Bardic Song",
+      "Power Chord",
+      "Ranged Parry",
+      "Chord of Exploit Weakness",
+      "Rend",
+      "Bardic Song",
+      "Tumble",
+      "Ranged Parry",
+      "Chord of Exploit Weakness",
+      "Split Second",
+      "Rend",
+      "Song of Fire"
+    ]
+  },
+  {
+    "name": "Divine Einharl",
+    "basic": [
+      "Taunt",
+      "Resilient",
+      "Bloodlust",
+      "Resilient",
+      "Bloodlust",
+      "Unstoppable Force"
+    ],
+    "ascension": [
+      "Melee Parry",
+      "Bloodlust",
+      "Resilient"
+    ],
+    "merge": [
+      "Split Second",
+      "Bleed Resistance",
+      "Bloodlust"
+    ],
+    "all": [
+      "Taunt",
+      "Resilient",
+      "Bloodlust",
+      "Resilient",
+      "Bloodlust",
+      "Unstoppable Force",
+      "Melee Parry",
+      "Bloodlust",
+      "Resilient",
+      "Split Second",
+      "Bleed Resistance",
+      "Bloodlust"
+    ]
+  },
+  {
+    "name": "Dolin",
+    "basic": [
+      "Cardinal Aim",
+      "Raider",
+      "Slay Troll",
+      "Diagonal Aim",
+      "Diagonal Aim",
+      "Whirlwind"
+    ],
+    "ascension": [
+      "Extra Time",
+      "Fortify",
+      "Rune of Earth"
+    ],
+    "merge": [
+      "Split Second",
+      "Raider Boost",
+      "Raider Surge"
+    ],
+    "all": [
+      "Cardinal Aim",
+      "Raider",
+      "Slay Troll",
+      "Diagonal Aim",
+      "Diagonal Aim",
+      "Whirlwind",
+      "Extra Time",
+      "Fortify",
+      "Rune of Earth",
+      "Split Second",
+      "Raider Boost",
+      "Raider Surge"
+    ]
+  },
+  {
+    "name": "Dolorea",
+    "basic": [
+      "Syphon Life",
+      "Deadly Syphon",
+      "Diagonal Heal",
+      "Diagonal Heal",
+      "Finishing Blow",
+      "Bad Medicine"
+    ],
+    "ascension": [
+      "Diagonal Heal",
+      "Diagonal Heal",
+      "Resilient"
+    ],
+    "merge": [
+      "Split Second",
+      "Melee Parry",
+      "Cardinal Parry"
+    ],
+    "all": [
+      "Syphon Life",
+      "Deadly Syphon",
+      "Diagonal Heal",
+      "Diagonal Heal",
+      "Finishing Blow",
+      "Bad Medicine",
+      "Diagonal Heal",
+      "Diagonal Heal",
+      "Resilient",
+      "Split Second",
+      "Melee Parry",
+      "Cardinal Parry"
+    ]
+  },
+  {
+    "name": "Dorian",
+    "basic": [
+      "Cardinal Parry",
+      "Push"
+    ],
+    "ascension": [
+      "Push",
+      "Chromatic Shield",
+      "Rune of Sun",
+      "Rune of Sun"
+    ],
+    "merge": [],
+    "all": [
+      "Cardinal Parry",
+      "Push",
+      "Push",
+      "Chromatic Shield",
+      "Rune of Sun",
+      "Rune of Sun"
+    ]
+  },
+  {
+    "name": "Dracyian",
+    "basic": [
+      "Barrier",
+      "Armor of Moon",
+      "Cardinal Parry",
+      "Acid Resistance",
+      "Cardinal Parry",
+      "Rune of Moon"
+    ],
+    "ascension": [
+      "Prepare",
+      "Rune of Moon",
+      "Acid Resistance"
+    ],
+    "merge": [
+      "Split Second",
+      "Rune of Moon",
+      "Armor of Moon"
+    ],
+    "all": [
+      "Barrier",
+      "Armor of Moon",
+      "Cardinal Parry",
+      "Acid Resistance",
+      "Cardinal Parry",
+      "Rune of Moon",
+      "Prepare",
+      "Rune of Moon",
+      "Acid Resistance",
+      "Split Second",
+      "Rune of Moon",
+      "Armor of Moon"
+    ]
+  },
+  {
+    "name": "Draigh",
+    "basic": [
+      "Syphon Life",
+      "Deadly Syphon",
+      "Finishing Blow",
+      "Diagonal Parry",
+      "Finishing Blow",
+      "Triage"
+    ],
+    "ascension": [
+      "Poison Resistance",
+      "Triage",
+      "Blitz"
+    ],
+    "merge": [
+      "Split Second",
+      "Finishing Blow",
+      "Diagonal Heal"
+    ],
+    "all": [
+      "Syphon Life",
+      "Deadly Syphon",
+      "Finishing Blow",
+      "Diagonal Parry",
+      "Finishing Blow",
+      "Triage",
+      "Poison Resistance",
+      "Triage",
+      "Blitz",
+      "Split Second",
+      "Finishing Blow",
+      "Diagonal Heal"
+    ]
+  },
+  {
+    "name": "Drak",
+    "basic": [
+      "Trident & Net",
+      "Net Grab",
+      "Exploit Weakness",
+      "Exploit Weakness",
+      "Critical Distraction",
+      "Entangle"
+    ],
+    "ascension": [
+      "Cardinal Parry",
+      "Entangle",
+      "Ironskin"
+    ],
+    "merge": [
+      "Split Second",
+      "Immune to Taunt",
+      "Entangle"
+    ],
+    "all": [
+      "Trident & Net",
+      "Net Grab",
+      "Exploit Weakness",
+      "Exploit Weakness",
+      "Critical Distraction",
+      "Entangle",
+      "Cardinal Parry",
+      "Entangle",
+      "Ironskin",
+      "Split Second",
+      "Immune to Taunt",
+      "Entangle"
+    ]
+  },
+  {
+    "name": "Dralgion",
+    "basic": [
+      "Life Drain",
+      "Arcane Vibrations",
+      "Point Blank",
+      "Melee Parry",
+      "Melee Parry",
+      "Point Blank"
+    ],
+    "ascension": [
+      "Fire Resistance",
+      "Point Blank",
+      "Point Blank"
+    ],
+    "merge": [
+      "Split Second",
+      "Resilient",
+      "Cardinal Parry"
+    ],
+    "all": [
+      "Life Drain",
+      "Arcane Vibrations",
+      "Point Blank",
+      "Melee Parry",
+      "Melee Parry",
+      "Point Blank",
+      "Fire Resistance",
+      "Point Blank",
+      "Point Blank",
+      "Split Second",
+      "Resilient",
+      "Cardinal Parry"
+    ]
+  },
+  {
+    "name": "Dravok",
+    "basic": [
+      "Berserk",
+      "Slay Ooze",
+      "Sentinel",
+      "Sentinel",
+      "Whirlwind",
+      "Death Blow"
+    ],
+    "ascension": [
+      "Whirlwind",
+      "Poison Resistance",
+      "Immune to Stun"
+    ],
+    "merge": [
+      "Split Second",
+      "Whirlwind",
+      "Drainwhirl"
+    ],
+    "all": [
+      "Berserk",
+      "Slay Ooze",
+      "Sentinel",
+      "Sentinel",
+      "Whirlwind",
+      "Death Blow",
+      "Whirlwind",
+      "Poison Resistance",
+      "Immune to Stun",
+      "Split Second",
+      "Whirlwind",
+      "Drainwhirl"
+    ]
+  },
+  {
+    "name": "Drift",
+    "basic": [
+      "Sniper",
+      "Prepare",
+      "Prepare",
+      "Ranged Parry",
+      "Ironskin",
+      "Prepared Freeze"
+    ],
+    "ascension": [
+      "True Shot",
+      "Ranged Parry",
+      "Prepared Freeze"
+    ],
+    "merge": [
+      "Split Second",
+      "Poison Resistance",
+      "Prepared Freeze"
+    ],
+    "all": [
+      "Sniper",
+      "Prepare",
+      "Prepare",
+      "Ranged Parry",
+      "Ironskin",
+      "Prepared Freeze",
+      "True Shot",
+      "Ranged Parry",
+      "Prepared Freeze",
+      "Split Second",
+      "Poison Resistance",
+      "Prepared Freeze"
+    ]
+  },
+  {
+    "name": "Durzol",
+    "basic": [
+      "Tumble",
+      "Slay Celestial",
+      "Melee Parry",
+      "Brutal Backstab",
+      "Brutal Backstab",
+      "Weakening Backstab"
+    ],
+    "ascension": [
+      "Impunity",
+      "Melee Parry",
+      "Melee Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Life-Draining Backstab",
+      "Tumble"
+    ],
+    "all": [
+      "Tumble",
+      "Slay Celestial",
+      "Melee Parry",
+      "Brutal Backstab",
+      "Brutal Backstab",
+      "Weakening Backstab",
+      "Impunity",
+      "Melee Parry",
+      "Melee Parry",
+      "Split Second",
+      "Life-Draining Backstab",
+      "Tumble"
+    ]
+  },
+  {
+    "name": "Dusk",
+    "basic": [
+      "Cardinal Aim",
+      "Slay Ooze",
+      "Prepare",
+      "Prepare",
+      "Critical Attack",
+      "Prepared Freeze"
+    ],
+    "ascension": [
+      "Ranged Parry",
+      "Acid Resistance",
+      "Critical Attack"
+    ],
+    "merge": [
+      "Split Second",
+      "Acid Resistance",
+      "Prepared Freeze"
+    ],
+    "all": [
+      "Cardinal Aim",
+      "Slay Ooze",
+      "Prepare",
+      "Prepare",
+      "Critical Attack",
+      "Prepared Freeze",
+      "Ranged Parry",
+      "Acid Resistance",
+      "Critical Attack",
+      "Split Second",
+      "Acid Resistance",
+      "Prepared Freeze"
+    ]
+  },
+  {
+    "name": "Earthblood",
+    "basic": [
+      "Focus",
+      "Extra Time",
+      "Focus",
+      "Poison Resistance",
+      "Cardinal Parry"
+    ],
+    "ascension": [
+      "Focus",
+      "Sniper",
+      "Magic Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Brutal Attack",
+      "Ranged Parry"
+    ],
+    "all": [
+      "Focus",
+      "Extra Time",
+      "Focus",
+      "Poison Resistance",
+      "Cardinal Parry",
+      "Focus",
+      "Sniper",
+      "Magic Parry",
+      "Split Second",
+      "Brutal Attack",
+      "Ranged Parry"
+    ]
+  },
+  {
+    "name": "Ebon",
+    "basic": [
+      "Barrier",
+      "Armor of Moon",
+      "Armor of Moon",
+      "Immovable",
+      "Ironskin",
+      "Resurgence"
+    ],
+    "ascension": [
+      "Melee Parry",
+      "Extra Time",
+      "Melee Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Rune of Moon",
+      "Armor of Moon"
+    ],
+    "all": [
+      "Barrier",
+      "Armor of Moon",
+      "Armor of Moon",
+      "Immovable",
+      "Ironskin",
+      "Resurgence",
+      "Melee Parry",
+      "Extra Time",
+      "Melee Parry",
+      "Split Second",
+      "Rune of Moon",
+      "Armor of Moon"
+    ]
+  },
+  {
+    "name": "Einharl",
+    "basic": [
+      "Taunt",
+      "Resilient",
+      "Bloodlust",
+      "Resilient",
+      "Bloodlust",
+      "Unstoppable Force"
+    ],
+    "ascension": [
+      "Melee Parry",
+      "Bloodlust",
+      "Resilient"
+    ],
+    "merge": [
+      "Split Second",
+      "Bleed Resistance",
+      "Bloodlust"
+    ],
+    "all": [
+      "Taunt",
+      "Resilient",
+      "Bloodlust",
+      "Resilient",
+      "Bloodlust",
+      "Unstoppable Force",
+      "Melee Parry",
+      "Bloodlust",
+      "Resilient",
+      "Split Second",
+      "Bleed Resistance",
+      "Bloodlust"
+    ]
+  },
+  {
+    "name": "Elesha",
+    "basic": [
+      "Hamstring",
+      "Slay Insect",
+      "Rend",
+      "Rend",
+      "Mighty Blow",
+      "Dodge"
+    ],
+    "ascension": [
+      "Focus",
+      "Dodge",
+      "Mighty Blow"
+    ],
+    "merge": [
+      "Split Second",
+      "Dodge",
+      "Mighty Blow"
+    ],
+    "all": [
+      "Hamstring",
+      "Slay Insect",
+      "Rend",
+      "Rend",
+      "Mighty Blow",
+      "Dodge",
+      "Focus",
+      "Dodge",
+      "Mighty Blow",
+      "Split Second",
+      "Dodge",
+      "Mighty Blow"
+    ]
+  },
+  {
+    "name": "Elethas",
+    "basic": [
+      "Focus",
+      "Mighty Blow",
+      "Magic Parry",
+      "Magic Parry",
+      "Mighty Blow",
+      "Silencing Strike"
+    ],
+    "ascension": [
+      "Magic Parry",
+      "Mighty Blow",
+      "Immovable"
+    ],
+    "merge": [
+      "Split Second",
+      "Push",
+      "Cardinal Parry"
+    ],
+    "all": [
+      "Focus",
+      "Mighty Blow",
+      "Magic Parry",
+      "Magic Parry",
+      "Mighty Blow",
+      "Silencing Strike",
+      "Magic Parry",
+      "Mighty Blow",
+      "Immovable",
+      "Split Second",
+      "Push",
+      "Cardinal Parry"
+    ]
+  },
+  {
+    "name": "Elgar",
+    "basic": [
+      "Healing Ray",
+      "Lingering Heal",
+      "Diagonal Parry"
+    ],
+    "ascension": [
+      "Healing Focus",
+      "Healing Focus",
+      "Diagonal Parry",
+      "Diagonal Parry"
+    ],
+    "merge": [],
+    "all": [
+      "Healing Ray",
+      "Lingering Heal",
+      "Diagonal Parry",
+      "Healing Focus",
+      "Healing Focus",
+      "Diagonal Parry",
+      "Diagonal Parry"
+    ]
+  },
+  {
+    "name": "Elgroth",
+    "basic": [
+      "Berserk",
+      "Resolute",
+      "Resolute",
+      "Protector",
+      "Crushing Blow",
+      "Initiative: Quick Attack"
+    ],
+    "ascension": [
+      "Poison Resistance",
+      "Cold Resistance",
+      "Unstoppable Force"
+    ],
+    "merge": [
+      "Split Second",
+      "Whirlwind",
+      "Skirmisher"
+    ],
+    "all": [
+      "Berserk",
+      "Resolute",
+      "Resolute",
+      "Protector",
+      "Crushing Blow",
+      "Initiative: Quick Attack",
+      "Poison Resistance",
+      "Cold Resistance",
+      "Unstoppable Force",
+      "Split Second",
+      "Whirlwind",
+      "Skirmisher"
+    ]
+  },
+  {
+    "name": "Ellarion",
+    "basic": [
+      "Chromatic Shield",
+      "Whirlwind",
+      "Whirlwind",
+      "Poison Resistance",
+      "Dodge",
+      "Dodge"
+    ],
+    "ascension": [
+      "Ranged Parry",
+      "Point Blank",
+      "Rune of Fire"
+    ],
+    "merge": [
+      "Split Second",
+      "Melee Parry",
+      "Finishing Blow"
+    ],
+    "all": [
+      "Chromatic Shield",
+      "Whirlwind",
+      "Whirlwind",
+      "Poison Resistance",
+      "Dodge",
+      "Dodge",
+      "Ranged Parry",
+      "Point Blank",
+      "Rune of Fire",
+      "Split Second",
+      "Melee Parry",
+      "Finishing Blow"
+    ]
+  },
+  {
+    "name": "Ellie",
+    "basic": [
+      "Tumble",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Diagonal Aim",
+      "Diagonal Aim",
+      "Refresh"
+    ],
+    "ascension": [
+      "Death Blow",
+      "Melee Parry",
+      "Tumble"
+    ],
+    "merge": [
+      "Split Second",
+      "Tumble",
+      "Skirmisher"
+    ],
+    "all": [
+      "Tumble",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Diagonal Aim",
+      "Diagonal Aim",
+      "Refresh",
+      "Death Blow",
+      "Melee Parry",
+      "Tumble",
+      "Split Second",
+      "Tumble",
+      "Skirmisher"
+    ]
+  },
+  {
+    "name": "Elliot",
+    "basic": [
+      "Tumble",
+      "Slay Undead",
+      "Whirlwind",
+      "Backstab"
+    ],
+    "ascension": [
+      "Whirlwind",
+      "Diagonal Parry",
+      "Rune of Sun",
+      "Soul Blade"
+    ],
+    "merge": [],
+    "all": [
+      "Tumble",
+      "Slay Undead",
+      "Whirlwind",
+      "Backstab",
+      "Whirlwind",
+      "Diagonal Parry",
+      "Rune of Sun",
+      "Soul Blade"
+    ]
+  },
+  {
+    "name": "Elmenora",
+    "basic": [
+      "Tumble",
+      "Backstab",
+      "Melee Parry",
+      "Melee Parry",
+      "Melee Parry",
+      "Life-Draining Backstab"
+    ],
+    "ascension": [
+      "Melee Parry",
+      "Life-Draining Backstab",
+      "Tumble"
+    ],
+    "merge": [
+      "Split Second",
+      "Tumble",
+      "Life-Draining Backstab"
+    ],
+    "all": [
+      "Tumble",
+      "Backstab",
+      "Melee Parry",
+      "Melee Parry",
+      "Melee Parry",
+      "Life-Draining Backstab",
+      "Melee Parry",
+      "Life-Draining Backstab",
+      "Tumble",
+      "Split Second",
+      "Tumble",
+      "Life-Draining Backstab"
+    ]
+  },
+  {
+    "name": "Elora",
+    "basic": [
+      "Cardinal Parry",
+      "Rend",
+      "Armor of Blood",
+      "Chromatic Shield",
+      "Bleed Resistance",
+      "Armor of Blood"
+    ],
+    "ascension": [
+      "Prepare",
+      "Prepare",
+      "Prepared Rupture"
+    ],
+    "merge": [
+      "Split Second",
+      "Brutal Attack",
+      "Rend"
+    ],
+    "all": [
+      "Cardinal Parry",
+      "Rend",
+      "Armor of Blood",
+      "Chromatic Shield",
+      "Bleed Resistance",
+      "Armor of Blood",
+      "Prepare",
+      "Prepare",
+      "Prepared Rupture",
+      "Split Second",
+      "Brutal Attack",
+      "Rend"
+    ]
+  },
+  {
+    "name": "Embera",
+    "basic": [
+      "Trident & Net",
+      "Net Grab",
+      "Critical Attack",
+      "Critical Attack",
+      "Favored Odds",
+      "Entangle"
+    ],
+    "ascension": [
+      "Resilient",
+      "Entangle",
+      "Immovable"
+    ],
+    "merge": [
+      "Split Second",
+      "Immune to Taunt",
+      "Entangle"
+    ],
+    "all": [
+      "Trident & Net",
+      "Net Grab",
+      "Critical Attack",
+      "Critical Attack",
+      "Favored Odds",
+      "Entangle",
+      "Resilient",
+      "Entangle",
+      "Immovable",
+      "Split Second",
+      "Immune to Taunt",
+      "Entangle"
+    ]
+  },
+  {
+    "name": "Emberheart",
+    "basic": [
+      "Chromatic Shield",
+      "Magic Parry"
+    ],
+    "ascension": [
+      "Magic Parry",
+      "Extra Time",
+      "Sniper",
+      "Sniper"
+    ],
+    "merge": [],
+    "all": [
+      "Chromatic Shield",
+      "Magic Parry",
+      "Magic Parry",
+      "Extra Time",
+      "Sniper",
+      "Sniper"
+    ]
+  },
+  {
+    "name": "Emeraldcrown",
+    "basic": [
+      "Majesty",
+      "Pact of Earth",
+      "Focus",
+      "Venom",
+      "Focus"
+    ],
+    "ascension": [
+      "Immobilizing Strike",
+      "Pact Against Undead",
+      "Rune of Earth"
+    ],
+    "merge": [
+      "Split Second",
+      "Diagonal Aim",
+      "Magic Parry"
+    ],
+    "all": [
+      "Majesty",
+      "Pact of Earth",
+      "Focus",
+      "Venom",
+      "Focus",
+      "Immobilizing Strike",
+      "Pact Against Undead",
+      "Rune of Earth",
+      "Split Second",
+      "Diagonal Aim",
+      "Magic Parry"
+    ]
+  },
+  {
+    "name": "Emeray",
+    "basic": [
+      "Berserk",
+      "Raider",
+      "Slay Construct",
+      "Magic Parry",
+      "Magic Parry"
+    ],
+    "ascension": [
+      "Critical Attack",
+      "Critical Attack",
+      "Whirlwind"
+    ],
+    "merge": [
+      "Split Second",
+      "Whirlwind",
+      "Raider Boost"
+    ],
+    "all": [
+      "Berserk",
+      "Raider",
+      "Slay Construct",
+      "Magic Parry",
+      "Magic Parry",
+      "Critical Attack",
+      "Critical Attack",
+      "Whirlwind",
+      "Split Second",
+      "Whirlwind",
+      "Raider Boost"
+    ]
+  },
+  {
+    "name": "Emory",
+    "basic": [
+      "Healing Ray",
+      "Lingering Heal",
+      "Extra Time",
+      "Bleed Resistance",
+      "Ranged Parry",
+      "Silencing Strike"
+    ],
+    "ascension": [
+      "Healing Touch",
+      "Ranged Parry",
+      "Healing Focus"
+    ],
+    "merge": [
+      "Split Second",
+      "Immune to Silence",
+      "Healing Focus"
+    ],
+    "all": [
+      "Healing Ray",
+      "Lingering Heal",
+      "Extra Time",
+      "Bleed Resistance",
+      "Ranged Parry",
+      "Silencing Strike",
+      "Healing Touch",
+      "Ranged Parry",
+      "Healing Focus",
+      "Split Second",
+      "Immune to Silence",
+      "Healing Focus"
+    ]
+  },
+  {
+    "name": "Farris",
+    "basic": [
+      "Regrowth",
+      "Natural Harmony",
+      "Diagonal Parry",
+      "Diagonal Parry",
+      "Silencing Strike"
+    ],
+    "ascension": [
+      "Venom",
+      "Diagonal Parry",
+      "Poison Resistance"
+    ],
+    "merge": [
+      "Split Second",
+      "Ranged Parry",
+      "Silencing Strike"
+    ],
+    "all": [
+      "Regrowth",
+      "Natural Harmony",
+      "Diagonal Parry",
+      "Diagonal Parry",
+      "Silencing Strike",
+      "Venom",
+      "Diagonal Parry",
+      "Poison Resistance",
+      "Split Second",
+      "Ranged Parry",
+      "Silencing Strike"
+    ]
+  },
+  {
+    "name": "Fawke",
+    "basic": [
+      "Cutlass & Flintlock",
+      "Raider",
+      "Swashbuckler",
+      "Slay Celestial",
+      "Critical Attack",
+      "Critical Attack"
+    ],
+    "ascension": [
+      "Dodge",
+      "Dodge",
+      "Rune of Moon"
+    ],
+    "merge": [
+      "Split Second",
+      "Raider Boost",
+      "Raider Surge"
+    ],
+    "all": [
+      "Cutlass & Flintlock",
+      "Raider",
+      "Swashbuckler",
+      "Slay Celestial",
+      "Critical Attack",
+      "Critical Attack",
+      "Dodge",
+      "Dodge",
+      "Rune of Moon",
+      "Split Second",
+      "Raider Boost",
+      "Raider Surge"
+    ]
+  },
+  {
+    "name": "Fayra",
+    "basic": [
+      "Cardinal Parry",
+      "Mighty Blow",
+      "Resolute",
+      "Protector",
+      "Ironskin",
+      "Aura of Immobilize"
+    ],
+    "ascension": [
+      "Poison Resistance",
+      "Resolute",
+      "Aura of Immobilize"
+    ],
+    "merge": [
+      "Split Second",
+      "Protector",
+      "Aura of Immobilize"
+    ],
+    "all": [
+      "Cardinal Parry",
+      "Mighty Blow",
+      "Resolute",
+      "Protector",
+      "Ironskin",
+      "Aura of Immobilize",
+      "Poison Resistance",
+      "Resolute",
+      "Aura of Immobilize",
+      "Split Second",
+      "Protector",
+      "Aura of Immobilize"
+    ]
+  },
+  {
+    "name": "Fenreap",
+    "basic": [
+      "Cardinal Aim",
+      "Slay Beast",
+      "Point Blank",
+      "Point Blank",
+      "Point Blank",
+      "Melee Parry"
+    ],
+    "ascension": [
+      "Fortify",
+      "Finishing Blow",
+      "Prepare"
+    ],
+    "merge": [
+      "Split Second",
+      "Finishing Blow",
+      "Prepare"
+    ],
+    "all": [
+      "Cardinal Aim",
+      "Slay Beast",
+      "Point Blank",
+      "Point Blank",
+      "Point Blank",
+      "Melee Parry",
+      "Fortify",
+      "Finishing Blow",
+      "Prepare",
+      "Split Second",
+      "Finishing Blow",
+      "Prepare"
+    ]
+  },
+  {
+    "name": "Fenris",
+    "basic": [
+      "Cardinal Aim",
+      "Slay Elemental",
+      "Point Blank",
+      "Point Blank",
+      "Point Blank",
+      "Melee Parry"
+    ],
+    "ascension": [
+      "Fortify",
+      "Finishing Blow",
+      "Prepare"
+    ],
+    "merge": [
+      "Split Second",
+      "Finishing Blow",
+      "Prepare"
+    ],
+    "all": [
+      "Cardinal Aim",
+      "Slay Elemental",
+      "Point Blank",
+      "Point Blank",
+      "Point Blank",
+      "Melee Parry",
+      "Fortify",
+      "Finishing Blow",
+      "Prepare",
+      "Split Second",
+      "Finishing Blow",
+      "Prepare"
+    ]
+  },
+  {
+    "name": "Fimbryn",
+    "basic": [
+      "Meditate",
+      "Blitz",
+      "Blitz",
+      "Blitz",
+      "Blitz",
+      "Inner Peace"
+    ],
+    "ascension": [
+      "Inner Peace",
+      "Inner Peace",
+      "Inner Peace"
+    ],
+    "merge": [
+      "Split Second",
+      "Melee Parry",
+      "Inner Peace"
+    ],
+    "all": [
+      "Meditate",
+      "Blitz",
+      "Blitz",
+      "Blitz",
+      "Blitz",
+      "Inner Peace",
+      "Inner Peace",
+      "Inner Peace",
+      "Inner Peace",
+      "Split Second",
+      "Melee Parry",
+      "Inner Peace"
+    ]
+  },
+  {
+    "name": "Firesoul",
+    "basic": [
+      "Chromatic Shield",
+      "Prepare",
+      "Prepare",
+      "Aura of Fire",
+      "Prepared Ignite",
+      "Prepared Ignite"
+    ],
+    "ascension": [
+      "Fire Resistance",
+      "Rune of Fire",
+      "Rune of Fire"
+    ],
+    "merge": [
+      "Split Second",
+      "Magic Parry",
+      "Rune of Fire"
+    ],
+    "all": [
+      "Chromatic Shield",
+      "Prepare",
+      "Prepare",
+      "Aura of Fire",
+      "Prepared Ignite",
+      "Prepared Ignite",
+      "Fire Resistance",
+      "Rune of Fire",
+      "Rune of Fire",
+      "Split Second",
+      "Magic Parry",
+      "Rune of Fire"
+    ]
+  },
+  {
+    "name": "Flamescale",
+    "basic": [
+      "Cardinal Parry",
+      "Protector",
+      "Push",
+      "Push",
+      "Immovable",
+      "Cardinal Parry"
+    ],
+    "ascension": [
+      "Push",
+      "Extra Time",
+      "Push"
+    ],
+    "merge": [
+      "Split Second",
+      "Diagonal Parry",
+      "Protector"
+    ],
+    "all": [
+      "Cardinal Parry",
+      "Protector",
+      "Push",
+      "Push",
+      "Immovable",
+      "Cardinal Parry",
+      "Push",
+      "Extra Time",
+      "Push",
+      "Split Second",
+      "Diagonal Parry",
+      "Protector"
+    ]
+  },
+  {
+    "name": "Flare",
+    "basic": [
+      "Focus",
+      "Focus",
+      "Critical Attack",
+      "Critical Attack",
+      "Fortify",
+      "Dazzling"
+    ],
+    "ascension": [
+      "Focus",
+      "Magic Parry",
+      "Rune of Sun"
+    ],
+    "merge": [
+      "Split Second",
+      "Critical Attack",
+      "Finishing Blow"
+    ],
+    "all": [
+      "Focus",
+      "Focus",
+      "Critical Attack",
+      "Critical Attack",
+      "Fortify",
+      "Dazzling",
+      "Focus",
+      "Magic Parry",
+      "Rune of Sun",
+      "Split Second",
+      "Critical Attack",
+      "Finishing Blow"
+    ]
+  },
+  {
+    "name": "Flicker",
+    "basic": [
+      "Trident & Net",
+      "Net Grab",
+      "Melee Parry",
+      "Melee Parry",
+      "Crushing Blow",
+      "Entangle"
+    ],
+    "ascension": [
+      "Rend",
+      "Entangle",
+      "Ironskin"
+    ],
+    "merge": [
+      "Split Second",
+      "Immune to Taunt",
+      "Entangle"
+    ],
+    "all": [
+      "Trident & Net",
+      "Net Grab",
+      "Melee Parry",
+      "Melee Parry",
+      "Crushing Blow",
+      "Entangle",
+      "Rend",
+      "Entangle",
+      "Ironskin",
+      "Split Second",
+      "Immune to Taunt",
+      "Entangle"
+    ]
+  },
+  {
+    "name": "Flint",
+    "basic": [
+      "Hamstring",
+      "Slay Beast",
+      "Venom",
+      "Venom",
+      "Poison Resistance",
+      "Toxic Exposure"
+    ],
+    "ascension": [
+      "Poison Resistance",
+      "Resolute",
+      "Rend"
+    ],
+    "merge": [
+      "Split Second",
+      "Resolute",
+      "Mighty Blow"
+    ],
+    "all": [
+      "Hamstring",
+      "Slay Beast",
+      "Venom",
+      "Venom",
+      "Poison Resistance",
+      "Toxic Exposure",
+      "Poison Resistance",
+      "Resolute",
+      "Rend",
+      "Split Second",
+      "Resolute",
+      "Mighty Blow"
+    ]
+  },
+  {
+    "name": "Floralgrin",
+    "basic": [
+      "Cutlass & Flintlock",
+      "Pistoleer",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Brutal Attack"
+    ],
+    "ascension": [
+      "Ranged Parry",
+      "Ranged Parry",
+      "Brutal Attack"
+    ],
+    "merge": [
+      "Split Second",
+      "Ranged Parry",
+      "Rune of Sea"
+    ],
+    "all": [
+      "Cutlass & Flintlock",
+      "Pistoleer",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Brutal Attack",
+      "Ranged Parry",
+      "Ranged Parry",
+      "Brutal Attack",
+      "Split Second",
+      "Ranged Parry",
+      "Rune of Sea"
+    ]
+  },
+  {
+    "name": "Frida",
+    "basic": [
+      "Chromatic Shield",
+      "Prepare",
+      "Extra Time",
+      "Prepare"
+    ],
+    "ascension": [
+      "Whirlwind",
+      "Ranged Parry",
+      "Ranged Parry",
+      "Whirlwind"
+    ],
+    "merge": [],
+    "all": [
+      "Chromatic Shield",
+      "Prepare",
+      "Extra Time",
+      "Prepare",
+      "Whirlwind",
+      "Ranged Parry",
+      "Ranged Parry",
+      "Whirlwind"
+    ]
+  },
+  {
+    "name": "Frostgar",
+    "basic": [
+      "Berserk",
+      "Melee Parry",
+      "Cold Resistance",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Melee Parry"
+    ],
+    "ascension": [
+      "Protector",
+      "Rune of Earth",
+      "Whirlwind"
+    ],
+    "merge": [
+      "Split Second",
+      "Mighty Blow",
+      "Whirlwind"
+    ],
+    "all": [
+      "Berserk",
+      "Melee Parry",
+      "Cold Resistance",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Melee Parry",
+      "Protector",
+      "Rune of Earth",
+      "Whirlwind",
+      "Split Second",
+      "Mighty Blow",
+      "Whirlwind"
+    ]
+  },
+  {
+    "name": "Fulgrin",
+    "basic": [
+      "Cutlass & Flintlock",
+      "Pistoleer",
+      "Skirmisher",
+      "Melee Parry",
+      "Melee Parry",
+      "Prepare"
+    ],
+    "ascension": [
+      "Prepare",
+      "Push",
+      "Prepare"
+    ],
+    "merge": [
+      "Split Second",
+      "Push",
+      "Fortify"
+    ],
+    "all": [
+      "Cutlass & Flintlock",
+      "Pistoleer",
+      "Skirmisher",
+      "Melee Parry",
+      "Melee Parry",
+      "Prepare",
+      "Prepare",
+      "Push",
+      "Prepare",
+      "Split Second",
+      "Push",
+      "Fortify"
+    ]
+  },
+  {
+    "name": "Furia",
+    "basic": [
+      "Cardinal Parry",
+      "Slay Sylvan",
+      "Melee Parry",
+      "Melee Parry",
+      "Rend"
+    ],
+    "ascension": [
+      "Rend",
+      "Rend",
+      "Focus"
+    ],
+    "merge": [
+      "Split Second",
+      "Brutal Attack",
+      "Diagonal Parry"
+    ],
+    "all": [
+      "Cardinal Parry",
+      "Slay Sylvan",
+      "Melee Parry",
+      "Melee Parry",
+      "Rend",
+      "Rend",
+      "Rend",
+      "Focus",
+      "Split Second",
+      "Brutal Attack",
+      "Diagonal Parry"
+    ]
+  },
+  {
+    "name": "Garnabur",
+    "basic": [
+      "Regrowth",
+      "Natural Harmony",
+      "Cardinal Parry",
+      "Cardinal Parry",
+      "Pacify Beasts",
+      "Initiative: Cure Poison"
+    ],
+    "ascension": [
+      "Poison Resistance",
+      "Extra Time",
+      "Immune to Silence"
+    ],
+    "merge": [
+      "Split Second",
+      "Venom",
+      "Foresight"
+    ],
+    "all": [
+      "Regrowth",
+      "Natural Harmony",
+      "Cardinal Parry",
+      "Cardinal Parry",
+      "Pacify Beasts",
+      "Initiative: Cure Poison",
+      "Poison Resistance",
+      "Extra Time",
+      "Immune to Silence",
+      "Split Second",
+      "Venom",
+      "Foresight"
+    ]
+  },
+  {
+    "name": "Genert",
+    "basic": [
+      "Healing Ray",
+      "Lingering Heal",
+      "Mighty Blow",
+      "Steady Heal",
+      "Cardinal Parry",
+      "Cardinal Parry"
+    ],
+    "ascension": [
+      "Steady Heal",
+      "Extra Time",
+      "Steady Heal"
+    ],
+    "merge": [
+      "Split Second",
+      "Triage",
+      "Steady Heal"
+    ],
+    "all": [
+      "Healing Ray",
+      "Lingering Heal",
+      "Mighty Blow",
+      "Steady Heal",
+      "Cardinal Parry",
+      "Cardinal Parry",
+      "Steady Heal",
+      "Extra Time",
+      "Steady Heal",
+      "Split Second",
+      "Triage",
+      "Steady Heal"
+    ]
+  },
+  {
+    "name": "Geraint",
+    "basic": [
+      "Cardinal Parry",
+      "Push",
+      "Ranged Parry",
+      "Ranged Parry"
+    ],
+    "ascension": [
+      "Push",
+      "Mighty Blow",
+      "Extra Time",
+      "Mighty Blow"
+    ],
+    "merge": [],
+    "all": [
+      "Cardinal Parry",
+      "Push",
+      "Ranged Parry",
+      "Ranged Parry",
+      "Push",
+      "Mighty Blow",
+      "Extra Time",
+      "Mighty Blow"
+    ]
+  },
+  {
+    "name": "Gharn",
+    "basic": [
+      "Cardinal Aim",
+      "Slay Beast",
+      "Brutal Attack",
+      "Point Blank",
+      "Point Blank"
+    ],
+    "ascension": [
+      "Venom",
+      "Melee Parry",
+      "Melee Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Diagonal Parry",
+      "Sniper"
+    ],
+    "all": [
+      "Cardinal Aim",
+      "Slay Beast",
+      "Brutal Attack",
+      "Point Blank",
+      "Point Blank",
+      "Venom",
+      "Melee Parry",
+      "Melee Parry",
+      "Split Second",
+      "Diagonal Parry",
+      "Sniper"
+    ]
+  },
+  {
+    "name": "Ghastly Cragg",
+    "basic": [
+      "Meditate",
+      "Slay Construct",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Whirlwind",
+      "Whirlwind"
+    ],
+    "ascension": [
+      "Push",
+      "Fortify",
+      "Critical Attack"
+    ],
+    "merge": [
+      "Split Second",
+      "Whirlwind",
+      "Cardinal Parry"
+    ],
+    "all": [
+      "Meditate",
+      "Slay Construct",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Whirlwind",
+      "Whirlwind",
+      "Push",
+      "Fortify",
+      "Critical Attack",
+      "Split Second",
+      "Whirlwind",
+      "Cardinal Parry"
+    ]
+  },
+  {
+    "name": "Giana",
+    "basic": [
+      "Taunt",
+      "Resilient",
+      "Resilient",
+      "Chromatic Shield"
+    ],
+    "ascension": [
+      "Bloodlust",
+      "Bloodlust",
+      "Bloodlust",
+      "Resilient"
+    ],
+    "merge": [],
+    "all": [
+      "Taunt",
+      "Resilient",
+      "Resilient",
+      "Chromatic Shield",
+      "Bloodlust",
+      "Bloodlust",
+      "Bloodlust",
+      "Resilient"
+    ]
+  },
+  {
+    "name": "Gleam",
+    "basic": [
+      "Shroud",
+      "Raider",
+      "Slay Ooze",
+      "Exploit Weakness",
+      "Exploit Weakness",
+      "Dodge"
+    ],
+    "ascension": [
+      "Rune of Sun",
+      "Dodge",
+      "Acid Resistance"
+    ],
+    "merge": [
+      "Split Second",
+      "Raider Boost",
+      "Raider Surge"
+    ],
+    "all": [
+      "Shroud",
+      "Raider",
+      "Slay Ooze",
+      "Exploit Weakness",
+      "Exploit Weakness",
+      "Dodge",
+      "Rune of Sun",
+      "Dodge",
+      "Acid Resistance",
+      "Split Second",
+      "Raider Boost",
+      "Raider Surge"
+    ]
+  },
+  {
+    "name": "Glimmer",
+    "basic": [
+      "Cardinal Aim",
+      "Slay Beast",
+      "Bleed Resistance",
+      "Prepare",
+      "Prepare",
+      "Prepared Rupture"
+    ],
+    "ascension": [
+      "Melee Parry",
+      "Melee Parry",
+      "Rune of Sun"
+    ],
+    "merge": [
+      "Split Second",
+      "Rune of Sun",
+      "Prepared Rupture"
+    ],
+    "all": [
+      "Cardinal Aim",
+      "Slay Beast",
+      "Bleed Resistance",
+      "Prepare",
+      "Prepare",
+      "Prepared Rupture",
+      "Melee Parry",
+      "Melee Parry",
+      "Rune of Sun",
+      "Split Second",
+      "Rune of Sun",
+      "Prepared Rupture"
+    ]
+  },
+  {
+    "name": "Gloom",
+    "basic": [
+      "Tumble",
+      "Skirmisher",
+      "Diagonal Parry",
+      "Extra Time",
+      "Grappling Hook",
+      "Grappling Hook"
+    ],
+    "ascension": [
+      "High Ground",
+      "Brutal Backstab",
+      "Tumble"
+    ],
+    "merge": [
+      "Split Second",
+      "Tumble",
+      "Finishing Blow"
+    ],
+    "all": [
+      "Tumble",
+      "Skirmisher",
+      "Diagonal Parry",
+      "Extra Time",
+      "Grappling Hook",
+      "Grappling Hook",
+      "High Ground",
+      "Brutal Backstab",
+      "Tumble",
+      "Split Second",
+      "Tumble",
+      "Finishing Blow"
+    ]
+  },
+  {
+    "name": "Gobar",
+    "basic": [
+      "Sniper",
+      "Sniper",
+      "Push",
+      "Brutal Attack",
+      "Brutal Attack"
+    ],
+    "ascension": [
+      "Brutal Attack",
+      "Melee Parry",
+      "Sniper"
+    ],
+    "merge": [
+      "Split Second",
+      "Ranged Parry",
+      "Push"
+    ],
+    "all": [
+      "Sniper",
+      "Sniper",
+      "Push",
+      "Brutal Attack",
+      "Brutal Attack",
+      "Brutal Attack",
+      "Melee Parry",
+      "Sniper",
+      "Split Second",
+      "Ranged Parry",
+      "Push"
+    ]
+  },
+  {
+    "name": "Golarg",
+    "basic": [
+      "Cutlass & Flintlock",
+      "Swashbuckler",
+      "Slay Dragon",
+      "Immune to Stun",
+      "Blitz",
+      "Blitz"
+    ],
+    "ascension": [
+      "Fortify",
+      "Brutal Attack",
+      "Blitz"
+    ],
+    "merge": [
+      "Split Second",
+      "Critical Attack",
+      "Whirlwind"
+    ],
+    "all": [
+      "Cutlass & Flintlock",
+      "Swashbuckler",
+      "Slay Dragon",
+      "Immune to Stun",
+      "Blitz",
+      "Blitz",
+      "Fortify",
+      "Brutal Attack",
+      "Blitz",
+      "Split Second",
+      "Critical Attack",
+      "Whirlwind"
+    ]
+  },
+  {
+    "name": "Goldclaw",
+    "basic": [
+      "Healing Aura",
+      "Healing Wave",
+      "Slay Undead",
+      "Critical Heal",
+      "Flank"
+    ],
+    "ascension": [
+      "Ranged Parry",
+      "Ranged Parry",
+      "Healing Wave"
+    ],
+    "merge": [
+      "Split Second",
+      "Prepare",
+      "Triage"
+    ],
+    "all": [
+      "Healing Aura",
+      "Healing Wave",
+      "Slay Undead",
+      "Critical Heal",
+      "Flank",
+      "Ranged Parry",
+      "Ranged Parry",
+      "Healing Wave",
+      "Split Second",
+      "Prepare",
+      "Triage"
+    ]
+  },
+  {
+    "name": "Golden Lyra",
+    "basic": [
+      "Cardinal Parry",
+      "Immovable",
+      "Bleed Resistance",
+      "Poison Resistance",
+      "Cardinal Parry",
+      "Demoralizing Strike"
+    ],
+    "ascension": [
+      "Demoralizing Strike",
+      "Magic Parry",
+      "Demoralizing Strike"
+    ],
+    "merge": [
+      "Split Second",
+      "Bleed Resistance",
+      "Protector"
+    ],
+    "all": [
+      "Cardinal Parry",
+      "Immovable",
+      "Bleed Resistance",
+      "Poison Resistance",
+      "Cardinal Parry",
+      "Demoralizing Strike",
+      "Demoralizing Strike",
+      "Magic Parry",
+      "Demoralizing Strike",
+      "Split Second",
+      "Bleed Resistance",
+      "Protector"
+    ]
+  },
+  {
+    "name": "Gorenag",
+    "basic": [
+      "Sniper",
+      "Slay Beast",
+      "Fortify",
+      "Point Blank",
+      "Point Blank",
+      "Melee Parry"
+    ],
+    "ascension": [
+      "Point Blank",
+      "Melee Parry",
+      "Point Blank"
+    ],
+    "merge": [
+      "Split Second",
+      "Rune of Fire",
+      "Point Blank"
+    ],
+    "all": [
+      "Sniper",
+      "Slay Beast",
+      "Fortify",
+      "Point Blank",
+      "Point Blank",
+      "Melee Parry",
+      "Point Blank",
+      "Melee Parry",
+      "Point Blank",
+      "Split Second",
+      "Rune of Fire",
+      "Point Blank"
+    ]
+  },
+  {
+    "name": "Gork",
+    "basic": [
+      "Meditate",
+      "Water Walker",
+      "Melee Parry",
+      "Melee Parry",
+      "Protector"
+    ],
+    "ascension": [
+      "Melee Parry",
+      "Protector",
+      "Whirlwind"
+    ],
+    "merge": [
+      "Split Second",
+      "Whirlwind",
+      "Ranged Parry"
+    ],
+    "all": [
+      "Meditate",
+      "Water Walker",
+      "Melee Parry",
+      "Melee Parry",
+      "Protector",
+      "Melee Parry",
+      "Protector",
+      "Whirlwind",
+      "Split Second",
+      "Whirlwind",
+      "Ranged Parry"
+    ]
+  },
+  {
+    "name": "Gragnag",
+    "basic": [
+      "Sniper",
+      "Slay Beast",
+      "Fortify",
+      "Point Blank",
+      "Point Blank",
+      "Melee Parry"
+    ],
+    "ascension": [
+      "Point Blank",
+      "Melee Parry",
+      "Point Blank"
+    ],
+    "merge": [
+      "Split Second",
+      "Rune of Earth",
+      "Point Blank"
+    ],
+    "all": [
+      "Sniper",
+      "Slay Beast",
+      "Fortify",
+      "Point Blank",
+      "Point Blank",
+      "Melee Parry",
+      "Point Blank",
+      "Melee Parry",
+      "Point Blank",
+      "Split Second",
+      "Rune of Earth",
+      "Point Blank"
+    ]
+  },
+  {
+    "name": "Greymoon",
+    "basic": [
+      "Tumble",
+      "Slay Insect",
+      "Backstab",
+      "Fortify",
+      "Backstab"
+    ],
+    "ascension": [
+      "Brutal Backstab",
+      "Diagonal Aim",
+      "Diagonal Aim"
+    ],
+    "merge": [
+      "Split Second",
+      "Brutal Backstab",
+      "Diagonal Parry"
+    ],
+    "all": [
+      "Tumble",
+      "Slay Insect",
+      "Backstab",
+      "Fortify",
+      "Backstab",
+      "Brutal Backstab",
+      "Diagonal Aim",
+      "Diagonal Aim",
+      "Split Second",
+      "Brutal Backstab",
+      "Diagonal Parry"
+    ]
+  },
+  {
+    "name": "Grim Griselda",
+    "basic": [
+      "Shroud",
+      "Backstab",
+      "Brutal Backstab",
+      "Brutal Attack",
+      "Brutal Attack",
+      "Brutal Attack"
+    ],
+    "ascension": [
+      "Finishing Blow",
+      "Rune of Moon",
+      "Melee Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Bleed Resistance",
+      "Melee Parry"
+    ],
+    "all": [
+      "Shroud",
+      "Backstab",
+      "Brutal Backstab",
+      "Brutal Attack",
+      "Brutal Attack",
+      "Brutal Attack",
+      "Finishing Blow",
+      "Rune of Moon",
+      "Melee Parry",
+      "Split Second",
+      "Bleed Resistance",
+      "Melee Parry"
+    ]
+  },
+  {
+    "name": "Grimfang",
+    "basic": [
+      "Cutlass & Flintlock",
+      "Pistoleer",
+      "Rune of Moon",
+      "Cardinal Parry",
+      "Refresh"
+    ],
+    "ascension": [
+      "Extra Time",
+      "Blitz",
+      "Resilient"
+    ],
+    "merge": [
+      "Split Second",
+      "Critical Attack",
+      "Blitz"
+    ],
+    "all": [
+      "Cutlass & Flintlock",
+      "Pistoleer",
+      "Rune of Moon",
+      "Cardinal Parry",
+      "Refresh",
+      "Extra Time",
+      "Blitz",
+      "Resilient",
+      "Split Second",
+      "Critical Attack",
+      "Blitz"
+    ]
+  },
+  {
+    "name": "Grimholt",
+    "basic": [
+      "Focus",
+      "Ranged Parry",
+      "Venom",
+      "Venom",
+      "Ranged Parry",
+      "Focus"
+    ],
+    "ascension": [
+      "Poison Resistance",
+      "Prepare",
+      "Prepare"
+    ],
+    "merge": [
+      "Split Second",
+      "Diagonal Parry",
+      "Finishing Blow"
+    ],
+    "all": [
+      "Focus",
+      "Ranged Parry",
+      "Venom",
+      "Venom",
+      "Ranged Parry",
+      "Focus",
+      "Poison Resistance",
+      "Prepare",
+      "Prepare",
+      "Split Second",
+      "Diagonal Parry",
+      "Finishing Blow"
+    ]
+  },
+  {
+    "name": "Grimmor",
+    "basic": [
+      "Berserk",
+      "Rend",
+      "Rend",
+      "Whirlwind"
+    ],
+    "ascension": [
+      "Melee Parry",
+      "Melee Parry",
+      "Whirlwind",
+      "Slay Ooze"
+    ],
+    "merge": [],
+    "all": [
+      "Berserk",
+      "Rend",
+      "Rend",
+      "Whirlwind",
+      "Melee Parry",
+      "Melee Parry",
+      "Whirlwind",
+      "Slay Ooze"
+    ]
+  },
+  {
+    "name": "Grincholt",
+    "basic": [
+      "Focus",
+      "Ranged Parry",
+      "Venom",
+      "Venom",
+      "Ranged Parry",
+      "Focus"
+    ],
+    "ascension": [
+      "Poison Resistance",
+      "Prepare",
+      "Prepare"
+    ],
+    "merge": [
+      "Split Second",
+      "Diagonal Parry",
+      "Finishing Blow"
+    ],
+    "all": [
+      "Focus",
+      "Ranged Parry",
+      "Venom",
+      "Venom",
+      "Ranged Parry",
+      "Focus",
+      "Poison Resistance",
+      "Prepare",
+      "Prepare",
+      "Split Second",
+      "Diagonal Parry",
+      "Finishing Blow"
+    ]
+  },
+  {
+    "name": "Griselda",
+    "basic": [
+      "Shroud",
+      "Backstab",
+      "Brutal Backstab",
+      "Brutal Attack",
+      "Brutal Attack",
+      "Brutal Attack"
+    ],
+    "ascension": [
+      "Finishing Blow",
+      "Rune of Sun",
+      "Melee Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Bleed Resistance",
+      "Melee Parry"
+    ],
+    "all": [
+      "Shroud",
+      "Backstab",
+      "Brutal Backstab",
+      "Brutal Attack",
+      "Brutal Attack",
+      "Brutal Attack",
+      "Finishing Blow",
+      "Rune of Sun",
+      "Melee Parry",
+      "Split Second",
+      "Bleed Resistance",
+      "Melee Parry"
+    ]
+  },
+  {
+    "name": "Grognard",
+    "basic": [
+      "Cutlass & Flintlock",
+      "Swashbuckler",
+      "Grappling Hook",
+      "High Ground",
+      "Critical Attack",
+      "Fortify"
+    ],
+    "ascension": [
+      "Cardinal Aim",
+      "Melee Parry",
+      "Grappling Hook"
+    ],
+    "merge": [
+      "Split Second",
+      "Cardinal Aim",
+      "Fortify"
+    ],
+    "all": [
+      "Cutlass & Flintlock",
+      "Swashbuckler",
+      "Grappling Hook",
+      "High Ground",
+      "Critical Attack",
+      "Fortify",
+      "Cardinal Aim",
+      "Melee Parry",
+      "Grappling Hook",
+      "Split Second",
+      "Cardinal Aim",
+      "Fortify"
+    ]
+  },
+  {
+    "name": "Gronn",
+    "basic": [
+      "Sniper",
+      "Slay Demon",
+      "Prepare",
+      "Prepare",
+      "Magic Parry"
+    ],
+    "ascension": [
+      "Magic Parry",
+      "Rune of Sun",
+      "Magic Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Diagonal Parry",
+      "Point Blank"
+    ],
+    "all": [
+      "Sniper",
+      "Slay Demon",
+      "Prepare",
+      "Prepare",
+      "Magic Parry",
+      "Magic Parry",
+      "Rune of Sun",
+      "Magic Parry",
+      "Split Second",
+      "Diagonal Parry",
+      "Point Blank"
+    ]
+  },
+  {
+    "name": "Grunhild",
+    "basic": [
+      "Sniper",
+      "Finishing Blow",
+      "Ranged Parry",
+      "Ranged Parry",
+      "Finishing Blow",
+      "Sniper"
+    ],
+    "ascension": [
+      "Fortify",
+      "Ranged Parry",
+      "Bloodlust"
+    ],
+    "merge": [
+      "Split Second",
+      "Poison Resistance",
+      "Rune of Sun"
+    ],
+    "all": [
+      "Sniper",
+      "Finishing Blow",
+      "Ranged Parry",
+      "Ranged Parry",
+      "Finishing Blow",
+      "Sniper",
+      "Fortify",
+      "Ranged Parry",
+      "Bloodlust",
+      "Split Second",
+      "Poison Resistance",
+      "Rune of Sun"
+    ]
+  },
+  {
+    "name": "Hailcrest",
+    "basic": [
+      "Barrier",
+      "Armor of Sea",
+      "Armor of Sea",
+      "Prepare",
+      "Prepared Freeze",
+      "Initiative: Heroic Blow"
+    ],
+    "ascension": [
+      "Immune to Demoralization",
+      "Fortify",
+      "Immovable"
+    ],
+    "merge": [
+      "Split Second",
+      "Rune of Sea",
+      "Armor of Sea"
+    ],
+    "all": [
+      "Barrier",
+      "Armor of Sea",
+      "Armor of Sea",
+      "Prepare",
+      "Prepared Freeze",
+      "Initiative: Heroic Blow",
+      "Immune to Demoralization",
+      "Fortify",
+      "Immovable",
+      "Split Second",
+      "Rune of Sea",
+      "Armor of Sea"
+    ]
+  },
+  {
+    "name": "Halo",
+    "basic": [
+      "Healing Ray",
+      "Lingering Heal",
+      "Magic Parry",
+      "Magic Parry",
+      "Pacifist",
+      "Pacifist"
+    ],
+    "ascension": [
+      "Critical Heal",
+      "Critical Heal",
+      "Immune to Silence"
+    ],
+    "merge": [
+      "Split Second",
+      "Bleed Resistance",
+      "Pacifist"
+    ],
+    "all": [
+      "Healing Ray",
+      "Lingering Heal",
+      "Magic Parry",
+      "Magic Parry",
+      "Pacifist",
+      "Pacifist",
+      "Critical Heal",
+      "Critical Heal",
+      "Immune to Silence",
+      "Split Second",
+      "Bleed Resistance",
+      "Pacifist"
+    ]
+  },
+  {
+    "name": "Harvesting Elmenora",
+    "basic": [
+      "Tumble",
+      "Backstab",
+      "Melee Parry",
+      "Melee Parry",
+      "Melee Parry",
+      "Life-Draining Backstab"
+    ],
+    "ascension": [
+      "Melee Parry",
+      "Life-Draining Backstab",
+      "Tumble"
+    ],
+    "merge": [
+      "Split Second",
+      "Tumble",
+      "Life-Draining Backstab"
+    ],
+    "all": [
+      "Tumble",
+      "Backstab",
+      "Melee Parry",
+      "Melee Parry",
+      "Melee Parry",
+      "Life-Draining Backstab",
+      "Melee Parry",
+      "Life-Draining Backstab",
+      "Tumble",
+      "Split Second",
+      "Tumble",
+      "Life-Draining Backstab"
+    ]
+  },
+  {
+    "name": "Heartwig",
+    "basic": [
+      "Ballistic",
+      "Slay Beast",
+      "Focus",
+      "Focus",
+      "Focus",
+      "Ranged Parry"
+    ],
+    "ascension": [
+      "Focus",
+      "Ranged Parry",
+      "Rune of Fire"
+    ],
+    "merge": [
+      "Split Second",
+      "Ballistic",
+      "Venom"
+    ],
+    "all": [
+      "Ballistic",
+      "Slay Beast",
+      "Focus",
+      "Focus",
+      "Focus",
+      "Ranged Parry",
+      "Focus",
+      "Ranged Parry",
+      "Rune of Fire",
+      "Split Second",
+      "Ballistic",
+      "Venom"
+    ]
+  },
+  {
+    "name": "Hedwig",
+    "basic": [
+      "Ballistic",
+      "Slay Lizard",
+      "Focus",
+      "Focus",
+      "Focus",
+      "Ranged Parry"
+    ],
+    "ascension": [
+      "Focus",
+      "Ranged Parry",
+      "Rune of Sea"
+    ],
+    "merge": [
+      "Split Second",
+      "Ballistic",
+      "Venom"
+    ],
+    "all": [
+      "Ballistic",
+      "Slay Lizard",
+      "Focus",
+      "Focus",
+      "Focus",
+      "Ranged Parry",
+      "Focus",
+      "Ranged Parry",
+      "Rune of Sea",
+      "Split Second",
+      "Ballistic",
+      "Venom"
+    ]
+  },
+  {
+    "name": "Helio",
+    "basic": [
+      "Trident & Net",
+      "Net Grab",
+      "Rune of Moon",
+      "Ranged Parry",
+      "Entangle"
+    ],
+    "ascension": [
+      "Extra Time",
+      "Venom",
+      "Rune of Moon"
+    ],
+    "merge": [
+      "Split Second",
+      "Ranged Parry",
+      "Entangle"
+    ],
+    "all": [
+      "Trident & Net",
+      "Net Grab",
+      "Rune of Moon",
+      "Ranged Parry",
+      "Entangle",
+      "Extra Time",
+      "Venom",
+      "Rune of Moon",
+      "Split Second",
+      "Ranged Parry",
+      "Entangle"
+    ]
+  },
+  {
+    "name": "Hemlock",
+    "basic": [
+      "Regrowth",
+      "Natural Harmony",
+      "Ranged Parry",
+      "Ranged Parry",
+      "Acid Resistance",
+      "Fleet-Footed"
+    ],
+    "ascension": [
+      "Poison Resistance",
+      "Venom",
+      "Bleed Resistance"
+    ],
+    "merge": [
+      "Split Second",
+      "Ranged Parry",
+      "Refresh"
+    ],
+    "all": [
+      "Regrowth",
+      "Natural Harmony",
+      "Ranged Parry",
+      "Ranged Parry",
+      "Acid Resistance",
+      "Fleet-Footed",
+      "Poison Resistance",
+      "Venom",
+      "Bleed Resistance",
+      "Split Second",
+      "Ranged Parry",
+      "Refresh"
+    ]
+  },
+  {
+    "name": "Hogard",
+    "basic": [
+      "Cardinal Aim",
+      "Finishing Blow",
+      "Melee Parry"
+    ],
+    "ascension": [
+      "Finishing Blow",
+      "Extra Time",
+      "Poison Resistance",
+      "Finishing Blow"
+    ],
+    "merge": [],
+    "all": [
+      "Cardinal Aim",
+      "Finishing Blow",
+      "Melee Parry",
+      "Finishing Blow",
+      "Extra Time",
+      "Poison Resistance",
+      "Finishing Blow"
+    ]
+  },
+  {
+    "name": "Idril",
+    "basic": [
+      "Shroud",
+      "Slay Construct",
+      "Backstab",
+      "Melee Parry",
+      "Finishing Blow"
+    ],
+    "ascension": [
+      "Melee Parry",
+      "Backstab",
+      "Brutal Attack"
+    ],
+    "merge": [
+      "Split Second",
+      "Extra Time",
+      "Fortify"
+    ],
+    "all": [
+      "Shroud",
+      "Slay Construct",
+      "Backstab",
+      "Melee Parry",
+      "Finishing Blow",
+      "Melee Parry",
+      "Backstab",
+      "Brutal Attack",
+      "Split Second",
+      "Extra Time",
+      "Fortify"
+    ]
+  },
+  {
+    "name": "Illyria",
+    "basic": [
+      "Chromatic Shield",
+      "Diagonal Parry",
+      "Prepare",
+      "Point Blank",
+      "Prepare",
+      "Diagonal Parry"
+    ],
+    "ascension": [
+      "Point Blank",
+      "Bleed Resistance",
+      "Rune of Sun"
+    ],
+    "merge": [
+      "Split Second",
+      "Magic Parry",
+      "Diagonal Aim"
+    ],
+    "all": [
+      "Chromatic Shield",
+      "Diagonal Parry",
+      "Prepare",
+      "Point Blank",
+      "Prepare",
+      "Diagonal Parry",
+      "Point Blank",
+      "Bleed Resistance",
+      "Rune of Sun",
+      "Split Second",
+      "Magic Parry",
+      "Diagonal Aim"
+    ]
+  },
+  {
+    "name": "Iridian",
+    "basic": [
+      "Focus",
+      "Rune of Moon",
+      "Rune of Moon",
+      "Extra Time"
+    ],
+    "ascension": [
+      "Magic Parry",
+      "Point Blank",
+      "Point Blank",
+      "Magic Parry"
+    ],
+    "merge": [],
+    "all": [
+      "Focus",
+      "Rune of Moon",
+      "Rune of Moon",
+      "Extra Time",
+      "Magic Parry",
+      "Point Blank",
+      "Point Blank",
+      "Magic Parry"
+    ]
+  },
+  {
+    "name": "Iris",
+    "basic": [
+      "Ballistic",
+      "Blitz",
+      "Blitz",
+      "Dodge"
+    ],
+    "ascension": [
+      "Ranged Parry",
+      "Brutal Attack",
+      "Rune of Sun",
+      "Blitz"
+    ],
+    "merge": [],
+    "all": [
+      "Ballistic",
+      "Blitz",
+      "Blitz",
+      "Dodge",
+      "Ranged Parry",
+      "Brutal Attack",
+      "Rune of Sun",
+      "Blitz"
+    ]
+  },
+  {
+    "name": "Ixora",
+    "basic": [
+      "Syphon Life",
+      "Deadly Syphon",
+      "Point Blank",
+      "Diagonal Heal",
+      "Point Blank"
+    ],
+    "ascension": [
+      "Melee Parry",
+      "Melee Parry",
+      "Point Blank"
+    ],
+    "merge": [
+      "Split Second",
+      "Magic Parry",
+      "Finishing Blow"
+    ],
+    "all": [
+      "Syphon Life",
+      "Deadly Syphon",
+      "Point Blank",
+      "Diagonal Heal",
+      "Point Blank",
+      "Melee Parry",
+      "Melee Parry",
+      "Point Blank",
+      "Split Second",
+      "Magic Parry",
+      "Finishing Blow"
+    ]
+  },
+  {
+    "name": "Jade",
+    "basic": [
+      "Cardinal Aim",
+      "Venom"
+    ],
+    "ascension": [
+      "Venom",
+      "Diagonal Parry",
+      "Prepare",
+      "Diagonal Parry"
+    ],
+    "merge": [],
+    "all": [
+      "Cardinal Aim",
+      "Venom",
+      "Venom",
+      "Diagonal Parry",
+      "Prepare",
+      "Diagonal Parry"
+    ]
+  },
+  {
+    "name": "Jenya",
+    "basic": [
+      "Chromatic Shield",
+      "Ranged Parry",
+      "Ranged Parry",
+      "Arcane Vibrations",
+      "Diagonal Aim",
+      "Diagonal Aim"
+    ],
+    "ascension": [
+      "Diagonal Aim",
+      "Curse Resistance",
+      "Diagonal Aim"
+    ],
+    "merge": [
+      "Split Second",
+      "Critical Attack",
+      "Rune of Moon"
+    ],
+    "all": [
+      "Chromatic Shield",
+      "Ranged Parry",
+      "Ranged Parry",
+      "Arcane Vibrations",
+      "Diagonal Aim",
+      "Diagonal Aim",
+      "Diagonal Aim",
+      "Curse Resistance",
+      "Diagonal Aim",
+      "Split Second",
+      "Critical Attack",
+      "Rune of Moon"
+    ]
+  },
+  {
+    "name": "Jules",
+    "basic": [
+      "Focus",
+      "Diagonal Parry"
+    ],
+    "ascension": [
+      "Focus",
+      "Diagonal Parry",
+      "Rune of Sun",
+      "Diagonal Parry"
+    ],
+    "merge": [],
+    "all": [
+      "Focus",
+      "Diagonal Parry",
+      "Focus",
+      "Diagonal Parry",
+      "Rune of Sun",
+      "Diagonal Parry"
+    ]
+  },
+  {
+    "name": "Juniper",
+    "basic": [
+      "Regrowth",
+      "Natural Harmony",
+      "Extra Time",
+      "Mighty Blow",
+      "Cardinal Parry",
+      "Immobilizing Strike"
+    ],
+    "ascension": [
+      "Immobilizing Strike",
+      "Rune of Earth",
+      "Mighty Blow"
+    ],
+    "merge": [
+      "Split Second",
+      "Diagonal Parry",
+      "Immobilizing Strike"
+    ],
+    "all": [
+      "Regrowth",
+      "Natural Harmony",
+      "Extra Time",
+      "Mighty Blow",
+      "Cardinal Parry",
+      "Immobilizing Strike",
+      "Immobilizing Strike",
+      "Rune of Earth",
+      "Mighty Blow",
+      "Split Second",
+      "Diagonal Parry",
+      "Immobilizing Strike"
+    ]
+  },
+  {
+    "name": "Kael",
+    "basic": [
+      "Berserk",
+      "Favored Odds",
+      "Melee Parry",
+      "Melee Parry",
+      "Death Blow",
+      "Refresh"
+    ],
+    "ascension": [
+      "Bleed Resistance",
+      "Poison Resistance",
+      "Finishing Blow"
+    ],
+    "merge": [
+      "Split Second",
+      "Critical Attack",
+      "Death Ward"
+    ],
+    "all": [
+      "Berserk",
+      "Favored Odds",
+      "Melee Parry",
+      "Melee Parry",
+      "Death Blow",
+      "Refresh",
+      "Bleed Resistance",
+      "Poison Resistance",
+      "Finishing Blow",
+      "Split Second",
+      "Critical Attack",
+      "Death Ward"
+    ]
+  },
+  {
+    "name": "Kazz",
+    "basic": [
+      "Chromatic Shield",
+      "Dark Bargain",
+      "Cardinal Aim",
+      "Cardinal Aim",
+      "Mighty Blow",
+      "Reactive Armor"
+    ],
+    "ascension": [
+      "Fire Resistance",
+      "Poison Resistance",
+      "Cardinal Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Point Blank",
+      "Mighty Blow"
+    ],
+    "all": [
+      "Chromatic Shield",
+      "Dark Bargain",
+      "Cardinal Aim",
+      "Cardinal Aim",
+      "Mighty Blow",
+      "Reactive Armor",
+      "Fire Resistance",
+      "Poison Resistance",
+      "Cardinal Parry",
+      "Split Second",
+      "Point Blank",
+      "Mighty Blow"
+    ]
+  },
+  {
+    "name": "Kelp",
+    "basic": [
+      "Taunt",
+      "Diagonal Parry",
+      "Diagonal Parry",
+      "Bloodlust"
+    ],
+    "ascension": [
+      "Bleed Resistance",
+      "Resilient",
+      "Venom",
+      "Aura of Cold"
+    ],
+    "merge": [],
+    "all": [
+      "Taunt",
+      "Diagonal Parry",
+      "Diagonal Parry",
+      "Bloodlust",
+      "Bleed Resistance",
+      "Resilient",
+      "Venom",
+      "Aura of Cold"
+    ]
+  },
+  {
+    "name": "Khadush",
+    "basic": [
+      "Cardinal Aim",
+      "Slay Lizard",
+      "Venom",
+      "Extra Time",
+      "Cardinal Aim"
+    ],
+    "ascension": [
+      "Diagonal Parry",
+      "Cardinal Aim",
+      "Diagonal Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Point Blank",
+      "Fortify"
+    ],
+    "all": [
+      "Cardinal Aim",
+      "Slay Lizard",
+      "Venom",
+      "Extra Time",
+      "Cardinal Aim",
+      "Diagonal Parry",
+      "Cardinal Aim",
+      "Diagonal Parry",
+      "Split Second",
+      "Point Blank",
+      "Fortify"
+    ]
+  },
+  {
+    "name": "Kharasta",
+    "basic": [
+      "Hamstring",
+      "Sniper",
+      "Ranged Parry",
+      "Sniper",
+      "Brutal Attack"
+    ],
+    "ascension": [
+      "Sniper",
+      "Ranged Parry",
+      "Brutal Attack"
+    ],
+    "merge": [
+      "Split Second",
+      "Melee Parry",
+      "Venom"
+    ],
+    "all": [
+      "Hamstring",
+      "Sniper",
+      "Ranged Parry",
+      "Sniper",
+      "Brutal Attack",
+      "Sniper",
+      "Ranged Parry",
+      "Brutal Attack",
+      "Split Second",
+      "Melee Parry",
+      "Venom"
+    ]
+  },
+  {
+    "name": "Kharza",
+    "basic": [
+      "Meditate",
+      "Water Walker",
+      "Cold Resistance",
+      "Inner Peace",
+      "Inner Peace"
+    ],
+    "ascension": [
+      "Melee Parry",
+      "Inner Peace",
+      "Melee Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Prepare",
+      "Melee Parry"
+    ],
+    "all": [
+      "Meditate",
+      "Water Walker",
+      "Cold Resistance",
+      "Inner Peace",
+      "Inner Peace",
+      "Melee Parry",
+      "Inner Peace",
+      "Melee Parry",
+      "Split Second",
+      "Prepare",
+      "Melee Parry"
+    ]
+  },
+  {
+    "name": "Korgan",
+    "basic": [
+      "Bardic Song",
+      "Power Chord",
+      "Melee Parry",
+      "Chord of Point Blank",
+      "Point Blank",
+      "Bardic Song"
+    ],
+    "ascension": [
+      "Tumble",
+      "Melee Parry",
+      "Chord of Point Blank"
+    ],
+    "merge": [
+      "Split Second",
+      "Point Blank",
+      "Song of Poison"
+    ],
+    "all": [
+      "Bardic Song",
+      "Power Chord",
+      "Melee Parry",
+      "Chord of Point Blank",
+      "Point Blank",
+      "Bardic Song",
+      "Tumble",
+      "Melee Parry",
+      "Chord of Point Blank",
+      "Split Second",
+      "Point Blank",
+      "Song of Poison"
+    ]
+  },
+  {
+    "name": "Koshak",
+    "basic": [
+      "Ballistic",
+      "Slay Beast",
+      "Sniper",
+      "Sniper"
+    ],
+    "ascension": [
+      "Venom",
+      "Magic Parry",
+      "Rune of Earth",
+      "Immobilizing Strike"
+    ],
+    "merge": [],
+    "all": [
+      "Ballistic",
+      "Slay Beast",
+      "Sniper",
+      "Sniper",
+      "Venom",
+      "Magic Parry",
+      "Rune of Earth",
+      "Immobilizing Strike"
+    ]
+  },
+  {
+    "name": "Kral",
+    "basic": [
+      "Life Drain",
+      "Prepare",
+      "Prepare",
+      "Diagonal Parry"
+    ],
+    "ascension": [
+      "Focus",
+      "Diagonal Parry",
+      "Focus",
+      "Death Ward"
+    ],
+    "merge": [],
+    "all": [
+      "Life Drain",
+      "Prepare",
+      "Prepare",
+      "Diagonal Parry",
+      "Focus",
+      "Diagonal Parry",
+      "Focus",
+      "Death Ward"
+    ]
+  },
+  {
+    "name": "Kvash",
+    "basic": [
+      "Berserk",
+      "Slay Monstrosity",
+      "Diagonal Parry",
+      "Diagonal Parry",
+      "Cold Resistance",
+      "Frostwhirl"
+    ],
+    "ascension": [
+      "Push",
+      "Push",
+      "Diagonal Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Push",
+      "Frostwhirl"
+    ],
+    "all": [
+      "Berserk",
+      "Slay Monstrosity",
+      "Diagonal Parry",
+      "Diagonal Parry",
+      "Cold Resistance",
+      "Frostwhirl",
+      "Push",
+      "Push",
+      "Diagonal Parry",
+      "Split Second",
+      "Push",
+      "Frostwhirl"
+    ]
+  },
+  {
+    "name": "Kyara",
+    "basic": [
+      "Ballistic",
+      "Blitz",
+      "Blitz",
+      "Venom",
+      "Venom",
+      "Immobilizing Strike"
+    ],
+    "ascension": [
+      "Diagonal Parry",
+      "Blitz",
+      "Immobilizing Strike"
+    ],
+    "merge": [
+      "Split Second",
+      "Ballistic",
+      "Sniper"
+    ],
+    "all": [
+      "Ballistic",
+      "Blitz",
+      "Blitz",
+      "Venom",
+      "Venom",
+      "Immobilizing Strike",
+      "Diagonal Parry",
+      "Blitz",
+      "Immobilizing Strike",
+      "Split Second",
+      "Ballistic",
+      "Sniper"
+    ]
+  },
+  {
+    "name": "Kyron",
+    "basic": [
+      "Berserk",
+      "Magic Parry",
+      "Magic Parry",
+      "Immune to Disorientation"
+    ],
+    "ascension": [
+      "Whirlwind",
+      "Whirlwind",
+      "Magic Parry",
+      "Immovable"
+    ],
+    "merge": [],
+    "all": [
+      "Berserk",
+      "Magic Parry",
+      "Magic Parry",
+      "Immune to Disorientation",
+      "Whirlwind",
+      "Whirlwind",
+      "Magic Parry",
+      "Immovable"
+    ]
+  },
+  {
+    "name": "Lagoon",
+    "basic": [
+      "Meditate",
+      "Inner Peace",
+      "Inner Peace",
+      "Rune of Sea",
+      "Fortify",
+      "Testudo"
+    ],
+    "ascension": [
+      "Push",
+      "Push",
+      "Fortify"
+    ],
+    "merge": [
+      "Split Second",
+      "Magic Parry",
+      "Immovable"
+    ],
+    "all": [
+      "Meditate",
+      "Inner Peace",
+      "Inner Peace",
+      "Rune of Sea",
+      "Fortify",
+      "Testudo",
+      "Push",
+      "Push",
+      "Fortify",
+      "Split Second",
+      "Magic Parry",
+      "Immovable"
+    ]
+  },
+  {
+    "name": "Lia",
+    "basic": [
+      "Barrier",
+      "Armor of Sun",
+      "Protector",
+      "Focus",
+      "Rune of Sun"
+    ],
+    "ascension": [
+      "Protector",
+      "Rune of Sun",
+      "Melee Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Rune of Sun",
+      "Armor of Sun"
+    ],
+    "all": [
+      "Barrier",
+      "Armor of Sun",
+      "Protector",
+      "Focus",
+      "Rune of Sun",
+      "Protector",
+      "Rune of Sun",
+      "Melee Parry",
+      "Split Second",
+      "Rune of Sun",
+      "Armor of Sun"
+    ]
+  },
+  {
+    "name": "Lightheart",
+    "basic": [
+      "Barrier",
+      "Armor of Sun",
+      "Immune to Withering",
+      "Extra Time",
+      "Extra Time",
+      "Melee Parry"
+    ],
+    "ascension": [
+      "Mighty Blow",
+      "Rune of Sun",
+      "Poison Resistance"
+    ],
+    "merge": [
+      "Split Second",
+      "Rune of Sun",
+      "Armor of Sun"
+    ],
+    "all": [
+      "Barrier",
+      "Armor of Sun",
+      "Immune to Withering",
+      "Extra Time",
+      "Extra Time",
+      "Melee Parry",
+      "Mighty Blow",
+      "Rune of Sun",
+      "Poison Resistance",
+      "Split Second",
+      "Rune of Sun",
+      "Armor of Sun"
+    ]
+  },
+  {
+    "name": "Lionel",
+    "basic": [
+      "Focus",
+      "Slay Undead",
+      "Extra Time",
+      "Melee Parry",
+      "Melee Parry"
+    ],
+    "ascension": [
+      "Focus",
+      "Point Blank",
+      "Point Blank"
+    ],
+    "merge": [
+      "Split Second",
+      "Brutal Attack",
+      "Diagonal Parry"
+    ],
+    "all": [
+      "Focus",
+      "Slay Undead",
+      "Extra Time",
+      "Melee Parry",
+      "Melee Parry",
+      "Focus",
+      "Point Blank",
+      "Point Blank",
+      "Split Second",
+      "Brutal Attack",
+      "Diagonal Parry"
+    ]
+  },
+  {
+    "name": "Liora",
+    "basic": [
+      "Sniper",
+      "Critical Attack",
+      "Critical Attack",
+      "Sentinel",
+      "Extra Time",
+      "Unstoppable Force"
+    ],
+    "ascension": [
+      "Sniper",
+      "Sniper",
+      "Critical Attack"
+    ],
+    "merge": [
+      "Split Second",
+      "Resilient",
+      "Critical Attack: Rupture"
+    ],
+    "all": [
+      "Sniper",
+      "Critical Attack",
+      "Critical Attack",
+      "Sentinel",
+      "Extra Time",
+      "Unstoppable Force",
+      "Sniper",
+      "Sniper",
+      "Critical Attack",
+      "Split Second",
+      "Resilient",
+      "Critical Attack: Rupture"
+    ]
+  },
+  {
+    "name": "Lobelia",
+    "basic": [
+      "Life Drain",
+      "Critical Attack",
+      "Prepare",
+      "Prepare",
+      "Prepared Weakened",
+      "Refresh"
+    ],
+    "ascension": [
+      "Sentinel",
+      "Poison Resistance",
+      "Critical Attack"
+    ],
+    "merge": [
+      "Split Second",
+      "Sentinel",
+      "Skirmisher"
+    ],
+    "all": [
+      "Life Drain",
+      "Critical Attack",
+      "Prepare",
+      "Prepare",
+      "Prepared Weakened",
+      "Refresh",
+      "Sentinel",
+      "Poison Resistance",
+      "Critical Attack",
+      "Split Second",
+      "Sentinel",
+      "Skirmisher"
+    ]
+  },
+  {
+    "name": "Lotus",
+    "basic": [
+      "Meditate",
+      "Bleed Resistance",
+      "Poison Resistance",
+      "Magic Parry",
+      "Magic Parry",
+      "Demoralizing Strike"
+    ],
+    "ascension": [
+      "Demoralizing Strike",
+      "Inner Peace",
+      "Magic Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Immovable",
+      "Whirlwind"
+    ],
+    "all": [
+      "Meditate",
+      "Bleed Resistance",
+      "Poison Resistance",
+      "Magic Parry",
+      "Magic Parry",
+      "Demoralizing Strike",
+      "Demoralizing Strike",
+      "Inner Peace",
+      "Magic Parry",
+      "Split Second",
+      "Immovable",
+      "Whirlwind"
+    ]
+  },
+  {
+    "name": "Lucent Daedra",
+    "basic": [
+      "Focus",
+      "Slay Undead",
+      "Focus",
+      "Exploit Weakness",
+      "Dodge",
+      "Critical Attack: Ignite"
+    ],
+    "ascension": [
+      "Exploit Weakness",
+      "Acid Resistance",
+      "Dodge"
+    ],
+    "merge": [
+      "Split Second",
+      "Critical Attack",
+      "Finishing Blow"
+    ],
+    "all": [
+      "Focus",
+      "Slay Undead",
+      "Focus",
+      "Exploit Weakness",
+      "Dodge",
+      "Critical Attack: Ignite",
+      "Exploit Weakness",
+      "Acid Resistance",
+      "Dodge",
+      "Split Second",
+      "Critical Attack",
+      "Finishing Blow"
+    ]
+  },
+  {
+    "name": "Lucia",
+    "basic": [
+      "Majesty",
+      "Pact of Sun",
+      "Diagonal Parry",
+      "Rend"
+    ],
+    "ascension": [
+      "Diagonal Aim",
+      "Diagonal Aim",
+      "Pact Against Undead",
+      "Rend"
+    ],
+    "merge": [],
+    "all": [
+      "Majesty",
+      "Pact of Sun",
+      "Diagonal Parry",
+      "Rend",
+      "Diagonal Aim",
+      "Diagonal Aim",
+      "Pact Against Undead",
+      "Rend"
+    ]
+  },
+  {
+    "name": "Lumi",
+    "basic": [
+      "Chromatic Shield",
+      "Slay Undead",
+      "Extra Time",
+      "Dodge",
+      "Refresh"
+    ],
+    "ascension": [
+      "Dodge",
+      "Diagonal Aim",
+      "Rune of Sun"
+    ],
+    "merge": [
+      "Split Second",
+      "Sniper",
+      "Exploit Weakness"
+    ],
+    "all": [
+      "Chromatic Shield",
+      "Slay Undead",
+      "Extra Time",
+      "Dodge",
+      "Refresh",
+      "Dodge",
+      "Diagonal Aim",
+      "Rune of Sun",
+      "Split Second",
+      "Sniper",
+      "Exploit Weakness"
+    ]
+  },
+  {
+    "name": "Luna",
+    "basic": [
+      "Sniper",
+      "Sniper",
+      "Sniper",
+      "Magic Parry",
+      "Prepare",
+      "Venom"
+    ],
+    "ascension": [
+      "Magic Parry",
+      "Rune of Sea",
+      "Critical Attack"
+    ],
+    "merge": [
+      "Split Second",
+      "Ranged Parry",
+      "Rune of Sea"
+    ],
+    "all": [
+      "Sniper",
+      "Sniper",
+      "Sniper",
+      "Magic Parry",
+      "Prepare",
+      "Venom",
+      "Magic Parry",
+      "Rune of Sea",
+      "Critical Attack",
+      "Split Second",
+      "Ranged Parry",
+      "Rune of Sea"
+    ]
+  },
+  {
+    "name": "Lunethar",
+    "basic": [
+      "Cardinal Parry",
+      "Melee Parry",
+      "Melee Parry",
+      "Prepare",
+      "Prepared Freeze",
+      "Death Ward"
+    ],
+    "ascension": [
+      "Aura of Cold",
+      "Aura of Cold",
+      "Death Ward"
+    ],
+    "merge": [
+      "Split Second",
+      "Prepare",
+      "Death Ward"
+    ],
+    "all": [
+      "Cardinal Parry",
+      "Melee Parry",
+      "Melee Parry",
+      "Prepare",
+      "Prepared Freeze",
+      "Death Ward",
+      "Aura of Cold",
+      "Aura of Cold",
+      "Death Ward",
+      "Split Second",
+      "Prepare",
+      "Death Ward"
+    ]
+  },
+  {
+    "name": "Lyra",
+    "basic": [
+      "Cardinal Parry",
+      "Immovable",
+      "Bleed Resistance",
+      "Poison Resistance",
+      "Cardinal Parry",
+      "Silencing Strike"
+    ],
+    "ascension": [
+      "Silencing Strike",
+      "Magic Parry",
+      "Silencing Strike"
+    ],
+    "merge": [
+      "Split Second",
+      "Cold Resistance",
+      "Protector"
+    ],
+    "all": [
+      "Cardinal Parry",
+      "Immovable",
+      "Bleed Resistance",
+      "Poison Resistance",
+      "Cardinal Parry",
+      "Silencing Strike",
+      "Silencing Strike",
+      "Magic Parry",
+      "Silencing Strike",
+      "Split Second",
+      "Cold Resistance",
+      "Protector"
+    ]
+  },
+  {
+    "name": "Lysander",
+    "basic": [
+      "Tumble",
+      "Whirlwind",
+      "Venom",
+      "Whirlwind",
+      "Diagonal Parry"
+    ],
+    "ascension": [
+      "Diagonal Parry",
+      "Whirlwind",
+      "Whirlwind"
+    ],
+    "merge": [
+      "Split Second",
+      "Ranged Parry",
+      "Diagonal Aim"
+    ],
+    "all": [
+      "Tumble",
+      "Whirlwind",
+      "Venom",
+      "Whirlwind",
+      "Diagonal Parry",
+      "Diagonal Parry",
+      "Whirlwind",
+      "Whirlwind",
+      "Split Second",
+      "Ranged Parry",
+      "Diagonal Aim"
+    ]
+  },
+  {
+    "name": "Lythar",
+    "basic": [
+      "Berserk",
+      "Whirlwind",
+      "Whirlwind",
+      "Fire Resistance",
+      "Life Drain Immunity",
+      "Aura of Fire"
+    ],
+    "ascension": [
+      "Cardinal Parry",
+      "Push",
+      "Whirlwind"
+    ],
+    "merge": [
+      "Split Second",
+      "Push",
+      "Whirlwind"
+    ],
+    "all": [
+      "Berserk",
+      "Whirlwind",
+      "Whirlwind",
+      "Fire Resistance",
+      "Life Drain Immunity",
+      "Aura of Fire",
+      "Cardinal Parry",
+      "Push",
+      "Whirlwind",
+      "Split Second",
+      "Push",
+      "Whirlwind"
+    ]
+  },
+  {
+    "name": "Magda",
+    "basic": [
+      "Healing Ray",
+      "Lingering Heal",
+      "Slay Undead",
+      "Extra Time"
+    ],
+    "ascension": [
+      "Triage",
+      "Triage",
+      "Focus",
+      "Critical Heal"
+    ],
+    "merge": [],
+    "all": [
+      "Healing Ray",
+      "Lingering Heal",
+      "Slay Undead",
+      "Extra Time",
+      "Triage",
+      "Triage",
+      "Focus",
+      "Critical Heal"
+    ]
+  },
+  {
+    "name": "Malveria",
+    "basic": [
+      "Syphon Life",
+      "Deadly Syphon",
+      "Slay Undead",
+      "Cardinal Heal",
+      "Exploit Weakness",
+      "Initiative: Quick Attack"
+    ],
+    "ascension": [
+      "Fire Resistance",
+      "Cardinal Parry",
+      "Exploit Weakness"
+    ],
+    "merge": [
+      "Split Second",
+      "Cardinal Heal",
+      "Reactive Armor"
+    ],
+    "all": [
+      "Syphon Life",
+      "Deadly Syphon",
+      "Slay Undead",
+      "Cardinal Heal",
+      "Exploit Weakness",
+      "Initiative: Quick Attack",
+      "Fire Resistance",
+      "Cardinal Parry",
+      "Exploit Weakness",
+      "Split Second",
+      "Cardinal Heal",
+      "Reactive Armor"
+    ]
+  },
+  {
+    "name": "Malzareth",
+    "basic": [
+      "Life Drain",
+      "Slay Dragon",
+      "Exploit Weakness",
+      "Exploit Weakness",
+      "Extra Time",
+      "Death Ward"
+    ],
+    "ascension": [
+      "Resolute",
+      "Acid Resistance",
+      "Magic Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Resolute",
+      "Death Ward"
+    ],
+    "all": [
+      "Life Drain",
+      "Slay Dragon",
+      "Exploit Weakness",
+      "Exploit Weakness",
+      "Extra Time",
+      "Death Ward",
+      "Resolute",
+      "Acid Resistance",
+      "Magic Parry",
+      "Split Second",
+      "Resolute",
+      "Death Ward"
+    ]
+  },
+  {
+    "name": "Maple",
+    "basic": [
+      "Shroud",
+      "Slay Monstrosity",
+      "Exploit Weakness",
+      "Exploit Weakness",
+      "Exploit Weakness",
+      "Fortify"
+    ],
+    "ascension": [
+      "Curse Resistance",
+      "Fortify",
+      "Exploit Weakness"
+    ],
+    "merge": [
+      "Split Second",
+      "Cardinal Parry",
+      "Finishing Blow"
+    ],
+    "all": [
+      "Shroud",
+      "Slay Monstrosity",
+      "Exploit Weakness",
+      "Exploit Weakness",
+      "Exploit Weakness",
+      "Fortify",
+      "Curse Resistance",
+      "Fortify",
+      "Exploit Weakness",
+      "Split Second",
+      "Cardinal Parry",
+      "Finishing Blow"
+    ]
+  },
+  {
+    "name": "Marath",
+    "basic": [
+      "Cutlass & Flintlock",
+      "Pistoleer",
+      "Mighty Blow",
+      "Cardinal Aim"
+    ],
+    "ascension": [
+      "Rune of Earth",
+      "Rune of Earth",
+      "Diagonal Parry",
+      "Cardinal Aim"
+    ],
+    "merge": [],
+    "all": [
+      "Cutlass & Flintlock",
+      "Pistoleer",
+      "Mighty Blow",
+      "Cardinal Aim",
+      "Rune of Earth",
+      "Rune of Earth",
+      "Diagonal Parry",
+      "Cardinal Aim"
+    ]
+  },
+  {
+    "name": "Maribel",
+    "basic": [
+      "Healing Ray",
+      "Lingering Heal"
+    ],
+    "ascension": [
+      "Healing Focus",
+      "Diagonal Parry",
+      "Diagonal Parry",
+      "Diagonal Parry"
+    ],
+    "merge": [],
+    "all": [
+      "Healing Ray",
+      "Lingering Heal",
+      "Healing Focus",
+      "Diagonal Parry",
+      "Diagonal Parry",
+      "Diagonal Parry"
+    ]
+  },
+  {
+    "name": "Meraldon",
+    "basic": [
+      "Healing Aura",
+      "Mighty Blow",
+      "Mighty Blow"
+    ],
+    "ascension": [
+      "Healing Focus",
+      "Healing Focus",
+      "Melee Parry",
+      "Melee Parry"
+    ],
+    "merge": [],
+    "all": [
+      "Healing Aura",
+      "Mighty Blow",
+      "Mighty Blow",
+      "Healing Focus",
+      "Healing Focus",
+      "Melee Parry",
+      "Melee Parry"
+    ]
+  },
+  {
+    "name": "Moonshade",
+    "basic": [
+      "Chromatic Shield",
+      "Whirlwind",
+      "Prepare",
+      "Whirlwind",
+      "Magic Parry",
+      "Whirlwind"
+    ],
+    "ascension": [
+      "Magic Parry",
+      "Rune of Moon",
+      "Prepare"
+    ],
+    "merge": [
+      "Split Second",
+      "Life Steal",
+      "Fortify"
+    ],
+    "all": [
+      "Chromatic Shield",
+      "Whirlwind",
+      "Prepare",
+      "Whirlwind",
+      "Magic Parry",
+      "Whirlwind",
+      "Magic Parry",
+      "Rune of Moon",
+      "Prepare",
+      "Split Second",
+      "Life Steal",
+      "Fortify"
+    ]
+  },
+  {
+    "name": "Moonshine",
+    "basic": [
+      "Chromatic Shield",
+      "Whirlwind",
+      "Prepare",
+      "Whirlwind",
+      "Magic Parry",
+      "Whirlwind"
+    ],
+    "ascension": [
+      "Magic Parry",
+      "Rune of Sun",
+      "Prepare"
+    ],
+    "merge": [
+      "Split Second",
+      "Life Steal",
+      "Fortify"
+    ],
+    "all": [
+      "Chromatic Shield",
+      "Whirlwind",
+      "Prepare",
+      "Whirlwind",
+      "Magic Parry",
+      "Whirlwind",
+      "Magic Parry",
+      "Rune of Sun",
+      "Prepare",
+      "Split Second",
+      "Life Steal",
+      "Fortify"
+    ]
+  },
+  {
+    "name": "Moreia",
+    "basic": [
+      "Majesty",
+      "Pact of Fire",
+      "Backstab",
+      "Backstab",
+      "Prepare",
+      "Stunning Strike"
+    ],
+    "ascension": [
+      "Pact of Fire",
+      "Rune of Fire",
+      "Pact of Heroism"
+    ],
+    "merge": [
+      "Split Second",
+      "Pact Against Sylvans",
+      "Pact of Heroism"
+    ],
+    "all": [
+      "Majesty",
+      "Pact of Fire",
+      "Backstab",
+      "Backstab",
+      "Prepare",
+      "Stunning Strike",
+      "Pact of Fire",
+      "Rune of Fire",
+      "Pact of Heroism",
+      "Split Second",
+      "Pact Against Sylvans",
+      "Pact of Heroism"
+    ]
+  },
+  {
+    "name": "Morfyd",
+    "basic": [
+      "Healing Aura",
+      "Dark Bargain",
+      "Pacifist",
+      "Pacifist",
+      "Resilient",
+      "Oath of Vengeance"
+    ],
+    "ascension": [
+      "Poison Resistance",
+      "Fire Resistance",
+      "Pacifist"
+    ],
+    "merge": [
+      "Split Second",
+      "Resilient",
+      "Death Blow"
+    ],
+    "all": [
+      "Healing Aura",
+      "Dark Bargain",
+      "Pacifist",
+      "Pacifist",
+      "Resilient",
+      "Oath of Vengeance",
+      "Poison Resistance",
+      "Fire Resistance",
+      "Pacifist",
+      "Split Second",
+      "Resilient",
+      "Death Blow"
+    ]
+  },
+  {
+    "name": "Mosstail",
+    "basic": [
+      "Healing Ray",
+      "Lingering Heal",
+      "Ranged Parry",
+      "Pacifist",
+      "Pacifist",
+      "Rune of Earth"
+    ],
+    "ascension": [
+      "Healing Touch",
+      "Ranged Parry",
+      "Rune of Earth"
+    ],
+    "merge": [
+      "Split Second",
+      "Critical Heal",
+      "Triage"
+    ],
+    "all": [
+      "Healing Ray",
+      "Lingering Heal",
+      "Ranged Parry",
+      "Pacifist",
+      "Pacifist",
+      "Rune of Earth",
+      "Healing Touch",
+      "Ranged Parry",
+      "Rune of Earth",
+      "Split Second",
+      "Critical Heal",
+      "Triage"
+    ]
+  },
+  {
+    "name": "Murtag",
+    "basic": [
+      "Majesty",
+      "Pact of Earth",
+      "Mighty Blow",
+      "Diagonal Aim",
+      "Diagonal Parry",
+      "Diagonal Parry"
+    ],
+    "ascension": [
+      "Pact of Earth",
+      "Melee Parry",
+      "Pact of Heroism"
+    ],
+    "merge": [
+      "Split Second",
+      "Pact Against Constructs",
+      "Pact of Heroism"
+    ],
+    "all": [
+      "Majesty",
+      "Pact of Earth",
+      "Mighty Blow",
+      "Diagonal Aim",
+      "Diagonal Parry",
+      "Diagonal Parry",
+      "Pact of Earth",
+      "Melee Parry",
+      "Pact of Heroism",
+      "Split Second",
+      "Pact Against Constructs",
+      "Pact of Heroism"
+    ]
+  },
+  {
+    "name": "Nargol",
+    "basic": [
+      "Barrier",
+      "Armor of Fire",
+      "Diagonal Parry",
+      "Diagonal Parry"
+    ],
+    "ascension": [
+      "Rune of Fire",
+      "Rune of Fire",
+      "Rend",
+      "Diagonal Parry"
+    ],
+    "merge": [],
+    "all": [
+      "Barrier",
+      "Armor of Fire",
+      "Diagonal Parry",
+      "Diagonal Parry",
+      "Rune of Fire",
+      "Rune of Fire",
+      "Rend",
+      "Diagonal Parry"
+    ]
+  },
+  {
+    "name": "Needleroot",
+    "basic": [
+      "Sniper",
+      "Slay Undead",
+      "Sniper",
+      "Sniper",
+      "Cold Resistance",
+      "Eagle Eye"
+    ],
+    "ascension": [
+      "Sniper",
+      "Cardinal Parry",
+      "Sniper"
+    ],
+    "merge": [
+      "Split Second",
+      "Sniper",
+      "Arcane Shield"
+    ],
+    "all": [
+      "Sniper",
+      "Slay Undead",
+      "Sniper",
+      "Sniper",
+      "Cold Resistance",
+      "Eagle Eye",
+      "Sniper",
+      "Cardinal Parry",
+      "Sniper",
+      "Split Second",
+      "Sniper",
+      "Arcane Shield"
+    ]
+  },
+  {
+    "name": "Nightmeria",
+    "basic": [
+      "Healing Aura",
+      "Melee Parry",
+      "Melee Parry",
+      "Diagonal Heal",
+      "Diagonal Heal",
+      "Diagonal Heal"
+    ],
+    "ascension": [
+      "Diagonal Heal",
+      "Diagonal Parry",
+      "Extra Time"
+    ],
+    "merge": [
+      "Split Second",
+      "Cardinal Heal",
+      "Triage"
+    ],
+    "all": [
+      "Healing Aura",
+      "Melee Parry",
+      "Melee Parry",
+      "Diagonal Heal",
+      "Diagonal Heal",
+      "Diagonal Heal",
+      "Diagonal Heal",
+      "Diagonal Parry",
+      "Extra Time",
+      "Split Second",
+      "Cardinal Heal",
+      "Triage"
+    ]
+  },
+  {
+    "name": "Nightsong",
+    "basic": [
+      "Meditate",
+      "Mighty Blow",
+      "Mighty Blow",
+      "Prepare",
+      "Cold Resistance",
+      "Prepared Freeze"
+    ],
+    "ascension": [
+      "Inner Peace",
+      "Rune of Moon",
+      "Prepare"
+    ],
+    "merge": [
+      "Split Second",
+      "Inner Peace",
+      "Cardinal Parry"
+    ],
+    "all": [
+      "Meditate",
+      "Mighty Blow",
+      "Mighty Blow",
+      "Prepare",
+      "Cold Resistance",
+      "Prepared Freeze",
+      "Inner Peace",
+      "Rune of Moon",
+      "Prepare",
+      "Split Second",
+      "Inner Peace",
+      "Cardinal Parry"
+    ]
+  },
+  {
+    "name": "Nimbus",
+    "basic": [
+      "Taunt",
+      "Protector",
+      "Protector",
+      "Bleed Resistance",
+      "Curse Resistance",
+      "Death Ward"
+    ],
+    "ascension": [
+      "Resilient",
+      "Bloodlust",
+      "Resilient"
+    ],
+    "merge": [
+      "Split Second",
+      "Bloodlust",
+      "Resilient"
+    ],
+    "all": [
+      "Taunt",
+      "Protector",
+      "Protector",
+      "Bleed Resistance",
+      "Curse Resistance",
+      "Death Ward",
+      "Resilient",
+      "Bloodlust",
+      "Resilient",
+      "Split Second",
+      "Bloodlust",
+      "Resilient"
+    ]
+  },
+  {
+    "name": "Nok",
+    "basic": [
+      "Cardinal Aim",
+      "Slay Dragon",
+      "Melee Parry",
+      "Diagonal Aim",
+      "Diagonal Aim",
+      "Scale Piercer"
+    ],
+    "ascension": [
+      "Bleed Resistance",
+      "Melee Parry",
+      "Diagonal Aim"
+    ],
+    "merge": [
+      "Split Second",
+      "Diagonal Parry",
+      "Eagle Eye"
+    ],
+    "all": [
+      "Cardinal Aim",
+      "Slay Dragon",
+      "Melee Parry",
+      "Diagonal Aim",
+      "Diagonal Aim",
+      "Scale Piercer",
+      "Bleed Resistance",
+      "Melee Parry",
+      "Diagonal Aim",
+      "Split Second",
+      "Diagonal Parry",
+      "Eagle Eye"
+    ]
+  },
+  {
+    "name": "November",
+    "basic": [
+      "Ballistic",
+      "Magic Parry",
+      "Finishing Blow",
+      "Refresh",
+      "Silencing Strike"
+    ],
+    "ascension": [
+      "Ranged Parry",
+      "Poison Resistance",
+      "Blitz"
+    ],
+    "merge": [
+      "Split Second",
+      "Critical Attack",
+      "Sniper"
+    ],
+    "all": [
+      "Ballistic",
+      "Magic Parry",
+      "Finishing Blow",
+      "Refresh",
+      "Silencing Strike",
+      "Ranged Parry",
+      "Poison Resistance",
+      "Blitz",
+      "Split Second",
+      "Critical Attack",
+      "Sniper"
+    ]
+  },
+  {
+    "name": "Nymeria",
+    "basic": [
+      "Healing Aura",
+      "Melee Parry",
+      "Melee Parry",
+      "Diagonal Heal",
+      "Diagonal Heal",
+      "Diagonal Heal"
+    ],
+    "ascension": [
+      "Diagonal Heal",
+      "Diagonal Parry",
+      "Extra Time"
+    ],
+    "merge": [
+      "Split Second",
+      "Cardinal Heal",
+      "Triage"
+    ],
+    "all": [
+      "Healing Aura",
+      "Melee Parry",
+      "Melee Parry",
+      "Diagonal Heal",
+      "Diagonal Heal",
+      "Diagonal Heal",
+      "Diagonal Heal",
+      "Diagonal Parry",
+      "Extra Time",
+      "Split Second",
+      "Cardinal Heal",
+      "Triage"
+    ]
+  },
+  {
+    "name": "Oakscale",
+    "basic": [
+      "Cardinal Parry",
+      "Melee Parry",
+      "Protector",
+      "Protector",
+      "Melee Parry",
+      "Initiative: Heroic Blow"
+    ],
+    "ascension": [
+      "Arcane Shield",
+      "Fleet-Footed",
+      "Cardinal Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Venom",
+      "Skirmisher"
+    ],
+    "all": [
+      "Cardinal Parry",
+      "Melee Parry",
+      "Protector",
+      "Protector",
+      "Melee Parry",
+      "Initiative: Heroic Blow",
+      "Arcane Shield",
+      "Fleet-Footed",
+      "Cardinal Parry",
+      "Split Second",
+      "Venom",
+      "Skirmisher"
+    ]
+  },
+  {
+    "name": "Oasis",
+    "basic": [
+      "Healing Aura",
+      "Fire Walker",
+      "Chromatic Shield",
+      "Magic Parry",
+      "Pacifist"
+    ],
+    "ascension": [
+      "Exploit Weakness",
+      "Extra Time",
+      "Magic Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Healing Wave",
+      "Fortify"
+    ],
+    "all": [
+      "Healing Aura",
+      "Fire Walker",
+      "Chromatic Shield",
+      "Magic Parry",
+      "Pacifist",
+      "Exploit Weakness",
+      "Extra Time",
+      "Magic Parry",
+      "Split Second",
+      "Healing Wave",
+      "Fortify"
+    ]
+  },
+  {
+    "name": "Oberyn",
+    "basic": [
+      "Cutlass & Flintlock",
+      "Pistoleer",
+      "Slay Undead",
+      "Sniper",
+      "Sniper",
+      "Soul Blade"
+    ],
+    "ascension": [
+      "Curse Resistance",
+      "Sniper",
+      "Ranged Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Ranged Parry",
+      "Soul Blade"
+    ],
+    "all": [
+      "Cutlass & Flintlock",
+      "Pistoleer",
+      "Slay Undead",
+      "Sniper",
+      "Sniper",
+      "Soul Blade",
+      "Curse Resistance",
+      "Sniper",
+      "Ranged Parry",
+      "Split Second",
+      "Ranged Parry",
+      "Soul Blade"
+    ]
+  },
+  {
+    "name": "Oleander",
+    "basic": [
+      "Focus",
+      "Focus",
+      "Focus",
+      "Diagonal Parry"
+    ],
+    "ascension": [
+      "Diagonal Parry",
+      "Rune of Earth",
+      "Point Blank",
+      "Point Blank"
+    ],
+    "merge": [],
+    "all": [
+      "Focus",
+      "Focus",
+      "Focus",
+      "Diagonal Parry",
+      "Diagonal Parry",
+      "Rune of Earth",
+      "Point Blank",
+      "Point Blank"
+    ]
+  },
+  {
+    "name": "Onyx",
+    "basic": [
+      "Focus",
+      "Grappling Hook",
+      "Prepare",
+      "Prepare",
+      "Prepared Ignite",
+      "High Ground"
+    ],
+    "ascension": [
+      "Grappling Hook",
+      "Ignition Point",
+      "Rune of Moon"
+    ],
+    "merge": [
+      "Split Second",
+      "Grappling Hook",
+      "Prepared Ignite"
+    ],
+    "all": [
+      "Focus",
+      "Grappling Hook",
+      "Prepare",
+      "Prepare",
+      "Prepared Ignite",
+      "High Ground",
+      "Grappling Hook",
+      "Ignition Point",
+      "Rune of Moon",
+      "Split Second",
+      "Grappling Hook",
+      "Prepared Ignite"
+    ]
+  },
+  {
+    "name": "Orik",
+    "basic": [
+      "Meditate",
+      "Inner Peace",
+      "Inner Peace",
+      "Dodge",
+      "Life Drain Immunity",
+      "Resurgence"
+    ],
+    "ascension": [
+      "Dodge",
+      "Resilient",
+      "Diagonal Aim"
+    ],
+    "merge": [
+      "Split Second",
+      "Critical Attack",
+      "Dodge"
+    ],
+    "all": [
+      "Meditate",
+      "Inner Peace",
+      "Inner Peace",
+      "Dodge",
+      "Life Drain Immunity",
+      "Resurgence",
+      "Dodge",
+      "Resilient",
+      "Diagonal Aim",
+      "Split Second",
+      "Critical Attack",
+      "Dodge"
+    ]
+  },
+  {
+    "name": "Ormughai",
+    "basic": [
+      "Taunt",
+      "Resilient",
+      "Resilient",
+      "Bloodlust",
+      "Fortify",
+      "Critical Distraction"
+    ],
+    "ascension": [
+      "Immune to Demoralization",
+      "Bloodlust",
+      "Fortify"
+    ],
+    "merge": [
+      "Split Second",
+      "Fortify",
+      "Death Blow"
+    ],
+    "all": [
+      "Taunt",
+      "Resilient",
+      "Resilient",
+      "Bloodlust",
+      "Fortify",
+      "Critical Distraction",
+      "Immune to Demoralization",
+      "Bloodlust",
+      "Fortify",
+      "Split Second",
+      "Fortify",
+      "Death Blow"
+    ]
+  },
+  {
+    "name": "Osric",
+    "basic": [
+      "Life Drain",
+      "Extra Time",
+      "Focus"
+    ],
+    "ascension": [
+      "Focus",
+      "Finishing Blow",
+      "Magic Parry",
+      "Focus"
+    ],
+    "merge": [],
+    "all": [
+      "Life Drain",
+      "Extra Time",
+      "Focus",
+      "Focus",
+      "Finishing Blow",
+      "Magic Parry",
+      "Focus"
+    ]
+  },
+  {
+    "name": "Ozgar",
+    "basic": [
+      "Berserk",
+      "Melee Parry",
+      "Poison Resistance",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Melee Parry"
+    ],
+    "ascension": [
+      "Protector",
+      "Rune of Sea",
+      "Whirlwind"
+    ],
+    "merge": [
+      "Split Second",
+      "Push",
+      "Whirlwind"
+    ],
+    "all": [
+      "Berserk",
+      "Melee Parry",
+      "Poison Resistance",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Melee Parry",
+      "Protector",
+      "Rune of Sea",
+      "Whirlwind",
+      "Split Second",
+      "Push",
+      "Whirlwind"
+    ]
+  },
+  {
+    "name": "Penelope",
+    "basic": [
+      "Cardinal Aim",
+      "Slay Undead",
+      "Extra Time",
+      "Immune to Demoralization",
+      "Whirlwind"
+    ],
+    "ascension": [
+      "Whirlwind",
+      "Diagonal Parry",
+      "Rune of Sun"
+    ],
+    "merge": [
+      "Split Second",
+      "Diagonal Parry",
+      "Point Blank"
+    ],
+    "all": [
+      "Cardinal Aim",
+      "Slay Undead",
+      "Extra Time",
+      "Immune to Demoralization",
+      "Whirlwind",
+      "Whirlwind",
+      "Diagonal Parry",
+      "Rune of Sun",
+      "Split Second",
+      "Diagonal Parry",
+      "Point Blank"
+    ]
+  },
+  {
+    "name": "Percival",
+    "basic": [
+      "Healing Aura",
+      "Lingering Heal",
+      "Immovable",
+      "Melee Parry",
+      "Melee Parry",
+      "Flank"
+    ],
+    "ascension": [
+      "Poison Resistance",
+      "Extra Time",
+      "Critical Heal"
+    ],
+    "merge": [
+      "Split Second",
+      "Triage",
+      "Pacifist"
+    ],
+    "all": [
+      "Healing Aura",
+      "Lingering Heal",
+      "Immovable",
+      "Melee Parry",
+      "Melee Parry",
+      "Flank",
+      "Poison Resistance",
+      "Extra Time",
+      "Critical Heal",
+      "Split Second",
+      "Triage",
+      "Pacifist"
+    ]
+  },
+  {
+    "name": "Petalstep",
+    "basic": [
+      "Tumble",
+      "Finishing Blow",
+      "Brutal Attack",
+      "Brutal Attack",
+      "Cold Resistance",
+      "Arcane Shield"
+    ],
+    "ascension": [
+      "Critical Attack",
+      "Finishing Blow",
+      "Tumble"
+    ],
+    "merge": [
+      "Split Second",
+      "Tumble",
+      "Whirlwind"
+    ],
+    "all": [
+      "Tumble",
+      "Finishing Blow",
+      "Brutal Attack",
+      "Brutal Attack",
+      "Cold Resistance",
+      "Arcane Shield",
+      "Critical Attack",
+      "Finishing Blow",
+      "Tumble",
+      "Split Second",
+      "Tumble",
+      "Whirlwind"
+    ]
+  },
+  {
+    "name": "Primrose",
+    "basic": [
+      "Majesty",
+      "Pact of Earth",
+      "Focus",
+      "Focus",
+      "Melee Parry"
+    ],
+    "ascension": [
+      "Rend",
+      "Pact Against Insects",
+      "Rune of Earth"
+    ],
+    "merge": [
+      "Split Second",
+      "Melee Parry",
+      "Diagonal Aim"
+    ],
+    "all": [
+      "Majesty",
+      "Pact of Earth",
+      "Focus",
+      "Focus",
+      "Melee Parry",
+      "Rend",
+      "Pact Against Insects",
+      "Rune of Earth",
+      "Split Second",
+      "Melee Parry",
+      "Diagonal Aim"
+    ]
+  },
+  {
+    "name": "Pyrrion",
+    "basic": [
+      "Focus",
+      "Dark Bargain",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Brutal Attack",
+      "Reactive Armor"
+    ],
+    "ascension": [
+      "Bleed Resistance",
+      "Poison Resistance",
+      "Finishing Blow"
+    ],
+    "merge": [
+      "Split Second",
+      "Diagonal Parry",
+      "Finishing Blow"
+    ],
+    "all": [
+      "Focus",
+      "Dark Bargain",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Brutal Attack",
+      "Reactive Armor",
+      "Bleed Resistance",
+      "Poison Resistance",
+      "Finishing Blow",
+      "Split Second",
+      "Diagonal Parry",
+      "Finishing Blow"
+    ]
+  },
+  {
+    "name": "Radek",
+    "basic": [
+      "Tumble",
+      "Whirlwind",
+      "Whirlwind",
+      "Poison Resistance",
+      "Dodge",
+      "Dodge"
+    ],
+    "ascension": [
+      "Finishing Blow",
+      "Extra Time",
+      "Tumble"
+    ],
+    "merge": [
+      "Split Second",
+      "Tumble",
+      "Finishing Blow"
+    ],
+    "all": [
+      "Tumble",
+      "Whirlwind",
+      "Whirlwind",
+      "Poison Resistance",
+      "Dodge",
+      "Dodge",
+      "Finishing Blow",
+      "Extra Time",
+      "Tumble",
+      "Split Second",
+      "Tumble",
+      "Finishing Blow"
+    ]
+  },
+  {
+    "name": "Radomyr",
+    "basic": [
+      "Taunt",
+      "Resilient",
+      "Resilient",
+      "Ironskin",
+      "Immovable",
+      "Aura of Cold"
+    ],
+    "ascension": [
+      "Resilient",
+      "Aura of Cold",
+      "Life Drain Immunity"
+    ],
+    "merge": [
+      "Split Second",
+      "Resilient",
+      "Aura of Cold"
+    ],
+    "all": [
+      "Taunt",
+      "Resilient",
+      "Resilient",
+      "Ironskin",
+      "Immovable",
+      "Aura of Cold",
+      "Resilient",
+      "Aura of Cold",
+      "Life Drain Immunity",
+      "Split Second",
+      "Resilient",
+      "Aura of Cold"
+    ]
+  },
+  {
+    "name": "Radomyrrh",
+    "basic": [
+      "Taunt",
+      "Resilient",
+      "Resilient",
+      "Ironskin",
+      "Fleet-Footed",
+      "Aura of Poison"
+    ],
+    "ascension": [
+      "Resilient",
+      "Aura of Poison",
+      "Life Drain Immunity"
+    ],
+    "merge": [
+      "Split Second",
+      "Resilient",
+      "Aura of Poison"
+    ],
+    "all": [
+      "Taunt",
+      "Resilient",
+      "Resilient",
+      "Ironskin",
+      "Fleet-Footed",
+      "Aura of Poison",
+      "Resilient",
+      "Aura of Poison",
+      "Life Drain Immunity",
+      "Split Second",
+      "Resilient",
+      "Aura of Poison"
+    ]
+  },
+  {
+    "name": "Ragnar",
+    "basic": [
+      "Tumble",
+      "Slay Insect",
+      "Whirlwind",
+      "Backstab"
+    ],
+    "ascension": [
+      "Whirlwind",
+      "Backstab",
+      "Melee Parry",
+      "Whirlwind"
+    ],
+    "merge": [],
+    "all": [
+      "Tumble",
+      "Slay Insect",
+      "Whirlwind",
+      "Backstab",
+      "Whirlwind",
+      "Backstab",
+      "Melee Parry",
+      "Whirlwind"
+    ]
+  },
+  {
+    "name": "Rakuhake",
+    "basic": [
+      "Regrowth",
+      "Raider",
+      "Natural Harmony",
+      "Slay Demon",
+      "Dodge",
+      "Dodge"
+    ],
+    "ascension": [
+      "Critical Attack",
+      "Mighty Blow",
+      "Ranged Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Raider Boost",
+      "Raider Surge"
+    ],
+    "all": [
+      "Regrowth",
+      "Raider",
+      "Natural Harmony",
+      "Slay Demon",
+      "Dodge",
+      "Dodge",
+      "Critical Attack",
+      "Mighty Blow",
+      "Ranged Parry",
+      "Split Second",
+      "Raider Boost",
+      "Raider Surge"
+    ]
+  },
+  {
+    "name": "Randolf",
+    "basic": [
+      "Cardinal Aim",
+      "Slay Construct",
+      "Extra Time",
+      "Brutal Attack",
+      "Cardinal Aim"
+    ],
+    "ascension": [
+      "Brutal Attack",
+      "Ranged Parry",
+      "Cardinal Aim"
+    ],
+    "merge": [
+      "Split Second",
+      "Point Blank",
+      "Fortify"
+    ],
+    "all": [
+      "Cardinal Aim",
+      "Slay Construct",
+      "Extra Time",
+      "Brutal Attack",
+      "Cardinal Aim",
+      "Brutal Attack",
+      "Ranged Parry",
+      "Cardinal Aim",
+      "Split Second",
+      "Point Blank",
+      "Fortify"
+    ]
+  },
+  {
+    "name": "Rathalok",
+    "basic": [
+      "Healing Aura",
+      "Melee Parry",
+      "Fortify",
+      "Fortify",
+      "Aura of Fire",
+      "Zeal of Life"
+    ],
+    "ascension": [
+      "Aura of Fire",
+      "Extra Time",
+      "Fortify"
+    ],
+    "merge": [
+      "Split Second",
+      "Prepare",
+      "Death Ward"
+    ],
+    "all": [
+      "Healing Aura",
+      "Melee Parry",
+      "Fortify",
+      "Fortify",
+      "Aura of Fire",
+      "Zeal of Life",
+      "Aura of Fire",
+      "Extra Time",
+      "Fortify",
+      "Split Second",
+      "Prepare",
+      "Death Ward"
+    ]
+  },
+  {
+    "name": "Ravenna",
+    "basic": [
+      "Life Drain",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Aura of Terror",
+      "Focus",
+      "Melee Parry"
+    ],
+    "ascension": [
+      "Focus",
+      "Finishing Blow",
+      "Melee Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Immovable",
+      "Skirmisher"
+    ],
+    "all": [
+      "Life Drain",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Aura of Terror",
+      "Focus",
+      "Melee Parry",
+      "Focus",
+      "Finishing Blow",
+      "Melee Parry",
+      "Split Second",
+      "Immovable",
+      "Skirmisher"
+    ]
+  },
+  {
+    "name": "Raze",
+    "basic": [
+      "Ballistic",
+      "Resilient",
+      "Mighty Blow",
+      "Mighty Blow",
+      "Death Ward",
+      "Survivor"
+    ],
+    "ascension": [
+      "Resilient",
+      "Exploit Weakness",
+      "Exploit Weakness"
+    ],
+    "merge": [
+      "Split Second",
+      "Ballistic",
+      "Mighty Blow"
+    ],
+    "all": [
+      "Ballistic",
+      "Resilient",
+      "Mighty Blow",
+      "Mighty Blow",
+      "Death Ward",
+      "Survivor",
+      "Resilient",
+      "Exploit Weakness",
+      "Exploit Weakness",
+      "Split Second",
+      "Ballistic",
+      "Mighty Blow"
+    ]
+  },
+  {
+    "name": "Red-Eye",
+    "basic": [
+      "Sniper",
+      "Brutal Attack",
+      "Sniper",
+      "Brutal Attack"
+    ],
+    "ascension": [
+      "Sniper",
+      "Brutal Attack",
+      "Diagonal Parry",
+      "Slay Sylvan"
+    ],
+    "merge": [],
+    "all": [
+      "Sniper",
+      "Brutal Attack",
+      "Sniper",
+      "Brutal Attack",
+      "Sniper",
+      "Brutal Attack",
+      "Diagonal Parry",
+      "Slay Sylvan"
+    ]
+  },
+  {
+    "name": "Reveling Randolf",
+    "basic": [
+      "Cardinal Aim",
+      "Slay Demon",
+      "Extra Time",
+      "Brutal Attack",
+      "Cardinal Aim"
+    ],
+    "ascension": [
+      "Brutal Attack",
+      "Ranged Parry",
+      "Cardinal Aim"
+    ],
+    "merge": [
+      "Split Second",
+      "Point Blank",
+      "Fortify"
+    ],
+    "all": [
+      "Cardinal Aim",
+      "Slay Demon",
+      "Extra Time",
+      "Brutal Attack",
+      "Cardinal Aim",
+      "Brutal Attack",
+      "Ranged Parry",
+      "Cardinal Aim",
+      "Split Second",
+      "Point Blank",
+      "Fortify"
+    ]
+  },
+  {
+    "name": "Richard",
+    "basic": [
+      "Hamstring",
+      "Poison Resistance",
+      "Ranged Parry",
+      "Prepare",
+      "Rend",
+      "Rend"
+    ],
+    "ascension": [
+      "Mighty Blow",
+      "Prepare",
+      "Rend"
+    ],
+    "merge": [
+      "Split Second",
+      "Cardinal Parry",
+      "Focus"
+    ],
+    "all": [
+      "Hamstring",
+      "Poison Resistance",
+      "Ranged Parry",
+      "Prepare",
+      "Rend",
+      "Rend",
+      "Mighty Blow",
+      "Prepare",
+      "Rend",
+      "Split Second",
+      "Cardinal Parry",
+      "Focus"
+    ]
+  },
+  {
+    "name": "Ripple",
+    "basic": [
+      "Shroud",
+      "Water Walker",
+      "Melee Parry",
+      "Melee Parry",
+      "Predator",
+      "Lick & Drag"
+    ],
+    "ascension": [
+      "Poison Resistance",
+      "Extra Time",
+      "Finishing Blow"
+    ],
+    "merge": [
+      "Split Second",
+      "Exploit Weakness",
+      "Aquatic Ambush"
+    ],
+    "all": [
+      "Shroud",
+      "Water Walker",
+      "Melee Parry",
+      "Melee Parry",
+      "Predator",
+      "Lick & Drag",
+      "Poison Resistance",
+      "Extra Time",
+      "Finishing Blow",
+      "Split Second",
+      "Exploit Weakness",
+      "Aquatic Ambush"
+    ]
+  },
+  {
+    "name": "River",
+    "basic": [
+      "Meditate",
+      "Push",
+      "Push",
+      "Poison Resistance"
+    ],
+    "ascension": [
+      "Melee Parry",
+      "Melee Parry",
+      "Diagonal Aim",
+      "Diagonal Aim"
+    ],
+    "merge": [],
+    "all": [
+      "Meditate",
+      "Push",
+      "Push",
+      "Poison Resistance",
+      "Melee Parry",
+      "Melee Parry",
+      "Diagonal Aim",
+      "Diagonal Aim"
+    ]
+  },
+  {
+    "name": "Robin",
+    "basic": [
+      "Regrowth",
+      "Natural Harmony",
+      "Poison Resistance",
+      "Extra Time"
+    ],
+    "ascension": [
+      "Cardinal Parry",
+      "Venom",
+      "Venom",
+      "Venom"
+    ],
+    "merge": [],
+    "all": [
+      "Regrowth",
+      "Natural Harmony",
+      "Poison Resistance",
+      "Extra Time",
+      "Cardinal Parry",
+      "Venom",
+      "Venom",
+      "Venom"
+    ]
+  },
+  {
+    "name": "Roderick",
+    "basic": [
+      "Focus",
+      "Extra Time",
+      "Focus"
+    ],
+    "ascension": [
+      "Focus",
+      "Point Blank",
+      "Magic Parry",
+      "Point Blank"
+    ],
+    "merge": [],
+    "all": [
+      "Focus",
+      "Extra Time",
+      "Focus",
+      "Focus",
+      "Point Blank",
+      "Magic Parry",
+      "Point Blank"
+    ]
+  },
+  {
+    "name": "Ruby",
+    "basic": [
+      "Cutlass & Flintlock",
+      "Swashbuckler",
+      "Whirlwind",
+      "Ranged Parry"
+    ],
+    "ascension": [
+      "Ranged Parry",
+      "Push",
+      "Rend",
+      "Slay Dragon"
+    ],
+    "merge": [],
+    "all": [
+      "Cutlass & Flintlock",
+      "Swashbuckler",
+      "Whirlwind",
+      "Ranged Parry",
+      "Ranged Parry",
+      "Push",
+      "Rend",
+      "Slay Dragon"
+    ]
+  },
+  {
+    "name": "Runeglow",
+    "basic": [
+      "Focus",
+      "Slay Demon",
+      "Sniper",
+      "Extra Time",
+      "Sniper"
+    ],
+    "ascension": [
+      "Ranged Parry",
+      "Ranged Parry",
+      "Sniper"
+    ],
+    "merge": [
+      "Split Second",
+      "Brutal Attack",
+      "Point Blank"
+    ],
+    "all": [
+      "Focus",
+      "Slay Demon",
+      "Sniper",
+      "Extra Time",
+      "Sniper",
+      "Ranged Parry",
+      "Ranged Parry",
+      "Sniper",
+      "Split Second",
+      "Brutal Attack",
+      "Point Blank"
+    ]
+  },
+  {
+    "name": "Rurik",
+    "basic": [
+      "Meditate",
+      "Poison Resistance",
+      "Whirlwind"
+    ],
+    "ascension": [
+      "Whirlwind",
+      "Venom",
+      "Rune of Moon",
+      "Venom"
+    ],
+    "merge": [],
+    "all": [
+      "Meditate",
+      "Poison Resistance",
+      "Whirlwind",
+      "Whirlwind",
+      "Venom",
+      "Rune of Moon",
+      "Venom"
+    ]
+  },
+  {
+    "name": "Sandor",
+    "basic": [
+      "Tumble",
+      "Backstab",
+      "Brutal Backstab",
+      "Brutal Backstab",
+      "Diagonal Parry",
+      "Life Drain"
+    ],
+    "ascension": [
+      "Diagonal Parry",
+      "Prepare",
+      "Tumble"
+    ],
+    "merge": [
+      "Split Second",
+      "Tumble",
+      "Fortify"
+    ],
+    "all": [
+      "Tumble",
+      "Backstab",
+      "Brutal Backstab",
+      "Brutal Backstab",
+      "Diagonal Parry",
+      "Life Drain",
+      "Diagonal Parry",
+      "Prepare",
+      "Tumble",
+      "Split Second",
+      "Tumble",
+      "Fortify"
+    ]
+  },
+  {
+    "name": "Sanguina",
+    "basic": [
+      "Tumble",
+      "Finishing Blow",
+      "Finishing Blow"
+    ],
+    "ascension": [
+      "Fortify",
+      "Melee Parry",
+      "Rune of Fire",
+      "Finishing Blow"
+    ],
+    "merge": [],
+    "all": [
+      "Tumble",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Fortify",
+      "Melee Parry",
+      "Rune of Fire",
+      "Finishing Blow"
+    ]
+  },
+  {
+    "name": "Sapphirecrown",
+    "basic": [
+      "Majesty",
+      "Pact of Sea",
+      "Focus",
+      "Venom",
+      "Focus"
+    ],
+    "ascension": [
+      "Silencing Strike",
+      "Pact Against Insects",
+      "Rune of Sea"
+    ],
+    "merge": [
+      "Split Second",
+      "Diagonal Aim",
+      "Magic Parry"
+    ],
+    "all": [
+      "Majesty",
+      "Pact of Sea",
+      "Focus",
+      "Venom",
+      "Focus",
+      "Silencing Strike",
+      "Pact Against Insects",
+      "Rune of Sea",
+      "Split Second",
+      "Diagonal Aim",
+      "Magic Parry"
+    ]
+  },
+  {
+    "name": "Sauriel",
+    "basic": [
+      "Sniper",
+      "Raider",
+      "Slay Sylvan",
+      "Poison Resistance",
+      "Critical Attack",
+      "Critical Attack"
+    ],
+    "ascension": [
+      "Brutal Attack",
+      "Sniper",
+      "Rune of Fire"
+    ],
+    "merge": [
+      "Split Second",
+      "Raider Boost",
+      "Raider Surge"
+    ],
+    "all": [
+      "Sniper",
+      "Raider",
+      "Slay Sylvan",
+      "Poison Resistance",
+      "Critical Attack",
+      "Critical Attack",
+      "Brutal Attack",
+      "Sniper",
+      "Rune of Fire",
+      "Split Second",
+      "Raider Boost",
+      "Raider Surge"
+    ]
+  },
+  {
+    "name": "Scarlet",
+    "basic": [
+      "Syphon Life",
+      "Deadly Syphon",
+      "Venom",
+      "Poison Resistance",
+      "Poison Resistance",
+      "Soul Blade"
+    ],
+    "ascension": [
+      "Blitz",
+      "Diagonal Heal",
+      "Blitz"
+    ],
+    "merge": [
+      "Split Second",
+      "Blitz",
+      "Bad Medicine"
+    ],
+    "all": [
+      "Syphon Life",
+      "Deadly Syphon",
+      "Venom",
+      "Poison Resistance",
+      "Poison Resistance",
+      "Soul Blade",
+      "Blitz",
+      "Diagonal Heal",
+      "Blitz",
+      "Split Second",
+      "Blitz",
+      "Bad Medicine"
+    ]
+  },
+  {
+    "name": "Scorch",
+    "basic": [
+      "Focus",
+      "Blitz",
+      "Blitz",
+      "Sniper",
+      "Immune to Withering",
+      "Ignition Point"
+    ],
+    "ascension": [
+      "Fortify",
+      "Sniper",
+      "Fortify"
+    ],
+    "merge": [
+      "Split Second",
+      "Rend",
+      "Focus"
+    ],
+    "all": [
+      "Focus",
+      "Blitz",
+      "Blitz",
+      "Sniper",
+      "Immune to Withering",
+      "Ignition Point",
+      "Fortify",
+      "Sniper",
+      "Fortify",
+      "Split Second",
+      "Rend",
+      "Focus"
+    ]
+  },
+  {
+    "name": "Scylla",
+    "basic": [
+      "Shroud",
+      "Venom",
+      "Brutal Attack",
+      "Critical Attack",
+      "Brutal Attack",
+      "Critical Attack"
+    ],
+    "ascension": [
+      "Brutal Attack",
+      "Critical Attack",
+      "Rune of Earth"
+    ],
+    "merge": [
+      "Split Second",
+      "Brutal Attack",
+      "Rune of Earth"
+    ],
+    "all": [
+      "Shroud",
+      "Venom",
+      "Brutal Attack",
+      "Critical Attack",
+      "Brutal Attack",
+      "Critical Attack",
+      "Brutal Attack",
+      "Critical Attack",
+      "Rune of Earth",
+      "Split Second",
+      "Brutal Attack",
+      "Rune of Earth"
+    ]
+  },
+  {
+    "name": "Seraphina",
+    "basic": [
+      "Trident & Net",
+      "Net Grab",
+      "Resilient",
+      "Entangle"
+    ],
+    "ascension": [
+      "Focus",
+      "Extra Time",
+      "Focus",
+      "Resilient"
+    ],
+    "merge": [],
+    "all": [
+      "Trident & Net",
+      "Net Grab",
+      "Resilient",
+      "Entangle",
+      "Focus",
+      "Extra Time",
+      "Focus",
+      "Resilient"
+    ]
+  },
+  {
+    "name": "Serelune",
+    "basic": [
+      "Sniper",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Cardinal Parry",
+      "Blitz",
+      "Initiative: Quick Attack"
+    ],
+    "ascension": [
+      "Cardinal Parry",
+      "Curse Resistance",
+      "Blitz"
+    ],
+    "merge": [
+      "Split Second",
+      "Critical Attack",
+      "Mighty Blow"
+    ],
+    "all": [
+      "Sniper",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Cardinal Parry",
+      "Blitz",
+      "Initiative: Quick Attack",
+      "Cardinal Parry",
+      "Curse Resistance",
+      "Blitz",
+      "Split Second",
+      "Critical Attack",
+      "Mighty Blow"
+    ]
+  },
+  {
+    "name": "Serene",
+    "basic": [
+      "Berserk",
+      "Mighty Blow",
+      "Mighty Blow",
+      "Cardinal Parry",
+      "Ironskin",
+      "Crushing Blow"
+    ],
+    "ascension": [
+      "Bloodlust",
+      "Cardinal Aim",
+      "Mighty Blow"
+    ],
+    "merge": [
+      "Split Second",
+      "Bloodlust",
+      "Crushing Blow"
+    ],
+    "all": [
+      "Berserk",
+      "Mighty Blow",
+      "Mighty Blow",
+      "Cardinal Parry",
+      "Ironskin",
+      "Crushing Blow",
+      "Bloodlust",
+      "Cardinal Aim",
+      "Mighty Blow",
+      "Split Second",
+      "Bloodlust",
+      "Crushing Blow"
+    ]
+  },
+  {
+    "name": "Shadowstep",
+    "basic": [
+      "Tumble",
+      "Finishing Blow",
+      "Brutal Attack",
+      "Brutal Attack",
+      "Cold Resistance",
+      "Arcane Shield"
+    ],
+    "ascension": [
+      "Critical Attack",
+      "Finishing Blow",
+      "Tumble"
+    ],
+    "merge": [
+      "Split Second",
+      "Tumble",
+      "Whirlwind"
+    ],
+    "all": [
+      "Tumble",
+      "Finishing Blow",
+      "Brutal Attack",
+      "Brutal Attack",
+      "Cold Resistance",
+      "Arcane Shield",
+      "Critical Attack",
+      "Finishing Blow",
+      "Tumble",
+      "Split Second",
+      "Tumble",
+      "Whirlwind"
+    ]
+  },
+  {
+    "name": "Shadra",
+    "basic": [
+      "Healing Aura",
+      "Cardinal Heal",
+      "Bleed Resistance",
+      "Immune to Disorientation",
+      "Cardinal Parry",
+      "Life Steal"
+    ],
+    "ascension": [
+      "Cardinal Parry",
+      "Cardinal Heal",
+      "Cardinal Heal"
+    ],
+    "merge": [
+      "Split Second",
+      "Steady Heal",
+      "Cardinal Heal"
+    ],
+    "all": [
+      "Healing Aura",
+      "Cardinal Heal",
+      "Bleed Resistance",
+      "Immune to Disorientation",
+      "Cardinal Parry",
+      "Life Steal",
+      "Cardinal Parry",
+      "Cardinal Heal",
+      "Cardinal Heal",
+      "Split Second",
+      "Steady Heal",
+      "Cardinal Heal"
+    ]
+  },
+  {
+    "name": "Shadragon",
+    "basic": [
+      "Healing Aura",
+      "Cardinal Heal",
+      "Bleed Resistance",
+      "Immune to Disorientation",
+      "Cardinal Parry",
+      "Life Steal"
+    ],
+    "ascension": [
+      "Cardinal Parry",
+      "Cardinal Heal",
+      "Cardinal Heal"
+    ],
+    "merge": [
+      "Split Second",
+      "Steady Heal",
+      "Cardinal Heal"
+    ],
+    "all": [
+      "Healing Aura",
+      "Cardinal Heal",
+      "Bleed Resistance",
+      "Immune to Disorientation",
+      "Cardinal Parry",
+      "Life Steal",
+      "Cardinal Parry",
+      "Cardinal Heal",
+      "Cardinal Heal",
+      "Split Second",
+      "Steady Heal",
+      "Cardinal Heal"
+    ]
+  },
+  {
+    "name": "Shani",
+    "basic": [
+      "Berserk",
+      "Push",
+      "Immovable",
+      "Push",
+      "Venom"
+    ],
+    "ascension": [
+      "Whirlwind",
+      "Ranged Parry",
+      "Whirlwind"
+    ],
+    "merge": [
+      "Split Second",
+      "Ranged Parry",
+      "Venom"
+    ],
+    "all": [
+      "Berserk",
+      "Push",
+      "Immovable",
+      "Push",
+      "Venom",
+      "Whirlwind",
+      "Ranged Parry",
+      "Whirlwind",
+      "Split Second",
+      "Ranged Parry",
+      "Venom"
+    ]
+  },
+  {
+    "name": "Sharpscale",
+    "basic": [
+      "Cardinal Parry",
+      "Melee Parry",
+      "Melee Parry",
+      "Mighty Blow"
+    ],
+    "ascension": [
+      "Immovable",
+      "Extra Time",
+      "Mighty Blow",
+      "Push"
+    ],
+    "merge": [],
+    "all": [
+      "Cardinal Parry",
+      "Melee Parry",
+      "Melee Parry",
+      "Mighty Blow",
+      "Immovable",
+      "Extra Time",
+      "Mighty Blow",
+      "Push"
+    ]
+  },
+  {
+    "name": "Shatterstorm",
+    "basic": [
+      "Syphon Life",
+      "Deadly Syphon",
+      "Sniper",
+      "Diagonal Heal"
+    ],
+    "ascension": [
+      "Sniper",
+      "Sniper",
+      "Ranged Parry",
+      "Sniper"
+    ],
+    "merge": [],
+    "all": [
+      "Syphon Life",
+      "Deadly Syphon",
+      "Sniper",
+      "Diagonal Heal",
+      "Sniper",
+      "Sniper",
+      "Ranged Parry",
+      "Sniper"
+    ]
+  },
+  {
+    "name": "Shoal",
+    "basic": [
+      "Cutlass & Flintlock",
+      "Swashbuckler",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Ironskin",
+      "Crushing Blow"
+    ],
+    "ascension": [
+      "Melee Parry",
+      "Extra Time",
+      "Predator"
+    ],
+    "merge": [
+      "Split Second",
+      "Melee Parry",
+      "Pulverize"
+    ],
+    "all": [
+      "Cutlass & Flintlock",
+      "Swashbuckler",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Ironskin",
+      "Crushing Blow",
+      "Melee Parry",
+      "Extra Time",
+      "Predator",
+      "Split Second",
+      "Melee Parry",
+      "Pulverize"
+    ]
+  },
+  {
+    "name": "Sigyn",
+    "basic": [
+      "Healing Aura",
+      "Protector",
+      "Rend",
+      "Cardinal Heal",
+      "Cardinal Parry"
+    ],
+    "ascension": [
+      "Cardinal Parry",
+      "Cardinal Heal",
+      "Cardinal Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Diagonal Parry",
+      "Healing Focus"
+    ],
+    "all": [
+      "Healing Aura",
+      "Protector",
+      "Rend",
+      "Cardinal Heal",
+      "Cardinal Parry",
+      "Cardinal Parry",
+      "Cardinal Heal",
+      "Cardinal Parry",
+      "Split Second",
+      "Diagonal Parry",
+      "Healing Focus"
+    ]
+  },
+  {
+    "name": "Silverstring",
+    "basic": [
+      "Bardic Song",
+      "Power Chord",
+      "Magic Parry",
+      "Chord of Cardinal Aim",
+      "Extra Time",
+      "Bardic Song"
+    ],
+    "ascension": [
+      "Tumble",
+      "Magic Parry",
+      "Chord of Cardinal Aim"
+    ],
+    "merge": [
+      "Split Second",
+      "Cardinal Aim",
+      "Song of Cold"
+    ],
+    "all": [
+      "Bardic Song",
+      "Power Chord",
+      "Magic Parry",
+      "Chord of Cardinal Aim",
+      "Extra Time",
+      "Bardic Song",
+      "Tumble",
+      "Magic Parry",
+      "Chord of Cardinal Aim",
+      "Split Second",
+      "Cardinal Aim",
+      "Song of Cold"
+    ]
+  },
+  {
+    "name": "Skylar",
+    "basic": [
+      "Sniper",
+      "Slay Monstrosity",
+      "Blitz",
+      "Blitz",
+      "Grappling Hook",
+      "High Ground"
+    ],
+    "ascension": [
+      "Ranged Parry",
+      "Immune to Stun",
+      "Grappling Hook"
+    ],
+    "merge": [
+      "Split Second",
+      "Grappling Hook",
+      "Blitz"
+    ],
+    "all": [
+      "Sniper",
+      "Slay Monstrosity",
+      "Blitz",
+      "Blitz",
+      "Grappling Hook",
+      "High Ground",
+      "Ranged Parry",
+      "Immune to Stun",
+      "Grappling Hook",
+      "Split Second",
+      "Grappling Hook",
+      "Blitz"
+    ]
+  },
+  {
+    "name": "Skylash",
+    "basic": [
+      "Tumble",
+      "Whirlwind",
+      "Whirlwind",
+      "Dodge",
+      "Dodge",
+      "Frostwhirl"
+    ],
+    "ascension": [
+      "Dauntless",
+      "Cold Resistance",
+      "Tumble"
+    ],
+    "merge": [
+      "Split Second",
+      "Tumble",
+      "Frostwhirl"
+    ],
+    "all": [
+      "Tumble",
+      "Whirlwind",
+      "Whirlwind",
+      "Dodge",
+      "Dodge",
+      "Frostwhirl",
+      "Dauntless",
+      "Cold Resistance",
+      "Tumble",
+      "Split Second",
+      "Tumble",
+      "Frostwhirl"
+    ]
+  },
+  {
+    "name": "Skytail",
+    "basic": [
+      "Focus",
+      "Ranged Parry",
+      "Ranged Parry",
+      "Immune to Silence"
+    ],
+    "ascension": [
+      "Focus",
+      "Focus",
+      "Ranged Parry",
+      "Focus"
+    ],
+    "merge": [],
+    "all": [
+      "Focus",
+      "Ranged Parry",
+      "Ranged Parry",
+      "Immune to Silence",
+      "Focus",
+      "Focus",
+      "Ranged Parry",
+      "Focus"
+    ]
+  },
+  {
+    "name": "Sleetsong",
+    "basic": [
+      "Meditate",
+      "Mighty Blow",
+      "Mighty Blow",
+      "Prepare",
+      "Cold Resistance",
+      "Prepared Freeze"
+    ],
+    "ascension": [
+      "Inner Peace",
+      "Rune of Sea",
+      "Prepare"
+    ],
+    "merge": [
+      "Split Second",
+      "Inner Peace",
+      "Cardinal Parry"
+    ],
+    "all": [
+      "Meditate",
+      "Mighty Blow",
+      "Mighty Blow",
+      "Prepare",
+      "Cold Resistance",
+      "Prepared Freeze",
+      "Inner Peace",
+      "Rune of Sea",
+      "Prepare",
+      "Split Second",
+      "Inner Peace",
+      "Cardinal Parry"
+    ]
+  },
+  {
+    "name": "Sol",
+    "basic": [
+      "Healing Ray",
+      "Lingering Heal",
+      "Ranged Parry",
+      "Ranged Parry",
+      "Dodge"
+    ],
+    "ascension": [
+      "Pacifist",
+      "Dodge",
+      "Healing Focus"
+    ],
+    "merge": [
+      "Split Second",
+      "Point Blank",
+      "Triage"
+    ],
+    "all": [
+      "Healing Ray",
+      "Lingering Heal",
+      "Ranged Parry",
+      "Ranged Parry",
+      "Dodge",
+      "Pacifist",
+      "Dodge",
+      "Healing Focus",
+      "Split Second",
+      "Point Blank",
+      "Triage"
+    ]
+  },
+  {
+    "name": "Sonya",
+    "basic": [
+      "Sniper",
+      "Slay Construct",
+      "Sniper",
+      "Sniper",
+      "Stunning Strike"
+    ],
+    "ascension": [
+      "Ranged Parry",
+      "Ranged Parry",
+      "Ranged Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Diagonal Parry",
+      "Point Blank"
+    ],
+    "all": [
+      "Sniper",
+      "Slay Construct",
+      "Sniper",
+      "Sniper",
+      "Stunning Strike",
+      "Ranged Parry",
+      "Ranged Parry",
+      "Ranged Parry",
+      "Split Second",
+      "Diagonal Parry",
+      "Point Blank"
+    ]
+  },
+  {
+    "name": "Sparklight",
+    "basic": [
+      "Tumble",
+      "Prepare",
+      "Prepare",
+      "Protector",
+      "Fleet-Footed",
+      "Cold Resistance"
+    ],
+    "ascension": [
+      "Brutal Attack",
+      "Prepare",
+      "Prepare"
+    ],
+    "merge": [
+      "Split Second",
+      "Magic Parry",
+      "Tumble"
+    ],
+    "all": [
+      "Tumble",
+      "Prepare",
+      "Prepare",
+      "Protector",
+      "Fleet-Footed",
+      "Cold Resistance",
+      "Brutal Attack",
+      "Prepare",
+      "Prepare",
+      "Split Second",
+      "Magic Parry",
+      "Tumble"
+    ]
+  },
+  {
+    "name": "Sparrow",
+    "basic": [
+      "Cardinal Aim",
+      "Venom",
+      "Extra Time",
+      "Venom"
+    ],
+    "ascension": [
+      "Cardinal Aim",
+      "Diagonal Parry",
+      "Cardinal Aim",
+      "Diagonal Parry"
+    ],
+    "merge": [],
+    "all": [
+      "Cardinal Aim",
+      "Venom",
+      "Extra Time",
+      "Venom",
+      "Cardinal Aim",
+      "Diagonal Parry",
+      "Cardinal Aim",
+      "Diagonal Parry"
+    ]
+  },
+  {
+    "name": "Sprig",
+    "basic": [
+      "Life Drain",
+      "Focus",
+      "Focus",
+      "Rend"
+    ],
+    "ascension": [
+      "Magic Parry",
+      "Immune to Dazzled",
+      "Magic Parry",
+      "Focus"
+    ],
+    "merge": [],
+    "all": [
+      "Life Drain",
+      "Focus",
+      "Focus",
+      "Rend",
+      "Magic Parry",
+      "Immune to Dazzled",
+      "Magic Parry",
+      "Focus"
+    ]
+  },
+  {
+    "name": "Spring Radek",
+    "basic": [
+      "Tumble",
+      "Whirlwind",
+      "Whirlwind",
+      "Poison Resistance",
+      "Dodge",
+      "Dodge"
+    ],
+    "ascension": [
+      "Finishing Blow",
+      "Extra Time",
+      "Tumble"
+    ],
+    "merge": [
+      "Split Second",
+      "Tumble",
+      "Finishing Blow"
+    ],
+    "all": [
+      "Tumble",
+      "Whirlwind",
+      "Whirlwind",
+      "Poison Resistance",
+      "Dodge",
+      "Dodge",
+      "Finishing Blow",
+      "Extra Time",
+      "Tumble",
+      "Split Second",
+      "Tumble",
+      "Finishing Blow"
+    ]
+  },
+  {
+    "name": "Squall",
+    "basic": [
+      "Healing Ray",
+      "Lingering Heal",
+      "Magic Parry",
+      "Critical Heal",
+      "Triage"
+    ],
+    "ascension": [
+      "Triage",
+      "Poison Resistance",
+      "Magic Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Critical Heal",
+      "Fortify"
+    ],
+    "all": [
+      "Healing Ray",
+      "Lingering Heal",
+      "Magic Parry",
+      "Critical Heal",
+      "Triage",
+      "Triage",
+      "Poison Resistance",
+      "Magic Parry",
+      "Split Second",
+      "Critical Heal",
+      "Fortify"
+    ]
+  },
+  {
+    "name": "Stalker",
+    "basic": [
+      "Hamstring",
+      "Focus",
+      "Focus",
+      "Rend",
+      "Armor of Blood"
+    ],
+    "ascension": [
+      "Armor of Blood",
+      "Bleed Resistance",
+      "Ranged Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Ranged Parry",
+      "Exploit Weakness"
+    ],
+    "all": [
+      "Hamstring",
+      "Focus",
+      "Focus",
+      "Rend",
+      "Armor of Blood",
+      "Armor of Blood",
+      "Bleed Resistance",
+      "Ranged Parry",
+      "Split Second",
+      "Ranged Parry",
+      "Exploit Weakness"
+    ]
+  },
+  {
+    "name": "Starmist",
+    "basic": [
+      "Regrowth",
+      "Natural Harmony",
+      "Magic Parry",
+      "Magic Parry",
+      "Cold Resistance",
+      "Arcane Shield"
+    ],
+    "ascension": [
+      "Immovable",
+      "Poison Resistance",
+      "Immune to Silence"
+    ],
+    "merge": [
+      "Split Second",
+      "Magic Parry",
+      "Fortify"
+    ],
+    "all": [
+      "Regrowth",
+      "Natural Harmony",
+      "Magic Parry",
+      "Magic Parry",
+      "Cold Resistance",
+      "Arcane Shield",
+      "Immovable",
+      "Poison Resistance",
+      "Immune to Silence",
+      "Split Second",
+      "Magic Parry",
+      "Fortify"
+    ]
+  },
+  {
+    "name": "Steelgrip",
+    "basic": [
+      "Taunt",
+      "Slay Dragon",
+      "Bloodlust",
+      "Bloodlust",
+      "Revitalize",
+      "Foresight"
+    ],
+    "ascension": [
+      "Resilient",
+      "Resilient",
+      "Resilient"
+    ],
+    "merge": [
+      "Split Second",
+      "Cold Resistance",
+      "Resilient"
+    ],
+    "all": [
+      "Taunt",
+      "Slay Dragon",
+      "Bloodlust",
+      "Bloodlust",
+      "Revitalize",
+      "Foresight",
+      "Resilient",
+      "Resilient",
+      "Resilient",
+      "Split Second",
+      "Cold Resistance",
+      "Resilient"
+    ]
+  },
+  {
+    "name": "Stormbreeze",
+    "basic": [
+      "Cardinal Aim",
+      "Blitz",
+      "Critical Attack",
+      "Critical Attack",
+      "Critical Attack: Ignite",
+      "Dodge"
+    ],
+    "ascension": [
+      "Dodge",
+      "Dodge",
+      "Blitz"
+    ],
+    "merge": [
+      "Split Second",
+      "Critical Attack",
+      "Dodge"
+    ],
+    "all": [
+      "Cardinal Aim",
+      "Blitz",
+      "Critical Attack",
+      "Critical Attack",
+      "Critical Attack: Ignite",
+      "Dodge",
+      "Dodge",
+      "Dodge",
+      "Blitz",
+      "Split Second",
+      "Critical Attack",
+      "Dodge"
+    ]
+  },
+  {
+    "name": "Strixx",
+    "basic": [
+      "Cutlass & Flintlock",
+      "Pistoleer",
+      "Melee Parry",
+      "Sniper"
+    ],
+    "ascension": [
+      "Melee Parry",
+      "Sniper",
+      "Diagonal Parry",
+      "Sniper"
+    ],
+    "merge": [],
+    "all": [
+      "Cutlass & Flintlock",
+      "Pistoleer",
+      "Melee Parry",
+      "Sniper",
+      "Melee Parry",
+      "Sniper",
+      "Diagonal Parry",
+      "Sniper"
+    ]
+  },
+  {
+    "name": "Summershine",
+    "basic": [
+      "Shroud",
+      "Slay Demon",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Fortify",
+      "Blade On A Chain"
+    ],
+    "ascension": [
+      "Backstab",
+      "Melee Parry",
+      "Backstab"
+    ],
+    "merge": [
+      "Split Second",
+      "Finishing Blow",
+      "Unstoppable Force"
+    ],
+    "all": [
+      "Shroud",
+      "Slay Demon",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Fortify",
+      "Blade On A Chain",
+      "Backstab",
+      "Melee Parry",
+      "Backstab",
+      "Split Second",
+      "Finishing Blow",
+      "Unstoppable Force"
+    ]
+  },
+  {
+    "name": "Sunmend",
+    "basic": [
+      "Healing Aura",
+      "Critical Heal",
+      "Critical Heal",
+      "Sentinel",
+      "Sentinel",
+      "Initiative: Heroic Blow"
+    ],
+    "ascension": [
+      "Arcane Shield",
+      "Triage",
+      "Critical Heal"
+    ],
+    "merge": [
+      "Split Second",
+      "Critical Heal",
+      "Zeal of Life"
+    ],
+    "all": [
+      "Healing Aura",
+      "Critical Heal",
+      "Critical Heal",
+      "Sentinel",
+      "Sentinel",
+      "Initiative: Heroic Blow",
+      "Arcane Shield",
+      "Triage",
+      "Critical Heal",
+      "Split Second",
+      "Critical Heal",
+      "Zeal of Life"
+    ]
+  },
+  {
+    "name": "Sunstrike",
+    "basic": [
+      "Taunt",
+      "Resilient",
+      "Slay Elemental",
+      "Resilient",
+      "Bloodlust"
+    ],
+    "ascension": [
+      "Finishing Blow",
+      "Resilient",
+      "Melee Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Resilient",
+      "Slay Elemental"
+    ],
+    "all": [
+      "Taunt",
+      "Resilient",
+      "Slay Elemental",
+      "Resilient",
+      "Bloodlust",
+      "Finishing Blow",
+      "Resilient",
+      "Melee Parry",
+      "Split Second",
+      "Resilient",
+      "Slay Elemental"
+    ]
+  },
+  {
+    "name": "Swiftcloud",
+    "basic": [
+      "Meditate",
+      "Push",
+      "Whirlwind",
+      "Soul Blade",
+      "Dodge",
+      "Dodge"
+    ],
+    "ascension": [
+      "Disorienting Strike",
+      "Dodge",
+      "Soul Blade"
+    ],
+    "merge": [
+      "Split Second",
+      "Whirlwind",
+      "Inner Peace"
+    ],
+    "all": [
+      "Meditate",
+      "Push",
+      "Whirlwind",
+      "Soul Blade",
+      "Dodge",
+      "Dodge",
+      "Disorienting Strike",
+      "Dodge",
+      "Soul Blade",
+      "Split Second",
+      "Whirlwind",
+      "Inner Peace"
+    ]
+  },
+  {
+    "name": "Sylvain",
+    "basic": [
+      "Chromatic Shield",
+      "Ranged Parry",
+      "Extra Time",
+      "Ranged Parry",
+      "Whirlwind"
+    ],
+    "ascension": [
+      "Diagonal Aim",
+      "Diagonal Aim",
+      "Ranged Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Poison Resistance",
+      "Diagonal Parry"
+    ],
+    "all": [
+      "Chromatic Shield",
+      "Ranged Parry",
+      "Extra Time",
+      "Ranged Parry",
+      "Whirlwind",
+      "Diagonal Aim",
+      "Diagonal Aim",
+      "Ranged Parry",
+      "Split Second",
+      "Poison Resistance",
+      "Diagonal Parry"
+    ]
+  },
+  {
+    "name": "Tess",
+    "basic": [
+      "Shroud",
+      "Grappling Hook",
+      "Grappling Hook",
+      "Grappling Hook",
+      "High Ground",
+      "Unstoppable Force"
+    ],
+    "ascension": [
+      "Finishing Blow",
+      "Strongpoint",
+      "Skirmisher"
+    ],
+    "merge": [
+      "Split Second",
+      "Finishing Blow",
+      "High Ground"
+    ],
+    "all": [
+      "Shroud",
+      "Grappling Hook",
+      "Grappling Hook",
+      "Grappling Hook",
+      "High Ground",
+      "Unstoppable Force",
+      "Finishing Blow",
+      "Strongpoint",
+      "Skirmisher",
+      "Split Second",
+      "Finishing Blow",
+      "High Ground"
+    ]
+  },
+  {
+    "name": "Thargor",
+    "basic": [
+      "Healing Aura",
+      "Healing Focus",
+      "Extra Time",
+      "Bleed Resistance"
+    ],
+    "ascension": [
+      "Healing Focus",
+      "Ranged Parry",
+      "Cardinal Parry",
+      "Healing Focus"
+    ],
+    "merge": [],
+    "all": [
+      "Healing Aura",
+      "Healing Focus",
+      "Extra Time",
+      "Bleed Resistance",
+      "Healing Focus",
+      "Ranged Parry",
+      "Cardinal Parry",
+      "Healing Focus"
+    ]
+  },
+  {
+    "name": "Thistle",
+    "basic": [
+      "Shroud",
+      "Rend",
+      "Prepare",
+      "Prepare",
+      "Prepared Rupture",
+      "Dauntless"
+    ],
+    "ascension": [
+      "Prepare",
+      "Magic Parry",
+      "Prepared Rupture"
+    ],
+    "merge": [
+      "Split Second",
+      "Magic Parry",
+      "Prepared Rupture"
+    ],
+    "all": [
+      "Shroud",
+      "Rend",
+      "Prepare",
+      "Prepare",
+      "Prepared Rupture",
+      "Dauntless",
+      "Prepare",
+      "Magic Parry",
+      "Prepared Rupture",
+      "Split Second",
+      "Magic Parry",
+      "Prepared Rupture"
+    ]
+  },
+  {
+    "name": "Thronak",
+    "basic": [
+      "Taunt",
+      "Slay Troll",
+      "Grappling Hook",
+      "Grappling Hook",
+      "Strongpoint",
+      "High Ground"
+    ],
+    "ascension": [
+      "Resilient",
+      "Strongpoint",
+      "Sentinel"
+    ],
+    "merge": [
+      "Split Second",
+      "Resilient",
+      "Grappling Hook"
+    ],
+    "all": [
+      "Taunt",
+      "Slay Troll",
+      "Grappling Hook",
+      "Grappling Hook",
+      "Strongpoint",
+      "High Ground",
+      "Resilient",
+      "Strongpoint",
+      "Sentinel",
+      "Split Second",
+      "Resilient",
+      "Grappling Hook"
+    ]
+  },
+  {
+    "name": "Thunderclaw",
+    "basic": [
+      "Sniper",
+      "Sniper",
+      "Ranged Parry"
+    ],
+    "ascension": [
+      "Sniper",
+      "Ranged Parry",
+      "Extra Time",
+      "Sniper"
+    ],
+    "merge": [],
+    "all": [
+      "Sniper",
+      "Sniper",
+      "Ranged Parry",
+      "Sniper",
+      "Ranged Parry",
+      "Extra Time",
+      "Sniper"
+    ]
+  },
+  {
+    "name": "Tiordan",
+    "basic": [
+      "Focus",
+      "Focus",
+      "Prepare",
+      "Resilient",
+      "Resilient",
+      "Prepared Freeze"
+    ],
+    "ascension": [
+      "Extra Time",
+      "Immune to Silence",
+      "Prepare"
+    ],
+    "merge": [
+      "Split Second",
+      "Diagonal Parry",
+      "Prepare"
+    ],
+    "all": [
+      "Focus",
+      "Focus",
+      "Prepare",
+      "Resilient",
+      "Resilient",
+      "Prepared Freeze",
+      "Extra Time",
+      "Immune to Silence",
+      "Prepare",
+      "Split Second",
+      "Diagonal Parry",
+      "Prepare"
+    ]
+  },
+  {
+    "name": "Torkan",
+    "basic": [
+      "Taunt",
+      "Resilient",
+      "Slay Undead",
+      "Bloodlust",
+      "Bloodlust"
+    ],
+    "ascension": [
+      "Melee Parry",
+      "Mighty Blow",
+      "Bloodlust"
+    ],
+    "merge": [
+      "Split Second",
+      "Ranged Parry",
+      "Bloodlust"
+    ],
+    "all": [
+      "Taunt",
+      "Resilient",
+      "Slay Undead",
+      "Bloodlust",
+      "Bloodlust",
+      "Melee Parry",
+      "Mighty Blow",
+      "Bloodlust",
+      "Split Second",
+      "Ranged Parry",
+      "Bloodlust"
+    ]
+  },
+  {
+    "name": "Torrent",
+    "basic": [
+      "Trident & Net",
+      "Net Grab",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Flank",
+      "Entangle"
+    ],
+    "ascension": [
+      "Resolute",
+      "Entangle",
+      "Flank"
+    ],
+    "merge": [
+      "Split Second",
+      "Immune to Taunt",
+      "Entangle"
+    ],
+    "all": [
+      "Trident & Net",
+      "Net Grab",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Flank",
+      "Entangle",
+      "Resolute",
+      "Entangle",
+      "Flank",
+      "Split Second",
+      "Immune to Taunt",
+      "Entangle"
+    ]
+  },
+  {
+    "name": "Trillian",
+    "basic": [
+      "Cardinal Aim",
+      "Slay Insect",
+      "Diagonal Parry",
+      "Venom",
+      "Whirlwind",
+      "Whirlwind"
+    ],
+    "ascension": [
+      "Diagonal Parry",
+      "Fortify",
+      "Blitz"
+    ],
+    "merge": [
+      "Split Second",
+      "Point Blank",
+      "Cardinal Parry"
+    ],
+    "all": [
+      "Cardinal Aim",
+      "Slay Insect",
+      "Diagonal Parry",
+      "Venom",
+      "Whirlwind",
+      "Whirlwind",
+      "Diagonal Parry",
+      "Fortify",
+      "Blitz",
+      "Split Second",
+      "Point Blank",
+      "Cardinal Parry"
+    ]
+  },
+  {
+    "name": "Trisha",
+    "basic": [
+      "Barrier",
+      "Armor of Sea",
+      "Push",
+      "Immune to Disorientation",
+      "Rune of Sea",
+      "Revitalize"
+    ],
+    "ascension": [
+      "Magic Parry",
+      "Push",
+      "Magic Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Rune of Sea",
+      "Armor of Sea"
+    ],
+    "all": [
+      "Barrier",
+      "Armor of Sea",
+      "Push",
+      "Immune to Disorientation",
+      "Rune of Sea",
+      "Revitalize",
+      "Magic Parry",
+      "Push",
+      "Magic Parry",
+      "Split Second",
+      "Rune of Sea",
+      "Armor of Sea"
+    ]
+  },
+  {
+    "name": "Tristan",
+    "basic": [
+      "Cardinal Parry",
+      "Push",
+      "Push",
+      "Chromatic Shield",
+      "Disorienting Strike",
+      "Life Steal"
+    ],
+    "ascension": [
+      "Melee Parry",
+      "Cardinal Parry",
+      "Melee Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Life Steal",
+      "Push"
+    ],
+    "all": [
+      "Cardinal Parry",
+      "Push",
+      "Push",
+      "Chromatic Shield",
+      "Disorienting Strike",
+      "Life Steal",
+      "Melee Parry",
+      "Cardinal Parry",
+      "Melee Parry",
+      "Split Second",
+      "Life Steal",
+      "Push"
+    ]
+  },
+  {
+    "name": "Tropical Ariane",
+    "basic": [
+      "Cardinal Aim",
+      "Venom",
+      "Ranged Parry",
+      "Sniper",
+      "Sniper",
+      "Sniper"
+    ],
+    "ascension": [
+      "Diagonal Aim",
+      "Venom",
+      "Ranged Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Venom",
+      "Ranged Parry"
+    ],
+    "all": [
+      "Cardinal Aim",
+      "Venom",
+      "Ranged Parry",
+      "Sniper",
+      "Sniper",
+      "Sniper",
+      "Diagonal Aim",
+      "Venom",
+      "Ranged Parry",
+      "Split Second",
+      "Venom",
+      "Ranged Parry"
+    ]
+  },
+  {
+    "name": "Tsunami",
+    "basic": [
+      "Tumble",
+      "Water Walker",
+      "Whirlwind",
+      "Whirlwind",
+      "Melee Parry",
+      "Watery Grave"
+    ],
+    "ascension": [
+      "Melee Parry",
+      "Whirlwind",
+      "Tumble"
+    ],
+    "merge": [
+      "Split Second",
+      "Tumble",
+      "Melee Parry"
+    ],
+    "all": [
+      "Tumble",
+      "Water Walker",
+      "Whirlwind",
+      "Whirlwind",
+      "Melee Parry",
+      "Watery Grave",
+      "Melee Parry",
+      "Whirlwind",
+      "Tumble",
+      "Split Second",
+      "Tumble",
+      "Melee Parry"
+    ]
+  },
+  {
+    "name": "Two-Talon",
+    "basic": [
+      "Tumble",
+      "Venom",
+      "Melee Parry",
+      "Melee Parry",
+      "Dodge"
+    ],
+    "ascension": [
+      "Immobilizing Strike",
+      "Dodge",
+      "Diagonal Aim"
+    ],
+    "merge": [
+      "Split Second",
+      "Diagonal Parry",
+      "Immobilizing Strike"
+    ],
+    "all": [
+      "Tumble",
+      "Venom",
+      "Melee Parry",
+      "Melee Parry",
+      "Dodge",
+      "Immobilizing Strike",
+      "Dodge",
+      "Diagonal Aim",
+      "Split Second",
+      "Diagonal Parry",
+      "Immobilizing Strike"
+    ]
+  },
+  {
+    "name": "Ugaz",
+    "basic": [
+      "Ballistic",
+      "Ranged Parry",
+      "Prepare",
+      "Ranged Parry",
+      "Prepare"
+    ],
+    "ascension": [
+      "Diagonal Parry",
+      "Rune of Fire",
+      "Diagonal Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Rend",
+      "Extra Time"
+    ],
+    "all": [
+      "Ballistic",
+      "Ranged Parry",
+      "Prepare",
+      "Ranged Parry",
+      "Prepare",
+      "Diagonal Parry",
+      "Rune of Fire",
+      "Diagonal Parry",
+      "Split Second",
+      "Rend",
+      "Extra Time"
+    ]
+  },
+  {
+    "name": "Urgax",
+    "basic": [
+      "Bardic Song",
+      "Power Chord",
+      "Chromatic Song",
+      "Chord of Blitz",
+      "Blitz",
+      "Bardic Song"
+    ],
+    "ascension": [
+      "Tumble",
+      "Melee Parry",
+      "Chord of Blitz"
+    ],
+    "merge": [
+      "Split Second",
+      "Blitz",
+      "Song of Acid"
+    ],
+    "all": [
+      "Bardic Song",
+      "Power Chord",
+      "Chromatic Song",
+      "Chord of Blitz",
+      "Blitz",
+      "Bardic Song",
+      "Tumble",
+      "Melee Parry",
+      "Chord of Blitz",
+      "Split Second",
+      "Blitz",
+      "Song of Acid"
+    ]
+  },
+  {
+    "name": "Urzmorga",
+    "basic": [
+      "Life Drain",
+      "Focus",
+      "Fortify",
+      "Fortify",
+      "Death Blow",
+      "Bad Medicine"
+    ],
+    "ascension": [
+      "Extra Time",
+      "Focus",
+      "Fortify"
+    ],
+    "merge": [
+      "Split Second",
+      "Fortify",
+      "Bad Medicine"
+    ],
+    "all": [
+      "Life Drain",
+      "Focus",
+      "Fortify",
+      "Fortify",
+      "Death Blow",
+      "Bad Medicine",
+      "Extra Time",
+      "Focus",
+      "Fortify",
+      "Split Second",
+      "Fortify",
+      "Bad Medicine"
+    ]
+  },
+  {
+    "name": "Vaelith",
+    "basic": [
+      "Tumble",
+      "Cardinal Aim",
+      "Cardinal Aim",
+      "Fortify",
+      "Fortify",
+      "Mighty Blow"
+    ],
+    "ascension": [
+      "Critical Attack",
+      "Poison Resistance",
+      "Tumble"
+    ],
+    "merge": [
+      "Split Second",
+      "Tumble",
+      "Mighty Blow"
+    ],
+    "all": [
+      "Tumble",
+      "Cardinal Aim",
+      "Cardinal Aim",
+      "Fortify",
+      "Fortify",
+      "Mighty Blow",
+      "Critical Attack",
+      "Poison Resistance",
+      "Tumble",
+      "Split Second",
+      "Tumble",
+      "Mighty Blow"
+    ]
+  },
+  {
+    "name": "Valenor",
+    "basic": [
+      "Focus",
+      "Slay Sylvan",
+      "Prepare",
+      "Prepare",
+      "Rend",
+      "Prepared Rupture"
+    ],
+    "ascension": [
+      "Bleed Resistance",
+      "Rune of Fire",
+      "Exploit Weakness"
+    ],
+    "merge": [
+      "Split Second",
+      "Rend",
+      "Focus"
+    ],
+    "all": [
+      "Focus",
+      "Slay Sylvan",
+      "Prepare",
+      "Prepare",
+      "Rend",
+      "Prepared Rupture",
+      "Bleed Resistance",
+      "Rune of Fire",
+      "Exploit Weakness",
+      "Split Second",
+      "Rend",
+      "Focus"
+    ]
+  },
+  {
+    "name": "Valeria",
+    "basic": [
+      "Regrowth",
+      "Natural Harmony",
+      "Diagonal Parry",
+      "Poison Resistance",
+      "Immovable",
+      "Disorienting Strike"
+    ],
+    "ascension": [
+      "Venom",
+      "Diagonal Parry",
+      "Disorienting Strike"
+    ],
+    "merge": [
+      "Split Second",
+      "Disorienting Strike",
+      "Cardinal Parry"
+    ],
+    "all": [
+      "Regrowth",
+      "Natural Harmony",
+      "Diagonal Parry",
+      "Poison Resistance",
+      "Immovable",
+      "Disorienting Strike",
+      "Venom",
+      "Diagonal Parry",
+      "Disorienting Strike",
+      "Split Second",
+      "Disorienting Strike",
+      "Cardinal Parry"
+    ]
+  },
+  {
+    "name": "Vengeful Shani",
+    "basic": [
+      "Berserk",
+      "Push",
+      "Immovable",
+      "Push",
+      "Venom"
+    ],
+    "ascension": [
+      "Whirlwind",
+      "Ranged Parry",
+      "Whirlwind"
+    ],
+    "merge": [
+      "Split Second",
+      "Ranged Parry",
+      "Venom"
+    ],
+    "all": [
+      "Berserk",
+      "Push",
+      "Immovable",
+      "Push",
+      "Venom",
+      "Whirlwind",
+      "Ranged Parry",
+      "Whirlwind",
+      "Split Second",
+      "Ranged Parry",
+      "Venom"
+    ]
+  },
+  {
+    "name": "Vera",
+    "basic": [
+      "Syphon Life",
+      "Deadly Syphon",
+      "Magic Parry",
+      "Magic Parry",
+      "Healing Touch"
+    ],
+    "ascension": [
+      "Diagonal Parry",
+      "Focus",
+      "Focus"
+    ],
+    "merge": [
+      "Split Second",
+      "Melee Parry",
+      "Finishing Blow"
+    ],
+    "all": [
+      "Syphon Life",
+      "Deadly Syphon",
+      "Magic Parry",
+      "Magic Parry",
+      "Healing Touch",
+      "Diagonal Parry",
+      "Focus",
+      "Focus",
+      "Split Second",
+      "Melee Parry",
+      "Finishing Blow"
+    ]
+  },
+  {
+    "name": "Veridian",
+    "basic": [
+      "Life Drain",
+      "Exploit Weakness",
+      "Exploit Weakness",
+      "Poison Resistance",
+      "Demoralizing Strike",
+      "Favored Odds"
+    ],
+    "ascension": [
+      "Magic Parry",
+      "Bleed Resistance",
+      "Magic Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Finishing Blow",
+      "Fortify"
+    ],
+    "all": [
+      "Life Drain",
+      "Exploit Weakness",
+      "Exploit Weakness",
+      "Poison Resistance",
+      "Demoralizing Strike",
+      "Favored Odds",
+      "Magic Parry",
+      "Bleed Resistance",
+      "Magic Parry",
+      "Split Second",
+      "Finishing Blow",
+      "Fortify"
+    ]
+  },
+  {
+    "name": "Violet",
+    "basic": [
+      "Focus",
+      "Focus",
+      "Focus",
+      "Focus",
+      "Poison Resistance",
+      "Death Ward"
+    ],
+    "ascension": [
+      "Acid Resistance",
+      "Bleed Resistance",
+      "Critical Attack"
+    ],
+    "merge": [
+      "Split Second",
+      "Point Blank",
+      "Death Ward"
+    ],
+    "all": [
+      "Focus",
+      "Focus",
+      "Focus",
+      "Focus",
+      "Poison Resistance",
+      "Death Ward",
+      "Acid Resistance",
+      "Bleed Resistance",
+      "Critical Attack",
+      "Split Second",
+      "Point Blank",
+      "Death Ward"
+    ]
+  },
+  {
+    "name": "Voidtail",
+    "basic": [
+      "Hamstring",
+      "Slay Ooze",
+      "Focus",
+      "Focus",
+      "Ooze Exterminator",
+      "Cold Resistance"
+    ],
+    "ascension": [
+      "Poison Resistance",
+      "Fleet-Footed",
+      "Acid Resistance"
+    ],
+    "merge": [
+      "Split Second",
+      "Focus",
+      "Slay Ooze"
+    ],
+    "all": [
+      "Hamstring",
+      "Slay Ooze",
+      "Focus",
+      "Focus",
+      "Ooze Exterminator",
+      "Cold Resistance",
+      "Poison Resistance",
+      "Fleet-Footed",
+      "Acid Resistance",
+      "Split Second",
+      "Focus",
+      "Slay Ooze"
+    ]
+  },
+  {
+    "name": "Vorlos",
+    "basic": [
+      "Life Drain",
+      "Exploit Weakness",
+      "Exploit Weakness",
+      "Magic Parry",
+      "Magic Parry",
+      "Survivor"
+    ],
+    "ascension": [
+      "Immune to Silence",
+      "Revitalize",
+      "Magic Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Exploit Weakness",
+      "Life Drain"
+    ],
+    "all": [
+      "Life Drain",
+      "Exploit Weakness",
+      "Exploit Weakness",
+      "Magic Parry",
+      "Magic Parry",
+      "Survivor",
+      "Immune to Silence",
+      "Revitalize",
+      "Magic Parry",
+      "Split Second",
+      "Exploit Weakness",
+      "Life Drain"
+    ]
+  },
+  {
+    "name": "Wavescale",
+    "basic": [
+      "Cardinal Parry",
+      "Protector",
+      "Push",
+      "Push",
+      "Immovable",
+      "Cardinal Parry"
+    ],
+    "ascension": [
+      "Push",
+      "Extra Time",
+      "Push"
+    ],
+    "merge": [
+      "Split Second",
+      "Diagonal Parry",
+      "Protector"
+    ],
+    "all": [
+      "Cardinal Parry",
+      "Protector",
+      "Push",
+      "Push",
+      "Immovable",
+      "Cardinal Parry",
+      "Push",
+      "Extra Time",
+      "Push",
+      "Split Second",
+      "Diagonal Parry",
+      "Protector"
+    ]
+  },
+  {
+    "name": "Wild Caledor",
+    "basic": [
+      "Hamstring",
+      "Magic Parry",
+      "Sniper",
+      "True Shot",
+      "Sniper",
+      "Venom"
+    ],
+    "ascension": [
+      "Venom",
+      "Magic Parry",
+      "Sniper"
+    ],
+    "merge": [
+      "Split Second",
+      "Life Steal",
+      "Focus"
+    ],
+    "all": [
+      "Hamstring",
+      "Magic Parry",
+      "Sniper",
+      "True Shot",
+      "Sniper",
+      "Venom",
+      "Venom",
+      "Magic Parry",
+      "Sniper",
+      "Split Second",
+      "Life Steal",
+      "Focus"
+    ]
+  },
+  {
+    "name": "Wildfire",
+    "basic": [
+      "Shroud",
+      "Finishing Blow",
+      "Brutal Backstab",
+      "Brutal Backstab",
+      "Melee Parry",
+      "Arcane Shield"
+    ],
+    "ascension": [
+      "Finishing Blow",
+      "Melee Parry",
+      "Brutal Backstab"
+    ],
+    "merge": [
+      "Split Second",
+      "Rune of Earth",
+      "Cardinal Parry"
+    ],
+    "all": [
+      "Shroud",
+      "Finishing Blow",
+      "Brutal Backstab",
+      "Brutal Backstab",
+      "Melee Parry",
+      "Arcane Shield",
+      "Finishing Blow",
+      "Melee Parry",
+      "Brutal Backstab",
+      "Split Second",
+      "Rune of Earth",
+      "Cardinal Parry"
+    ]
+  },
+  {
+    "name": "Wildheart",
+    "basic": [
+      "Barrier",
+      "Armor of Earth",
+      "Immune to Withering",
+      "Extra Time",
+      "Extra Time",
+      "Melee Parry"
+    ],
+    "ascension": [
+      "Mighty Blow",
+      "Rune of Earth",
+      "Poison Resistance"
+    ],
+    "merge": [
+      "Split Second",
+      "Rune of Earth",
+      "Armor of Earth"
+    ],
+    "all": [
+      "Barrier",
+      "Armor of Earth",
+      "Immune to Withering",
+      "Extra Time",
+      "Extra Time",
+      "Melee Parry",
+      "Mighty Blow",
+      "Rune of Earth",
+      "Poison Resistance",
+      "Split Second",
+      "Rune of Earth",
+      "Armor of Earth"
+    ]
+  },
+  {
+    "name": "Willow",
+    "basic": [
+      "Sniper",
+      "Slay Undead",
+      "Extra Time",
+      "Prepare",
+      "Sniper"
+    ],
+    "ascension": [
+      "Immobilizing Strike",
+      "Magic Parry",
+      "Magic Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Brutal Attack",
+      "Whirlwind"
+    ],
+    "all": [
+      "Sniper",
+      "Slay Undead",
+      "Extra Time",
+      "Prepare",
+      "Sniper",
+      "Immobilizing Strike",
+      "Magic Parry",
+      "Magic Parry",
+      "Split Second",
+      "Brutal Attack",
+      "Whirlwind"
+    ]
+  },
+  {
+    "name": "Windleaf",
+    "basic": [
+      "Regrowth",
+      "Natural Harmony",
+      "Poison Resistance"
+    ],
+    "ascension": [
+      "Magic Parry",
+      "Magic Parry",
+      "Rend",
+      "Rend"
+    ],
+    "merge": [],
+    "all": [
+      "Regrowth",
+      "Natural Harmony",
+      "Poison Resistance",
+      "Magic Parry",
+      "Magic Parry",
+      "Rend",
+      "Rend"
+    ]
+  },
+  {
+    "name": "Wrathborne",
+    "basic": [
+      "Cutlass & Flintlock",
+      "Swashbuckler",
+      "Bleed Resistance",
+      "Prepare",
+      "Prepared Ignite",
+      "Fortify"
+    ],
+    "ascension": [
+      "Whirlwind",
+      "Whirlwind",
+      "Prepared Ignite"
+    ],
+    "merge": [
+      "Split Second",
+      "Melee Parry",
+      "Prepare"
+    ],
+    "all": [
+      "Cutlass & Flintlock",
+      "Swashbuckler",
+      "Bleed Resistance",
+      "Prepare",
+      "Prepared Ignite",
+      "Fortify",
+      "Whirlwind",
+      "Whirlwind",
+      "Prepared Ignite",
+      "Split Second",
+      "Melee Parry",
+      "Prepare"
+    ]
+  },
+  {
+    "name": "Wulfgar",
+    "basic": [
+      "Hamstring",
+      "Magic Parry",
+      "Sniper",
+      "Magic Parry",
+      "Sniper"
+    ],
+    "ascension": [
+      "Sniper",
+      "Sniper",
+      "Rune of Fire"
+    ],
+    "merge": [
+      "Split Second",
+      "Rend",
+      "Focus"
+    ],
+    "all": [
+      "Hamstring",
+      "Magic Parry",
+      "Sniper",
+      "Magic Parry",
+      "Sniper",
+      "Sniper",
+      "Sniper",
+      "Rune of Fire",
+      "Split Second",
+      "Rend",
+      "Focus"
+    ]
+  },
+  {
+    "name": "Xaakt",
+    "basic": [
+      "Cutlass & Flintlock",
+      "Pistoleer",
+      "Slay Lizard",
+      "Prepare",
+      "Prepare",
+      "Mighty Blow"
+    ],
+    "ascension": [
+      "Brutal Attack",
+      "Rune of Sea",
+      "Ranged Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Immovable",
+      "Mighty Blow"
+    ],
+    "all": [
+      "Cutlass & Flintlock",
+      "Pistoleer",
+      "Slay Lizard",
+      "Prepare",
+      "Prepare",
+      "Mighty Blow",
+      "Brutal Attack",
+      "Rune of Sea",
+      "Ranged Parry",
+      "Split Second",
+      "Immovable",
+      "Mighty Blow"
+    ]
+  },
+  {
+    "name": "Xiv",
+    "basic": [
+      "Bardic Song",
+      "Power Chord",
+      "Diagonal Parry",
+      "Chord of Diagonal Aim"
+    ],
+    "ascension": [
+      "Diagonal Aim",
+      "Bardic Song",
+      "Tumble",
+      "Diagonal Parry"
+    ],
+    "merge": [],
+    "all": [
+      "Bardic Song",
+      "Power Chord",
+      "Diagonal Parry",
+      "Chord of Diagonal Aim",
+      "Diagonal Aim",
+      "Bardic Song",
+      "Tumble",
+      "Diagonal Parry"
+    ]
+  },
+  {
+    "name": "Yazgak",
+    "basic": [
+      "Tumble",
+      "Fire Walker",
+      "Backstab",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Life Drain"
+    ],
+    "ascension": [
+      "Melee Parry",
+      "Backstab",
+      "Tumble"
+    ],
+    "merge": [
+      "Split Second",
+      "Tumble",
+      "Cardinal Parry"
+    ],
+    "all": [
+      "Tumble",
+      "Fire Walker",
+      "Backstab",
+      "Finishing Blow",
+      "Finishing Blow",
+      "Life Drain",
+      "Melee Parry",
+      "Backstab",
+      "Tumble",
+      "Split Second",
+      "Tumble",
+      "Cardinal Parry"
+    ]
+  },
+  {
+    "name": "Yun",
+    "basic": [
+      "Shroud",
+      "Slay Lizard",
+      "Finishing Blow",
+      "Melee Parry",
+      "Finishing Blow"
+    ],
+    "ascension": [
+      "Melee Parry",
+      "Brutal Backstab",
+      "Brutal Backstab"
+    ],
+    "merge": [
+      "Split Second",
+      "Ranged Parry",
+      "Finishing Blow"
+    ],
+    "all": [
+      "Shroud",
+      "Slay Lizard",
+      "Finishing Blow",
+      "Melee Parry",
+      "Finishing Blow",
+      "Melee Parry",
+      "Brutal Backstab",
+      "Brutal Backstab",
+      "Split Second",
+      "Ranged Parry",
+      "Finishing Blow"
+    ]
+  },
+  {
+    "name": "Zana",
+    "basic": [
+      "Cardinal Parry",
+      "Extra Time",
+      "Cardinal Parry"
+    ],
+    "ascension": [
+      "Focus",
+      "Ranged Parry",
+      "Ranged Parry",
+      "Focus"
+    ],
+    "merge": [],
+    "all": [
+      "Cardinal Parry",
+      "Extra Time",
+      "Cardinal Parry",
+      "Focus",
+      "Ranged Parry",
+      "Ranged Parry",
+      "Focus"
+    ]
+  },
+  {
+    "name": "Zenith",
+    "basic": [
+      "Barrier",
+      "Armor of Sun",
+      "Immovable",
+      "Extra Time",
+      "Acid Resistance",
+      "Melee Parry"
+    ],
+    "ascension": [
+      "Melee Parry",
+      "Rune of Sun",
+      "Acid Resistance"
+    ],
+    "merge": [
+      "Split Second",
+      "Rune of Sun",
+      "Armor of Sun"
+    ],
+    "all": [
+      "Barrier",
+      "Armor of Sun",
+      "Immovable",
+      "Extra Time",
+      "Acid Resistance",
+      "Melee Parry",
+      "Melee Parry",
+      "Rune of Sun",
+      "Acid Resistance",
+      "Split Second",
+      "Rune of Sun",
+      "Armor of Sun"
+    ]
+  },
+  {
+    "name": "Zeyra",
+    "basic": [
+      "Cardinal Aim",
+      "Slay Demon",
+      "Cardinal Aim",
+      "Cardinal Aim",
+      "Cardinal Parry",
+      "Initiative: Quick Attack"
+    ],
+    "ascension": [
+      "Bleed Resistance",
+      "Sentinel",
+      "Finishing Blow"
+    ],
+    "merge": [
+      "Split Second",
+      "Cardinal Parry",
+      "Unstoppable Force"
+    ],
+    "all": [
+      "Cardinal Aim",
+      "Slay Demon",
+      "Cardinal Aim",
+      "Cardinal Aim",
+      "Cardinal Parry",
+      "Initiative: Quick Attack",
+      "Bleed Resistance",
+      "Sentinel",
+      "Finishing Blow",
+      "Split Second",
+      "Cardinal Parry",
+      "Unstoppable Force"
+    ]
+  },
+  {
+    "name": "Zouen",
+    "basic": [
+      "Focus",
+      "Immune to Disorientation",
+      "Focus",
+      "Focus"
+    ],
+    "ascension": [
+      "Magic Parry",
+      "Magic Parry",
+      "Magic Parry",
+      "Focus"
+    ],
+    "merge": [
+      "}}\n\n|}\n[[Category:Barracks]]\n\n[[es:Talentos de Héroe SinFoto]]\n[[fr:Talents des Héros Sans Image]]"
+    ],
+    "all": [
+      "Focus",
+      "Immune to Disorientation",
+      "Focus",
+      "Focus",
+      "Magic Parry",
+      "Magic Parry",
+      "Magic Parry",
+      "Focus",
+      "}}\n\n|}\n[[Category:Barracks]]\n\n[[es:Talentos de Héroe SinFoto]]\n[[fr:Talents des Héros Sans Image]]"
+    ]
+  }
+]

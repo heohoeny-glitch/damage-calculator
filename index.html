@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Friends &amp; Dragons - Damage Calculator</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #1a1a2e;
+    color: #eee;
+    min-height: 100vh;
+  }
+  h1 {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #16213e, #0f3460);
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  @media (max-width: 800px) {
+    .container { grid-template-columns: 1fr; gap: 12px; padding: 10px; }
+    h1 { font-size: 1.2rem; padding: 14px; }
+    .panel { padding: 14px; }
+    .panel h2 { font-size: 1rem; margin-bottom: 10px; }
+
+    /* Input stacking */
+    .input-group {
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 10px;
+    }
+    .input-group label {
+      min-width: 80px;
+      font-size: 0.85rem;
+    }
+    .input-group input[type="number"] {
+      max-width: 120px;
+      font-size: 0.9rem;
+      padding: 6px 10px;
+    }
+    .input-group .hint {
+      width: 100%;
+      padding-left: 80px;
+      margin-top: -2px;
+    }
+
+    /* Hero select full width */
+    .hero-select-wrap { max-width: 100%; }
+    #heroSearch { font-size: 0.9rem; }
+    .hero-dropdown { max-height: 200px; }
+    .hero-option { padding: 6px 10px; }
+    .hero-option img { width: 30px; height: 30px; }
+
+    /* Result box */
+    .result-box { padding: 14px; }
+    .result-box .damage { font-size: 2rem; }
+    .result-box .color-dmg .color-value { font-size: 1.2rem; }
+    .result-box .formula { font-size: 0.7rem; }
+
+    /* Trait icons smaller on mobile */
+    .trait-icon { width: 40px; height: 40px; }
+    .trait-icon .pct-badge { font-size: 0.5rem; padding: 1px 2px; }
+    .trait-grid { gap: 4px; }
+
+    /* Selected traits compact */
+    .selected-traits { gap: 6px; padding: 8px; min-height: 48px; }
+    .selected-trait { padding: 3px 6px 3px 3px; }
+    .selected-trait img { width: 26px; height: 26px; }
+    .selected-trait .st-info { font-size: 0.65rem; }
+
+    /* Hero info compact */
+    .selected-hero-info { padding: 6px 10px; font-size: 0.75rem; }
+    .selected-hero-info .hero-header img { width: 36px; height: 36px; }
+    .selected-hero-info .hero-name { font-size: 0.85rem; }
+
+    /* Tooltip for touch */
+    .tooltip { max-width: 250px; font-size: 0.75rem; padding: 8px 10px; }
+
+    /* ATK boost icons smaller on mobile */
+    .atk-boost-icon { width: 40px; height: 40px; font-size: 0.65rem; }
+    .boost-icon-sm { width: 22px; height: 22px; font-size: 0.55rem; }
+  }
+
+  @media (max-width: 400px) {
+    .container { padding: 6px; gap: 8px; }
+    .panel { padding: 10px; border-radius: 8px; }
+    .input-group label { min-width: 70px; font-size: 0.8rem; }
+    .input-group input[type="number"] { max-width: 100px; }
+    .input-group .hint { padding-left: 70px; }
+    .trait-icon { width: 36px; height: 36px; }
+    .atk-boost-icon { width: 36px; height: 36px; font-size: 0.6rem; }
+    .result-box .damage { font-size: 1.8rem; }
+  }
+
+  /* Panels */
+  .panel {
+    background: #16213e;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid #0f3460;
+  }
+  .panel h2 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #e94560;
+    border-bottom: 1px solid #0f3460;
+    padding-bottom: 8px;
+  }
+
+  /* Input groups */
+  .input-group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  .input-group label {
+    min-width: 100px;
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  .input-group input[type="number"] {
+    flex: 1;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #0f3460;
+    background: #1a1a2e;
+    color: #fff;
+    font-size: 1rem;
+    max-width: 150px;
+  }
+  .input-group input:focus {
+    outline: none;
+    border-color: #e94560;
+  }
+  .input-group .unit {
+    color: #666;
+    font-size: 0.85rem;
+  }
+  .input-group .hint {
+    color: #555;
+    font-size: 0.75rem;
+    white-space: nowrap;
+  }
+
+  /* Hero select */
+  .hero-select-wrap {
+    position: relative;
+    flex: 1;
+    max-width: 250px;
+  }
+  #heroSearch {
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #0f3460;
+    background: #1a1a2e;
+    color: #fff;
+    font-size: 0.95rem;
+  }
+  #heroSearch:focus { outline: none; border-color: #e94560; }
+  #heroSearch::placeholder { color: #555; }
+  .hero-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: 250px;
+    overflow-y: auto;
+    background: #0f3460;
+    border: 1px solid #e94560;
+    border-radius: 0 0 8px 8px;
+    z-index: 50;
+  }
+  .hero-dropdown.open { display: block; }
+  .hero-option {
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    border-bottom: 1px solid #16213e;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .hero-option:hover { background: #e94560; }
+  .hero-option img {
+    width: 36px;
+    height: 36px;
+    border-radius: 6px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  .hero-option .hero-talents-preview {
+    color: #999;
+    font-size: 0.7rem;
+    margin-top: 2px;
+  }
+
+  .selected-hero-info {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: #1a1a2e;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    display: none;
+  }
+  .selected-hero-info .hero-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+  }
+  .selected-hero-info .hero-header img {
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  .selected-hero-info .hero-name {
+    color: #e94560;
+    font-weight: bold;
+    font-size: 0.95rem;
+  }
+  .selected-hero-info .talent-section {
+    margin-bottom: 4px;
+  }
+  .selected-hero-info .talent-label {
+    color: #888;
+    font-size: 0.7rem;
+  }
+  .selected-hero-info .talent-list {
+    color: #ccc;
+  }
+  .btn-clear-hero {
+    background: #e94560;
+    border: none;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.75rem;
+    margin-left: 8px;
+  }
+  .btn-clear-hero:hover { background: #c73650; }
+
+  /* Result */
+  .result-box {
+    background: linear-gradient(135deg, #0f3460, #16213e);
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    grid-column: 1 / -1;
+    border: 2px solid #e94560;
+  }
+  .result-box .label { color: #aaa; font-size: 0.9rem; margin-bottom: 5px; }
+  .result-box .damage {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #e94560;
+  }
+  .result-box .damage-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 8px;
+  }
+  .result-box .color-dmg {
+    text-align: center;
+  }
+  .result-box .color-dmg .color-label {
+    font-size: 0.75rem;
+    margin-bottom: 2px;
+  }
+  .result-box .color-dmg .color-value {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .result-box .formula {
+    color: #666;
+    font-size: 0.8rem;
+    margin-top: 8px;
+    word-break: break-all;
+  }
+
+  /* Trait icon grid */
+  .trait-grid-section { grid-column: 1 / -1; }
+  .trait-category-label {
+    font-size: 0.85rem;
+    color: #888;
+    margin: 12px 0 8px;
+    padding-left: 4px;
+  }
+  .trait-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .trait-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.15s, box-shadow 0.15s, opacity 0.15s;
+    background: #1a1a2e;
+    border: 2px solid transparent;
+  }
+  .trait-icon:hover {
+    transform: scale(1.15);
+    box-shadow: 0 0 12px rgba(233, 69, 96, 0.5);
+    z-index: 2;
+  }
+  .trait-icon.hidden {
+    display: none;
+  }
+  .trait-icon img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    object-fit: contain;
+  }
+  .trait-icon .pct-badge {
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    background: #e94560;
+    color: #fff;
+    font-size: 0.6rem;
+    padding: 1px 3px;
+    border-radius: 4px;
+    font-weight: bold;
+    line-height: 1;
+  }
+  .trait-icon .pct-badge.zero { background: #444; }
+
+  /* Tooltip */
+  .tooltip {
+    display: none;
+    position: fixed;
+    background: #0f3460;
+    border: 1px solid #e94560;
+    border-radius: 8px;
+    padding: 10px 14px;
+    max-width: 320px;
+    font-size: 0.8rem;
+    z-index: 100;
+    pointer-events: none;
+    line-height: 1.4;
+  }
+  .tooltip .tt-name { color: #e94560; font-weight: bold; margin-bottom: 4px; }
+  .tooltip .tt-desc { color: #ccc; }
+  .tooltip .tt-pct { color: #ffd700; margin-top: 4px; }
+
+  /* Selected traits */
+  .selected-section { grid-column: 1 / -1; }
+  .selected-traits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    min-height: 60px;
+    padding: 10px;
+    background: #1a1a2e;
+    border-radius: 8px;
+    border: 1px dashed #0f3460;
+  }
+  .selected-trait {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: #0f3460;
+    border-radius: 8px;
+    padding: 4px 8px 4px 4px;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  .selected-trait:hover { background: #e94560; }
+  .selected-trait img {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    object-fit: contain;
+  }
+  .selected-trait .st-info {
+    font-size: 0.75rem;
+    line-height: 1.2;
+  }
+  .selected-trait .st-name { color: #eee; }
+  .selected-trait .st-pct { color: #ffd700; }
+  .selected-trait .st-remove {
+    color: #e94560;
+    font-size: 0.7rem;
+    margin-left: 4px;
+  }
+  .selected-trait:hover .st-remove { color: #fff; }
+  .empty-msg {
+    color: #555;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .bonus-summary {
+    margin-top: 10px;
+    text-align: right;
+    font-size: 0.9rem;
+    color: #ffd700;
+  }
+
+  .no-traits-msg {
+    color: #555;
+    font-size: 0.85rem;
+    padding: 10px;
+    display: none;
+  }
+
+  /* Attack % boost icons */
+  .atk-boost-section {
+    margin-top: 12px;
+  }
+  .atk-boost-section .boost-label {
+    font-size: 0.8rem;
+    color: #888;
+    margin-bottom: 6px;
+  }
+  .atk-boost-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .atk-boost-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 2px solid #b8860b;
+    background: radial-gradient(circle at 35% 35%, #5a4a1a, #2a1f0a);
+    color: #ffd700;
+    font-size: 0.75rem;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.15s, box-shadow 0.15s;
+    text-shadow: 0 0 4px rgba(255, 215, 0, 0.5);
+    line-height: 1;
+  }
+  .atk-boost-icon:hover {
+    transform: scale(1.15);
+    box-shadow: 0 0 12px rgba(255, 215, 0, 0.5);
+    z-index: 2;
+  }
+  /* Selected boost in selected-traits area */
+  .selected-trait.boost-item {
+    border-left: 3px solid #ffd700;
+  }
+  .selected-trait.boost-item .boost-icon-sm {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid #b8860b;
+    background: radial-gradient(circle at 35% 35%, #5a4a1a, #2a1f0a);
+    color: #ffd700;
+    font-size: 0.6rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    text-shadow: 0 0 4px rgba(255, 215, 0, 0.5);
+  }
+</style>
+</head>
+<body>
+
+<h1>Friends &amp; Dragons - Damage Calculator</h1>
+
+<div class="container">
+  <!-- Stats Input -->
+  <div class="panel">
+    <h2>Base Stats</h2>
+    <div class="input-group">
+      <label>Hero</label>
+      <div class="hero-select-wrap">
+        <input type="text" id="heroSearch" placeholder="Search hero..." autocomplete="off">
+        <div class="hero-dropdown" id="heroDropdown"></div>
+      </div>
+      <button class="btn-clear-hero" id="btnClearHero" style="display:none;" onclick="clearHero()">Clear</button>
+    </div>
+    <div class="selected-hero-info" id="selectedHeroInfo">
+      <div class="hero-header">
+        <img id="heroInfoPortrait" src="" alt="" onerror="this.style.display='none'">
+        <div class="hero-name" id="heroInfoName"></div>
+      </div>
+      <div class="talent-section">
+        <span class="talent-label">Basic:</span>
+        <span class="talent-list" id="heroInfoBasic"></span>
+      </div>
+      <div class="talent-section">
+        <span class="talent-label">Ascension:</span>
+        <span class="talent-list" id="heroInfoAsc"></span>
+      </div>
+      <div class="talent-section">
+        <span class="talent-label">Merge:</span>
+        <span class="talent-list" id="heroInfoMerge"></span>
+      </div>
+    </div>
+    <div class="input-group">
+      <label>Attack</label>
+      <input type="number" id="baseAttack" value="100" min="0">
+      <span class="unit hint">e.g. 858</span>
+    </div>
+    <div class="input-group">
+      <label>Leader Buff</label>
+      <input type="number" id="leaderBuff" value="1" min="0" step="0.01">
+      <span class="unit hint">e.g. 1.15 = +15%</span>
+    </div>
+    <div class="input-group">
+      <label>Pet Buff</label>
+      <input type="number" id="petBuff" value="0" min="0">
+      <span class="unit hint">e.g. 15 = +15%</span>
+    </div>
+  </div>
+
+  <!-- Result -->
+  <div class="panel result-box" style="grid-column: auto;">
+    <div class="label">Final Damage</div>
+    <div class="damage" id="finalDamage">100</div>
+    <div class="damage-row">
+      <div class="color-dmg">
+        <div class="color-label" style="color:#e94560;">vs Weak Color (x1.5)</div>
+        <div class="color-value" style="color:#e94560;" id="colorDamage">150</div>
+      </div>
+    </div>
+    <div class="formula" id="formula">100 x 100% x 100% x (100%)</div>
+  </div>
+
+  <!-- Selected Traits -->
+  <div class="panel selected-section">
+    <h2>Selected Traits <span id="traitCount" style="color:#888; font-weight:normal;">(0)</span></h2>
+    <div class="selected-traits" id="selectedTraits">
+      <div class="empty-msg">Click icons below to add traits</div>
+    </div>
+    <div class="bonus-summary" id="bonusSummary">Trait Bonus: +0%</div>
+  </div>
+
+  <!-- Trait Icons -->
+  <div class="panel trait-grid-section">
+    <h2>Attack Traits</h2>
+    <div class="no-traits-msg" id="noTraitsMsg">This hero has no attack traits in this category.</div>
+    <div class="trait-grid" id="gridRed"></div>
+    <div class="trait-grid" id="gridRedSquare"></div>
+    <div class="trait-grid" id="gridOrange"></div>
+    <div class="atk-boost-section">
+      <div class="boost-label">Attack Bonus %</div>
+      <div class="atk-boost-row" id="atkBoostRow"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Tooltip -->
+<div class="tooltip" id="tooltip">
+  <div class="tt-name"></div>
+  <div class="tt-desc"></div>
+  <div class="tt-pct"></div>
+</div>
+
+<script>
+let traitData = [];
+let heroData = [];
+let selectedTraits = [];
+let selectedHero = null;
+let traitElements = [];
+let atkBoostPct = 0;
+
+async function init() {
+  const [traitResp, heroResp] = await Promise.all([
+    fetch('web_traits.json'),
+    fetch('heroes.json')
+  ]);
+  traitData = await traitResp.json();
+  heroData = await heroResp.json();
+  renderGrid();
+  renderAtkBoostButtons();
+  setupHeroSearch();
+  calculate();
+}
+
+function renderAtkBoostButtons() {
+  const row = document.getElementById('atkBoostRow');
+  for (let pct = 5; pct <= 100; pct += 5) {
+    const icon = document.createElement('div');
+    icon.className = 'atk-boost-icon';
+    icon.textContent = `+${pct}%`;
+    icon.addEventListener('click', () => addAtkBoost(pct));
+    row.appendChild(icon);
+  }
+}
+
+function addAtkBoost(pct) {
+  selectedTraits.push({
+    name: `ATK +${pct}%`,
+    pct: pct,
+    file: null,
+    isBoost: true,
+    uid: Date.now() + Math.random()
+  });
+  renderSelected();
+  calculate();
+}
+
+function renderGrid() {
+  const grids = {
+    red: document.getElementById('gridRed'),
+    red_square: document.getElementById('gridRedSquare'),
+    orange_gold: document.getElementById('gridOrange')
+  };
+
+  traitElements = [];
+
+  traitData.forEach((trait, idx) => {
+    const grid = grids[trait.category];
+    if (!grid) return;
+
+    const el = document.createElement('div');
+    el.className = 'trait-icon';
+    el.dataset.traitName = trait.name;
+    el.innerHTML = `
+      <img src="${trait.file}" alt="${trait.name}" loading="lazy">
+      <span class="pct-badge ${trait.pct === 0 ? 'zero' : ''}">${trait.pct}%</span>
+    `;
+    el.addEventListener('click', () => addTrait(idx));
+    el.addEventListener('mouseenter', (e) => showTooltip(e, trait));
+    el.addEventListener('mousemove', (e) => moveTooltip(e));
+    el.addEventListener('mouseleave', hideTooltip);
+    grid.appendChild(el);
+    traitElements.push({ el, trait });
+  });
+}
+
+// Hero name -> trait name matching
+// Trait names in heroes.json use display names like "Prepare"
+// web_traits.json uses names like "Prepared"
+// Build a mapping for known mismatches
+function normalizeTraitName(name) {
+  const map = {
+    'Prepare': 'Prepared'
+  };
+  return map[name] || name;
+}
+
+function setupHeroSearch() {
+  const input = document.getElementById('heroSearch');
+  const dropdown = document.getElementById('heroDropdown');
+
+  input.addEventListener('focus', () => {
+    filterHeroes(input.value);
+    dropdown.classList.add('open');
+  });
+
+  input.addEventListener('input', () => {
+    filterHeroes(input.value);
+    dropdown.classList.add('open');
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.hero-select-wrap')) {
+      dropdown.classList.remove('open');
+    }
+  });
+}
+
+function filterHeroes(query) {
+  const dropdown = document.getElementById('heroDropdown');
+  const q = query.toLowerCase().trim();
+  const filtered = q
+    ? heroData.filter(h => h.name.toLowerCase().includes(q))
+    : heroData;
+
+  dropdown.innerHTML = filtered.slice(0, 50).map((h, i) => {
+    const attackTraits = h.all.filter(t => {
+      const normalized = normalizeTraitName(t);
+      return traitData.some(td => td.name === normalized || td.name === t);
+    });
+    const preview = attackTraits.length > 0
+      ? attackTraits.slice(0, 4).join(', ') + (attackTraits.length > 4 ? '...' : '')
+      : 'No attack traits';
+    const portrait = `images/portraits/${h.name} Portrait.webp`;
+    return `
+      <div class="hero-option" onclick="selectHero('${h.name.replace(/'/g, "\\'")}')">
+        <img src="${portrait}" alt="${h.name}" onerror="this.style.display='none'">
+        <div>
+          <div>${h.name}</div>
+          <div class="hero-talents-preview">${preview}</div>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+function selectHero(name) {
+  const hero = heroData.find(h => h.name === name);
+  if (!hero) return;
+
+  selectedHero = hero;
+
+  // Update UI
+  document.getElementById('heroSearch').value = hero.name;
+  document.getElementById('heroDropdown').classList.remove('open');
+  document.getElementById('btnClearHero').style.display = 'inline-block';
+
+  // Show hero info
+  const infoEl = document.getElementById('selectedHeroInfo');
+  infoEl.style.display = 'block';
+  document.getElementById('heroInfoName').textContent = hero.name;
+  const portraitEl = document.getElementById('heroInfoPortrait');
+  portraitEl.src = `images/portraits/${hero.name} Portrait.webp`;
+  portraitEl.style.display = '';
+  document.getElementById('heroInfoBasic').textContent = hero.basic.join(', ') || '-';
+  document.getElementById('heroInfoAsc').textContent = hero.ascension.join(', ') || '-';
+  document.getElementById('heroInfoMerge').textContent = hero.merge.join(', ') || '-';
+
+  // Filter trait icons - only show traits this hero has
+  const heroTraitNames = new Set(hero.all.map(t => normalizeTraitName(t)));
+
+  let visibleCount = 0;
+  traitElements.forEach(({ el, trait }) => {
+    if (heroTraitNames.has(trait.name)) {
+      el.classList.remove('hidden');
+      visibleCount++;
+    } else {
+      el.classList.add('hidden');
+    }
+  });
+
+  document.getElementById('noTraitsMsg').style.display =
+    visibleCount === 0 ? 'block' : 'none';
+
+  // Clear selected traits and boost when switching hero
+  selectedTraits = [];
+  resetAtkBoost();
+  renderSelected();
+  calculate();
+}
+
+function resetAtkBoost() {
+  atkBoostPct = 0;
+}
+
+function clearHero() {
+  selectedHero = null;
+  document.getElementById('heroSearch').value = '';
+  document.getElementById('btnClearHero').style.display = 'none';
+  document.getElementById('selectedHeroInfo').style.display = 'none';
+  document.getElementById('noTraitsMsg').style.display = 'none';
+
+  // Show all trait icons
+  traitElements.forEach(({ el }) => {
+    el.classList.remove('hidden');
+  });
+
+  selectedTraits = [];
+  renderSelected();
+  calculate();
+}
+
+function addTrait(idx) {
+  selectedTraits.push({ ...traitData[idx], uid: Date.now() + Math.random() });
+  renderSelected();
+  calculate();
+}
+
+function removeTrait(uid) {
+  selectedTraits = selectedTraits.filter(t => t.uid !== uid);
+  renderSelected();
+  calculate();
+}
+
+function renderSelected() {
+  const container = document.getElementById('selectedTraits');
+  document.getElementById('traitCount').textContent = `(${selectedTraits.length})`;
+
+  if (selectedTraits.length === 0) {
+    container.innerHTML = '<div class="empty-msg">Click icons below to add traits</div>';
+    document.getElementById('bonusSummary').textContent = 'Trait Bonus: +0%';
+    return;
+  }
+
+  container.innerHTML = selectedTraits.map(t => {
+    if (t.isBoost) {
+      return `
+        <div class="selected-trait boost-item" onclick="removeTrait(${t.uid})" title="Click to remove">
+          <div class="boost-icon-sm">${t.name.replace('ATK ','')}</div>
+          <div class="st-info">
+            <div class="st-name" style="color:#ffd700;">${t.name}</div>
+            <div class="st-pct">+${t.pct}%</div>
+          </div>
+          <span class="st-remove">x</span>
+        </div>
+      `;
+    }
+    return `
+      <div class="selected-trait" onclick="removeTrait(${t.uid})" title="Click to remove">
+        <img src="${t.file}" alt="${t.name}">
+        <div class="st-info">
+          <div class="st-name">${t.name}</div>
+          <div class="st-pct">+${t.pct}%</div>
+        </div>
+        <span class="st-remove">x</span>
+      </div>
+    `;
+  }).join('');
+
+  const totalBonus = selectedTraits.reduce((sum, t) => sum + t.pct, 0);
+  document.getElementById('bonusSummary').textContent = `Trait Bonus: +${totalBonus}%`;
+}
+
+function calculate() {
+  const atk = parseFloat(document.getElementById('baseAttack').value) || 0;
+  const leader = parseFloat(document.getElementById('leaderBuff').value) || 0;
+  const pet = parseFloat(document.getElementById('petBuff').value) || 0;
+  const totalBonus = selectedTraits.reduce((sum, t) => sum + t.pct, 0);
+
+  const totalMult = 1 + totalBonus / 100;
+  const petMult = 1 + pet / 100;
+
+  // Step 1: Pet buff first (additive %), then round
+  const afterPet = Math.round(atk * petMult);
+  // Step 2: Leader buff (direct multiplier), then round
+  const afterLeader = Math.round(afterPet * leader);
+  // Step 3: All bonuses (traits + atk boost)
+  const finalDmg = afterLeader * totalMult;
+
+  const finalRound = Math.round(finalDmg);
+  const colorDmg = Math.round(finalDmg * 1.5);
+
+  document.getElementById('finalDamage').textContent = finalRound.toLocaleString();
+  document.getElementById('colorDamage').textContent = colorDmg.toLocaleString();
+  document.getElementById('formula').textContent =
+    `(${atk} x ${100 + pet}% = ${afterPet}) x ${leader} = ${afterLeader} x (100% + ${totalBonus}%) = ${finalRound.toLocaleString()}`;
+}
+
+// Tooltip
+const tooltip = document.getElementById('tooltip');
+function showTooltip(e, trait) {
+  tooltip.querySelector('.tt-name').textContent = trait.name;
+  tooltip.querySelector('.tt-desc').textContent = trait.desc || 'No description';
+  tooltip.querySelector('.tt-pct').textContent = trait.pct > 0 ? `Damage Bonus: +${trait.pct}%` : 'No direct damage bonus';
+  tooltip.style.display = 'block';
+  moveTooltip(e);
+}
+function moveTooltip(e) {
+  let x = e.clientX + 15;
+  let y = e.clientY + 15;
+  if (x + 330 > window.innerWidth) x = e.clientX - 330;
+  if (y + 150 > window.innerHeight) y = e.clientY - 150;
+  tooltip.style.left = x + 'px';
+  tooltip.style.top = y + 'px';
+}
+function hideTooltip() { tooltip.style.display = 'none'; }
+
+// Input listeners
+['baseAttack', 'leaderBuff', 'petBuff'].forEach(id => {
+  document.getElementById(id).addEventListener('input', calculate);
+});
+
+init();
+</script>
+</body>
+</html>
