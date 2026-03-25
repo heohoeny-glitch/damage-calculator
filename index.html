@@ -19,6 +19,155 @@
     font-size: 1.5rem;
     letter-spacing: 1px;
   }
+
+  /* Tab navigation */
+  .tab-nav {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    background: #16213e;
+    border-bottom: 2px solid #0f3460;
+  }
+  .tab-btn {
+    padding: 12px 32px;
+    background: transparent;
+    border: none;
+    color: #888;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    transition: color 0.2s, border-color 0.2s;
+  }
+  .tab-btn:hover { color: #ccc; }
+  .tab-btn.active {
+    color: #e94560;
+    border-bottom-color: #e94560;
+  }
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
+
+  /* Trait Finder tab */
+  .finder-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .finder-trait-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 8px;
+  }
+  .finder-trait-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.15s, box-shadow 0.15s;
+    background: #1a1a2e;
+    border: 2px solid transparent;
+  }
+  .finder-trait-icon:hover {
+    transform: scale(1.15);
+    box-shadow: 0 0 12px rgba(233, 69, 96, 0.5);
+    z-index: 2;
+  }
+  .finder-trait-icon.selected-finder {
+    border-color: #e94560;
+    box-shadow: 0 0 10px rgba(233, 69, 96, 0.6);
+  }
+  .finder-trait-icon img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    object-fit: contain;
+  }
+  .finder-trait-icon .pct-badge {
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    background: #e94560;
+    color: #fff;
+    font-size: 0.6rem;
+    padding: 1px 3px;
+    border-radius: 4px;
+    font-weight: bold;
+    line-height: 1;
+  }
+  .finder-trait-icon .pct-badge.zero { background: #444; }
+  .finder-trait-icon .pct-badge.def-badge { background: #2980b9; }
+  .finder-trait-icon .pct-badge.def-badge.zero { background: #444; }
+  .finder-selected-name {
+    font-size: 1.1rem;
+    color: #e94560;
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  .finder-selected-desc {
+    font-size: 0.8rem;
+    color: #aaa;
+    margin-bottom: 12px;
+  }
+  .finder-hero-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 10px;
+  }
+  .finder-hero-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #0f3460;
+    border-radius: 10px;
+    padding: 10px 14px;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  .finder-hero-card:hover { background: #e94560; }
+  .finder-hero-card img {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  .finder-hero-card .fh-info { flex: 1; }
+  .finder-hero-card .fh-name { font-size: 0.9rem; font-weight: bold; }
+  .finder-hero-card .fh-detail { font-size: 0.7rem; color: #bbb; margin-top: 2px; }
+  .finder-hero-card .fh-count {
+    background: #e94560;
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 2px 8px;
+    border-radius: 10px;
+    flex-shrink: 0;
+  }
+  .finder-hero-card:hover .fh-count { background: #fff; color: #e94560; }
+  .finder-hero-card:hover .fh-detail { color: #eee; }
+  .finder-prompt {
+    color: #555;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 40px 0;
+  }
+  .finder-hero-count {
+    font-size: 0.85rem;
+    color: #888;
+    margin-bottom: 12px;
+  }
+
+  @media (max-width: 800px) {
+    .tab-btn { padding: 10px 20px; font-size: 0.85rem; }
+    .finder-container { padding: 12px; }
+    .finder-trait-icon { width: 40px; height: 40px; }
+    .finder-trait-icon .pct-badge { font-size: 0.5rem; padding: 1px 2px; }
+    .finder-hero-list { grid-template-columns: 1fr; }
+    .finder-hero-card { padding: 8px 10px; }
+    .finder-hero-card img { width: 34px; height: 34px; }
+  }
   .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -70,6 +219,7 @@
     /* Trait icons smaller on mobile */
     .trait-icon { width: 40px; height: 40px; }
     .trait-icon .pct-badge { font-size: 0.5rem; padding: 1px 2px; }
+    .trait-icon .merge-badge { font-size: 0.45rem; padding: 1px 2px; }
     .trait-grid { gap: 4px; }
 
     /* Selected traits compact */
@@ -209,6 +359,7 @@
 
   .selected-hero-info {
     margin-top: 10px;
+    margin-bottom: 12px;
     padding: 8px 12px;
     background: #1a1a2e;
     border-radius: 8px;
@@ -243,6 +394,163 @@
   .selected-hero-info .talent-list {
     color: #ccc;
   }
+  .stat-section {
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid #333;
+  }
+  .stat-tier-selector {
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .stat-tier-selector select {
+    background: #1a1a2e;
+    color: #e0e0e0;
+    border: 1px solid #444;
+    border-radius: 4px;
+    padding: 3px 8px;
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+  .stat-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 3px;
+    font-size: 0.8rem;
+  }
+  .stat-label {
+    color: #888;
+    min-width: 32px;
+    font-weight: bold;
+  }
+  .stat-value {
+    color: #ffd700;
+    font-weight: bold;
+    min-width: 40px;
+  }
+  .stat-breakdown {
+    color: #999;
+    font-size: 0.7rem;
+  }
+  .availability-badge {
+    display: inline-block;
+    font-size: 0.65rem;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-left: 6px;
+    vertical-align: middle;
+  }
+  .availability-badge.exclusive {
+    background: linear-gradient(135deg, #9b59b6, #8e44ad);
+    color: #fff;
+  }
+  .availability-badge.permanent {
+    background: #2d6a4f;
+    color: #a7f3d0;
+  }
+  .hero-option .availability-badge {
+    font-size: 0.55rem;
+    padding: 1px 4px;
+    margin-left: 4px;
+  }
+  /* Damage Reduction */
+  .dmg-red-section { margin-top: 0; }
+  .dmg-red-selected { margin: 12px 0; }
+  .dmg-red-label {
+    font-size: 0.85rem;
+    color: #aaa;
+    margin-bottom: 6px;
+  }
+  .dmg-red-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    min-height: 40px;
+    padding: 8px;
+    background: #1a1a2e;
+    border-radius: 8px;
+    border: 1px dashed #0f3460;
+    align-items: center;
+  }
+  .dmg-red-tag {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background: #0f3460;
+    border-radius: 6px;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: background 0.15s;
+  }
+  .dmg-red-tag:hover { background: #e94560; }
+  .dmg-red-tag .tag-pct { color: #4fc3f7; font-weight: bold; }
+  .dmg-red-tag .tag-remove { color: #e94560; font-size: 0.7rem; margin-left: 4px; }
+  .dmg-red-tag:hover .tag-remove { color: #fff; }
+  .dmg-red-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 14px;
+  }
+  .dmg-red-btn {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 2px solid #2980b9;
+    background: radial-gradient(circle at 35% 35%, #1a3a5c, #0d1f33);
+    color: #4fc3f7;
+    font-size: 0.7rem;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.15s, box-shadow 0.15s;
+    text-shadow: 0 0 4px rgba(79, 195, 247, 0.5);
+    line-height: 1;
+  }
+  .dmg-red-btn:hover {
+    transform: scale(1.15);
+    box-shadow: 0 0 12px rgba(79, 195, 247, 0.5);
+    z-index: 2;
+  }
+  .dmg-red-result {
+    background: linear-gradient(135deg, #0d1f33, #1a3a5c);
+    border-radius: 10px;
+    padding: 14px 20px;
+    border: 1px solid #2980b9;
+  }
+  .dmg-red-result-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+  }
+  .dmg-red-result-row:last-of-type { margin-bottom: 0; }
+  .dmg-red-result-label { color: #aaa; font-size: 0.85rem; }
+  .dmg-red-result-value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4fc3f7;
+  }
+  .dmg-red-formula {
+    color: #555;
+    font-size: 0.75rem;
+    margin-top: 8px;
+    text-align: right;
+    word-break: break-all;
+  }
+
+  @media (max-width: 800px) {
+    .dmg-red-btn { width: 40px; height: 40px; font-size: 0.6rem; }
+    .dmg-red-result-value { font-size: 1.2rem; }
+  }
+
   .btn-clear-hero {
     background: #e94560;
     border: none;
@@ -345,6 +653,28 @@
     line-height: 1;
   }
   .trait-icon .pct-badge.zero { background: #444; }
+  .trait-icon .pct-badge.def-badge { background: #2980b9; }
+  .trait-icon .pct-badge.def-badge.zero { background: #444; }
+  .trait-icon .merge-badge {
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    background: #9b59b6;
+    color: #fff;
+    font-size: 0.5rem;
+    padding: 1px 3px;
+    border-radius: 4px;
+    font-weight: bold;
+    line-height: 1;
+    white-space: nowrap;
+  }
+  .trait-source-label {
+    font-size: 0.75rem;
+    color: #888;
+    margin: 10px 0 6px;
+    padding-left: 2px;
+  }
+  .trait-source-label:first-child { margin-top: 0; }
 
   /* Tooltip */
   .tooltip {
@@ -489,6 +819,12 @@
 
 <h1>Friends &amp; Dragons - Damage Calculator</h1>
 
+<div class="tab-nav">
+  <button class="tab-btn active" onclick="switchTab('calculator')">Damage Calculator</button>
+  <button class="tab-btn" onclick="switchTab('finder')">Trait Finder</button>
+</div>
+
+<div id="tabCalculator" class="tab-content active">
 <div class="container">
   <!-- Stats Input -->
   <div class="panel">
@@ -506,17 +842,27 @@
         <img id="heroInfoPortrait" src="" alt="" onerror="this.style.display='none'">
         <div class="hero-name" id="heroInfoName"></div>
       </div>
-      <div class="talent-section">
-        <span class="talent-label">Basic:</span>
-        <span class="talent-list" id="heroInfoBasic"></span>
-      </div>
-      <div class="talent-section">
-        <span class="talent-label">Ascension:</span>
-        <span class="talent-list" id="heroInfoAsc"></span>
-      </div>
-      <div class="talent-section">
-        <span class="talent-label">Merge:</span>
-        <span class="talent-list" id="heroInfoMerge"></span>
+      <div class="stat-section" id="heroStatsSection" style="display:none;">
+        <div class="stat-tier-selector">
+          <label class="talent-label">Tier:</label>
+          <select id="tierSelect" onchange="onTierChange()">
+            <option value="basic">Basic</option>
+            <option value="asc">Ascension 1</option>
+            <option value="asc2">Ascension 2</option>
+            <option value="asc3">Ascension 3</option>
+            <option value="asc4">Ascension 4</option>
+          </select>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">ATK:</span>
+          <span class="stat-value" id="heroStatAtk"></span>
+          <span class="stat-breakdown" id="heroStatAtkBreakdown"></span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">HP:</span>
+          <span class="stat-value" id="heroStatHp"></span>
+          <span class="stat-breakdown" id="heroStatHpBreakdown"></span>
+        </div>
       </div>
     </div>
     <div class="input-group">
@@ -562,12 +908,69 @@
   <div class="panel trait-grid-section">
     <h2>Attack Traits</h2>
     <div class="no-traits-msg" id="noTraitsMsg">This hero has no attack traits in this category.</div>
-    <div class="trait-grid" id="gridRed"></div>
-    <div class="trait-grid" id="gridRedSquare"></div>
-    <div class="trait-grid" id="gridOrange"></div>
     <div class="atk-boost-section">
       <div class="boost-label">Attack Bonus %</div>
       <div class="atk-boost-row" id="atkBoostRow"></div>
+    </div>
+  </div>
+
+  <!-- Damage Reduction Calculator -->
+  <div class="panel dmg-red-section" style="grid-column: 1 / -1;">
+    <h2>Damage Reduction Calculator</h2>
+    <div class="input-group">
+      <label>Incoming Dmg</label>
+      <input type="number" id="incomingDmg" value="1000" min="0">
+      <span class="unit hint">상대방 공격력</span>
+    </div>
+    <div class="dmg-red-selected">
+      <div class="dmg-red-label">Applied Reductions <span id="redCount" style="color:#888;font-weight:normal;">(0)</span></div>
+      <div class="dmg-red-tags" id="dmgRedTags">
+        <div class="empty-msg">Click trait icons or buttons below to add damage reduction</div>
+      </div>
+    </div>
+    <div class="dmg-red-result">
+      <div class="dmg-red-result-row">
+        <span class="dmg-red-result-label">Damage Taken</span>
+        <span class="dmg-red-result-value" id="dmgRedResult">1,000</span>
+      </div>
+      <div class="dmg-red-result-row">
+        <span class="dmg-red-result-label" style="color:#4fc3f7;">vs Weak Color (x1.5)</span>
+        <span class="dmg-red-result-value" style="color:#4fc3f7;" id="dmgRedResultColor">1,500</span>
+      </div>
+      <div class="dmg-red-formula" id="dmgRedFormula">1000</div>
+    </div>
+  </div>
+
+  <!-- Defense Traits -->
+  <div class="panel trait-grid-section def-trait-section" style="grid-column: 1 / -1;">
+    <h2>Defense Traits</h2>
+    <div class="no-traits-msg" id="noDefTraitsMsg">This hero has no defense traits.</div>
+    <div class="atk-boost-section">
+      <div class="boost-label">Manual Reduction %</div>
+      <div class="dmg-red-buttons" id="dmgRedButtons"></div>
+    </div>
+  </div>
+</div>
+
+</div><!-- end tabCalculator -->
+
+<div id="tabFinder" class="tab-content">
+  <div class="finder-container">
+    <div class="panel">
+      <h2>Attack Traits</h2>
+      <div class="finder-trait-grid" id="finderGridRed"></div>
+      <div class="finder-trait-grid" id="finderGridRedSquare"></div>
+      <div class="finder-trait-grid" id="finderGridOrange"></div>
+    </div>
+    <div class="panel" style="margin-top: 16px;">
+      <h2>Defense Traits</h2>
+      <div class="finder-trait-grid" id="finderGridDefBlue"></div>
+      <div class="finder-trait-grid" id="finderGridDefBlueSquare"></div>
+    </div>
+    <div class="panel" style="margin-top: 16px;">
+      <div id="finderResult">
+        <div class="finder-prompt">Click a trait icon above to see which heroes have it.</div>
+      </div>
     </div>
   </div>
 </div>
@@ -581,22 +984,29 @@
 
 <script>
 let traitData = [];
+let defTraitData = [];
 let heroData = [];
 let selectedTraits = [];
 let selectedHero = null;
 let traitElements = [];
+let defTraitElements = [];
 let atkBoostPct = 0;
 
 async function init() {
-  const [traitResp, heroResp] = await Promise.all([
+  const [traitResp, heroResp, defTraitResp] = await Promise.all([
     fetch('web_traits.json'),
-    fetch('heroes.json')
+    fetch('heroes.json'),
+    fetch('web_defense_traits.json')
   ]);
   traitData = await traitResp.json();
   heroData = await heroResp.json();
-  renderGrid();
+  defTraitData = await defTraitResp.json();
+  rebuildTraitGrid(null);
+  rebuildDefTraitGrid(null);
   renderAtkBoostButtons();
+  renderDmgRedButtons();
   setupHeroSearch();
+  renderFinderGrid();
   calculate();
 }
 
@@ -621,35 +1031,6 @@ function addAtkBoost(pct) {
   });
   renderSelected();
   calculate();
-}
-
-function renderGrid() {
-  const grids = {
-    red: document.getElementById('gridRed'),
-    red_square: document.getElementById('gridRedSquare'),
-    orange_gold: document.getElementById('gridOrange')
-  };
-
-  traitElements = [];
-
-  traitData.forEach((trait, idx) => {
-    const grid = grids[trait.category];
-    if (!grid) return;
-
-    const el = document.createElement('div');
-    el.className = 'trait-icon';
-    el.dataset.traitName = trait.name;
-    el.innerHTML = `
-      <img src="${trait.file}" alt="${trait.name}" loading="lazy">
-      <span class="pct-badge ${trait.pct === 0 ? 'zero' : ''}">${trait.pct}%</span>
-    `;
-    el.addEventListener('click', () => addTrait(idx));
-    el.addEventListener('mouseenter', (e) => showTooltip(e, trait));
-    el.addEventListener('mousemove', (e) => moveTooltip(e));
-    el.addEventListener('mouseleave', hideTooltip);
-    grid.appendChild(el);
-    traitElements.push({ el, trait });
-  });
 }
 
 // Hero name -> trait name matching
@@ -704,7 +1085,7 @@ function filterHeroes(query) {
       <div class="hero-option" onclick="selectHero('${h.name.replace(/'/g, "\\'")}')">
         <img src="${portrait}" alt="${h.name}" onerror="this.style.display='none'">
         <div>
-          <div>${h.name_kr || h.name} <span style="color:#888;font-size:0.8em">(${h.name})</span></div>
+          <div>${h.name_kr || h.name} <span style="color:#888;font-size:0.8em">(${h.name})</span>${h.availability ? `<span class="availability-badge exclusive">${h.availability.replace(' exclusive','')}</span>` : ''}</div>
           <div class="hero-talents-preview">${preview}</div>
         </div>
       </div>
@@ -726,39 +1107,190 @@ function selectHero(name) {
   // Show hero info
   const infoEl = document.getElementById('selectedHeroInfo');
   infoEl.style.display = 'block';
-  document.getElementById('heroInfoName').innerHTML = (hero.name_kr || hero.name) + ' <span style="color:#888;font-size:0.8em">(' + hero.name + ')</span>';
+  const availBadge = hero.availability
+    ? `<span class="availability-badge exclusive">${hero.availability.replace(' exclusive','')}</span>`
+    : '';
+  document.getElementById('heroInfoName').innerHTML = (hero.name_kr || hero.name) + ' <span style="color:#888;font-size:0.8em">(' + hero.name + ')</span>' + availBadge;
   const portraitEl = document.getElementById('heroInfoPortrait');
   portraitEl.src = `images/portraits/${hero.name} Portrait.webp`;
   portraitEl.style.display = '';
-  document.getElementById('heroInfoBasic').textContent = hero.basic.join(', ') || '-';
-  document.getElementById('heroInfoAsc').textContent = hero.ascension.join(', ') || '-';
-  document.getElementById('heroInfoMerge').textContent = hero.merge.join(', ') || '-';
+  // Show stats if available
+  const statsSection = document.getElementById('heroStatsSection');
+  if (hero.stats && Object.keys(hero.stats).length > 0) {
+    statsSection.style.display = 'block';
+    // Set tier selector to highest available tier
+    const tiers = ['asc4', 'asc3', 'asc2', 'asc', 'basic'];
+    const availableTiers = tiers.filter(t => hero.stats[t]);
+    const tierSelect = document.getElementById('tierSelect');
+    // Enable/disable options based on available tiers
+    Array.from(tierSelect.options).forEach(opt => {
+      opt.disabled = !hero.stats[opt.value];
+    });
+    tierSelect.value = availableTiers[0] || 'basic';
+    updateStatDisplay();
+  } else {
+    statsSection.style.display = 'none';
+  }
 
-  // Filter trait icons - only show traits this hero has
-  const heroTraitNames = new Set(hero.all.map(t => normalizeTraitName(t)));
+  // Build trait list with source info (basic/ascension/merge)
+  const heroTraitList = [];
+  const addTraits = (arr, source) => {
+    arr.forEach((t, i) => {
+      heroTraitList.push({ name: normalizeTraitName(t), source, mergeIndex: source === 'merge' ? i : -1 });
+    });
+  };
+  addTraits(hero.basic || [], 'basic');
+  addTraits(hero.ascension || [], 'ascension');
+  addTraits(hero.merge || [], 'merge');
 
-  let visibleCount = 0;
-  traitElements.forEach(({ el, trait }) => {
-    if (heroTraitNames.has(trait.name)) {
-      el.classList.remove('hidden');
-      visibleCount++;
-    } else {
-      el.classList.add('hidden');
-    }
-  });
+  // Merge label by star and index: 5★: 1머지/3머지/10머지, 4★: 1머지/5머지/10머지
+  const getMergeLabel = (stars, mergeIndex) => {
+    if (stars >= 5) return ['1머지', '3머지', '10머지'][mergeIndex] || '';
+    if (stars === 4) return ['1머지', '5머지', '10머지'][mergeIndex] || '';
+    return '';
+  };
 
-  document.getElementById('noTraitsMsg').style.display =
-    visibleCount === 0 ? 'block' : 'none';
+  // Rebuild trait grids with source info
+  rebuildTraitGrid(heroTraitList, hero.stars);
+  rebuildDefTraitGrid(heroTraitList, hero.stars);
 
-  // Clear selected traits and boost when switching hero
+  // Clear selected traits, boost, and reductions when switching hero
   selectedTraits = [];
+  dmgReductions = [];
   resetAtkBoost();
   renderSelected();
+  renderDmgReductions();
+  calculateDmgReduction();
   calculate();
+}
+
+function onTierChange() {
+  updateStatDisplay();
+}
+
+function updateStatDisplay() {
+  if (!selectedHero || !selectedHero.stats) return;
+  const tier = document.getElementById('tierSelect').value;
+  const data = selectedHero.stats[tier];
+  if (data) {
+    document.getElementById('heroStatAtk').textContent = data.attack;
+    document.getElementById('heroStatAtkBreakdown').textContent = `(${data.attack_breakdown})`;
+    document.getElementById('heroStatHp').textContent = data.health;
+    document.getElementById('heroStatHpBreakdown').textContent = `(${data.health_breakdown})`;
+    // Auto-fill attack input
+    document.getElementById('baseAttack').value = data.attack;
+    calculate();
+  }
 }
 
 function resetAtkBoost() {
   atkBoostPct = 0;
+}
+
+function rebuildTraitGrid(heroTraitList, heroStars) {
+  const gridContainer = document.querySelector('.trait-grid-section');
+  // Remove old dynamic grids and labels
+  gridContainer.querySelectorAll('.trait-grid, .trait-source-label').forEach(el => el.remove());
+
+  traitElements = [];
+
+  // No hero selected: show all traits in one flat grid per category
+  if (!heroTraitList) {
+    const categories = ['red', 'red_square', 'orange_gold'];
+    categories.forEach(cat => {
+      const grid = document.createElement('div');
+      grid.className = 'trait-grid';
+      traitData.forEach((trait, idx) => {
+        if (trait.category !== cat) return;
+        const el = createTraitIcon(trait, idx);
+        grid.appendChild(el);
+        traitElements.push({ el, trait });
+      });
+      gridContainer.insertBefore(grid, gridContainer.querySelector('.atk-boost-section'));
+    });
+    document.getElementById('noTraitsMsg').style.display = 'none';
+    return;
+  }
+
+  // Hero selected: group traits by source
+  const getMergeLabel = (stars, mergeIndex) => {
+    if (stars >= 5) return ['1머지', '3머지', '10머지'][mergeIndex] || '';
+    if (stars === 4) return ['1머지', '5머지', '10머지'][mergeIndex] || '';
+    return '';
+  };
+
+  const sources = [
+    { key: 'basic', label: 'Basic' },
+    { key: 'ascension', label: 'Ascension' }
+  ];
+
+  // Find distinct merge indices
+  const mergeTraits = heroTraitList.filter(t => t.source === 'merge');
+  const mergeIndices = [...new Set(mergeTraits.map(t => t.mergeIndex))].sort((a, b) => a - b);
+  mergeIndices.forEach(mi => {
+    sources.push({ key: `merge_${mi}`, label: getMergeLabel(heroStars, mi), mergeIndex: mi });
+  });
+
+  let visibleCount = 0;
+  const boostSection = gridContainer.querySelector('.atk-boost-section');
+
+  sources.forEach(({ key, label, mergeIndex }) => {
+    // Get trait entries for this source
+    let entries;
+    if (key === 'basic' || key === 'ascension') {
+      entries = heroTraitList.filter(t => t.source === key);
+    } else {
+      entries = heroTraitList.filter(t => t.source === 'merge' && t.mergeIndex === mergeIndex);
+    }
+
+    // Match with traitData to get full info
+    const matched = [];
+    entries.forEach(entry => {
+      const traitIdx = traitData.findIndex(td => td.name === entry.name);
+      if (traitIdx >= 0) {
+        matched.push({ trait: traitData[traitIdx], idx: traitIdx, mergeLabel: entry.source === 'merge' ? label : null });
+      }
+    });
+
+    if (matched.length === 0) return;
+
+    // Add section label
+    const labelEl = document.createElement('div');
+    labelEl.className = 'trait-source-label';
+    labelEl.textContent = label;
+    gridContainer.insertBefore(labelEl, boostSection);
+
+    // Add grid
+    const grid = document.createElement('div');
+    grid.className = 'trait-grid';
+    matched.forEach(({ trait, idx, mergeLabel }) => {
+      const el = createTraitIcon(trait, idx, mergeLabel);
+      grid.appendChild(el);
+      traitElements.push({ el, trait });
+      visibleCount++;
+    });
+    gridContainer.insertBefore(grid, boostSection);
+  });
+
+  document.getElementById('noTraitsMsg').style.display =
+    visibleCount === 0 ? 'block' : 'none';
+}
+
+function createTraitIcon(trait, idx, mergeLabel) {
+  const el = document.createElement('div');
+  el.className = 'trait-icon';
+  el.dataset.traitName = trait.name;
+  const mergeBadge = mergeLabel ? `<span class="merge-badge">${mergeLabel}</span>` : '';
+  el.innerHTML = `
+    ${mergeBadge}
+    <img src="${trait.file}" alt="${trait.name}" loading="lazy">
+    <span class="pct-badge ${trait.pct === 0 ? 'zero' : ''}">${trait.pct}%</span>
+  `;
+  el.addEventListener('click', () => addTrait(idx));
+  el.addEventListener('mouseenter', (e) => showTooltip(e, trait));
+  el.addEventListener('mousemove', (e) => moveTooltip(e));
+  el.addEventListener('mouseleave', hideTooltip);
+  return el;
 }
 
 function clearHero() {
@@ -768,13 +1300,15 @@ function clearHero() {
   document.getElementById('selectedHeroInfo').style.display = 'none';
   document.getElementById('noTraitsMsg').style.display = 'none';
 
-  // Show all trait icons
-  traitElements.forEach(({ el }) => {
-    el.classList.remove('hidden');
-  });
+  // Rebuild grids showing all traits (1 each)
+  rebuildTraitGrid(null);
+  rebuildDefTraitGrid(null);
 
   selectedTraits = [];
+  dmgReductions = [];
   renderSelected();
+  renderDmgReductions();
+  calculateDmgReduction();
   calculate();
 }
 
@@ -859,7 +1393,12 @@ const tooltip = document.getElementById('tooltip');
 function showTooltip(e, trait) {
   tooltip.querySelector('.tt-name').textContent = trait.name;
   tooltip.querySelector('.tt-desc').textContent = trait.desc || 'No description';
-  tooltip.querySelector('.tt-pct').textContent = trait.pct > 0 ? `Damage Bonus: +${trait.pct}%` : 'No direct damage bonus';
+  const isDefTrait = defTraitData.some(dt => dt.name === trait.name);
+  if (isDefTrait) {
+    tooltip.querySelector('.tt-pct').textContent = trait.pct > 0 ? `Damage Reduction: -${trait.pct}%` : 'No direct damage reduction';
+  } else {
+    tooltip.querySelector('.tt-pct').textContent = trait.pct > 0 ? `Damage Bonus: +${trait.pct}%` : 'No direct damage bonus';
+  }
   tooltip.style.display = 'block';
   moveTooltip(e);
 }
@@ -873,10 +1412,315 @@ function moveTooltip(e) {
 }
 function hideTooltip() { tooltip.style.display = 'none'; }
 
+// Tab switching
+function switchTab(tabName) {
+  document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
+
+  if (tabName === 'calculator') {
+    document.querySelector('.tab-btn:nth-child(1)').classList.add('active');
+    document.getElementById('tabCalculator').classList.add('active');
+  } else {
+    document.querySelector('.tab-btn:nth-child(2)').classList.add('active');
+    document.getElementById('tabFinder').classList.add('active');
+  }
+}
+
+// Trait Finder
+let finderSelectedTrait = null;
+let finderTraitEls = [];
+
+function renderFinderGrid() {
+  const atkGrids = {
+    red: document.getElementById('finderGridRed'),
+    red_square: document.getElementById('finderGridRedSquare'),
+    orange_gold: document.getElementById('finderGridOrange')
+  };
+  const defGrids = {
+    blue: document.getElementById('finderGridDefBlue'),
+    blue_square: document.getElementById('finderGridDefBlueSquare')
+  };
+
+  finderTraitEls = [];
+
+  // Attack traits
+  traitData.forEach((trait, idx) => {
+    const grid = atkGrids[trait.category];
+    if (!grid) return;
+
+    const el = document.createElement('div');
+    el.className = 'finder-trait-icon';
+    el.innerHTML = `
+      <img src="${trait.file}" alt="${trait.name}" loading="lazy">
+      <span class="pct-badge ${trait.pct === 0 ? 'zero' : ''}">${trait.pct}%</span>
+    `;
+    el.addEventListener('click', () => selectFinderTrait(trait.name, 'atk'));
+    el.addEventListener('mouseenter', (e) => showTooltip(e, trait));
+    el.addEventListener('mousemove', (e) => moveTooltip(e));
+    el.addEventListener('mouseleave', hideTooltip);
+    grid.appendChild(el);
+    finderTraitEls.push({ el, traitName: trait.name, type: 'atk' });
+  });
+
+  // Defense traits
+  defTraitData.forEach((trait, idx) => {
+    const grid = defGrids[trait.category];
+    if (!grid) return;
+
+    const el = document.createElement('div');
+    el.className = 'finder-trait-icon';
+    const pctLabel = trait.pct > 0 ? `-${trait.pct}%` : '—';
+    el.innerHTML = `
+      <img src="${trait.file}" alt="${trait.name}" loading="lazy">
+      <span class="pct-badge def-badge ${trait.pct === 0 ? 'zero' : ''}">${pctLabel}</span>
+    `;
+    el.addEventListener('click', () => selectFinderTrait(trait.name, 'def'));
+    el.addEventListener('mouseenter', (e) => showTooltip(e, trait));
+    el.addEventListener('mousemove', (e) => moveTooltip(e));
+    el.addEventListener('mouseleave', hideTooltip);
+    grid.appendChild(el);
+    finderTraitEls.push({ el, traitName: trait.name, type: 'def' });
+  });
+}
+
+function selectFinderTrait(traitName, type) {
+  const trait = type === 'atk'
+    ? traitData.find(t => t.name === traitName)
+    : defTraitData.find(t => t.name === traitName);
+  if (!trait) return;
+
+  // Update selected state
+  finderTraitEls.forEach(({ el, traitName: tn, type: tp }) => {
+    el.classList.toggle('selected-finder', tn === traitName && tp === type);
+  });
+
+  // Find heroes that have this trait
+  const heroesWithTrait = [];
+
+  heroData.forEach(hero => {
+    const normalizedAll = hero.all.map(t => normalizeTraitName(t));
+    const count = normalizedAll.filter(t => t === traitName).length;
+    if (count > 0) {
+      heroesWithTrait.push({ hero, count });
+    }
+  });
+
+  // Sort by count descending, then name
+  heroesWithTrait.sort((a, b) => b.count - a.count || a.hero.name.localeCompare(b.hero.name));
+
+  const resultDiv = document.getElementById('finderResult');
+
+  if (heroesWithTrait.length === 0) {
+    resultDiv.innerHTML = `
+      <div class="finder-selected-name">${trait.name}</div>
+      <div class="finder-selected-desc">${trait.desc || ''}</div>
+      <div class="finder-prompt">No heroes have this trait.</div>
+    `;
+    return;
+  }
+
+  resultDiv.innerHTML = `
+    <div class="finder-selected-name">${trait.name}</div>
+    <div class="finder-selected-desc">${trait.desc || ''}</div>
+    <div class="finder-hero-count">${heroesWithTrait.length} heroes found</div>
+    <div class="finder-hero-list">
+      ${heroesWithTrait.map(({ hero, count }) => {
+        const portrait = `images/portraits/${hero.name} Portrait.webp`;
+        const displayName = (hero.name_kr || hero.name);
+        const detail = `${hero.stars}★ ${hero.color} ${hero.class}`;
+        return `
+          <div class="finder-hero-card" onclick="switchTab('calculator'); selectHero('${hero.name.replace(/'/g, "\\'")}')">
+            <img src="${portrait}" alt="${hero.name}" onerror="this.style.display='none'">
+            <div class="fh-info">
+              <div class="fh-name">${displayName} <span style="color:#888;font-size:0.75em">(${hero.name})</span></div>
+              <div class="fh-detail">${detail}${hero.availability ? ` · <span style="color:#c084fc;">${hero.availability.replace(' exclusive','')}</span>` : ''}</div>
+            </div>
+            <div class="fh-count">x${count}</div>
+          </div>
+        `;
+      }).join('')}
+    </div>
+  `;
+}
+
+// Damage Reduction
+let dmgReductions = [];
+
+function renderDmgRedButtons() {
+  const row = document.getElementById('dmgRedButtons');
+  [5, 10, 15, 20, 25, 30, 35, 40, 45, 50].forEach(pct => {
+    const btn = document.createElement('div');
+    btn.className = 'dmg-red-btn';
+    btn.textContent = `-${pct}%`;
+    btn.addEventListener('click', () => addDmgReduction(pct, `Manual -${pct}%`, null));
+    row.appendChild(btn);
+  });
+}
+
+function addDmgReduction(pct, name, file) {
+  dmgReductions.push({ pct, name, file, uid: Date.now() + Math.random() });
+  renderDmgReductions();
+  calculateDmgReduction();
+}
+
+function removeDmgReduction(uid) {
+  dmgReductions = dmgReductions.filter(r => r.uid !== uid);
+  renderDmgReductions();
+  calculateDmgReduction();
+}
+
+function renderDmgReductions() {
+  const container = document.getElementById('dmgRedTags');
+  document.getElementById('redCount').textContent = `(${dmgReductions.length})`;
+
+  if (dmgReductions.length === 0) {
+    container.innerHTML = '<div class="empty-msg">Click trait icons or buttons below to add damage reduction</div>';
+    return;
+  }
+
+  container.innerHTML = dmgReductions.map(r => {
+    const imgHtml = r.file ? `<img src="${r.file}" alt="${r.name}" style="width:24px;height:24px;border-radius:4px;object-fit:contain;">` : '';
+    return `
+      <div class="dmg-red-tag" onclick="removeDmgReduction(${r.uid})" title="Click to remove">
+        ${imgHtml}
+        <span class="tag-pct">${r.name} (-${r.pct}%)</span>
+        <span class="tag-remove">x</span>
+      </div>
+    `;
+  }).join('');
+}
+
+function calculateDmgReduction() {
+  const incoming = parseFloat(document.getElementById('incomingDmg').value) || 0;
+
+  let result = incoming;
+  const parts = [incoming.toString()];
+  dmgReductions.forEach(r => {
+    const mult = 1 - r.pct / 100;
+    result = result * mult;
+    parts.push(`x ${(mult * 100).toFixed(0)}%`);
+  });
+
+  const finalDmg = Math.round(result);
+  const colorDmg = Math.round(result * 1.5);
+
+  document.getElementById('dmgRedResult').textContent = finalDmg.toLocaleString();
+  document.getElementById('dmgRedResultColor').textContent = colorDmg.toLocaleString();
+  document.getElementById('dmgRedFormula').textContent =
+    parts.join(' ') + ` = ${finalDmg.toLocaleString()}`;
+}
+
+// Defense Trait Grid
+function rebuildDefTraitGrid(heroTraitList, heroStars) {
+  const gridContainer = document.querySelector('.def-trait-section');
+  gridContainer.querySelectorAll('.trait-grid, .trait-source-label').forEach(el => el.remove());
+  defTraitElements = [];
+
+  const boostSection = gridContainer.querySelector('.atk-boost-section');
+
+  if (!heroTraitList) {
+    // No hero selected: show all defense traits
+    const categories = ['blue', 'blue_square'];
+    categories.forEach(cat => {
+      const grid = document.createElement('div');
+      grid.className = 'trait-grid';
+      defTraitData.forEach((trait, idx) => {
+        if (trait.category !== cat) return;
+        const el = createDefTraitIcon(trait, idx);
+        grid.appendChild(el);
+        defTraitElements.push({ el, trait });
+      });
+      if (grid.children.length > 0) {
+        gridContainer.insertBefore(grid, boostSection);
+      }
+    });
+    document.getElementById('noDefTraitsMsg').style.display = 'none';
+    return;
+  }
+
+  // Hero selected: group by source
+  const getMergeLabel = (stars, mergeIndex) => {
+    if (stars >= 5) return ['1머지', '3머지', '10머지'][mergeIndex] || '';
+    if (stars === 4) return ['1머지', '5머지', '10머지'][mergeIndex] || '';
+    return '';
+  };
+
+  const sources = [
+    { key: 'basic', label: 'Basic' },
+    { key: 'ascension', label: 'Ascension' }
+  ];
+  const mergeTraits = heroTraitList.filter(t => t.source === 'merge');
+  const mergeIndices = [...new Set(mergeTraits.map(t => t.mergeIndex))].sort((a, b) => a - b);
+  mergeIndices.forEach(mi => {
+    sources.push({ key: `merge_${mi}`, label: getMergeLabel(heroStars, mi), mergeIndex: mi });
+  });
+
+  let visibleCount = 0;
+
+  sources.forEach(({ key, label, mergeIndex }) => {
+    let entries;
+    if (key === 'basic' || key === 'ascension') {
+      entries = heroTraitList.filter(t => t.source === key);
+    } else {
+      entries = heroTraitList.filter(t => t.source === 'merge' && t.mergeIndex === mergeIndex);
+    }
+
+    const matched = [];
+    entries.forEach(entry => {
+      const traitIdx = defTraitData.findIndex(td => td.name === entry.name);
+      if (traitIdx >= 0) {
+        matched.push({ trait: defTraitData[traitIdx], idx: traitIdx, mergeLabel: entry.source === 'merge' ? label : null });
+      }
+    });
+
+    if (matched.length === 0) return;
+
+    const labelEl = document.createElement('div');
+    labelEl.className = 'trait-source-label';
+    labelEl.textContent = label;
+    gridContainer.insertBefore(labelEl, boostSection);
+
+    const grid = document.createElement('div');
+    grid.className = 'trait-grid';
+    matched.forEach(({ trait, idx, mergeLabel }) => {
+      const el = createDefTraitIcon(trait, idx, mergeLabel);
+      grid.appendChild(el);
+      defTraitElements.push({ el, trait });
+      visibleCount++;
+    });
+    gridContainer.insertBefore(grid, boostSection);
+  });
+
+  document.getElementById('noDefTraitsMsg').style.display =
+    visibleCount === 0 ? 'block' : 'none';
+}
+
+function createDefTraitIcon(trait, idx, mergeLabel) {
+  const el = document.createElement('div');
+  el.className = 'trait-icon';
+  el.dataset.traitName = trait.name;
+  const mergeBadge = mergeLabel ? `<span class="merge-badge">${mergeLabel}</span>` : '';
+  const pctLabel = trait.pct > 0 ? `-${trait.pct}%` : '—';
+  const pctClass = trait.pct === 0 ? 'zero' : '';
+  el.innerHTML = `
+    ${mergeBadge}
+    <img src="${trait.file}" alt="${trait.name}" loading="lazy">
+    <span class="pct-badge def-badge ${pctClass}">${pctLabel}</span>
+  `;
+  if (trait.pct > 0) {
+    el.addEventListener('click', () => addDmgReduction(trait.pct, trait.name, trait.file));
+  }
+  el.addEventListener('mouseenter', (e) => showTooltip(e, trait));
+  el.addEventListener('mousemove', (e) => moveTooltip(e));
+  el.addEventListener('mouseleave', hideTooltip);
+  return el;
+}
+
 // Input listeners
 ['baseAttack', 'leaderBuff', 'petBuff'].forEach(id => {
   document.getElementById(id).addEventListener('input', calculate);
 });
+document.getElementById('incomingDmg').addEventListener('input', calculateDmgReduction);
 
 init();
 </script>

@@ -1,0 +1,274 @@
+[
+  {
+    "id": "CardinalParry",
+    "name": "Cardinal Parry",
+    "file": "images/traits/blue/TraitCardinalParry.webp",
+    "desc": "Receives -20% damage from cardinal direction attacks (N, S, E, W).",
+    "pct": 20,
+    "category": "blue"
+  },
+  {
+    "id": "DiagonalParry",
+    "name": "Diagonal Parry",
+    "file": "images/traits/blue_square/TraitDiagonalParry.webp",
+    "desc": "Receives -20% damage from diagonal attacks.",
+    "pct": 20,
+    "category": "blue_square"
+  },
+  {
+    "id": "MeleeParry",
+    "name": "Melee Parry",
+    "file": "images/traits/blue/TraitMeleeParry.webp",
+    "desc": "Receives -20% damage from Melee attacks.",
+    "pct": 20,
+    "category": "blue"
+  },
+  {
+    "id": "MagicParry",
+    "name": "Magic Parry",
+    "file": "images/traits/blue/TraitMagicParry.webp",
+    "desc": "Receives -20% damage from Magic attacks.",
+    "pct": 20,
+    "category": "blue"
+  },
+  {
+    "id": "RangedParry",
+    "name": "Ranged Parry",
+    "file": "images/traits/blue/TraitRangedParry.webp",
+    "desc": "Receives -20% damage from Ranged attacks.",
+    "pct": 20,
+    "category": "blue"
+  },
+  {
+    "id": "Dodge",
+    "name": "Dodge",
+    "file": "images/traits/blue/TraitDodge.webp",
+    "desc": "Receives -20% damage if able to step away from attack pattern. Once per Dodge per turn.",
+    "pct": 20,
+    "category": "blue"
+  },
+  {
+    "id": "Resilient",
+    "name": "Resilient",
+    "file": "images/traits/blue/TraitResilient.webp",
+    "desc": "Receives -20% damage while below 50% Health.",
+    "pct": 20,
+    "category": "blue"
+  },
+  {
+    "id": "Resolute",
+    "name": "Resolute",
+    "file": "images/traits/blue/TraitResolute.webp",
+    "desc": "Receives -20% damage while at full Health.",
+    "pct": 20,
+    "category": "blue"
+  },
+  {
+    "id": "Sentinel",
+    "name": "Sentinel",
+    "file": "images/traits/blue/TraitSentinel.webp",
+    "desc": "Receives -20% damage when there are no allies in adjacent squares.",
+    "pct": 20,
+    "category": "blue"
+  },
+  {
+    "id": "Fortify",
+    "name": "Fortify",
+    "file": "images/traits/blue/TraitFortify.webp",
+    "desc": "Receives -20% damage. Loses Fortified at start of next Turn. (Max 4)",
+    "pct": 20,
+    "category": "blue"
+  },
+  {
+    "id": "Berserk",
+    "name": "Berserk",
+    "file": "images/traits/blue/TraitBerserk.webp",
+    "desc": "Receives -50% damage during enemy turn after attacking in at least 3 directions.",
+    "pct": 50,
+    "category": "blue"
+  },
+  {
+    "id": "ArmorofBlood",
+    "name": "Armor of Blood",
+    "file": "images/traits/blue/TraitArmorofBlood.webp",
+    "desc": "Receives -20% damage from bleeding targets.",
+    "pct": 20,
+    "category": "blue"
+  },
+  {
+    "id": "ArmorofFire",
+    "name": "Armor of Fire",
+    "file": "images/traits/blue/TraitArmorofFire.webp",
+    "desc": "Receives -20% damage from Green attacks, immune to Green trait extra damage.",
+    "pct": 20,
+    "category": "blue"
+  },
+  {
+    "id": "ArmorofEarth",
+    "name": "Armor of Earth",
+    "file": "images/traits/blue/TraitArmorofEarth.webp",
+    "desc": "Receives -20% damage from Blue attacks, immune to Blue trait extra damage.",
+    "pct": 20,
+    "category": "blue"
+  },
+  {
+    "id": "ArmorofMoon",
+    "name": "Armor of Moon",
+    "file": "images/traits/blue/TraitArmorofMoon.webp",
+    "desc": "Receives -20% damage from Light attacks, immune to Light trait extra damage.",
+    "pct": 20,
+    "category": "blue"
+  },
+  {
+    "id": "ArmorofSea",
+    "name": "Armor of Sea",
+    "file": "images/traits/blue/TraitArmorofSea.webp",
+    "desc": "Receives -20% damage from Red attacks, immune to Red trait extra damage.",
+    "pct": 20,
+    "category": "blue"
+  },
+  {
+    "id": "ArmorofSun",
+    "name": "Armor of Sun",
+    "file": "images/traits/blue/TraitArmorofSun.webp",
+    "desc": "Receives -20% damage from Dark attacks, immune to Dark trait extra damage.",
+    "pct": 20,
+    "category": "blue"
+  },
+  {
+    "id": "BardicSong",
+    "name": "Bardic Song",
+    "file": "images/traits/blue/TraitBardicSong.webp",
+    "desc": "Supported allies receive -20% damage. Must be same Color as the Bard.",
+    "pct": 20,
+    "category": "blue"
+  },
+  {
+    "id": "ChromaticShield",
+    "name": "Chromatic Shield",
+    "file": "images/traits/blue/TraitChromaticShield.webp",
+    "desc": "Immune to extra damage based on attacker's color.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "ChromaticSong",
+    "name": "Chromatic Song",
+    "file": "images/traits/blue/TraitChromaticSong.webp",
+    "desc": "Supported allies immune to extra damage based on attacker's Color.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "Shroud",
+    "name": "Shroud",
+    "file": "images/traits/blue_square/TraitShroud.webp",
+    "desc": "AI enemies ignore this character during movement phase.",
+    "pct": 0,
+    "category": "blue_square"
+  },
+  {
+    "id": "Foresight",
+    "name": "Foresight",
+    "file": "images/traits/blue/TraitForesight.webp",
+    "desc": "Always takes minimum random damage from Elite, Paragon, Hero, Vicious.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "ArcaneShield",
+    "name": "Arcane Shield",
+    "file": "images/traits/blue/TraitArcaneShield.webp",
+    "desc": "Immune to extra damage from Magic attacks.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "SongofBlood",
+    "name": "Song of Blood",
+    "file": "images/traits/blue/TraitSongofBlood.webp",
+    "desc": "Supported allies cannot receive Bleeding/Internal Bleeding.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "FireResistance",
+    "name": "Fire Resistance",
+    "file": "images/traits/blue/TraitFireResistance.webp",
+    "desc": "Immune to Burning status effect.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "ColdResistance",
+    "name": "Cold Resistance",
+    "file": "images/traits/blue/TraitColdResistance.webp",
+    "desc": "Immune to Chilled/Frozen status effects.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "PoisonResistance",
+    "name": "Poison Resistance",
+    "file": "images/traits/blue/TraitPoisonResistance.webp",
+    "desc": "Immune to Poisoned status effect.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "BleedResistance",
+    "name": "Bleed Resistance",
+    "file": "images/traits/blue/TraitBleedResistance.webp",
+    "desc": "Immune to Bleeding status effect.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "NaturalHarmony",
+    "name": "Natural Harmony",
+    "file": "images/traits/blue/TraitNaturalHarmony.webp",
+    "desc": "Immune to all status effects.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "DeathWard",
+    "name": "Death Ward",
+    "file": "images/traits/blue/TraitDeathWard.webp",
+    "desc": "Survives a lethal hit with 1 HP. Once per battle.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "Impunity",
+    "name": "Impunity",
+    "file": "images/traits/blue/TraitImpunity.webp",
+    "desc": "Immune to status effects from attacks.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "ImmunetoDisorientation",
+    "name": "Immune to Disorientation",
+    "file": "images/traits/blue/TraitImmunetoDisorientation.webp",
+    "desc": "Immune to Disorientation status effect.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "ImmunetoSilence",
+    "name": "Immune to Silence",
+    "file": "images/traits/blue/TraitImmunetoSilence.webp",
+    "desc": "Immune to Silence status effect.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "Immovable",
+    "name": "Immovable",
+    "file": "images/traits/blue_square/TraitImmovable.webp",
+    "desc": "Cannot be pushed.",
+    "pct": 0,
+    "category": "blue_square"
+  }
+]
