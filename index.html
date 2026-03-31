@@ -798,6 +798,78 @@
   .selected-trait.boost-item {
     border-left: 3px solid #ffd700;
   }
+  /* EXP Table tab */
+  .exp-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .exp-summary {
+    font-size: 0.95rem;
+    color: #aaa;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  .exp-summary strong { color: #ffd700; }
+  .exp-range-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+  }
+  .exp-range-row label {
+    color: #aaa;
+    font-size: 0.85rem;
+  }
+  .exp-range-row select {
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #0f3460;
+    background: #1a1a2e;
+    color: #fff;
+    font-size: 0.9rem;
+  }
+  .exp-range-total {
+    margin-left: auto;
+    color: #ffd700;
+    font-size: 1rem;
+  }
+  .exp-table-wrap {
+    max-height: 600px;
+    overflow-y: auto;
+    border-radius: 8px;
+  }
+  .exp-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .exp-table th {
+    position: sticky;
+    top: 0;
+    background: #0f3460;
+    color: #e94560;
+    padding: 10px 14px;
+    text-align: center;
+    font-size: 0.85rem;
+    z-index: 1;
+  }
+  .exp-table td {
+    padding: 8px 14px;
+    text-align: center;
+    font-size: 0.85rem;
+    border-bottom: 1px solid #0f3460;
+  }
+  .exp-table tr:hover td { background: #0f3460; }
+  .exp-table tr.exp-highlight td { background: rgba(233, 69, 96, 0.15); }
+  .exp-table td:nth-child(2) { color: #4fc3f7; }
+  .exp-table td:nth-child(3) { color: #ffd700; }
+  @media (max-width: 800px) {
+    .exp-container { padding: 12px; }
+    .exp-range-row { gap: 6px; }
+    .exp-range-total { margin-left: 0; width: 100%; margin-top: 6px; }
+  }
+
   .selected-trait.boost-item .boost-icon-sm {
     width: 32px;
     height: 32px;
@@ -822,6 +894,7 @@
 <div class="tab-nav">
   <button class="tab-btn active" onclick="switchTab('calculator')">Damage Calculator</button>
   <button class="tab-btn" onclick="switchTab('finder')">Trait Finder</button>
+  <button class="tab-btn" onclick="switchTab('exp')">EXP Table</button>
 </div>
 
 <div id="tabCalculator" class="tab-content active">
@@ -970,6 +1043,30 @@
     <div class="panel" style="margin-top: 16px;">
       <div id="finderResult">
         <div class="finder-prompt">Click a trait icon above to see which heroes have it.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="tabExp" class="tab-content">
+  <div class="exp-container">
+    <div class="panel">
+      <h2>5성 3차 승급 경험치 테이블 (Lv.48 → 100)</h2>
+      <div class="exp-summary" id="expSummary"></div>
+      <div class="exp-range-row">
+        <label>From Lv.</label>
+        <select id="expFrom"></select>
+        <label>To Lv.</label>
+        <select id="expTo"></select>
+        <span class="exp-range-total">필요 경험치: <strong id="expRangeTotal">0</strong></span>
+      </div>
+      <div class="exp-table-wrap">
+        <table class="exp-table" id="expTable">
+          <thead>
+            <tr><th>레벨</th><th>필요 경험치</th><th>누적 경험치</th></tr>
+          </thead>
+          <tbody id="expTableBody"></tbody>
+        </table>
       </div>
     </div>
   </div>
@@ -1417,13 +1514,10 @@ function switchTab(tabName) {
   document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
   document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
 
-  if (tabName === 'calculator') {
-    document.querySelector('.tab-btn:nth-child(1)').classList.add('active');
-    document.getElementById('tabCalculator').classList.add('active');
-  } else {
-    document.querySelector('.tab-btn:nth-child(2)').classList.add('active');
-    document.getElementById('tabFinder').classList.add('active');
-  }
+  const tabMap = { calculator: 1, finder: 2, exp: 3 };
+  const idMap = { calculator: 'tabCalculator', finder: 'tabFinder', exp: 'tabExp' };
+  document.querySelector(`.tab-btn:nth-child(${tabMap[tabName]})`).classList.add('active');
+  document.getElementById(idMap[tabName]).classList.add('active');
 }
 
 // Trait Finder
@@ -1716,6 +1810,73 @@ function createDefTraitIcon(trait, idx, mergeLabel) {
   return el;
 }
 
+// EXP Table
+let expData = null;
+
+async function loadExpTable() {
+  const resp = await fetch('exp_table.json');
+  expData = await resp.json();
+  renderExpTable();
+}
+
+function renderExpTable() {
+  if (!expData) return;
+  const levels = expData.levels;
+  const keys = Object.keys(levels).map(Number).sort((a, b) => a - b);
+
+  // Summary
+  document.getElementById('expSummary').innerHTML =
+    `Lv.${expData.start_level} → Lv.${expData.end_level} 총 필요 경험치: <strong>${expData.total_exp.toLocaleString()}</strong>`;
+
+  // Populate selects
+  const fromSel = document.getElementById('expFrom');
+  const toSel = document.getElementById('expTo');
+  fromSel.innerHTML = '';
+  toSel.innerHTML = '';
+  keys.forEach(lv => {
+    fromSel.innerHTML += `<option value="${lv}">${lv}</option>`;
+    toSel.innerHTML += `<option value="${lv + 1}">${lv + 1}</option>`;
+  });
+  fromSel.value = keys[0];
+  toSel.value = keys[keys.length - 1] + 1;
+  fromSel.addEventListener('change', updateExpRange);
+  toSel.addEventListener('change', updateExpRange);
+
+  // Build table
+  const tbody = document.getElementById('expTableBody');
+  let cumulative = 0;
+  tbody.innerHTML = keys.map(lv => {
+    cumulative += levels[lv];
+    return `<tr data-lv="${lv}">
+      <td>${lv} → ${lv + 1}</td>
+      <td>${levels[lv].toLocaleString()}</td>
+      <td>${cumulative.toLocaleString()}</td>
+    </tr>`;
+  }).join('');
+
+  updateExpRange();
+}
+
+function updateExpRange() {
+  if (!expData) return;
+  const from = parseInt(document.getElementById('expFrom').value);
+  const to = parseInt(document.getElementById('expTo').value);
+  const levels = expData.levels;
+  let total = 0;
+
+  document.querySelectorAll('#expTableBody tr').forEach(row => {
+    const lv = parseInt(row.dataset.lv);
+    if (lv >= from && lv < to) {
+      total += levels[lv];
+      row.classList.add('exp-highlight');
+    } else {
+      row.classList.remove('exp-highlight');
+    }
+  });
+
+  document.getElementById('expRangeTotal').textContent = total.toLocaleString();
+}
+
 // Input listeners
 ['baseAttack', 'leaderBuff', 'petBuff'].forEach(id => {
   document.getElementById(id).addEventListener('input', calculate);
@@ -1723,6 +1884,7 @@ function createDefTraitIcon(trait, idx, mergeLabel) {
 document.getElementById('incomingDmg').addEventListener('input', calculateDmgReduction);
 
 init();
+loadExpTable();
 </script>
 </body>
 </html>
