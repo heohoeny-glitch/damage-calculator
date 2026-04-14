@@ -867,6 +867,44 @@
     "species": "Orc",
     "stars": 5
   },
+  "Aurin": {
+    "class": "Druid",
+    "color": "Light",
+    "species": "Dwarf",
+    "stars": 5,
+    "basic_attack": {
+      "total": 456,
+      "breakdown": "350 + 53 + 53"
+    },
+    "basic_health": {
+      "total": 1574,
+      "breakdown": "1210 + 182 + 182"
+    },
+    "asc_attack": {
+      "total": 586,
+      "breakdown": "450 + 68 + 68"
+    },
+    "asc_health": {
+      "total": 2028,
+      "breakdown": "1560 + 234 + 234"
+    },
+    "asc2_attack": {
+      "total": 820,
+      "breakdown": "630 + 95 + 95"
+    },
+    "asc2_health": {
+      "total": 2848,
+      "breakdown": "2190 + 329 + 329"
+    },
+    "asc3_attack": {
+      "total": 1158,
+      "breakdown": "890 + 134 + 134"
+    },
+    "asc3_health": {
+      "total": 4018,
+      "breakdown": "3090 + 464 + 464"
+    }
+  },
   "Aurora": {
     "basic_attack": {
       "total": 468,
@@ -4825,6 +4863,44 @@
     "species": "Dwarf",
     "stars": 3
   },
+  "Glare": {
+    "class": "Archer",
+    "color": "Light",
+    "species": "Beastfolk",
+    "stars": 5,
+    "basic_attack": {
+      "total": 976,
+      "breakdown": "750 + 113 + 113"
+    },
+    "basic_health": {
+      "total": 858,
+      "breakdown": "660 + 99 + 99"
+    },
+    "asc_attack": {
+      "total": 1392,
+      "breakdown": "1070 + 161 + 161"
+    },
+    "asc_health": {
+      "total": 1222,
+      "breakdown": "940 + 141 + 141"
+    },
+    "asc2_attack": {
+      "total": 2146,
+      "breakdown": "1650 + 248 + 248"
+    },
+    "asc2_health": {
+      "total": 1886,
+      "breakdown": "1450 + 218 + 218"
+    },
+    "asc3_attack": {
+      "total": 2652,
+      "breakdown": "2040 + 306 + 306"
+    },
+    "asc3_health": {
+      "total": 2328,
+      "breakdown": "1790 + 269 + 269"
+    }
+  },
   "Gleam": {
     "basic_attack": {
       "total": 1248,
@@ -5669,6 +5745,44 @@
     "species": "Beastfolk",
     "stars": 5
   },
+  "Harrig": {
+    "class": "Hunter",
+    "color": "Green",
+    "species": "Dwarf",
+    "stars": 5,
+    "basic_attack": {
+      "total": 702,
+      "breakdown": "540 + 81 + 81"
+    },
+    "basic_health": {
+      "total": 1574,
+      "breakdown": "1210 + 182 + 182"
+    },
+    "asc_attack": {
+      "total": 1002,
+      "breakdown": "770 + 116 + 116"
+    },
+    "asc_health": {
+      "total": 2236,
+      "breakdown": "1720 + 258 + 258"
+    },
+    "asc2_attack": {
+      "total": 1534,
+      "breakdown": "1180 + 177 + 177"
+    },
+    "asc2_health": {
+      "total": 3420,
+      "breakdown": "2630 + 395 + 395"
+    },
+    "asc3_attack": {
+      "total": 1860,
+      "breakdown": "1430 + 215 + 215"
+    },
+    "asc3_health": {
+      "total": 4160,
+      "breakdown": "3200 + 480 + 480"
+    }
+  },
   "Harvesting Elmenora": {
     "basic_attack": {
       "total": 846,
@@ -6072,6 +6186,52 @@
     "color": "Light",
     "species": "Beastfolk",
     "stars": 3
+  },
+  "Isil": {
+    "class": "Ranger",
+    "color": "Green",
+    "species": "Elf",
+    "stars": 3,
+    "basic_attack": {
+      "total": 442,
+      "breakdown": "340 + 51 + 51"
+    },
+    "basic_health": {
+      "total": 664,
+      "breakdown": "510 + 77 + 77"
+    },
+    "asc_attack": {
+      "total": 546,
+      "breakdown": "420 + 63 + 63"
+    },
+    "asc_health": {
+      "total": 820,
+      "breakdown": "630 + 95 + 95"
+    },
+    "asc2_attack": {
+      "total": 754,
+      "breakdown": "580 + 87 + 87"
+    },
+    "asc2_health": {
+      "total": 1132,
+      "breakdown": "870 + 131 + 131"
+    },
+    "asc3_attack": {
+      "total": 910,
+      "breakdown": "700 + 105 + 105"
+    },
+    "asc3_health": {
+      "total": 1352,
+      "breakdown": "1040 + 156 + 156"
+    },
+    "asc4_attack": {
+      "total": 988,
+      "breakdown": "790 + 79 + 119"
+    },
+    "asc4_health": {
+      "total": 1534,
+      "breakdown": "1180 + 177 + 177"
+    }
   },
   "Ixora": {
     "basic_attack": {
@@ -7344,6 +7504,52 @@
     "color": "Red",
     "species": "Elf",
     "stars": 5
+  },
+  "Maegra": {
+    "class": "Barbarian",
+    "color": "Red",
+    "species": "Orc",
+    "stars": 4,
+    "basic_attack": {
+      "total": 430,
+      "breakdown": "330 + 50 + 50"
+    },
+    "basic_health": {
+      "total": 1222,
+      "breakdown": "940 + 141 + 141"
+    },
+    "asc_attack": {
+      "total": 572,
+      "breakdown": "440 + 66 + 66"
+    },
+    "asc_health": {
+      "total": 1392,
+      "breakdown": "1070 + 161 + 161"
+    },
+    "asc2_attack": {
+      "total": 768,
+      "breakdown": "590 + 89 + 89"
+    },
+    "asc2_health": {
+      "total": 1950,
+      "breakdown": "1500 + 225 + 225"
+    },
+    "asc3_attack": {
+      "total": 1002,
+      "breakdown": "770 + 116 + 116"
+    },
+    "asc3_health": {
+      "total": 2536,
+      "breakdown": "1950 + 293 + 293"
+    },
+    "asc4_attack": {
+      "total": 1045,
+      "breakdown": "870 + 44 + 131"
+    },
+    "asc4_health": {
+      "total": 2848,
+      "breakdown": "2190 + 329 + 329"
+    }
   },
   "Magda": {
     "basic_attack": {
@@ -8693,6 +8899,52 @@
     "species": "Beastfolk",
     "stars": 4
   },
+  "Prism": {
+    "class": "Monk",
+    "color": "Light",
+    "species": "Beastfolk",
+    "stars": 4,
+    "basic_attack": {
+      "total": 546,
+      "breakdown": "420 + 63 + 63"
+    },
+    "basic_health": {
+      "total": 1274,
+      "breakdown": "980 + 147 + 147"
+    },
+    "asc_attack": {
+      "total": 728,
+      "breakdown": "560 + 84 + 84"
+    },
+    "asc_health": {
+      "total": 1704,
+      "breakdown": "1310 + 197 + 197"
+    },
+    "asc2_attack": {
+      "total": 936,
+      "breakdown": "720 + 108 + 108"
+    },
+    "asc2_health": {
+      "total": 2184,
+      "breakdown": "1680 + 252 + 252"
+    },
+    "asc3_attack": {
+      "total": 1118,
+      "breakdown": "860 + 129 + 129"
+    },
+    "asc3_health": {
+      "total": 2600,
+      "breakdown": "2000 + 300 + 300"
+    },
+    "asc4_attack": {
+      "total": 1225,
+      "breakdown": "980 + 98 + 147"
+    },
+    "asc4_health": {
+      "total": 2850,
+      "breakdown": "2280 + 228 + 342"
+    }
+  },
   "Pyrrion": {
     "basic_attack": {
       "total": 702,
@@ -9782,6 +10034,44 @@
     "color": "Green",
     "species": "Elf",
     "stars": 5
+  },
+  "Seplin": {
+    "class": "Javelineer",
+    "color": "Green",
+    "species": "Dwarf",
+    "stars": 5,
+    "basic_attack": {
+      "total": 768,
+      "breakdown": "590 + 89 + 89"
+    },
+    "basic_health": {
+      "total": 1040,
+      "breakdown": "800 + 120 + 120"
+    },
+    "asc_attack": {
+      "total": 936,
+      "breakdown": "720 + 108 + 108"
+    },
+    "asc_health": {
+      "total": 1274,
+      "breakdown": "980 + 147 + 147"
+    },
+    "asc2_attack": {
+      "total": 1522,
+      "breakdown": "1170 + 176 + 176"
+    },
+    "asc2_health": {
+      "total": 2068,
+      "breakdown": "1590 + 239 + 239"
+    },
+    "asc3_attack": {
+      "total": 2016,
+      "breakdown": "1550 + 233 + 233"
+    },
+    "asc3_health": {
+      "total": 2744,
+      "breakdown": "2110 + 317 + 317"
+    }
   },
   "Seraphina": {
     "basic_attack": {
@@ -12530,6 +12820,44 @@
     "color": "Dark",
     "species": "Orc",
     "stars": 5
+  },
+  "Yeora": {
+    "class": "Rogue",
+    "color": "Blue",
+    "species": "Elf",
+    "stars": 5,
+    "basic_attack": {
+      "total": 598,
+      "breakdown": "460 + 69 + 69"
+    },
+    "basic_health": {
+      "total": 1170,
+      "breakdown": "900 + 135 + 135"
+    },
+    "asc_attack": {
+      "total": 806,
+      "breakdown": "620 + 93 + 93"
+    },
+    "asc_health": {
+      "total": 1586,
+      "breakdown": "1220 + 183 + 183"
+    },
+    "asc2_attack": {
+      "total": 1106,
+      "breakdown": "850 + 128 + 128"
+    },
+    "asc2_health": {
+      "total": 1912,
+      "breakdown": "1470 + 221 + 221"
+    },
+    "asc3_attack": {
+      "total": 1470,
+      "breakdown": "1130 + 170 + 170"
+    },
+    "asc3_health": {
+      "total": 2522,
+      "breakdown": "1940 + 291 + 291"
+    }
   },
   "Yun": {
     "basic_attack": {

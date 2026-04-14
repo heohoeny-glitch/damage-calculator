@@ -1452,6 +1452,73 @@
     "availability": null
   },
   {
+    "name": "Aurin",
+    "basic": [
+      "Regrowth",
+      "Natural Harmony",
+      "Sentinel",
+      "Sentinel",
+      "Initiative: Melt Freeze",
+      "Clean Kill"
+    ],
+    "ascension": [
+      "Rune of Sun",
+      "Rune of Sun",
+      "Acid Resistance"
+    ],
+    "merge": [
+      "Split Second",
+      "Venom",
+      "Foresight"
+    ],
+    "all": [
+      "Regrowth",
+      "Natural Harmony",
+      "Sentinel",
+      "Sentinel",
+      "Initiative: Melt Freeze",
+      "Clean Kill",
+      "Rune of Sun",
+      "Rune of Sun",
+      "Acid Resistance",
+      "Split Second",
+      "Venom",
+      "Foresight"
+    ],
+    "name_kr": "오린",
+    "class": "Druid",
+    "color": "Light",
+    "species": "Dwarf",
+    "stars": 5,
+    "stats": {
+      "basic": {
+        "attack": 456,
+        "attack_breakdown": "350 + 53 + 53",
+        "health": 1574,
+        "health_breakdown": "1210 + 182 + 182"
+      },
+      "asc": {
+        "attack": 586,
+        "attack_breakdown": "450 + 68 + 68",
+        "health": 2028,
+        "health_breakdown": "1560 + 234 + 234"
+      },
+      "asc2": {
+        "attack": 820,
+        "attack_breakdown": "630 + 95 + 95",
+        "health": 2848,
+        "health_breakdown": "2190 + 329 + 329"
+      },
+      "asc3": {
+        "attack": 1158,
+        "attack_breakdown": "890 + 134 + 134",
+        "health": 4018,
+        "health_breakdown": "3090 + 464 + 464"
+      }
+    },
+    "availability": null
+  },
+  {
     "name": "Aurora",
     "basic": [
       "Life Drain",
@@ -8114,6 +8181,73 @@
     "availability": null
   },
   {
+    "name": "Glare",
+    "basic": [
+      "Sniper",
+      "Slay Monstrosity",
+      "Focus",
+      "Focus",
+      "Ranged Parry",
+      "Surge: Flying"
+    ],
+    "ascension": [
+      "Exploit Weakness",
+      "Exploit Weakness",
+      "Eagle Eye"
+    ],
+    "merge": [
+      "Split Second",
+      "High Ground",
+      "Ignition Point"
+    ],
+    "all": [
+      "Sniper",
+      "Slay Monstrosity",
+      "Focus",
+      "Focus",
+      "Ranged Parry",
+      "Surge: Flying",
+      "Exploit Weakness",
+      "Exploit Weakness",
+      "Eagle Eye",
+      "Split Second",
+      "High Ground",
+      "Ignition Point"
+    ],
+    "name_kr": "글레어",
+    "class": "Archer",
+    "color": "Light",
+    "species": "Beastfolk",
+    "stars": 5,
+    "stats": {
+      "basic": {
+        "attack": 976,
+        "attack_breakdown": "750 + 113 + 113",
+        "health": 858,
+        "health_breakdown": "660 + 99 + 99"
+      },
+      "asc": {
+        "attack": 1392,
+        "attack_breakdown": "1070 + 161 + 161",
+        "health": 1222,
+        "health_breakdown": "940 + 141 + 141"
+      },
+      "asc2": {
+        "attack": 2146,
+        "attack_breakdown": "1650 + 248 + 248",
+        "health": 1886,
+        "health_breakdown": "1450 + 218 + 218"
+      },
+      "asc3": {
+        "attack": 2652,
+        "attack_breakdown": "2040 + 306 + 306",
+        "health": 2328,
+        "health_breakdown": "1790 + 269 + 269"
+      }
+    },
+    "availability": null
+  },
+  {
     "name": "Gleam",
     "basic": [
       "Shroud",
@@ -9573,6 +9707,73 @@
     "availability": null
   },
   {
+    "name": "Harrig",
+    "basic": [
+      "Hamstring",
+      "Slay Beast",
+      "Sniper",
+      "Sniper",
+      "Melee Parry",
+      "Demoralizing Strike"
+    ],
+    "ascension": [
+      "Extra Time",
+      "Sniper",
+      "Demoralizing Strike"
+    ],
+    "merge": [
+      "Split Second",
+      "Venom",
+      "Demoralizing Strike"
+    ],
+    "all": [
+      "Hamstring",
+      "Slay Beast",
+      "Sniper",
+      "Sniper",
+      "Melee Parry",
+      "Demoralizing Strike",
+      "Extra Time",
+      "Sniper",
+      "Demoralizing Strike",
+      "Split Second",
+      "Venom",
+      "Demoralizing Strike"
+    ],
+    "name_kr": "해리그",
+    "class": "Hunter",
+    "color": "Green",
+    "species": "Dwarf",
+    "stars": 5,
+    "stats": {
+      "basic": {
+        "attack": 702,
+        "attack_breakdown": "540 + 81 + 81",
+        "health": 1574,
+        "health_breakdown": "1210 + 182 + 182"
+      },
+      "asc": {
+        "attack": 1002,
+        "attack_breakdown": "770 + 116 + 116",
+        "health": 2236,
+        "health_breakdown": "1720 + 258 + 258"
+      },
+      "asc2": {
+        "attack": 1534,
+        "attack_breakdown": "1180 + 177 + 177",
+        "health": 3420,
+        "health_breakdown": "2630 + 395 + 395"
+      },
+      "asc3": {
+        "attack": 1860,
+        "attack_breakdown": "1430 + 215 + 215",
+        "health": 4160,
+        "health_breakdown": "3200 + 480 + 480"
+      }
+    },
+    "availability": "Spring Break exclusive"
+  },
+  {
     "name": "Harvesting Elmenora",
     "basic": [
       "Tumble",
@@ -10223,6 +10424,70 @@
         "attack_breakdown": "880 + 88 + 132",
         "health": 1548,
         "health_breakdown": "1190 + 179 + 179"
+      }
+    },
+    "availability": null
+  },
+  {
+    "name": "Isil",
+    "basic": [
+      "Cardinal Aim",
+      "Slay Lizard",
+      "Sniper",
+      "Diagonal Aim"
+    ],
+    "ascension": [
+      "Diagonal Aim",
+      "Extra Time",
+      "Ranged Parry",
+      "Sniper"
+    ],
+    "merge": [],
+    "all": [
+      "Cardinal Aim",
+      "Slay Lizard",
+      "Sniper",
+      "Diagonal Aim",
+      "Diagonal Aim",
+      "Extra Time",
+      "Ranged Parry",
+      "Sniper"
+    ],
+    "name_kr": "이실",
+    "class": "Ranger",
+    "color": "Green",
+    "species": "Elf",
+    "stars": 3,
+    "stats": {
+      "basic": {
+        "attack": 442,
+        "attack_breakdown": "340 + 51 + 51",
+        "health": 664,
+        "health_breakdown": "510 + 77 + 77"
+      },
+      "asc": {
+        "attack": 546,
+        "attack_breakdown": "420 + 63 + 63",
+        "health": 820,
+        "health_breakdown": "630 + 95 + 95"
+      },
+      "asc2": {
+        "attack": 754,
+        "attack_breakdown": "580 + 87 + 87",
+        "health": 1132,
+        "health_breakdown": "870 + 131 + 131"
+      },
+      "asc3": {
+        "attack": 910,
+        "attack_breakdown": "700 + 105 + 105",
+        "health": 1352,
+        "health_breakdown": "1040 + 156 + 156"
+      },
+      "asc4": {
+        "attack": 988,
+        "attack_breakdown": "790 + 79 + 119",
+        "health": 1534,
+        "health_breakdown": "1180 + 177 + 177"
       }
     },
     "availability": null
@@ -12322,6 +12587,79 @@
         "attack_breakdown": "960 + 144 + 144",
         "health": 3576,
         "health_breakdown": "2750 + 413 + 413"
+      }
+    },
+    "availability": null
+  },
+  {
+    "name": "Maegra",
+    "basic": [
+      "Berserk",
+      "Prepare",
+      "Prepare",
+      "Prepare",
+      "Prepared Ignite"
+    ],
+    "ascension": [
+      "Protector",
+      "Protector",
+      "Extra Time",
+      "Rune of Fire"
+    ],
+    "merge": [
+      "Split Second",
+      "Critical Attack",
+      "Prepare"
+    ],
+    "all": [
+      "Berserk",
+      "Prepare",
+      "Prepare",
+      "Prepare",
+      "Prepared Ignite",
+      "Protector",
+      "Protector",
+      "Extra Time",
+      "Rune of Fire",
+      "Split Second",
+      "Critical Attack",
+      "Prepare"
+    ],
+    "name_kr": "매그라",
+    "class": "Barbarian",
+    "color": "Red",
+    "species": "Orc",
+    "stars": 4,
+    "stats": {
+      "basic": {
+        "attack": 430,
+        "attack_breakdown": "330 + 50 + 50",
+        "health": 1222,
+        "health_breakdown": "940 + 141 + 141"
+      },
+      "asc": {
+        "attack": 572,
+        "attack_breakdown": "440 + 66 + 66",
+        "health": 1392,
+        "health_breakdown": "1070 + 161 + 161"
+      },
+      "asc2": {
+        "attack": 768,
+        "attack_breakdown": "590 + 89 + 89",
+        "health": 1950,
+        "health_breakdown": "1500 + 225 + 225"
+      },
+      "asc3": {
+        "attack": 1002,
+        "attack_breakdown": "770 + 116 + 116",
+        "health": 2536,
+        "health_breakdown": "1950 + 293 + 293"
+      },
+      "asc4": {
+        "attack": 1045,
+        "attack_breakdown": "870 + 44 + 131",
+        "health": 2848,
+        "health_breakdown": "2190 + 329 + 329"
       }
     },
     "availability": null
@@ -14568,6 +14906,79 @@
     "availability": null
   },
   {
+    "name": "Prism",
+    "basic": [
+      "Meditate",
+      "Inner Peace",
+      "Inner Peace",
+      "Cardinal Aim",
+      "Resolute"
+    ],
+    "ascension": [
+      "Resolute",
+      "Rune of Sun",
+      "Cardinal Aim",
+      "Cardinal Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Ranged Parry",
+      "Resolute"
+    ],
+    "all": [
+      "Meditate",
+      "Inner Peace",
+      "Inner Peace",
+      "Cardinal Aim",
+      "Resolute",
+      "Resolute",
+      "Rune of Sun",
+      "Cardinal Aim",
+      "Cardinal Parry",
+      "Split Second",
+      "Ranged Parry",
+      "Resolute"
+    ],
+    "name_kr": "프리즘",
+    "class": "Monk",
+    "color": "Light",
+    "species": "Beastfolk",
+    "stars": 4,
+    "stats": {
+      "basic": {
+        "attack": 546,
+        "attack_breakdown": "420 + 63 + 63",
+        "health": 1274,
+        "health_breakdown": "980 + 147 + 147"
+      },
+      "asc": {
+        "attack": 728,
+        "attack_breakdown": "560 + 84 + 84",
+        "health": 1704,
+        "health_breakdown": "1310 + 197 + 197"
+      },
+      "asc2": {
+        "attack": 936,
+        "attack_breakdown": "720 + 108 + 108",
+        "health": 2184,
+        "health_breakdown": "1680 + 252 + 252"
+      },
+      "asc3": {
+        "attack": 1118,
+        "attack_breakdown": "860 + 129 + 129",
+        "health": 2600,
+        "health_breakdown": "2000 + 300 + 300"
+      },
+      "asc4": {
+        "attack": 1225,
+        "attack_breakdown": "980 + 98 + 147",
+        "health": 2850,
+        "health_breakdown": "2280 + 228 + 342"
+      }
+    },
+    "availability": null
+  },
+  {
     "name": "Pyrrion",
     "basic": [
       "Focus",
@@ -16337,6 +16748,73 @@
       }
     },
     "availability": null
+  },
+  {
+    "name": "Seplin",
+    "basic": [
+      "Ballistic",
+      "Favored Odds",
+      "Prepare",
+      "Prepare",
+      "Magic Parry",
+      "Initiative: Long Shot"
+    ],
+    "ascension": [
+      "Cardinal Parry",
+      "Immune to Demoralization",
+      "Prepare"
+    ],
+    "merge": [
+      "Split Second",
+      "Ballistic",
+      "Eagle Eye"
+    ],
+    "all": [
+      "Ballistic",
+      "Favored Odds",
+      "Prepare",
+      "Prepare",
+      "Magic Parry",
+      "Initiative: Long Shot",
+      "Cardinal Parry",
+      "Immune to Demoralization",
+      "Prepare",
+      "Split Second",
+      "Ballistic",
+      "Eagle Eye"
+    ],
+    "name_kr": "세플린",
+    "class": "Javelineer",
+    "color": "Green",
+    "species": "Dwarf",
+    "stars": 5,
+    "stats": {
+      "basic": {
+        "attack": 768,
+        "attack_breakdown": "590 + 89 + 89",
+        "health": 1040,
+        "health_breakdown": "800 + 120 + 120"
+      },
+      "asc": {
+        "attack": 936,
+        "attack_breakdown": "720 + 108 + 108",
+        "health": 1274,
+        "health_breakdown": "980 + 147 + 147"
+      },
+      "asc2": {
+        "attack": 1522,
+        "attack_breakdown": "1170 + 176 + 176",
+        "health": 2068,
+        "health_breakdown": "1590 + 239 + 239"
+      },
+      "asc3": {
+        "attack": 2016,
+        "attack_breakdown": "1550 + 233 + 233",
+        "health": 2744,
+        "health_breakdown": "2110 + 317 + 317"
+      }
+    },
+    "availability": "Spring Break exclusive"
   },
   {
     "name": "Seraphina",
@@ -20960,6 +21438,73 @@
       }
     },
     "availability": "Soul Summon exclusive"
+  },
+  {
+    "name": "Yeora",
+    "basic": [
+      "Tumble",
+      "Critical Attack",
+      "Critical Attack",
+      "Cardinal Parry",
+      "Critical Attack: Freeze",
+      "Skirmisher"
+    ],
+    "ascension": [
+      "Extra Time",
+      "Cardinal Parry",
+      "Tumble"
+    ],
+    "merge": [
+      "Split Second",
+      "Tumble",
+      "Frostwhirl"
+    ],
+    "all": [
+      "Tumble",
+      "Critical Attack",
+      "Critical Attack",
+      "Cardinal Parry",
+      "Critical Attack: Freeze",
+      "Skirmisher",
+      "Extra Time",
+      "Cardinal Parry",
+      "Tumble",
+      "Split Second",
+      "Tumble",
+      "Frostwhirl"
+    ],
+    "name_kr": "여라",
+    "class": "Rogue",
+    "color": "Blue",
+    "species": "Elf",
+    "stars": 5,
+    "stats": {
+      "basic": {
+        "attack": 598,
+        "attack_breakdown": "460 + 69 + 69",
+        "health": 1170,
+        "health_breakdown": "900 + 135 + 135"
+      },
+      "asc": {
+        "attack": 806,
+        "attack_breakdown": "620 + 93 + 93",
+        "health": 1586,
+        "health_breakdown": "1220 + 183 + 183"
+      },
+      "asc2": {
+        "attack": 1106,
+        "attack_breakdown": "850 + 128 + 128",
+        "health": 1912,
+        "health_breakdown": "1470 + 221 + 221"
+      },
+      "asc3": {
+        "attack": 1470,
+        "attack_breakdown": "1130 + 170 + 170",
+        "health": 2522,
+        "health_breakdown": "1940 + 291 + 291"
+      }
+    },
+    "availability": null
   },
   {
     "name": "Yun",
