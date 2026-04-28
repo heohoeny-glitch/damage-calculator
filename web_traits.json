@@ -760,6 +760,14 @@
     "category": "red"
   },
   {
+    "id": "ScalePiercer",
+    "name": "Scale Piercer",
+    "file": "images/traits/red/TraitScalePiercer.webp",
+    "desc": "Ignores damage reduction from Lizard-type enemies' scales.",
+    "pct": 0,
+    "category": "red"
+  },
+  {
     "id": "AuraofCold",
     "name": "Aura of Cold",
     "file": "images/traits/red_square/TraitAuraofCold.webp",
@@ -870,5 +878,37 @@
     "desc": "Gains 2x Fortified when attacking in at least three directions.",
     "pct": 0,
     "category": "orange_gold"
+  },
+  {
+    "id": "CleanKill",
+    "name": "Clean Kill",
+    "file": "images/traits/red/TraitCleanKill.webp",
+    "desc": "Kills do not trigger on-death effects from enemies.",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "InitiativeMeltFreeze",
+    "name": "Initiative: Melt Freeze",
+    "file": "images/traits/red/TraitInitiativeMeltFreeze.webp",
+    "desc": "When this character acts first, removes Frozen/Chilled from allies.",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "InitiativeQuickAttack",
+    "name": "Initiative: Quick Attack",
+    "file": "images/traits/red/TraitInitiativeQuickAttack.webp",
+    "desc": "When this character acts first, performs a quick attack before the normal action.",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "InitiativeLongShot",
+    "name": "Initiative: Long Shot",
+    "file": "images/traits/red/TraitInitiativeLongShot.webp",
+    "desc": "When this character acts first, performs a long-range attack before the normal action.",
+    "pct": 0,
+    "category": "red"
   }
 ]

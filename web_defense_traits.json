@@ -270,5 +270,501 @@
     "desc": "Cannot be pushed.",
     "pct": 0,
     "category": "blue_square"
+  },
+  {
+    "id": "AuraofTerror",
+    "name": "Aura of Terror",
+    "file": "images/traits/blue/TraitAuraofTerror.webp",
+    "desc": "Applies Terrified to adjacent and diagonally adjacent attackers.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "AcidResistance",
+    "name": "Acid Resistance",
+    "file": "images/traits/blue/TraitAcidResistance.webp",
+    "desc": "Immune to Acid status effect.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "CurseResistance",
+    "name": "Curse Resistance",
+    "file": "images/traits/blue/TraitCurseResistance.webp",
+    "desc": "Immune to Curse status effect.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "AuraofImmobilize",
+    "name": "Aura of Immobilize",
+    "file": "images/traits/blue/TraitAuraofImmobilize.webp",
+    "desc": "Applies Immobilized to adjacent and diagonally adjacent attackers.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "Barrier",
+    "name": "Barrier",
+    "file": "images/traits/blue/TraitBarrier.webp",
+    "desc": "Absorbs the next incoming attack, taking no damage. Removed after use.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "ImmunetoDazzled",
+    "name": "Immune to Dazzled",
+    "file": "images/traits/blue/TraitImmunetoDazzled.webp",
+    "desc": "Immune to Dazzled status effect.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "ImmunetoDemoralization",
+    "name": "Immune to Demoralization",
+    "file": "images/traits/blue/TraitImmunetoDemoralization.webp",
+    "desc": "Immune to Demoralized status effect.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "ImmunetoStun",
+    "name": "Immune to Stun",
+    "file": "images/traits/blue/TraitImmunetoStun.webp",
+    "desc": "Immune to Stunned status effect.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "ImmunetoTaunt",
+    "name": "Immune to Taunt",
+    "file": "images/traits/blue/TraitImmunetoTaunt.webp",
+    "desc": "Immune to Taunt status effect.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "ImmunetoWithering",
+    "name": "Immune to Withering",
+    "file": "images/traits/blue/TraitImmunetoWithering.webp",
+    "desc": "Immune to Withering status effect.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "Ironskin",
+    "name": "Ironskin",
+    "file": "images/traits/blue/TraitIronskin.webp",
+    "desc": "Receives reduced flat damage from all attacks.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "LifeDrainImmunity",
+    "name": "Life Drain Immunity",
+    "file": "images/traits/blue/TraitLifeDrainImmunity.webp",
+    "desc": "Immune to Life Drain effects. Attackers cannot heal from damaging this hero.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "ReactiveArmor",
+    "name": "Reactive Armor",
+    "file": "images/traits/blue/TraitReactiveArmor.webp",
+    "desc": "Gains Fortified when hit by an attack.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "SongofAcid",
+    "name": "Song of Acid",
+    "file": "images/traits/blue/TraitSongofAcid.webp",
+    "desc": "Supported allies cannot receive Acid status effect.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "SongofCold",
+    "name": "Song of Cold",
+    "file": "images/traits/blue/TraitSongofCold.webp",
+    "desc": "Supported allies cannot receive Chilled/Frozen status effects.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "SongofFire",
+    "name": "Song of Fire",
+    "file": "images/traits/blue/TraitSongofFire.webp",
+    "desc": "Supported allies cannot receive Burning status effect.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "SongofPoison",
+    "name": "Song of Poison",
+    "file": "images/traits/blue/TraitSongofPoison.webp",
+    "desc": "Supported allies cannot receive Poisoned status effect.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "Strongpoint",
+    "name": "Strongpoint",
+    "file": "images/traits/blue/TraitStrongpoint.webp",
+    "desc": "Receives -20% damage when this hero has not moved this turn.",
+    "pct": 20,
+    "category": "blue"
+  },
+  {
+    "id": "BladeOnAChain",
+    "name": "Blade On A Chain",
+    "file": "images/traits/blue_square/TraitBladeOnAChain.webp",
+    "desc": "Pulls target 1 square closer after attacking.",
+    "pct": 0,
+    "category": "blue_square"
+  },
+  {
+    "id": "DarkBargain",
+    "name": "Dark Bargain",
+    "file": "images/traits/blue_square/TraitDarkBargain.webp",
+    "desc": "Sacrifices HP to deal extra damage.",
+    "pct": 0,
+    "category": "blue_square"
+  },
+  {
+    "id": "ExtraTime",
+    "name": "Extra Time",
+    "file": "images/traits/blue_square/TraitExtraTime.webp",
+    "desc": "Gains an extra action point per turn.",
+    "pct": 0,
+    "category": "blue_square"
+  },
+  {
+    "id": "FireWalker",
+    "name": "Fire Walker",
+    "file": "images/traits/blue_square/TraitFireWalker.webp",
+    "desc": "Can walk through fire squares without taking damage.",
+    "pct": 0,
+    "category": "blue_square"
+  },
+  {
+    "id": "GrapplingHook",
+    "name": "Grappling Hook",
+    "file": "images/traits/blue_square/TraitGrapplingHook.webp",
+    "desc": "Can pull self towards obstacles or terrain.",
+    "pct": 0,
+    "category": "blue_square"
+  },
+  {
+    "id": "Lick&Drag",
+    "name": "Lick & Drag",
+    "file": "images/traits/blue_square/TraitLick&Drag.webp",
+    "desc": "Pulls target towards self after attacking.",
+    "pct": 0,
+    "category": "blue_square"
+  },
+  {
+    "id": "OozeExterminator",
+    "name": "Ooze Exterminator",
+    "file": "images/traits/blue_square/TraitOozeExterminator.webp",
+    "desc": "Prevents Ooze enemies from splitting on death.",
+    "pct": 0,
+    "category": "blue_square"
+  },
+  {
+    "id": "PacifyBeasts",
+    "name": "Pacify Beasts",
+    "file": "images/traits/blue_square/TraitPacifyBeasts.webp",
+    "desc": "Beast enemies will not attack this hero.",
+    "pct": 0,
+    "category": "blue_square"
+  },
+  {
+    "id": "Push",
+    "name": "Push",
+    "file": "images/traits/blue_square/TraitPush.webp",
+    "desc": "Pushes target 1 square away after attacking.",
+    "pct": 0,
+    "category": "blue_square"
+  },
+  {
+    "id": "Raider",
+    "name": "Raider",
+    "file": "images/traits/blue_square/TraitRaider.webp",
+    "desc": "Can move 1 square after attacking.",
+    "pct": 0,
+    "category": "blue_square"
+  },
+  {
+    "id": "RaiderBoost",
+    "name": "Raider Boost",
+    "file": "images/traits/blue_square/TraitRaiderBoost.webp",
+    "desc": "Can move 2 squares after attacking.",
+    "pct": 0,
+    "category": "blue_square"
+  },
+  {
+    "id": "RaiderSurge",
+    "name": "Raider Surge",
+    "file": "images/traits/blue_square/TraitRaiderSurge.webp",
+    "desc": "Can move 3 squares after attacking.",
+    "pct": 0,
+    "category": "blue_square"
+  },
+  {
+    "id": "SplitSecond",
+    "name": "Split Second",
+    "file": "images/traits/blue_square/TraitSplitSecond.webp",
+    "desc": "Acts before other heroes in the same turn.",
+    "pct": 0,
+    "category": "blue_square"
+  },
+  {
+    "id": "Taunt",
+    "name": "Taunt",
+    "file": "images/traits/blue_square/TraitTaunt.webp",
+    "desc": "Forces adjacent enemies to attack this hero.",
+    "pct": 0,
+    "category": "blue_square"
+  },
+  {
+    "id": "TridentNet",
+    "name": "Trident & Net",
+    "file": "images/traits/blue_square/TraitTrident&Net.webp",
+    "desc": "Immobilizes and pulls target after attacking.",
+    "pct": 0,
+    "category": "blue_square"
+  },
+  {
+    "id": "Tumble",
+    "name": "Tumble",
+    "file": "images/traits/blue_square/TraitTumble.webp",
+    "desc": "Can move through enemy-occupied squares.",
+    "pct": 0,
+    "category": "blue_square"
+  },
+  {
+    "id": "WaterWalker",
+    "name": "Water Walker",
+    "file": "images/traits/blue_square/TraitWaterWalker.webp",
+    "desc": "Can walk on water squares.",
+    "pct": 0,
+    "category": "blue_square"
+  },
+  {
+    "id": "Fleet-Footed",
+    "name": "Fleet-Footed",
+    "file": "images/traits/blue/TraitFleet-Footed.webp",
+    "desc": "Gains extra movement range.",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
+    "id": "QuickAttack",
+    "name": "Quick Attack",
+    "file": "images/traits/blue_square/TraitQuickAttack.webp",
+    "desc": "Performs a quick attack with reduced damage.",
+    "pct": 0,
+    "category": "blue_square"
+  },
+  {
+    "id": "SurgeFlying",
+    "name": "Surge: Flying",
+    "file": "images/traits/blue_square/TraitSurgeFlying.webp",
+    "desc": "Can fly over obstacles and enemies during movement.",
+    "pct": 0,
+    "category": "blue_square"
+  },
+  {
+    "id": "CardinalHeal",
+    "name": "Cardinal Heal",
+    "file": "images/traits/green/TraitCardinalHeal.webp",
+    "desc": "Heals allies in cardinal directions (N, S, E, W).",
+    "pct": 0,
+    "category": "green"
+  },
+  {
+    "id": "CriticalHeal",
+    "name": "Critical Heal",
+    "file": "images/traits/green/TraitCriticalHeal.webp",
+    "desc": "Chance to heal for extra amount on each heal.",
+    "pct": 0,
+    "category": "green"
+  },
+  {
+    "id": "DeadlySyphon",
+    "name": "Deadly Syphon",
+    "file": "images/traits/green/TraitDeadlySyphon.webp",
+    "desc": "Drains life from enemies and heals self.",
+    "pct": 0,
+    "category": "green"
+  },
+  {
+    "id": "DiagonalHeal",
+    "name": "Diagonal Heal",
+    "file": "images/traits/green/TraitDiagonalHeal.webp",
+    "desc": "Heals allies in diagonal directions.",
+    "pct": 0,
+    "category": "green"
+  },
+  {
+    "id": "HealingAura",
+    "name": "Healing Aura",
+    "file": "images/traits/green/TraitHealingAura.webp",
+    "desc": "Heals all adjacent and diagonally adjacent allies.",
+    "pct": 0,
+    "category": "green"
+  },
+  {
+    "id": "HealingFocus",
+    "name": "Healing Focus",
+    "file": "images/traits/green/TraitHealingFocus.webp",
+    "desc": "Increases healing amount when healing a single target.",
+    "pct": 0,
+    "category": "green"
+  },
+  {
+    "id": "HealingRay",
+    "name": "Healing Ray",
+    "file": "images/traits/green/TraitHealingRay.webp",
+    "desc": "Heals allies in a line from the healer.",
+    "pct": 0,
+    "category": "green"
+  },
+  {
+    "id": "HealingTouch",
+    "name": "Healing Touch",
+    "file": "images/traits/green/TraitHealingTouch.webp",
+    "desc": "Heals adjacent allies on contact.",
+    "pct": 0,
+    "category": "green"
+  },
+  {
+    "id": "HealingWave",
+    "name": "Healing Wave",
+    "file": "images/traits/green/TraitHealingWave.webp",
+    "desc": "Heals multiple allies in an area.",
+    "pct": 0,
+    "category": "green"
+  },
+  {
+    "id": "InnerPeace",
+    "name": "Inner Peace",
+    "file": "images/traits/green/TraitInnerPeace.webp",
+    "desc": "Heals self when not attacking.",
+    "pct": 0,
+    "category": "green"
+  },
+  {
+    "id": "LifeDrain",
+    "name": "Life Drain",
+    "file": "images/traits/green/TraitLifeDrain.webp",
+    "desc": "Regenerates HP equal to a percentage of damage dealt to living enemies.",
+    "pct": 0,
+    "category": "green"
+  },
+  {
+    "id": "LifeSteal",
+    "name": "Life Steal",
+    "file": "images/traits/green/TraitLifeSteal.webp",
+    "desc": "Steals HP from enemies on attack.",
+    "pct": 0,
+    "category": "green"
+  },
+  {
+    "id": "LingeringHeal",
+    "name": "Lingering Heal",
+    "file": "images/traits/green/TraitLingeringHeal.webp",
+    "desc": "Applies a heal-over-time effect to healed allies.",
+    "pct": 0,
+    "category": "green"
+  },
+  {
+    "id": "Meditate",
+    "name": "Meditate",
+    "file": "images/traits/green/TraitMeditate.webp",
+    "desc": "Heals self when no action is taken.",
+    "pct": 0,
+    "category": "green"
+  },
+  {
+    "id": "Pacifist",
+    "name": "Pacifist",
+    "file": "images/traits/green/TraitPacifist.webp",
+    "desc": "Cannot attack enemies, but gains enhanced healing abilities.",
+    "pct": 0,
+    "category": "green"
+  },
+  {
+    "id": "Protector",
+    "name": "Protector",
+    "file": "images/traits/green/TraitProtector.webp",
+    "desc": "Takes damage in place of adjacent allies.",
+    "pct": 0,
+    "category": "green"
+  },
+  {
+    "id": "Refresh",
+    "name": "Refresh",
+    "file": "images/traits/green/TraitRefresh.webp",
+    "desc": "Removes negative status effects from healed allies.",
+    "pct": 0,
+    "category": "green"
+  },
+  {
+    "id": "Regrowth",
+    "name": "Regrowth",
+    "file": "images/traits/green/TraitRegrowth.webp",
+    "desc": "Regenerates HP at the start of each turn.",
+    "pct": 0,
+    "category": "green"
+  },
+  {
+    "id": "Revitalize",
+    "name": "Revitalize",
+    "file": "images/traits/green/TraitRevitalize.webp",
+    "desc": "Provides a large burst heal to allies.",
+    "pct": 0,
+    "category": "green"
+  },
+  {
+    "id": "SteadyHeal",
+    "name": "Steady Heal",
+    "file": "images/traits/green/TraitSteadyHeal.webp",
+    "desc": "Provides consistent healing each turn.",
+    "pct": 0,
+    "category": "green"
+  },
+  {
+    "id": "SyphonLife",
+    "name": "Syphon Life",
+    "file": "images/traits/green/TraitSyphonLife.webp",
+    "desc": "Drains life from enemies to heal self and allies.",
+    "pct": 0,
+    "category": "green"
+  },
+  {
+    "id": "Triage",
+    "name": "Triage",
+    "file": "images/traits/green/TraitTriage.webp",
+    "desc": "Prioritizes healing the lowest-HP ally.",
+    "pct": 0,
+    "category": "green"
+  },
+  {
+    "id": "Vampirism",
+    "name": "Vampirism",
+    "file": "images/traits/green/TraitVampirism.webp",
+    "desc": "Regenerates HP from damage dealt to living enemies.",
+    "pct": 0,
+    "category": "green"
+  },
+  {
+    "id": "InitiativeCurePoison",
+    "name": "Initiative: Cure Poison",
+    "file": "images/traits/green/TraitInitiativeCurePoison.webp",
+    "desc": "When this character acts first, removes Poisoned from allies.",
+    "pct": 0,
+    "category": "green"
   }
 ]

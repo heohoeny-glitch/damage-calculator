@@ -800,17 +800,53 @@
   }
   /* EXP Table tab */
   .exp-container {
-    max-width: 700px;
+    max-width: 750px;
     margin: 0 auto;
     padding: 20px;
+  }
+  .exp-selector-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+  }
+  .exp-star-btn, .exp-asc-btn {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 2px solid #0f3460;
+    background: #1a1a2e;
+    color: #aaa;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .exp-star-btn:hover, .exp-asc-btn:hover { border-color: #e94560; color: #fff; }
+  .exp-star-btn.active { background: #e94560; border-color: #e94560; color: #fff; font-weight: bold; }
+  .exp-asc-btn.active { background: #0f3460; border-color: #4fc3f7; color: #4fc3f7; font-weight: bold; }
+  .exp-asc-btn:disabled { opacity: 0.3; cursor: not-allowed; border-color: #0f3460; }
+  .exp-asc-btn:disabled:hover { border-color: #0f3460; color: #aaa; }
+  .exp-selector-label {
+    color: #888;
+    font-size: 0.8rem;
+    margin-bottom: 4px;
+  }
+  .exp-selector-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
   }
   .exp-summary {
     font-size: 0.95rem;
     color: #aaa;
     margin-bottom: 16px;
+    padding: 12px 16px;
+    background: #0f3460;
+    border-radius: 8px;
     text-align: center;
   }
   .exp-summary strong { color: #ffd700; }
+  .exp-summary .exp-lv-range { color: #4fc3f7; }
   .exp-range-row {
     display: flex;
     align-items: center;
@@ -864,6 +900,12 @@
   .exp-table tr.exp-highlight td { background: rgba(233, 69, 96, 0.15); }
   .exp-table td:nth-child(2) { color: #4fc3f7; }
   .exp-table td:nth-child(3) { color: #ffd700; }
+  .exp-no-data {
+    text-align: center;
+    color: #666;
+    padding: 40px 20px;
+    font-size: 1rem;
+  }
   @media (max-width: 800px) {
     .exp-container { padding: 12px; }
     .exp-range-row { gap: 6px; }
@@ -1041,6 +1083,10 @@
       <div class="finder-trait-grid" id="finderGridDefBlueSquare"></div>
     </div>
     <div class="panel" style="margin-top: 16px;">
+      <h2>Utility Traits</h2>
+      <div class="finder-trait-grid" id="finderGridGreen"></div>
+    </div>
+    <div class="panel" style="margin-top: 16px;">
       <div id="finderResult">
         <div class="finder-prompt">Click a trait icon above to see which heroes have it.</div>
       </div>
@@ -1051,7 +1097,15 @@
 <div id="tabExp" class="tab-content">
   <div class="exp-container">
     <div class="panel">
-      <h2>5성 3차 승급 경험치 테이블 (Lv.48 → 100)</h2>
+      <h2>경험치 테이블</h2>
+      <div class="exp-selector-group">
+        <div class="exp-selector-label">성급</div>
+        <div class="exp-selector-row" id="expStarRow"></div>
+      </div>
+      <div class="exp-selector-group" style="margin-top:8px">
+        <div class="exp-selector-label">승급 (Ascension)</div>
+        <div class="exp-selector-row" id="expAscRow"></div>
+      </div>
       <div class="exp-summary" id="expSummary"></div>
       <div class="exp-range-row">
         <label>From Lv.</label>
@@ -1532,7 +1586,8 @@ function renderFinderGrid() {
   };
   const defGrids = {
     blue: document.getElementById('finderGridDefBlue'),
-    blue_square: document.getElementById('finderGridDefBlueSquare')
+    blue_square: document.getElementById('finderGridDefBlueSquare'),
+    green: document.getElementById('finderGridGreen')
   };
 
   finderTraitEls = [];
@@ -1811,44 +1866,112 @@ function createDefTraitIcon(trait, idx, mergeLabel) {
 }
 
 // EXP Table
-let expData = null;
+let allExpData = null;
+let expStar = 5;
+let expAsc = 'A0';
+const ascLabels = { A0: '기본', A1: '1차 승급', A2: '2차 승급', A3: '3차 승급', A4: '4차 승급' };
 
 async function loadExpTable() {
   const resp = await fetch('exp_table.json');
-  expData = await resp.json();
+  allExpData = await resp.json();
+  renderExpStarButtons();
+  renderExpAscButtons();
   renderExpTable();
 }
 
+function renderExpStarButtons() {
+  const row = document.getElementById('expStarRow');
+  row.innerHTML = '';
+  [5, 4, 3, 2, 1].forEach(star => {
+    const btn = document.createElement('button');
+    btn.className = 'exp-star-btn' + (star === expStar ? ' active' : '');
+    btn.textContent = star + '★';
+    btn.style.color = star === expStar ? '#fff' : '#ffd700';
+    btn.addEventListener('click', () => {
+      expStar = star;
+      // Reset to first available ascension
+      const avail = getAvailableAsc();
+      if (!avail.includes(expAsc)) expAsc = avail[0];
+      renderExpStarButtons();
+      renderExpAscButtons();
+      renderExpTable();
+    });
+    row.appendChild(btn);
+  });
+}
+
+function getAvailableAsc() {
+  if (!allExpData || !allExpData[expStar]) return [];
+  return Object.keys(allExpData[expStar]).sort();
+}
+
+function renderExpAscButtons() {
+  const row = document.getElementById('expAscRow');
+  row.innerHTML = '';
+  const available = getAvailableAsc();
+  ['A0', 'A1', 'A2', 'A3', 'A4'].forEach(asc => {
+    const btn = document.createElement('button');
+    btn.className = 'exp-asc-btn' + (asc === expAsc ? ' active' : '');
+    btn.textContent = ascLabels[asc];
+    const isAvail = available.includes(asc);
+    btn.disabled = !isAvail;
+    btn.addEventListener('click', () => {
+      if (!isAvail) return;
+      expAsc = asc;
+      renderExpAscButtons();
+      renderExpTable();
+    });
+    row.appendChild(btn);
+  });
+}
+
+function getCurrentExpData() {
+  if (!allExpData || !allExpData[expStar] || !allExpData[expStar][expAsc]) return null;
+  return allExpData[expStar][expAsc];
+}
+
 function renderExpTable() {
-  if (!expData) return;
-  const levels = expData.levels;
-  const keys = Object.keys(levels).map(Number).sort((a, b) => a - b);
-
-  // Summary
-  document.getElementById('expSummary').innerHTML =
-    `Lv.${expData.start_level} → Lv.${expData.end_level} 총 필요 경험치: <strong>${expData.total_exp.toLocaleString()}</strong>`;
-
-  // Populate selects
+  const data = getCurrentExpData();
+  const summary = document.getElementById('expSummary');
+  const tbody = document.getElementById('expTableBody');
   const fromSel = document.getElementById('expFrom');
   const toSel = document.getElementById('expTo');
+
+  if (!data) {
+    summary.innerHTML = '<span style="color:#666">데이터 없음</span>';
+    tbody.innerHTML = '<tr><td colspan="3" class="exp-no-data">해당 성급/승급의 경험치 데이터가 없습니다.</td></tr>';
+    fromSel.innerHTML = '';
+    toSel.innerHTML = '';
+    document.getElementById('expRangeTotal').textContent = '0';
+    return;
+  }
+
+  const levels = data.levels;
+  const keys = Object.keys(levels).map(Number).sort((a, b) => a - b);
+
+  summary.innerHTML =
+    `<span class="exp-lv-range">${expStar}★ ${ascLabels[expAsc]}</span> &nbsp;|&nbsp; ` +
+    `Lv.${data.start_level} → Lv.${data.end_level} &nbsp;|&nbsp; ` +
+    `총 필요 경험치: <strong>${data.total_exp.toLocaleString()}</strong>`;
+
+  // Populate selects - key "2" means EXP for Lv.1→2
   fromSel.innerHTML = '';
   toSel.innerHTML = '';
   keys.forEach(lv => {
-    fromSel.innerHTML += `<option value="${lv}">${lv}</option>`;
-    toSel.innerHTML += `<option value="${lv + 1}">${lv + 1}</option>`;
+    fromSel.innerHTML += `<option value="${lv}">${lv - 1}</option>`;
+    toSel.innerHTML += `<option value="${lv}">${lv}</option>`;
   });
   fromSel.value = keys[0];
-  toSel.value = keys[keys.length - 1] + 1;
-  fromSel.addEventListener('change', updateExpRange);
-  toSel.addEventListener('change', updateExpRange);
+  toSel.value = keys[keys.length - 1];
+  fromSel.onchange = updateExpRange;
+  toSel.onchange = updateExpRange;
 
-  // Build table
-  const tbody = document.getElementById('expTableBody');
+  // Build table - key is target level, so "2" = Lv.1→2
   let cumulative = 0;
   tbody.innerHTML = keys.map(lv => {
     cumulative += levels[lv];
     return `<tr data-lv="${lv}">
-      <td>${lv} → ${lv + 1}</td>
+      <td>${lv - 1} → ${lv}</td>
       <td>${levels[lv].toLocaleString()}</td>
       <td>${cumulative.toLocaleString()}</td>
     </tr>`;
@@ -1858,15 +1981,16 @@ function renderExpTable() {
 }
 
 function updateExpRange() {
-  if (!expData) return;
+  const data = getCurrentExpData();
+  if (!data) return;
   const from = parseInt(document.getElementById('expFrom').value);
   const to = parseInt(document.getElementById('expTo').value);
-  const levels = expData.levels;
+  const levels = data.levels;
   let total = 0;
 
   document.querySelectorAll('#expTableBody tr').forEach(row => {
     const lv = parseInt(row.dataset.lv);
-    if (lv >= from && lv < to) {
+    if (lv >= from && lv <= to) {
       total += levels[lv];
       row.classList.add('exp-highlight');
     } else {
