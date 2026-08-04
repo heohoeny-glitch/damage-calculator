@@ -787,7 +787,7 @@
     "id": "Conjunction",
     "name": "Conjunction",
     "file": "images/traits/blue/TraitConjunction.webp",
-    "desc": "Defensive bonus for each party member carrying the matching icon. Does not increase the damage reduction percentage.",
+    "desc": "Grants Ironskin on the 2nd turn.",
     "pct": 0,
     "category": "blue"
   }
