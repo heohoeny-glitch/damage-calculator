@@ -516,6 +516,16 @@
     color: #999;
     font-size: 0.7rem;
   }
+  .stat-breakdown .bd-label {
+    color: #6b8cc4;
+    font-weight: bold;
+  }
+  .stat-legend {
+    font-size: 0.68rem;
+    color: #6b8cc4;
+    margin-bottom: 4px;
+  }
+  .stat-legend .sl-sep { color: #666; font-weight: normal; }
   .availability-badge {
     display: inline-block;
     font-size: 0.65rem;
@@ -1049,6 +1059,9 @@
             <option value="asc4">Ascension 4</option>
           </select>
         </div>
+        <div class="stat-legend">
+          Stat cap = <b>Base</b> <span class="sl-sep">+</span> <b>Gear</b> <span class="sl-sep">+</span> <b>Merge</b>
+        </div>
         <div class="stat-row">
           <span class="stat-label">ATK:</span>
           <span class="stat-value" id="heroStatAtk"></span>
@@ -1409,15 +1422,29 @@ function onTierChange() {
   updateStatDisplay();
 }
 
+// The wiki lists these stats as "Stat Caps (Base + Gear + Merge)", so the three
+// numbers in a breakdown are the base stat, the gear bonus and the merge bonus.
+const BREAKDOWN_LABELS = ['Base', 'Gear', 'Merge'];
+
+function labelBreakdown(breakdown) {
+  const parts = String(breakdown || '').split('+').map(p => p.trim());
+  if (parts.length !== BREAKDOWN_LABELS.length) {
+    return `(${escapeHtml(breakdown || '')})`;   // unexpected shape: show it raw
+  }
+  return '(' + parts
+    .map((p, i) => `<span class="bd-label">${BREAKDOWN_LABELS[i]}</span> ${escapeHtml(p)}`)
+    .join(' + ') + ')';
+}
+
 function updateStatDisplay() {
   if (!selectedHero || !selectedHero.stats) return;
   const tier = document.getElementById('tierSelect').value;
   const data = selectedHero.stats[tier];
   if (data) {
     document.getElementById('heroStatAtk').textContent = data.attack;
-    document.getElementById('heroStatAtkBreakdown').textContent = `(${data.attack_breakdown})`;
+    document.getElementById('heroStatAtkBreakdown').innerHTML = labelBreakdown(data.attack_breakdown);
     document.getElementById('heroStatHp').textContent = data.health;
-    document.getElementById('heroStatHpBreakdown').textContent = `(${data.health_breakdown})`;
+    document.getElementById('heroStatHpBreakdown').innerHTML = labelBreakdown(data.health_breakdown);
     // Auto-fill attack input
     document.getElementById('baseAttack').value = data.attack;
     calculate();
