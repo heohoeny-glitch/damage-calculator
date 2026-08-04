@@ -159,6 +159,84 @@
     margin-bottom: 12px;
   }
 
+  /* Finder filters */
+  .filter-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+  .filter-row:last-child { margin-bottom: 0; }
+  .filter-label {
+    flex-shrink: 0;
+    width: 130px;
+    padding-top: 5px;
+    font-size: 0.78rem;
+    font-weight: bold;
+    color: #888;
+  }
+  .filter-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    flex: 1;
+  }
+  .filter-chip {
+    background: #0f3460;
+    color: #ccc;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    padding: 3px 11px;
+    font-size: 0.75rem;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s, border-color 0.15s;
+    user-select: none;
+  }
+  .filter-chip:hover { border-color: #e94560; }
+  .filter-chip.active {
+    background: #e94560;
+    color: #fff;
+    font-weight: bold;
+  }
+  .filter-chip.all-chip.active {
+    background: #2980b9;
+  }
+  .finder-filter-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+  .finder-filter-head h2 { margin: 0; }
+  .filter-reset {
+    background: transparent;
+    border: 1px solid #555;
+    color: #aaa;
+    border-radius: 12px;
+    padding: 3px 12px;
+    font-size: 0.72rem;
+    cursor: pointer;
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .filter-reset:hover { border-color: #e94560; color: #e94560; }
+  .finder-active-summary {
+    font-size: 0.75rem;
+    color: #c084fc;
+    margin-bottom: 10px;
+  }
+  .finder-clear-trait {
+    background: transparent;
+    border: 1px solid #555;
+    color: #aaa;
+    border-radius: 10px;
+    padding: 1px 9px;
+    font-size: 0.68rem;
+    cursor: pointer;
+    margin-left: 8px;
+    vertical-align: middle;
+  }
+  .finder-clear-trait:hover { border-color: #e94560; color: #e94560; }
+
   @media (max-width: 800px) {
     .tab-btn { padding: 10px 20px; font-size: 0.85rem; }
     .finder-container { padding: 12px; }
@@ -167,6 +245,9 @@
     .finder-hero-list { grid-template-columns: 1fr; }
     .finder-hero-card { padding: 8px 10px; }
     .finder-hero-card img { width: 34px; height: 34px; }
+    .filter-row { flex-direction: column; gap: 4px; }
+    .filter-label { width: auto; padding-top: 0; }
+    .filter-chip { padding: 3px 9px; font-size: 0.72rem; }
   }
   .container {
     max-width: 1200px;
@@ -1072,6 +1153,13 @@
 <div id="tabFinder" class="tab-content">
   <div class="finder-container">
     <div class="panel">
+      <div class="finder-filter-head">
+        <h2>Filters</h2>
+        <button class="filter-reset" onclick="resetFinderFilters()">Reset filters</button>
+      </div>
+      <div id="finderFilters"></div>
+    </div>
+    <div class="panel" style="margin-top: 16px;">
       <h2>Attack Traits</h2>
       <div class="finder-trait-grid" id="finderGridRed"></div>
       <div class="finder-trait-grid" id="finderGridRedSquare"></div>
@@ -1088,7 +1176,7 @@
     </div>
     <div class="panel" style="margin-top: 16px;">
       <div id="finderResult">
-        <div class="finder-prompt">Click a trait icon above to see which heroes have it.</div>
+        <div class="finder-prompt">Click a trait icon above, or pick a filter, to find heroes.</div>
       </div>
     </div>
   </div>
@@ -1158,6 +1246,7 @@ async function init() {
   renderDmgRedButtons();
   setupHeroSearch();
   renderFinderGrid();
+  renderFinderFilters();
   calculate();
 }
 
@@ -1575,8 +1664,114 @@ function switchTab(tabName) {
 }
 
 // Trait Finder
-let finderSelectedTrait = null;
+let finderSelectedTrait = null;   // { name, type } or null
 let finderTraitEls = [];
+
+// Facet filters. An empty set means "All" for that facet.
+const FINDER_FACETS = [
+  { key: 'color',        label: 'Color (속성)' },
+  { key: 'class',        label: 'Class (직업)' },
+  { key: 'species',      label: 'Species (종족)' },
+  { key: 'stars',        label: 'Stars (별)' },
+  { key: 'availability', label: 'Availability (획득처)' }
+];
+const finderFilters = {
+  color: new Set(), class: new Set(), species: new Set(),
+  stars: new Set(), availability: new Set()
+};
+
+const PERMANENT = 'Permanent';
+
+// The value a hero contributes to a given facet.
+function heroFacetValue(hero, key) {
+  if (key === 'stars') return String(hero.stars);
+  if (key === 'availability') {
+    return hero.availability ? hero.availability.replace(' exclusive', '') : PERMANENT;
+  }
+  return hero[key];
+}
+
+// Distinct values for a facet, ordered for display.
+function finderFacetValues(key) {
+  const values = [...new Set(heroData.map(h => heroFacetValue(h, key)))];
+  if (key === 'stars') return values.sort((a, b) => b - a);
+  if (key === 'availability') {
+    return values.sort((a, b) =>
+      (a === PERMANENT ? -1 : b === PERMANENT ? 1 : a.localeCompare(b)));
+  }
+  return values.sort((a, b) => a.localeCompare(b));
+}
+
+function renderFinderFilters() {
+  const host = document.getElementById('finderFilters');
+  host.innerHTML = FINDER_FACETS.map(({ key, label }) => {
+    const active = finderFilters[key];
+    const chips = finderFacetValues(key).map(v => {
+      const text = key === 'stars' ? `${v}★` : v;
+      return `<div class="filter-chip ${active.has(v) ? 'active' : ''}"
+                   data-facet="${key}" data-value="${escapeAttr(v)}">${escapeHtml(text)}</div>`;
+    }).join('');
+    return `
+      <div class="filter-row">
+        <div class="filter-label">${label}</div>
+        <div class="filter-chips">
+          <div class="filter-chip all-chip ${active.size === 0 ? 'active' : ''}"
+               data-facet="${key}" data-value="">All</div>
+          ${chips}
+        </div>
+      </div>
+    `;
+  }).join('');
+
+  host.querySelectorAll('.filter-chip').forEach(el => {
+    el.addEventListener('click', () => {
+      const { facet, value } = el.dataset;
+      if (value === '') finderFilters[facet].clear();          // "All"
+      else if (finderFilters[facet].has(value)) finderFilters[facet].delete(value);
+      else finderFilters[facet].add(value);
+      renderFinderFilters();
+      renderFinderResults();
+    });
+  });
+}
+
+function resetFinderFilters() {
+  Object.values(finderFilters).forEach(s => s.clear());
+  renderFinderFilters();
+  renderFinderResults();
+}
+
+function clearFinderTrait() {
+  finderSelectedTrait = null;
+  finderTraitEls.forEach(({ el }) => el.classList.remove('selected-finder'));
+  renderFinderResults();
+}
+
+// Values within a facet are OR'd; facets are AND'd together.
+function heroPassesFilters(hero) {
+  return FINDER_FACETS.every(({ key }) => {
+    const active = finderFilters[key];
+    return active.size === 0 || active.has(heroFacetValue(hero, key));
+  });
+}
+
+function activeFilterSummary() {
+  return FINDER_FACETS
+    .filter(({ key }) => finderFilters[key].size > 0)
+    .map(({ key, label }) => {
+      const vals = [...finderFilters[key]]
+        .map(v => (key === 'stars' ? `${v}★` : v))
+        .join(', ');
+      return `${label.split(' ')[0]}: ${vals}`;
+    })
+    .join(' · ');
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c =>
+    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+function escapeAttr(s) { return escapeHtml(s); }
 
 function renderFinderGrid() {
   const atkGrids = {
@@ -1638,45 +1833,80 @@ function selectFinderTrait(traitName, type) {
     : defTraitData.find(t => t.name === traitName);
   if (!trait) return;
 
-  // Update selected state
+  // Clicking the selected trait again clears it, leaving the facet filters alone.
+  const alreadySelected = finderSelectedTrait
+    && finderSelectedTrait.name === traitName
+    && finderSelectedTrait.type === type;
+  finderSelectedTrait = alreadySelected ? null : { name: traitName, type };
+
   finderTraitEls.forEach(({ el, traitName: tn, type: tp }) => {
-    el.classList.toggle('selected-finder', tn === traitName && tp === type);
+    el.classList.toggle('selected-finder',
+      !!finderSelectedTrait && tn === finderSelectedTrait.name && tp === finderSelectedTrait.type);
   });
 
-  // Find heroes that have this trait
-  const heroesWithTrait = [];
+  renderFinderResults();
+}
 
-  heroData.forEach(hero => {
-    const normalizedAll = hero.all.map(t => normalizeTraitName(t));
-    const count = normalizedAll.filter(t => t === traitName).length;
-    if (count > 0) {
-      heroesWithTrait.push({ hero, count });
-    }
-  });
-
-  // Sort by count descending, then name
-  heroesWithTrait.sort((a, b) => b.count - a.count || a.hero.name.localeCompare(b.hero.name));
-
+// Single source of truth for the result list: trait (optional) AND all active facets.
+function renderFinderResults() {
   const resultDiv = document.getElementById('finderResult');
+  const sel = finderSelectedTrait;
+  const trait = sel
+    ? (sel.type === 'atk'
+        ? traitData.find(t => t.name === sel.name)
+        : defTraitData.find(t => t.name === sel.name))
+    : null;
 
-  if (heroesWithTrait.length === 0) {
-    resultDiv.innerHTML = `
-      <div class="finder-selected-name">${trait.name}</div>
-      <div class="finder-selected-desc">${trait.desc || ''}</div>
-      <div class="finder-prompt">No heroes have this trait.</div>
-    `;
+  const hasFilters = FINDER_FACETS.some(({ key }) => finderFilters[key].size > 0);
+
+  if (!trait && !hasFilters) {
+    resultDiv.innerHTML =
+      '<div class="finder-prompt">Click a trait icon above, or pick a filter, to find heroes.</div>';
+    return;
+  }
+
+  const matches = [];
+  heroData.forEach(hero => {
+    if (!heroPassesFilters(hero)) return;
+    let count = 0;
+    if (trait) {
+      count = hero.all.map(t => normalizeTraitName(t)).filter(t => t === trait.name).length;
+      if (count === 0) return;
+    }
+    matches.push({ hero, count });
+  });
+
+  // With a trait: most copies first. Without: strongest heroes first.
+  matches.sort((a, b) =>
+    (trait ? b.count - a.count : b.hero.stars - a.hero.stars)
+    || a.hero.name.localeCompare(b.hero.name));
+
+  const header = trait
+    ? `<div class="finder-selected-name">${escapeHtml(trait.name)}
+         <button class="finder-clear-trait" onclick="clearFinderTrait()">clear trait</button>
+       </div>
+       <div class="finder-selected-desc">${escapeHtml(trait.desc || '')}</div>`
+    : '<div class="finder-selected-name">Filtered heroes</div>';
+
+  const summary = hasFilters
+    ? `<div class="finder-active-summary">${escapeHtml(activeFilterSummary())}</div>`
+    : '';
+
+  if (matches.length === 0) {
+    resultDiv.innerHTML = `${header}${summary}
+      <div class="finder-prompt">No heroes match these conditions.</div>`;
     return;
   }
 
   resultDiv.innerHTML = `
-    <div class="finder-selected-name">${trait.name}</div>
-    <div class="finder-selected-desc">${trait.desc || ''}</div>
-    <div class="finder-hero-count">${heroesWithTrait.length} heroes found</div>
+    ${header}
+    ${summary}
+    <div class="finder-hero-count">${matches.length} heroes found</div>
     <div class="finder-hero-list">
-      ${heroesWithTrait.map(({ hero, count }) => {
+      ${matches.map(({ hero, count }) => {
         const portrait = `images/portraits/${hero.name} Portrait.webp`;
         const displayName = (hero.name_kr || hero.name);
-        const detail = `${hero.stars}★ ${hero.color} ${hero.class}`;
+        const detail = `${hero.stars}★ ${hero.color} ${hero.class} · ${hero.species}`;
         return `
           <div class="finder-hero-card" onclick="switchTab('calculator'); selectHero('${hero.name.replace(/'/g, "\\'")}')">
             <img src="${portrait}" alt="${hero.name}" onerror="this.style.display='none'">
@@ -1684,7 +1914,7 @@ function selectFinderTrait(traitName, type) {
               <div class="fh-name">${displayName} <span style="color:#888;font-size:0.75em">(${hero.name})</span></div>
               <div class="fh-detail">${detail}${hero.availability ? ` · <span style="color:#c084fc;">${hero.availability.replace(' exclusive','')}</span>` : ''}</div>
             </div>
-            <div class="fh-count">x${count}</div>
+            ${count > 0 ? `<div class="fh-count">x${count}</div>` : ''}
           </div>
         `;
       }).join('')}
