@@ -782,5 +782,13 @@
     "desc": "Receives -20% damage from Undead.",
     "pct": 20,
     "category": "blue"
+  },
+  {
+    "id": "Conjunction",
+    "name": "Conjunction",
+    "file": "images/traits/blue/TraitConjunction.webp",
+    "desc": "Defensive bonus for each party member carrying the matching icon. Does not increase the damage reduction percentage.",
+    "pct": 0,
+    "category": "blue"
   }
 ]

@@ -926,13 +926,5 @@
     "desc": "Deals Chilled when attacking in exactly one direction.",
     "pct": 0,
     "category": "red"
-  },
-  {
-    "id": "Conjunction",
-    "name": "Conjunction",
-    "file": "images/traits/red/TraitConjunction.webp",
-    "desc": "Attack bonus for each party member carrying the matching icon. The bonus varies, so enter it manually as a custom damage bonus.",
-    "pct": 0,
-    "category": "red"
   }
 ]
