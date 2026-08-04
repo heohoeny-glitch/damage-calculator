@@ -1711,6 +1711,44 @@
     "species": "Dragonborn",
     "stars": 4
   },
+  "Brom": {
+    "basic_attack": {
+      "total": 546,
+      "breakdown": "420 + 63 + 63"
+    },
+    "basic_health": {
+      "total": 2340,
+      "breakdown": "1800 + 270 + 270"
+    },
+    "asc_attack": {
+      "total": 690,
+      "breakdown": "530 + 80 + 80"
+    },
+    "asc_health": {
+      "total": 2952,
+      "breakdown": "2270 + 341 + 341"
+    },
+    "asc2_attack": {
+      "total": 1040,
+      "breakdown": "800 + 120 + 120"
+    },
+    "asc2_health": {
+      "total": 4408,
+      "breakdown": "3390 + 509 + 509"
+    },
+    "asc3_attack": {
+      "total": 1470,
+      "breakdown": "1130 + 170 + 170"
+    },
+    "asc3_health": {
+      "total": 6254,
+      "breakdown": "4810 + 722 + 722"
+    },
+    "class": "Knight",
+    "color": "Light",
+    "species": "Dwarf",
+    "stars": 5
+  },
   "Broxx": {
     "basic_attack": {
       "total": 456,
@@ -3805,6 +3843,52 @@
     "species": "Human",
     "stars": 5
   },
+  "Elysia": {
+    "basic_attack": {
+      "total": 612,
+      "breakdown": "470 + 71 + 71"
+    },
+    "basic_health": {
+      "total": 1352,
+      "breakdown": "1040 + 156 + 156"
+    },
+    "asc_attack": {
+      "total": 898,
+      "breakdown": "690 + 104 + 104"
+    },
+    "asc_health": {
+      "total": 1990,
+      "breakdown": "1530 + 230 + 230"
+    },
+    "asc2_attack": {
+      "total": 1404,
+      "breakdown": "1080 + 162 + 162"
+    },
+    "asc2_health": {
+      "total": 3134,
+      "breakdown": "2410 + 362 + 362"
+    },
+    "asc3_attack": {
+      "total": 2132,
+      "breakdown": "1640 + 246 + 246"
+    },
+    "asc3_health": {
+      "total": 4772,
+      "breakdown": "3670 + 551 + 551"
+    },
+    "asc4_attack": {
+      "total": 2266,
+      "breakdown": "1970 + 0 + 296"
+    },
+    "asc4_health": {
+      "total": 5734,
+      "breakdown": "4410 + 662 + 662"
+    },
+    "class": "Monk",
+    "color": "Blue",
+    "species": "Elf",
+    "stars": 5
+  },
   "Embera": {
     "basic_attack": {
       "total": 820,
@@ -4001,6 +4085,44 @@
     "class": "Healer",
     "color": "Blue",
     "species": "Human",
+    "stars": 5
+  },
+  "Fargok": {
+    "basic_attack": {
+      "total": 872,
+      "breakdown": "670 + 101 + 101"
+    },
+    "basic_health": {
+      "total": 1314,
+      "breakdown": "1010 + 152 + 152"
+    },
+    "asc_attack": {
+      "total": 1236,
+      "breakdown": "950 + 143 + 143"
+    },
+    "asc_health": {
+      "total": 1846,
+      "breakdown": "1420 + 213 + 213"
+    },
+    "asc2_attack": {
+      "total": 1756,
+      "breakdown": "1350 + 203 + 203"
+    },
+    "asc2_health": {
+      "total": 2626,
+      "breakdown": "2020 + 303 + 303"
+    },
+    "asc3_attack": {
+      "total": 2028,
+      "breakdown": "1560 + 234 + 234"
+    },
+    "asc3_health": {
+      "total": 3030,
+      "breakdown": "2330 + 350 + 350"
+    },
+    "class": "Pirate",
+    "color": "Green",
+    "species": "Orc",
     "stars": 5
   },
   "Farris": {
@@ -4504,6 +4626,44 @@
     "color": "Green",
     "species": "Dwarf",
     "stars": 3
+  },
+  "Frostfang": {
+    "basic_attack": {
+      "total": 494,
+      "breakdown": "380 + 57 + 57"
+    },
+    "basic_health": {
+      "total": 1132,
+      "breakdown": "870 + 131 + 131"
+    },
+    "asc_attack": {
+      "total": 690,
+      "breakdown": "530 + 80 + 80"
+    },
+    "asc_health": {
+      "total": 1600,
+      "breakdown": "1230 + 185 + 185"
+    },
+    "asc2_attack": {
+      "total": 976,
+      "breakdown": "750 + 113 + 113"
+    },
+    "asc2_health": {
+      "total": 2262,
+      "breakdown": "1740 + 261 + 261"
+    },
+    "asc3_attack": {
+      "total": 1326,
+      "breakdown": "1020 + 153 + 153"
+    },
+    "asc3_health": {
+      "total": 3068,
+      "breakdown": "2360 + 354 + 354"
+    },
+    "class": "Mage",
+    "color": "Blue",
+    "species": "Dragonborn",
+    "stars": 5
   },
   "Frostgar": {
     "basic_attack": {
@@ -7277,6 +7437,52 @@
     "species": "Elf",
     "stars": 3
   },
+  "Lucien": {
+    "basic_attack": {
+      "total": 638,
+      "breakdown": "490 + 74 + 74"
+    },
+    "basic_health": {
+      "total": 1092,
+      "breakdown": "840 + 126 + 126"
+    },
+    "asc_attack": {
+      "total": 820,
+      "breakdown": "630 + 95 + 95"
+    },
+    "asc_health": {
+      "total": 1340,
+      "breakdown": "1030 + 155 + 155"
+    },
+    "asc2_attack": {
+      "total": 1092,
+      "breakdown": "840 + 126 + 126"
+    },
+    "asc2_health": {
+      "total": 1704,
+      "breakdown": "1310 + 197 + 197"
+    },
+    "asc3_attack": {
+      "total": 1378,
+      "breakdown": "1060 + 159 + 159"
+    },
+    "asc3_health": {
+      "total": 2158,
+      "breakdown": "1660 + 249 + 249"
+    },
+    "asc4_attack": {
+      "total": 1500,
+      "breakdown": "1200 + 120 + 180"
+    },
+    "asc4_health": {
+      "total": 2363,
+      "breakdown": "1890 + 189 + 284"
+    },
+    "class": "Javelineer",
+    "color": "Light",
+    "species": "Human",
+    "stars": 4
+  },
   "Lumi": {
     "basic_attack": {
       "total": 598,
@@ -7848,6 +8054,52 @@
     "color": "Red",
     "species": "Human",
     "stars": 2
+  },
+  "Mokara": {
+    "basic_attack": {
+      "total": 586,
+      "breakdown": "450 + 68 + 68"
+    },
+    "basic_health": {
+      "total": 1794,
+      "breakdown": "1380 + 207 + 207"
+    },
+    "asc_attack": {
+      "total": 794,
+      "breakdown": "610 + 92 + 92"
+    },
+    "asc_health": {
+      "total": 2666,
+      "breakdown": "2050 + 308 + 308"
+    },
+    "asc2_attack": {
+      "total": 1132,
+      "breakdown": "870 + 131 + 131"
+    },
+    "asc2_health": {
+      "total": 3796,
+      "breakdown": "2920 + 438 + 438"
+    },
+    "asc3_attack": {
+      "total": 1652,
+      "breakdown": "1270 + 191 + 191"
+    },
+    "asc3_health": {
+      "total": 5512,
+      "breakdown": "4240 + 636 + 636"
+    },
+    "asc4_attack": {
+      "total": 1824,
+      "breakdown": "1520 + 76 + 228"
+    },
+    "asc4_health": {
+      "total": 6363,
+      "breakdown": "5090 + 509 + 764"
+    },
+    "class": "Gladiator",
+    "color": "Blue",
+    "species": "Orc",
+    "stars": 5
   },
   "Moonshade": {
     "basic_attack": {
@@ -8859,6 +9111,52 @@
     "class": "Rogue",
     "color": "Green",
     "species": "Dragonborn",
+    "stars": 5
+  },
+  "Poppy": {
+    "basic_attack": {
+      "total": 598,
+      "breakdown": "460 + 69 + 69"
+    },
+    "basic_health": {
+      "total": 520,
+      "breakdown": "400 + 60 + 60"
+    },
+    "asc_attack": {
+      "total": 780,
+      "breakdown": "600 + 90 + 90"
+    },
+    "asc_health": {
+      "total": 690,
+      "breakdown": "530 + 80 + 80"
+    },
+    "asc2_attack": {
+      "total": 1118,
+      "breakdown": "860 + 129 + 129"
+    },
+    "asc2_health": {
+      "total": 988,
+      "breakdown": "760 + 114 + 114"
+    },
+    "asc3_attack": {
+      "total": 1456,
+      "breakdown": "1120 + 168 + 168"
+    },
+    "asc3_health": {
+      "total": 1274,
+      "breakdown": "980 + 147 + 147"
+    },
+    "asc4_attack": {
+      "total": 1625,
+      "breakdown": "1300 + 130 + 195"
+    },
+    "asc4_health": {
+      "total": 1368,
+      "breakdown": "1140 + 57 + 171"
+    },
+    "class": "Elementalist",
+    "color": "Green",
+    "species": "Beastfolk",
     "stars": 5
   },
   "Primrose": {
@@ -9997,6 +10295,44 @@
     "species": "Beastfolk",
     "stars": 5
   },
+  "Scraptooth": {
+    "basic_attack": {
+      "total": 468,
+      "breakdown": "360 + 54 + 54"
+    },
+    "basic_health": {
+      "total": 1626,
+      "breakdown": "1250 + 188 + 188"
+    },
+    "asc_attack": {
+      "total": 638,
+      "breakdown": "490 + 74 + 74"
+    },
+    "asc_health": {
+      "total": 2224,
+      "breakdown": "1710 + 257 + 257"
+    },
+    "asc2_attack": {
+      "total": 962,
+      "breakdown": "740 + 111 + 111"
+    },
+    "asc2_health": {
+      "total": 3368,
+      "breakdown": "2590 + 389 + 389"
+    },
+    "asc3_attack": {
+      "total": 1340,
+      "breakdown": "1030 + 155 + 155"
+    },
+    "asc3_health": {
+      "total": 4668,
+      "breakdown": "3590 + 539 + 539"
+    },
+    "class": "Barbarian",
+    "color": "Red",
+    "species": "Dragonborn",
+    "stars": 5
+  },
   "Scylla": {
     "basic_attack": {
       "total": 1352,
@@ -10473,6 +10809,52 @@
       "breakdown": "2910 + 437 + 437"
     },
     "class": "Pirate",
+    "color": "Blue",
+    "species": "Beastfolk",
+    "stars": 5
+  },
+  "Shore": {
+    "basic_attack": {
+      "total": 560,
+      "breakdown": "430 + 65 + 65"
+    },
+    "basic_health": {
+      "total": 1002,
+      "breakdown": "770 + 116 + 116"
+    },
+    "asc_attack": {
+      "total": 780,
+      "breakdown": "600 + 90 + 90"
+    },
+    "asc_health": {
+      "total": 1392,
+      "breakdown": "1070 + 161 + 161"
+    },
+    "asc2_attack": {
+      "total": 1092,
+      "breakdown": "840 + 126 + 126"
+    },
+    "asc2_health": {
+      "total": 1950,
+      "breakdown": "1500 + 225 + 225"
+    },
+    "asc3_attack": {
+      "total": 1560,
+      "breakdown": "1200 + 180 + 180"
+    },
+    "asc3_health": {
+      "total": 2224,
+      "breakdown": "1710 + 257 + 257"
+    },
+    "asc4_attack": {
+      "total": 1518,
+      "breakdown": "1320 + 0 + 198"
+    },
+    "asc4_health": {
+      "total": 2458,
+      "breakdown": "1890 + 284 + 284"
+    },
+    "class": "Ranger",
     "color": "Blue",
     "species": "Beastfolk",
     "stars": 5
@@ -12159,6 +12541,52 @@
     "species": "Orc",
     "stars": 5
   },
+  "Varkhaz": {
+    "basic_attack": {
+      "total": 586,
+      "breakdown": "450 + 68 + 68"
+    },
+    "basic_health": {
+      "total": 2016,
+      "breakdown": "1550 + 233 + 233"
+    },
+    "asc_attack": {
+      "total": 754,
+      "breakdown": "580 + 87 + 87"
+    },
+    "asc_health": {
+      "total": 2640,
+      "breakdown": "2030 + 305 + 305"
+    },
+    "asc2_attack": {
+      "total": 1196,
+      "breakdown": "920 + 138 + 138"
+    },
+    "asc2_health": {
+      "total": 4160,
+      "breakdown": "3200 + 480 + 480"
+    },
+    "asc3_attack": {
+      "total": 1626,
+      "breakdown": "1250 + 188 + 188"
+    },
+    "asc3_health": {
+      "total": 5656,
+      "breakdown": "4350 + 653 + 653"
+    },
+    "asc4_attack": {
+      "total": 1645,
+      "breakdown": "1370 + 69 + 206"
+    },
+    "asc4_health": {
+      "total": 5988,
+      "breakdown": "4790 + 479 + 719"
+    },
+    "class": "Warrior",
+    "color": "Dark",
+    "species": "Orc",
+    "stars": 5
+  },
   "Vengeful Shani": {
     "basic_attack": {
       "total": 456,
@@ -12233,6 +12661,52 @@
     "class": "Warlock",
     "color": "Red",
     "species": "Dwarf",
+    "stars": 4
+  },
+  "Verena": {
+    "basic_attack": {
+      "total": 312,
+      "breakdown": "240 + 36 + 36"
+    },
+    "basic_health": {
+      "total": 1586,
+      "breakdown": "1220 + 183 + 183"
+    },
+    "asc_attack": {
+      "total": 456,
+      "breakdown": "350 + 53 + 53"
+    },
+    "asc_health": {
+      "total": 1924,
+      "breakdown": "1480 + 222 + 222"
+    },
+    "asc2_attack": {
+      "total": 664,
+      "breakdown": "510 + 77 + 77"
+    },
+    "asc2_health": {
+      "total": 2302,
+      "breakdown": "1770 + 266 + 266"
+    },
+    "asc3_attack": {
+      "total": 820,
+      "breakdown": "630 + 95 + 95"
+    },
+    "asc3_health": {
+      "total": 2860,
+      "breakdown": "2200 + 330 + 330"
+    },
+    "asc4_attack": {
+      "total": 912,
+      "breakdown": "760 + 38 + 114"
+    },
+    "asc4_health": {
+      "total": 3458,
+      "breakdown": "2660 + 399 + 399"
+    },
+    "class": "Paladin",
+    "color": "Red",
+    "species": "Dragonborn",
     "stars": 4
   },
   "Veridian": {

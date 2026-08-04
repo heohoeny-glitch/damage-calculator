@@ -2915,6 +2915,73 @@
     "availability": null
   },
   {
+    "name": "Brom",
+    "basic": [
+      "Cardinal Parry",
+      "Undead Guard",
+      "Undead Guard",
+      "Chromatic Shield",
+      "Cardinal Parry",
+      "Cardinal Parry"
+    ],
+    "ascension": [
+      "Foresight",
+      "Protector",
+      "Ironskin"
+    ],
+    "merge": [
+      "Split Second",
+      "Immovable",
+      "Aura of Fire"
+    ],
+    "all": [
+      "Cardinal Parry",
+      "Undead Guard",
+      "Undead Guard",
+      "Chromatic Shield",
+      "Cardinal Parry",
+      "Cardinal Parry",
+      "Foresight",
+      "Protector",
+      "Ironskin",
+      "Split Second",
+      "Immovable",
+      "Aura of Fire"
+    ],
+    "name_kr": "브롬",
+    "class": "Knight",
+    "color": "Light",
+    "species": "Dwarf",
+    "stars": 5,
+    "stats": {
+      "basic": {
+        "attack": 546,
+        "attack_breakdown": "420 + 63 + 63",
+        "health": 2340,
+        "health_breakdown": "1800 + 270 + 270"
+      },
+      "asc": {
+        "attack": 690,
+        "attack_breakdown": "530 + 80 + 80",
+        "health": 2952,
+        "health_breakdown": "2270 + 341 + 341"
+      },
+      "asc2": {
+        "attack": 1040,
+        "attack_breakdown": "800 + 120 + 120",
+        "health": 4408,
+        "health_breakdown": "3390 + 509 + 509"
+      },
+      "asc3": {
+        "attack": 1470,
+        "attack_breakdown": "1130 + 170 + 170",
+        "health": 6254,
+        "health_breakdown": "4810 + 722 + 722"
+      }
+    },
+    "availability": null
+  },
+  {
     "name": "Broxx",
     "basic": [
       "Berserk",
@@ -6400,6 +6467,81 @@
     "availability": null
   },
   {
+    "name": "Elysia",
+    "basic": [
+      "Meditate",
+      "Inner Peace",
+      "Inner Peace",
+      "Inner Peace",
+      "Resurgence",
+      "Conjunction"
+    ],
+    "ascension": [
+      "Ironskin",
+      "Resolute",
+      "Resolute",
+      "Revitalize"
+    ],
+    "merge": [
+      "Split Second",
+      "Revitalize",
+      "Initiative: Heroic Blow"
+    ],
+    "all": [
+      "Meditate",
+      "Inner Peace",
+      "Inner Peace",
+      "Inner Peace",
+      "Resurgence",
+      "Conjunction",
+      "Ironskin",
+      "Resolute",
+      "Resolute",
+      "Revitalize",
+      "Split Second",
+      "Revitalize",
+      "Initiative: Heroic Blow"
+    ],
+    "name_kr": "엘리시아",
+    "class": "Monk",
+    "color": "Blue",
+    "species": "Elf",
+    "stars": 5,
+    "stats": {
+      "basic": {
+        "attack": 612,
+        "attack_breakdown": "470 + 71 + 71",
+        "health": 1352,
+        "health_breakdown": "1040 + 156 + 156"
+      },
+      "asc": {
+        "attack": 898,
+        "attack_breakdown": "690 + 104 + 104",
+        "health": 1990,
+        "health_breakdown": "1530 + 230 + 230"
+      },
+      "asc2": {
+        "attack": 1404,
+        "attack_breakdown": "1080 + 162 + 162",
+        "health": 3134,
+        "health_breakdown": "2410 + 362 + 362"
+      },
+      "asc3": {
+        "attack": 2132,
+        "attack_breakdown": "1640 + 246 + 246",
+        "health": 4772,
+        "health_breakdown": "3670 + 551 + 551"
+      },
+      "asc4": {
+        "attack": 2266,
+        "attack_breakdown": "1970 + 0 + 296",
+        "health": 5734,
+        "health_breakdown": "4410 + 662 + 662"
+      }
+    },
+    "availability": "Astra Reveria exclusive"
+  },
+  {
     "name": "Embera",
     "basic": [
       "Trident & Net",
@@ -6719,6 +6861,73 @@
         "attack_breakdown": "530 + 80 + 80",
         "health": 2380,
         "health_breakdown": "1830 + 275 + 275"
+      }
+    },
+    "availability": null
+  },
+  {
+    "name": "Fargok",
+    "basic": [
+      "Cutlass & Flintlock",
+      "Swashbuckler",
+      "Critical Attack",
+      "Critical Attack",
+      "Critical Attack",
+      "Critical Parry"
+    ],
+    "ascension": [
+      "Critical Parry",
+      "Foresight",
+      "Skirmisher"
+    ],
+    "merge": [
+      "Split Second",
+      "Critical Attack",
+      "Skirmisher"
+    ],
+    "all": [
+      "Cutlass & Flintlock",
+      "Swashbuckler",
+      "Critical Attack",
+      "Critical Attack",
+      "Critical Attack",
+      "Critical Parry",
+      "Critical Parry",
+      "Foresight",
+      "Skirmisher",
+      "Split Second",
+      "Critical Attack",
+      "Skirmisher"
+    ],
+    "name_kr": "파르고크",
+    "class": "Pirate",
+    "color": "Green",
+    "species": "Orc",
+    "stars": 5,
+    "stats": {
+      "basic": {
+        "attack": 872,
+        "attack_breakdown": "670 + 101 + 101",
+        "health": 1314,
+        "health_breakdown": "1010 + 152 + 152"
+      },
+      "asc": {
+        "attack": 1236,
+        "attack_breakdown": "950 + 143 + 143",
+        "health": 1846,
+        "health_breakdown": "1420 + 213 + 213"
+      },
+      "asc2": {
+        "attack": 1756,
+        "attack_breakdown": "1350 + 203 + 203",
+        "health": 2626,
+        "health_breakdown": "2020 + 303 + 303"
+      },
+      "asc3": {
+        "attack": 2028,
+        "attack_breakdown": "1560 + 234 + 234",
+        "health": 3030,
+        "health_breakdown": "2330 + 350 + 350"
       }
     },
     "availability": null
@@ -7583,6 +7792,73 @@
         "attack_breakdown": "690 + 69 + 104",
         "health": 1092,
         "health_breakdown": "840 + 126 + 126"
+      }
+    },
+    "availability": null
+  },
+  {
+    "name": "Frostfang",
+    "basic": [
+      "Focus",
+      "Melee Parry",
+      "Aura of Cold",
+      "Prepare",
+      "Prepared Freeze",
+      "Focused Freeze"
+    ],
+    "ascension": [
+      "Cold Resistance",
+      "Prepare",
+      "Melee Parry"
+    ],
+    "merge": [
+      "Split Second",
+      "Aura of Cold",
+      "Focused Freeze"
+    ],
+    "all": [
+      "Focus",
+      "Melee Parry",
+      "Aura of Cold",
+      "Prepare",
+      "Prepared Freeze",
+      "Focused Freeze",
+      "Cold Resistance",
+      "Prepare",
+      "Melee Parry",
+      "Split Second",
+      "Aura of Cold",
+      "Focused Freeze"
+    ],
+    "name_kr": "프로스트팽",
+    "class": "Mage",
+    "color": "Blue",
+    "species": "Dragonborn",
+    "stars": 5,
+    "stats": {
+      "basic": {
+        "attack": 494,
+        "attack_breakdown": "380 + 57 + 57",
+        "health": 1132,
+        "health_breakdown": "870 + 131 + 131"
+      },
+      "asc": {
+        "attack": 690,
+        "attack_breakdown": "530 + 80 + 80",
+        "health": 1600,
+        "health_breakdown": "1230 + 185 + 185"
+      },
+      "asc2": {
+        "attack": 976,
+        "attack_breakdown": "750 + 113 + 113",
+        "health": 2262,
+        "health_breakdown": "1740 + 261 + 261"
+      },
+      "asc3": {
+        "attack": 1326,
+        "attack_breakdown": "1020 + 153 + 153",
+        "health": 3068,
+        "health_breakdown": "2360 + 354 + 354"
       }
     },
     "availability": null
@@ -12194,6 +12470,79 @@
     "availability": null
   },
   {
+    "name": "Lucien",
+    "basic": [
+      "Ballistic",
+      "Prepare",
+      "Prepare",
+      "Prepare",
+      "Conjunction"
+    ],
+    "ascension": [
+      "Ranged Parry",
+      "Prepare",
+      "Ranged Parry",
+      "Prepare"
+    ],
+    "merge": [
+      "Split Second",
+      "Rend",
+      "Extra Time"
+    ],
+    "all": [
+      "Ballistic",
+      "Prepare",
+      "Prepare",
+      "Prepare",
+      "Conjunction",
+      "Ranged Parry",
+      "Prepare",
+      "Ranged Parry",
+      "Prepare",
+      "Split Second",
+      "Rend",
+      "Extra Time"
+    ],
+    "name_kr": "루시엥",
+    "class": "Javelineer",
+    "color": "Light",
+    "species": "Human",
+    "stars": 4,
+    "stats": {
+      "basic": {
+        "attack": 638,
+        "attack_breakdown": "490 + 74 + 74",
+        "health": 1092,
+        "health_breakdown": "840 + 126 + 126"
+      },
+      "asc": {
+        "attack": 820,
+        "attack_breakdown": "630 + 95 + 95",
+        "health": 1340,
+        "health_breakdown": "1030 + 155 + 155"
+      },
+      "asc2": {
+        "attack": 1092,
+        "attack_breakdown": "840 + 126 + 126",
+        "health": 1704,
+        "health_breakdown": "1310 + 197 + 197"
+      },
+      "asc3": {
+        "attack": 1378,
+        "attack_breakdown": "1060 + 159 + 159",
+        "health": 2158,
+        "health_breakdown": "1660 + 249 + 249"
+      },
+      "asc4": {
+        "attack": 1500,
+        "attack_breakdown": "1200 + 120 + 180",
+        "health": 2363,
+        "health_breakdown": "1890 + 189 + 284"
+      }
+    },
+    "availability": "Astra Reveria exclusive"
+  },
+  {
     "name": "Lumi",
     "basic": [
       "Chromatic Shield",
@@ -13114,6 +13463,81 @@
       }
     },
     "availability": null
+  },
+  {
+    "name": "Mokara",
+    "basic": [
+      "Trident & Net",
+      "Net Grab",
+      "Critical Attack",
+      "Critical Attack",
+      "Resurgence",
+      "Entangle"
+    ],
+    "ascension": [
+      "Resolute",
+      "Entangle",
+      "Critical Attack",
+      "Critical Attack"
+    ],
+    "merge": [
+      "Split Second",
+      "Immune to Taunt",
+      "Entangle"
+    ],
+    "all": [
+      "Trident & Net",
+      "Net Grab",
+      "Critical Attack",
+      "Critical Attack",
+      "Resurgence",
+      "Entangle",
+      "Resolute",
+      "Entangle",
+      "Critical Attack",
+      "Critical Attack",
+      "Split Second",
+      "Immune to Taunt",
+      "Entangle"
+    ],
+    "name_kr": "모카라",
+    "class": "Gladiator",
+    "color": "Blue",
+    "species": "Orc",
+    "stars": 5,
+    "stats": {
+      "basic": {
+        "attack": 586,
+        "attack_breakdown": "450 + 68 + 68",
+        "health": 1794,
+        "health_breakdown": "1380 + 207 + 207"
+      },
+      "asc": {
+        "attack": 794,
+        "attack_breakdown": "610 + 92 + 92",
+        "health": 2666,
+        "health_breakdown": "2050 + 308 + 308"
+      },
+      "asc2": {
+        "attack": 1132,
+        "attack_breakdown": "870 + 131 + 131",
+        "health": 3796,
+        "health_breakdown": "2920 + 438 + 438"
+      },
+      "asc3": {
+        "attack": 1652,
+        "attack_breakdown": "1270 + 191 + 191",
+        "health": 5512,
+        "health_breakdown": "4240 + 636 + 636"
+      },
+      "asc4": {
+        "attack": 1824,
+        "attack_breakdown": "1520 + 76 + 228",
+        "health": 6363,
+        "health_breakdown": "5090 + 509 + 764"
+      }
+    },
+    "availability": "Summer Solstice exclusive"
   },
   {
     "name": "Moonshade",
@@ -14839,6 +15263,81 @@
       }
     },
     "availability": "Spring Break exclusive"
+  },
+  {
+    "name": "Poppy",
+    "basic": [
+      "Chromatic Shield",
+      "Critical Attack",
+      "Critical Attack",
+      "Dodge",
+      "Resurgence",
+      "Conjunction"
+    ],
+    "ascension": [
+      "Dodge",
+      "Dodge",
+      "Dodge",
+      "Critical Attack"
+    ],
+    "merge": [
+      "Split Second",
+      "Critical Attack",
+      "Surge: Flying"
+    ],
+    "all": [
+      "Chromatic Shield",
+      "Critical Attack",
+      "Critical Attack",
+      "Dodge",
+      "Resurgence",
+      "Conjunction",
+      "Dodge",
+      "Dodge",
+      "Dodge",
+      "Critical Attack",
+      "Split Second",
+      "Critical Attack",
+      "Surge: Flying"
+    ],
+    "name_kr": "포피",
+    "class": "Elementalist",
+    "color": "Green",
+    "species": "Beastfolk",
+    "stars": 5,
+    "stats": {
+      "basic": {
+        "attack": 598,
+        "attack_breakdown": "460 + 69 + 69",
+        "health": 520,
+        "health_breakdown": "400 + 60 + 60"
+      },
+      "asc": {
+        "attack": 780,
+        "attack_breakdown": "600 + 90 + 90",
+        "health": 690,
+        "health_breakdown": "530 + 80 + 80"
+      },
+      "asc2": {
+        "attack": 1118,
+        "attack_breakdown": "860 + 129 + 129",
+        "health": 988,
+        "health_breakdown": "760 + 114 + 114"
+      },
+      "asc3": {
+        "attack": 1456,
+        "attack_breakdown": "1120 + 168 + 168",
+        "health": 1274,
+        "health_breakdown": "980 + 147 + 147"
+      },
+      "asc4": {
+        "attack": 1625,
+        "attack_breakdown": "1300 + 130 + 195",
+        "health": 1368,
+        "health_breakdown": "1140 + 57 + 171"
+      }
+    },
+    "availability": "Astra Reveria exclusive"
   },
   {
     "name": "Primrose",
@@ -16683,6 +17182,73 @@
     "availability": null
   },
   {
+    "name": "Scraptooth",
+    "basic": [
+      "Berserk",
+      "Sentinel",
+      "Sentinel",
+      "Immovable",
+      "Flank",
+      "Flank"
+    ],
+    "ascension": [
+      "Crushing Blow",
+      "Crushing Blow",
+      "Flank"
+    ],
+    "merge": [
+      "Split Second",
+      "Critical Attack",
+      "Flank"
+    ],
+    "all": [
+      "Berserk",
+      "Sentinel",
+      "Sentinel",
+      "Immovable",
+      "Flank",
+      "Flank",
+      "Crushing Blow",
+      "Crushing Blow",
+      "Flank",
+      "Split Second",
+      "Critical Attack",
+      "Flank"
+    ],
+    "name_kr": "스크랩투스",
+    "class": "Barbarian",
+    "color": "Red",
+    "species": "Dragonborn",
+    "stars": 5,
+    "stats": {
+      "basic": {
+        "attack": 468,
+        "attack_breakdown": "360 + 54 + 54",
+        "health": 1626,
+        "health_breakdown": "1250 + 188 + 188"
+      },
+      "asc": {
+        "attack": 638,
+        "attack_breakdown": "490 + 74 + 74",
+        "health": 2224,
+        "health_breakdown": "1710 + 257 + 257"
+      },
+      "asc2": {
+        "attack": 962,
+        "attack_breakdown": "740 + 111 + 111",
+        "health": 3368,
+        "health_breakdown": "2590 + 389 + 389"
+      },
+      "asc3": {
+        "attack": 1340,
+        "attack_breakdown": "1030 + 155 + 155",
+        "health": 4668,
+        "health_breakdown": "3590 + 539 + 539"
+      }
+    },
+    "availability": null
+  },
+  {
     "name": "Scylla",
     "basic": [
       "Shroud",
@@ -17474,6 +18040,81 @@
       }
     },
     "availability": null
+  },
+  {
+    "name": "Shore",
+    "basic": [
+      "Cardinal Aim",
+      "Slay Cyclops",
+      "Cardinal Parry",
+      "Mighty Blow",
+      "Mighty Blow",
+      "Surge: Flying"
+    ],
+    "ascension": [
+      "Extra Time",
+      "Cardinal Parry",
+      "Cardinal Aim",
+      "Slay Cyclops"
+    ],
+    "merge": [
+      "Split Second",
+      "Critical Attack",
+      "Frostwhirl"
+    ],
+    "all": [
+      "Cardinal Aim",
+      "Slay Cyclops",
+      "Cardinal Parry",
+      "Mighty Blow",
+      "Mighty Blow",
+      "Surge: Flying",
+      "Extra Time",
+      "Cardinal Parry",
+      "Cardinal Aim",
+      "Slay Cyclops",
+      "Split Second",
+      "Critical Attack",
+      "Frostwhirl"
+    ],
+    "name_kr": "쇼어",
+    "class": "Ranger",
+    "color": "Blue",
+    "species": "Beastfolk",
+    "stars": 5,
+    "stats": {
+      "basic": {
+        "attack": 560,
+        "attack_breakdown": "430 + 65 + 65",
+        "health": 1002,
+        "health_breakdown": "770 + 116 + 116"
+      },
+      "asc": {
+        "attack": 780,
+        "attack_breakdown": "600 + 90 + 90",
+        "health": 1392,
+        "health_breakdown": "1070 + 161 + 161"
+      },
+      "asc2": {
+        "attack": 1092,
+        "attack_breakdown": "840 + 126 + 126",
+        "health": 1950,
+        "health_breakdown": "1500 + 225 + 225"
+      },
+      "asc3": {
+        "attack": 1560,
+        "attack_breakdown": "1200 + 180 + 180",
+        "health": 2224,
+        "health_breakdown": "1710 + 257 + 257"
+      },
+      "asc4": {
+        "attack": 1518,
+        "attack_breakdown": "1320 + 0 + 198",
+        "health": 2458,
+        "health_breakdown": "1890 + 284 + 284"
+      }
+    },
+    "availability": "Summer Solstice exclusive"
   },
   {
     "name": "Sigyn",
@@ -20317,6 +20958,81 @@
     "availability": null
   },
   {
+    "name": "Varkhaz",
+    "basic": [
+      "Taunt",
+      "Resilient",
+      "Chromatic Shield",
+      "Aura of Fire",
+      "Resurgence",
+      "Conjunction"
+    ],
+    "ascension": [
+      "Aura of Fire",
+      "Resilient",
+      "Immovable",
+      "Resilient"
+    ],
+    "merge": [
+      "Split Second",
+      "Exploit Weakness",
+      "Initiative: Quick Attack"
+    ],
+    "all": [
+      "Taunt",
+      "Resilient",
+      "Chromatic Shield",
+      "Aura of Fire",
+      "Resurgence",
+      "Conjunction",
+      "Aura of Fire",
+      "Resilient",
+      "Immovable",
+      "Resilient",
+      "Split Second",
+      "Exploit Weakness",
+      "Initiative: Quick Attack"
+    ],
+    "name_kr": "바르카즈",
+    "class": "Warrior",
+    "color": "Dark",
+    "species": "Orc",
+    "stars": 5,
+    "stats": {
+      "basic": {
+        "attack": 586,
+        "attack_breakdown": "450 + 68 + 68",
+        "health": 2016,
+        "health_breakdown": "1550 + 233 + 233"
+      },
+      "asc": {
+        "attack": 754,
+        "attack_breakdown": "580 + 87 + 87",
+        "health": 2640,
+        "health_breakdown": "2030 + 305 + 305"
+      },
+      "asc2": {
+        "attack": 1196,
+        "attack_breakdown": "920 + 138 + 138",
+        "health": 4160,
+        "health_breakdown": "3200 + 480 + 480"
+      },
+      "asc3": {
+        "attack": 1626,
+        "attack_breakdown": "1250 + 188 + 188",
+        "health": 5656,
+        "health_breakdown": "4350 + 653 + 653"
+      },
+      "asc4": {
+        "attack": 1645,
+        "attack_breakdown": "1370 + 69 + 206",
+        "health": 5988,
+        "health_breakdown": "4790 + 479 + 719"
+      }
+    },
+    "availability": "Astra Reveria exclusive"
+  },
+  {
     "name": "Vengeful Shani",
     "basic": [
       "Berserk",
@@ -20445,6 +21161,79 @@
       }
     },
     "availability": null
+  },
+  {
+    "name": "Verena",
+    "basic": [
+      "Healing Aura",
+      "Slay Dragon",
+      "Healing Wave",
+      "Healing Wave",
+      "Conjunction"
+    ],
+    "ascension": [
+      "Rend",
+      "Armor of Blood",
+      "Rend",
+      "Armor of Blood"
+    ],
+    "merge": [
+      "Split Second",
+      "Armor of Blood",
+      "Triage"
+    ],
+    "all": [
+      "Healing Aura",
+      "Slay Dragon",
+      "Healing Wave",
+      "Healing Wave",
+      "Conjunction",
+      "Rend",
+      "Armor of Blood",
+      "Rend",
+      "Armor of Blood",
+      "Split Second",
+      "Armor of Blood",
+      "Triage"
+    ],
+    "name_kr": "베레나",
+    "class": "Paladin",
+    "color": "Red",
+    "species": "Dragonborn",
+    "stars": 4,
+    "stats": {
+      "basic": {
+        "attack": 312,
+        "attack_breakdown": "240 + 36 + 36",
+        "health": 1586,
+        "health_breakdown": "1220 + 183 + 183"
+      },
+      "asc": {
+        "attack": 456,
+        "attack_breakdown": "350 + 53 + 53",
+        "health": 1924,
+        "health_breakdown": "1480 + 222 + 222"
+      },
+      "asc2": {
+        "attack": 664,
+        "attack_breakdown": "510 + 77 + 77",
+        "health": 2302,
+        "health_breakdown": "1770 + 266 + 266"
+      },
+      "asc3": {
+        "attack": 820,
+        "attack_breakdown": "630 + 95 + 95",
+        "health": 2860,
+        "health_breakdown": "2200 + 330 + 330"
+      },
+      "asc4": {
+        "attack": 912,
+        "attack_breakdown": "760 + 38 + 114",
+        "health": 3458,
+        "health_breakdown": "2660 + 399 + 399"
+      }
+    },
+    "availability": "Astra Reveria exclusive"
   },
   {
     "name": "Veridian",
