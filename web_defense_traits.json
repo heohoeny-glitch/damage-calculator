@@ -787,7 +787,7 @@
     "id": "Conjunction",
     "name": "Conjunction",
     "file": "images/traits/blue/TraitConjunction.webp",
-    "desc": "Grants Ironskin on the 2nd turn.",
+    "desc": "Gains Impenetrable Shield on the 2nd Turn. Impenetrable Shield negates all damage from the next attack (Max 1).",
     "pct": 0,
     "category": "blue"
   }
