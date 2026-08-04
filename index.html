@@ -1060,7 +1060,7 @@
           </select>
         </div>
         <div class="stat-legend">
-          Stat cap = <b>Base</b> <span class="sl-sep">+</span> <b>Gear</b> <span class="sl-sep">+</span> <b>Merge</b>
+          Stat cap = <b>Base</b> <span class="sl-sep">+</span> <b>Gear</b> <span class="sl-sep">+</span> <b>Pet</b>
         </div>
         <div class="stat-row">
           <span class="stat-label">ATK:</span>
@@ -1422,9 +1422,10 @@ function onTierChange() {
   updateStatDisplay();
 }
 
-// The wiki lists these stats as "Stat Caps (Base + Gear + Merge)", so the three
-// numbers in a breakdown are the base stat, the gear bonus and the merge bonus.
-const BREAKDOWN_LABELS = ['Base', 'Gear', 'Merge'];
+// The three numbers in a breakdown are the base stat, the gear bonus and the
+// pet bonus. (The wiki infobox header calls the third one "Merge", but it is
+// the pet bonus - it is always 15% of base, matching the Pet Buff input.)
+const BREAKDOWN_LABELS = ['Base', 'Gear', 'Pet'];
 
 function labelBreakdown(breakdown) {
   const parts = String(breakdown || '').split('+').map(p => p.trim());
