@@ -40,6 +40,14 @@
     "category": "blue"
   },
   {
+    "id": "CriticalParry",
+    "name": "Critical Parry",
+    "file": "images/traits/blue/TraitCriticalParry.webp",
+    "desc": "+10% chance to perform a Critical Defense. Attacks that trigger Critical Defense deal only half the damage. (Chance-based, so it is not counted as a flat damage reduction.)",
+    "pct": 0,
+    "category": "blue"
+  },
+  {
     "id": "Dodge",
     "name": "Dodge",
     "file": "images/traits/blue/TraitDodge.webp",
@@ -766,5 +774,13 @@
     "desc": "When this character acts first, removes Poisoned from allies.",
     "pct": 0,
     "category": "green"
+  },
+  {
+    "id": "UndeadGuard",
+    "name": "Undead Guard",
+    "file": "images/traits/blue/TraitUndeadGuard.webp",
+    "desc": "Receives -20% damage from Undead.",
+    "pct": 20,
+    "category": "blue"
   }
 ]

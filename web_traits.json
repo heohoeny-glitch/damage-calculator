@@ -576,6 +576,14 @@
     "category": "red"
   },
   {
+    "id": "SlayCyclops",
+    "name": "Slay Cyclops",
+    "file": "images/traits/red/TraitSlayCyclops.webp",
+    "desc": "+50% attack bonus against Cyclopes.",
+    "pct": 50,
+    "category": "red"
+  },
+  {
     "id": "SlayDemon",
     "name": "Slay Demon",
     "file": "images/traits/red/TraitSlayDemon.webp",
@@ -908,6 +916,22 @@
     "name": "Initiative: Long Shot",
     "file": "images/traits/red/TraitInitiativeLongShot.webp",
     "desc": "When this character acts first, performs a long-range attack before the normal action.",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "FocusedFreeze",
+    "name": "Focused Freeze",
+    "file": "images/traits/red/TraitFocusedFreeze.webp",
+    "desc": "Deals Chilled when attacking in exactly one direction.",
+    "pct": 0,
+    "category": "red"
+  },
+  {
+    "id": "Conjunction",
+    "name": "Conjunction",
+    "file": "images/traits/red/TraitConjunction.webp",
+    "desc": "Attack bonus for each party member carrying the matching icon. The bonus varies, so enter it manually as a custom damage bonus.",
     "pct": 0,
     "category": "red"
   }
