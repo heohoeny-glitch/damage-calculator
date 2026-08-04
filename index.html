@@ -1176,7 +1176,7 @@
     </div>
     <div class="panel" style="margin-top: 16px;">
       <div id="finderResult">
-        <div class="finder-prompt">Click a trait icon above, or pick a filter, to find heroes.</div>
+        <div class="finder-prompt">Loading heroes…</div>
       </div>
     </div>
   </div>
@@ -1247,6 +1247,7 @@ async function init() {
   setupHeroSearch();
   renderFinderGrid();
   renderFinderFilters();
+  renderFinderResults();
   calculate();
 }
 
@@ -1859,12 +1860,7 @@ function renderFinderResults() {
 
   const hasFilters = FINDER_FACETS.some(({ key }) => finderFilters[key].size > 0);
 
-  if (!trait && !hasFilters) {
-    resultDiv.innerHTML =
-      '<div class="finder-prompt">Click a trait icon above, or pick a filter, to find heroes.</div>';
-    return;
-  }
-
+  // No trait selected means "all traits", exactly like an empty facet means "All".
   const matches = [];
   heroData.forEach(hero => {
     if (!heroPassesFilters(hero)) return;
@@ -1886,7 +1882,8 @@ function renderFinderResults() {
          <button class="finder-clear-trait" onclick="clearFinderTrait()">clear trait</button>
        </div>
        <div class="finder-selected-desc">${escapeHtml(trait.desc || '')}</div>`
-    : '<div class="finder-selected-name">Filtered heroes</div>';
+    : `<div class="finder-selected-name">${hasFilters ? 'Filtered heroes' : 'All heroes'}</div>
+       <div class="finder-selected-desc">No trait selected — showing every hero that matches the filters.</div>`;
 
   const summary = hasFilters
     ? `<div class="finder-active-summary">${escapeHtml(activeFilterSummary())}</div>`
@@ -1909,7 +1906,7 @@ function renderFinderResults() {
         const detail = `${hero.stars}★ ${hero.color} ${hero.class} · ${hero.species}`;
         return `
           <div class="finder-hero-card" onclick="switchTab('calculator'); selectHero('${hero.name.replace(/'/g, "\\'")}')">
-            <img src="${portrait}" alt="${hero.name}" onerror="this.style.display='none'">
+            <img src="${portrait}" alt="${hero.name}" loading="lazy" onerror="this.style.display='none'">
             <div class="fh-info">
               <div class="fh-name">${displayName} <span style="color:#888;font-size:0.75em">(${hero.name})</span></div>
               <div class="fh-detail">${detail}${hero.availability ? ` · <span style="color:#c084fc;">${hero.availability.replace(' exclusive','')}</span>` : ''}</div>
