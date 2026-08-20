@@ -1,0 +1,5772 @@
+[
+ {
+  "name": "Abomination",
+  "name_kr": "어보미네이션",
+  "name_kr_auto": true,
+  "image": "MonsterAbomination.png",
+  "refLevel": 100,
+  "classes": [],
+  "refAtk": 516,
+  "refHp": 3349,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Lumbering",
+   "Mighty Blow"
+  ]
+ },
+ {
+  "name": "Acid Dragon",
+  "name_kr": "애시드 드래곤",
+  "name_kr_auto": true,
+  "image": "MonsterAcidDragon.png",
+  "refLevel": 100,
+  "classes": [
+   "dragon"
+  ],
+  "refAtk": 460,
+  "refHp": 2859,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Maw & Claw",
+   "Flying",
+   "Unstoppable",
+   "Immovable",
+   "Acid Breath"
+  ]
+ },
+ {
+  "name": "Acid Dragon Whelp",
+  "name_kr": "애시드 드래곤 웰프",
+  "name_kr_auto": true,
+  "image": "MonsterAcidDragonWhelp.png",
+  "refLevel": 100,
+  "classes": [
+   "dragon"
+  ],
+  "refAtk": 250,
+  "refHp": 1551,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Maw & Claw",
+   "Flying",
+   "Immune to Silence",
+   "Double Strike",
+   "Lesser Acid Breath"
+  ]
+ },
+ {
+  "name": "Acidling",
+  "name_kr": "애시들링",
+  "name_kr_auto": true,
+  "image": "MonsterAcidling.png",
+  "refLevel": 100,
+  "classes": [
+   "insect"
+  ],
+  "refAtk": 41,
+  "refHp": 810,
+  "ai": "Charge",
+  "moveRange": 4,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Acidling",
+   "Corrosive Slime"
+  ]
+ },
+ {
+  "name": "Almiraj",
+  "name_kr": "알미라지",
+  "name_kr_auto": true,
+  "image": "MonsterAlmiraj.png",
+  "refLevel": 50,
+  "classes": [
+   "beast"
+  ],
+  "refAtk": 294,
+  "refHp": 441,
+  "ai": "Supporter",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Mystical Presence"
+  ]
+ },
+ {
+  "name": "Ancient Crone",
+  "name_kr": "고대 크론",
+  "name_kr_auto": true,
+  "image": "MonsterAncientCrone.png",
+  "refLevel": 100,
+  "classes": [],
+  "refAtk": 738,
+  "refHp": 3873,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "magic",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Disorienting Strike",
+   "Disorienting Strike",
+   "Bad Medicine"
+  ]
+ },
+ {
+  "name": "Animus",
+  "name_kr": "애니머스",
+  "name_kr_auto": true,
+  "image": "MonsterAnimus.png",
+  "refLevel": 100,
+  "classes": [
+   "construct",
+   "clockwork"
+  ],
+  "refAtk": 177,
+  "refHp": 2476,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Mounting Anger",
+   "Evasive Maneuvers"
+  ]
+ },
+ {
+  "name": "Ankylos",
+  "name_kr": "안킬로스",
+  "name_kr_auto": true,
+  "image": "MonsterAnkylos.png",
+  "refLevel": 100,
+  "classes": [
+   "lizard"
+  ],
+  "refAtk": 315,
+  "refHp": 2577,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Immovable",
+   "Melee Parry",
+   "Mighty Blow",
+   "Mighty Blow"
+  ]
+ },
+ {
+  "name": "Arcane Banshee",
+  "name_kr": "아케인 밴시",
+  "name_kr_auto": true,
+  "image": "MonsterArcaneBanshee.png",
+  "refLevel": 40,
+  "classes": [
+   "ethereal",
+   "ghost"
+  ],
+  "refAtk": 238,
+  "refHp": 5,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Mark of Doom",
+   "Scream"
+  ]
+ },
+ {
+  "name": "Archbutcher",
+  "name_kr": "대도살자",
+  "name_kr_auto": true,
+  "image": "MonsterArchbutcher.png",
+  "refLevel": 100,
+  "classes": [
+   "demon"
+  ],
+  "refAtk": 448,
+  "refHp": 4704,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Hook & Cleaver",
+   "Hook Grab",
+   "Mighty Blow",
+   "Double Strike"
+  ]
+ },
+ {
+  "name": "Archdevil",
+  "name_kr": "대악마",
+  "name_kr_auto": true,
+  "image": "MonsterArchdevil.png",
+  "refLevel": 100,
+  "classes": [
+   "demon"
+  ],
+  "refAtk": 661,
+  "refHp": 4296,
+  "ai": "Charge",
+  "moveRange": 4,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Mighty Blow",
+   "Ignite"
+  ]
+ },
+ {
+  "name": "Archfiend",
+  "name_kr": "대악귀",
+  "name_kr_auto": true,
+  "image": "MonsterArchfiend.png",
+  "refLevel": 100,
+  "classes": [
+   "demon"
+  ],
+  "refAtk": 572,
+  "refHp": 3713,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Immovable",
+   "Ignite"
+  ]
+ },
+ {
+  "name": "Archon",
+  "name_kr": "아콘",
+  "name_kr_auto": true,
+  "image": "MonsterArchon.png",
+  "refLevel": 100,
+  "classes": [
+   "celestial"
+  ],
+  "refAtk": 714,
+  "refHp": 1071,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Flying",
+   "Punishment",
+   "Immovable",
+   "Brutal Attack"
+  ]
+ },
+ {
+  "name": "Assassin Bot",
+  "name_kr": "암살자 봇",
+  "name_kr_auto": true,
+  "image": "MonsterAssassinBot.png",
+  "refLevel": 95,
+  "classes": [
+   "construct",
+   "clockwork"
+  ],
+  "refAtk": 1737,
+  "refHp": 9123,
+  "ai": "Assassin",
+  "moveRange": 5,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Unstoppable",
+   "Death Blow",
+   "Silencing Strike"
+  ]
+ },
+ {
+  "name": "Bad Elf",
+  "name_kr": "나쁜 엘프",
+  "name_kr_auto": true,
+  "image": "MonsterBadElf.png",
+  "refLevel": 50,
+  "classes": [],
+  "refAtk": 189,
+  "refHp": 221,
+  "ai": "Evade",
+  "moveRange": 4,
+  "attackKind": "ranged",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Ballistic",
+   "Freeze"
+  ]
+ },
+ {
+  "name": "Banshee",
+  "name_kr": "밴시",
+  "name_kr_auto": true,
+  "image": "MonsterBanshee.png",
+  "refLevel": 100,
+  "classes": [
+   "ethereal",
+   "ghost"
+  ],
+  "refAtk": 225,
+  "refHp": 5,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Doomed",
+   "Scream"
+  ]
+ },
+ {
+  "name": "Bat",
+  "name_kr": "박쥐",
+  "name_kr_auto": true,
+  "image": "MonsterBat.png",
+  "refLevel": 100,
+  "classes": [
+   "beast"
+  ],
+  "refAtk": 134,
+  "refHp": 52,
+  "ai": "Charge",
+  "moveRange": 5,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Flying",
+   "Venom"
+  ]
+ },
+ {
+  "name": "Beetle",
+  "name_kr": "딱정벌레",
+  "name_kr_auto": true,
+  "image": "MonsterBeetle.png",
+  "refLevel": 100,
+  "classes": [
+   "insect"
+  ],
+  "refAtk": 146,
+  "refHp": 947,
+  "ai": "Unpredictable",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Mighty Blow"
+  ]
+ },
+ {
+  "name": "Black Pudding",
+  "name_kr": "검은 푸딩",
+  "name_kr_auto": true,
+  "image": "MonsterBlackPudding.png",
+  "refLevel": 100,
+  "classes": [
+   "ooze"
+  ],
+  "refAtk": 200,
+  "refHp": 3951,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Water Walker",
+   "Horde"
+  ]
+ },
+ {
+  "name": "Blackfire Dragon Whelp",
+  "name_kr": "흑염 드래곤 웰프",
+  "name_kr_auto": true,
+  "image": "MonsterBeetle.png",
+  "refLevel": 90,
+  "classes": [
+   "dragon"
+  ],
+  "refAtk": 388,
+  "refHp": 2038,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Maw & Claw",
+   "Flying",
+   "Unstoppable",
+   "Lesser Fire Breath",
+   "Barrage"
+  ]
+ },
+ {
+  "name": "Blizzard Elemental",
+  "name_kr": "블리자드 엘리멘탈",
+  "name_kr_auto": true,
+  "image": "MonsterBlizzardElemental.png",
+  "refLevel": 100,
+  "classes": [
+   "elemental"
+  ],
+  "refAtk": 436,
+  "refHp": 5099,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "ranged",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Overpower",
+   "Retaliate",
+   "Splinter",
+   "Freeze",
+   "Flying"
+  ]
+ },
+ {
+  "name": "Blizzard Totem",
+  "name_kr": "블리자드 토템",
+  "name_kr_auto": true,
+  "image": "MonsterBlizzardTotem.png",
+  "refLevel": 100,
+  "classes": [
+   "construct"
+  ],
+  "refAtk": 1,
+  "refHp": 1,
+  "ai": "Tactician",
+  "moveRange": 0,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Elemental Fury",
+   "Elemental Shield",
+   "Conjure",
+   "Immovable",
+   "Barrier"
+  ]
+ },
+ {
+  "name": "Blood Hound",
+  "name_kr": "피 사냥개",
+  "name_kr_auto": true,
+  "image": "MonsterBloodHound.png",
+  "refLevel": 100,
+  "classes": [
+   "beast"
+  ],
+  "refAtk": 370,
+  "refHp": 1059,
+  "ai": "Charge",
+  "moveRange": 4,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Rend",
+   "Scent of Blood"
+  ]
+ },
+ {
+  "name": "Blue Ooze",
+  "name_kr": "파란 우즈",
+  "name_kr_auto": true,
+  "image": "MonsterBlueOoze.png",
+  "refLevel": 100,
+  "classes": [
+   "ooze"
+  ],
+  "refAtk": 200,
+  "refHp": 3951,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Water Walker",
+   "Freeze"
+  ]
+ },
+ {
+  "name": "Boom Bot",
+  "name_kr": "붐 봇",
+  "name_kr_auto": true,
+  "image": "MonsterBoomBot.png",
+  "refLevel": 100,
+  "classes": [
+   "construct",
+   "clockwork"
+  ],
+  "refAtk": 940,
+  "refHp": 424,
+  "ai": "Unpredictable",
+  "moveRange": 4,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Exploder"
+  ]
+ },
+ {
+  "name": "Bouncer",
+  "name_kr": "바운서",
+  "name_kr_auto": true,
+  "image": "MonsterBouncer.png",
+  "refLevel": 100,
+  "classes": [
+   "construct",
+   "clockwork"
+  ],
+  "refAtk": 254,
+  "refHp": 961,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Magic Warding",
+   "Mighty Blow"
+  ]
+ },
+ {
+  "name": "Brawler",
+  "name_kr": "브롤러",
+  "name_kr_auto": true,
+  "image": null,
+  "refLevel": null,
+  "classes": [
+   "lizard"
+  ],
+  "refAtk": null,
+  "refHp": null,
+  "ai": null,
+  "moveRange": null,
+  "attackKind": null,
+  "attackDirs": null,
+  "support": [],
+  "traits": [
+   "Prepare Attack",
+   "Flank"
+  ]
+ },
+ {
+  "name": "Bright Dragon",
+  "name_kr": "빛나는 드래곤",
+  "name_kr_auto": true,
+  "image": "MonsterBrightDragon.png",
+  "refLevel": 100,
+  "classes": [
+   "dragon"
+  ],
+  "refAtk": 460,
+  "refHp": 2859,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Maw & Claw",
+   "Flying",
+   "Unstoppable",
+   "Immovable",
+   "Dazzling Breath"
+  ]
+ },
+ {
+  "name": "Bright Dragon Whelp",
+  "name_kr": "빛나는 드래곤 웰프",
+  "name_kr_auto": true,
+  "image": "MonsterBrightDragonWhelp.png",
+  "refLevel": 100,
+  "classes": [
+   "dragon"
+  ],
+  "refAtk": 250,
+  "refHp": 1551,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Maw & Claw",
+   "Flying",
+   "Immune to Silence",
+   "Double Strike",
+   "Lesser Dazzling Breath"
+  ]
+ },
+ {
+  "name": "Brood Lord",
+  "name_kr": "브루드 로드",
+  "name_kr_auto": true,
+  "image": "MonsterBroodLord.png",
+  "refLevel": 100,
+  "classes": [
+   "insect"
+  ],
+  "refAtk": 232,
+  "refHp": 7283,
+  "ai": "Unpredictable",
+  "moveRange": 2,
+  "attackKind": "ranged",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Corrosive Slime",
+   "Ballistic",
+   "Reinforcements"
+  ]
+ },
+ {
+  "name": "Brutalodon",
+  "name_kr": "브루탈로돈",
+  "name_kr_auto": true,
+  "image": "MonsterBrutalodon.png",
+  "refLevel": 100,
+  "classes": [
+   "lizard"
+  ],
+  "refAtk": 847,
+  "refHp": 11850,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Water Walker",
+   "Brutal Attack",
+   "Brutal Attack",
+   "Brutal Attack"
+  ]
+ },
+ {
+  "name": "Buff Bloom",
+  "name_kr": "버프 꽃",
+  "name_kr_auto": true,
+  "image": "MonsterBuffBloom.png",
+  "refLevel": 100,
+  "classes": [
+   "sylvan"
+  ],
+  "refAtk": 30,
+  "refHp": 415,
+  "ai": "Supporter",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [
+   "8"
+  ],
+  "traits": [
+   "Buff Bloom",
+   "Cross-Pollinate",
+   "Fertilize"
+  ]
+ },
+ {
+  "name": "Burner",
+  "name_kr": "버너",
+  "name_kr_auto": true,
+  "image": "MonsterBurner.png",
+  "refLevel": 100,
+  "classes": [
+   "construct",
+   "clockwork"
+  ],
+  "refAtk": 160,
+  "refHp": 953,
+  "ai": "Charge",
+  "moveRange": 1,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Ignite",
+   "Party Starter"
+  ]
+ },
+ {
+  "name": "Butcher",
+  "name_kr": "도살자",
+  "name_kr_auto": true,
+  "image": "MonsterButcher.png",
+  "refLevel": 100,
+  "classes": [
+   "demon"
+  ],
+  "refAtk": 393,
+  "refHp": 2786,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Hook & Cleaver",
+   "Hook Grab",
+   "Mighty Blow",
+   "Rend"
+  ]
+ },
+ {
+  "name": "Celestial Avenger",
+  "name_kr": "천상 복수자",
+  "name_kr_auto": true,
+  "image": "MonsterCelestialAvenger.png",
+  "refLevel": 100,
+  "classes": [
+   "celestial"
+  ],
+  "refAtk": 323,
+  "refHp": 1560,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Flying",
+   "Brutal Attack",
+   "Mounting Anger"
+  ]
+ },
+ {
+  "name": "Celestial Guardian",
+  "name_kr": "천상 수호자",
+  "name_kr_auto": true,
+  "image": "MonsterCelestialGuardian.png",
+  "refLevel": 100,
+  "classes": [
+   "celestial"
+  ],
+  "refAtk": 243,
+  "refHp": 2552,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Barrier",
+   "Immovable",
+   "Magic Warding"
+  ]
+ },
+ {
+  "name": "Celestial Herald",
+  "name_kr": "천상 전령",
+  "name_kr_auto": true,
+  "image": "MonsterCelestialHerald.png",
+  "refLevel": 100,
+  "classes": [
+   "celestial"
+  ],
+  "refAtk": 350,
+  "refHp": 1225,
+  "ai": "Evade",
+  "moveRange": 3,
+  "attackKind": "ranged",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Flying",
+   "Sniper",
+   "Sniper",
+   "Sniper",
+   "Sniper"
+  ]
+ },
+ {
+  "name": "Centaur",
+  "name_kr": "켄타우로스",
+  "name_kr_auto": true,
+  "image": "MonsterCentaur.png",
+  "refLevel": 100,
+  "classes": [],
+  "refAtk": 189,
+  "refHp": 992,
+  "ai": "Charge",
+  "moveRange": 4,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Horde",
+   "Diagonal Parry",
+   "Diagonal Parry",
+   "Rend"
+  ]
+ },
+ {
+  "name": "Centimane",
+  "name_kr": "센티메인",
+  "name_kr_auto": true,
+  "image": "MonsterCentimane.png",
+  "refLevel": 50,
+  "classes": [],
+  "refAtk": 315,
+  "refHp": 4417,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Stunning Strike",
+   "Tumbleproof"
+  ]
+ },
+ {
+  "name": "Centipede",
+  "name_kr": "지네",
+  "name_kr_auto": true,
+  "image": null,
+  "refLevel": null,
+  "classes": [
+   "insect"
+  ],
+  "refAtk": null,
+  "refHp": null,
+  "ai": null,
+  "moveRange": null,
+  "attackKind": null,
+  "attackDirs": null,
+  "support": [],
+  "traits": [
+   "Poison Resistance",
+   "Lumbering"
+  ]
+ },
+ {
+  "name": "Cherub",
+  "name_kr": "케루브",
+  "name_kr_auto": true,
+  "image": "MonsterCherub.png",
+  "refLevel": 100,
+  "classes": [
+   "celestial"
+  ],
+  "refAtk": 82,
+  "refHp": 667,
+  "ai": "Evade",
+  "moveRange": 5,
+  "attackKind": "ranged",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Flying",
+   "Dodge",
+   "Dodge",
+   "Disorienting Strike"
+  ]
+ },
+ {
+  "name": "Chicken",
+  "name_kr": "닭",
+  "name_kr_auto": true,
+  "image": "MonsterChicken.png",
+  "refLevel": 100,
+  "classes": [
+   "beast"
+  ],
+  "refAtk": 240,
+  "refHp": 1260,
+  "ai": "Unpredictable",
+  "moveRange": 5,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Flying",
+   "Vicious"
+  ]
+ },
+ {
+  "name": "Cinder Elemental",
+  "name_kr": "신더 엘리멘탈",
+  "name_kr_auto": true,
+  "image": "MonsterCinderElemental.png",
+  "refLevel": 100,
+  "classes": [
+   "elemental"
+  ],
+  "refAtk": 132,
+  "refHp": 1124,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Lava Attunement",
+   "Fire Walker",
+   "Ignite"
+  ]
+ },
+ {
+  "name": "Clay Elemental",
+  "name_kr": "점토 엘리멘탈",
+  "name_kr_auto": true,
+  "image": "MonsterClayElemental.png",
+  "refLevel": 100,
+  "classes": [
+   "elemental"
+  ],
+  "refAtk": 154,
+  "refHp": 1703,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Retaliate"
+  ]
+ },
+ {
+  "name": "Cloud Whisper",
+  "name_kr": "구름 속삭임",
+  "name_kr_auto": true,
+  "image": "MonsterCloudWhisper.png",
+  "refLevel": 50,
+  "classes": [
+   "ethereal",
+   "ghost"
+  ],
+  "refAtk": 140,
+  "refHp": 3,
+  "ai": "Charge",
+  "moveRange": 4,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Doomed",
+   "Wing Buffet",
+   "Wing Buffet",
+   "Haze"
+  ]
+ },
+ {
+  "name": "Coatl",
+  "name_kr": "코아틀",
+  "name_kr_auto": true,
+  "image": "MonsterCoatl.png",
+  "refLevel": 100,
+  "classes": [
+   "lizard"
+  ],
+  "refAtk": 192,
+  "refHp": 672,
+  "ai": "Supporter",
+  "moveRange": 3,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [
+   "4"
+  ],
+  "traits": [
+   "Flying",
+   "Regrowth"
+  ]
+ },
+ {
+  "name": "Crippling Crawler",
+  "name_kr": "크리플링 크롤러",
+  "name_kr_auto": true,
+  "image": "MonsterCripplingCrawler.png",
+  "refLevel": 100,
+  "classes": [],
+  "refAtk": 360,
+  "refHp": 840,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Hamstring",
+   "Mighty Blow"
+  ]
+ },
+ {
+  "name": "Crone",
+  "name_kr": "크론",
+  "name_kr_auto": true,
+  "image": "MonsterCrone.png",
+  "refLevel": 100,
+  "classes": [],
+  "refAtk": 226,
+  "refHp": 1185,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "magic",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Disorienting Strike"
+  ]
+ },
+ {
+  "name": "Crystallian Colossus",
+  "name_kr": "크리스탈리안 콜로서스",
+  "name_kr_auto": true,
+  "image": "MonsterCrystallianColossus.png",
+  "refLevel": 100,
+  "classes": [
+   "crystallian"
+  ],
+  "refAtk": 536,
+  "refHp": 3980,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Psionic",
+   "Mighty Blow",
+   "Mighty Blow",
+   "Bring It On"
+  ]
+ },
+ {
+  "name": "Crystallian Guard",
+  "name_kr": "크리스탈리안 경비병",
+  "name_kr_auto": true,
+  "image": "MonsterCrystallianGuard.png",
+  "refLevel": 80,
+  "classes": [
+   "crystallian"
+  ],
+  "refAtk": 305,
+  "refHp": 1741,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Psionic",
+   "Barrier",
+   "Magic Warding",
+   "Bring It On"
+  ]
+ },
+ {
+  "name": "Crystallian Patriarch",
+  "name_kr": "크리스탈리안 족장",
+  "name_kr_auto": true,
+  "image": "MonsterCrystallianPatriarch.png",
+  "refLevel": 95,
+  "classes": [
+   "crystallian"
+  ],
+  "refAtk": 592,
+  "refHp": 3106,
+  "ai": "Tactician",
+  "moveRange": 2,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Psionic",
+   "Mounting Anger"
+  ]
+ },
+ {
+  "name": "Crystallian Worker",
+  "name_kr": "크리스탈리안 일꾼",
+  "name_kr_auto": true,
+  "image": "MonsterCrystallianWorker.png",
+  "refLevel": 80,
+  "classes": [
+   "crystallian"
+  ],
+  "refAtk": 58,
+  "refHp": 479,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Psionic",
+   "Flying",
+   "Disorienting Strike"
+  ]
+ },
+ {
+  "name": "Cultist of Marmo",
+  "name_kr": "마르모의 광신도",
+  "name_kr_auto": true,
+  "image": "MonsterCultistOfMarmo.png",
+  "refLevel": 100,
+  "classes": [
+   "cultist"
+  ],
+  "refAtk": 589,
+  "refHp": 3092,
+  "ai": "Assassin",
+  "moveRange": 4,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Melee Warding",
+   "Rend",
+   "Rend"
+  ]
+ },
+ {
+  "name": "Cultist of Mhulhu",
+  "name_kr": "물루의 광신도",
+  "name_kr_auto": true,
+  "image": "MonsterCultistOfMhulhu.png",
+  "refLevel": 100,
+  "classes": [
+   "cultist"
+  ],
+  "refAtk": 589,
+  "refHp": 3092,
+  "ai": "Tactician",
+  "moveRange": 1,
+  "attackKind": "ranged",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Ranged Warding",
+   "Water Walker"
+  ]
+ },
+ {
+  "name": "Cultist of Pasthur",
+  "name_kr": "파스투르의 광신도",
+  "name_kr_auto": true,
+  "image": "MonsterCultistOfPasthur.png",
+  "refLevel": 100,
+  "classes": [
+   "cultist"
+  ],
+  "refAtk": 589,
+  "refHp": 3092,
+  "ai": "Evade",
+  "moveRange": 2,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Magic Warding",
+   "Arcane Empowerment"
+  ]
+ },
+ {
+  "name": "Cyclone Bot",
+  "name_kr": "사이클론 봇",
+  "name_kr_auto": true,
+  "image": "MonsterCycloneBot.png",
+  "refLevel": 95,
+  "classes": [
+   "construct",
+   "clockwork"
+  ],
+  "refAtk": 239,
+  "refHp": 1255,
+  "ai": "Tactician",
+  "moveRange": 4,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Whirlwind",
+   "Whirlwind",
+   "Whirlwind"
+  ]
+ },
+ {
+  "name": "Cyclops",
+  "name_kr": "사이클롭스",
+  "name_kr_auto": true,
+  "image": null,
+  "refLevel": null,
+  "classes": [
+   "cyclops"
+  ],
+  "refAtk": null,
+  "refHp": null,
+  "ai": null,
+  "moveRange": null,
+  "attackKind": null,
+  "attackDirs": null,
+  "support": [],
+  "traits": [
+   "Mighty Blow"
+  ]
+ },
+ {
+  "name": "Cyclops Archer",
+  "name_kr": "사이클롭스 아처",
+  "name_kr_auto": true,
+  "image": "MonsterCyclopsArcher.png",
+  "refLevel": 100,
+  "classes": [
+   "cyclops"
+  ],
+  "refAtk": 76,
+  "refHp": 1947,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "ranged",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Sniper",
+   "Sniper"
+  ]
+ },
+ {
+  "name": "Cyclops Elementalist",
+  "name_kr": "사이클롭스 엘리멘탈리스트",
+  "name_kr_auto": true,
+  "image": null,
+  "refLevel": null,
+  "classes": [
+   "cyclops"
+  ],
+  "refAtk": null,
+  "refHp": null,
+  "ai": null,
+  "moveRange": null,
+  "attackKind": null,
+  "attackDirs": null,
+  "support": [],
+  "traits": [
+   "Rend"
+  ]
+ },
+ {
+  "name": "Cyclops Mage",
+  "name_kr": "사이클롭스 메이지",
+  "name_kr_auto": true,
+  "image": null,
+  "refLevel": null,
+  "classes": [
+   "cyclops"
+  ],
+  "refAtk": null,
+  "refHp": null,
+  "ai": null,
+  "moveRange": null,
+  "attackKind": null,
+  "attackDirs": null,
+  "support": [],
+  "traits": [
+   "Brutal Attack"
+  ]
+ },
+ {
+  "name": "Cyclops Seer",
+  "name_kr": "사이클롭스 예언자",
+  "name_kr_auto": true,
+  "image": "MonsterCyclopsSeer.png",
+  "refLevel": 100,
+  "classes": [
+   "cyclops"
+  ],
+  "refAtk": 139,
+  "refHp": 1460,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Brutal Attack"
+  ]
+ },
+ {
+  "name": "Cyclops Warrior",
+  "name_kr": "사이클롭스 전사",
+  "name_kr_auto": true,
+  "image": "MonsterCyclopsWarrior.png",
+  "refLevel": 100,
+  "classes": [
+   "cyclops"
+  ],
+  "refAtk": 129,
+  "refHp": 2044,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Mighty Blow"
+  ]
+ },
+ {
+  "name": "Dark Whisper",
+  "name_kr": "어둠 속삭임",
+  "name_kr_auto": true,
+  "image": "MonsterDarkWhisper.png",
+  "refLevel": 50,
+  "classes": [
+   "ethereal",
+   "ghost"
+  ],
+  "refAtk": 358,
+  "refHp": 3,
+  "ai": "Evade",
+  "moveRange": 5,
+  "attackKind": "ranged",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Doomed",
+   "Ballistic",
+   "Discharge"
+  ]
+ },
+ {
+  "name": "Deep Dweller",
+  "name_kr": "심연 거주자",
+  "name_kr_auto": true,
+  "image": "MonsterDeepDweller.png",
+  "refLevel": 100,
+  "classes": [
+   "lizard"
+  ],
+  "refAtk": 163,
+  "refHp": 818,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Water Walker",
+   "Aquatic Ambush",
+   "Corrosive Slime"
+  ]
+ },
+ {
+  "name": "Demonic Ballasta",
+  "name_kr": "악마의 발라스타",
+  "name_kr_auto": true,
+  "image": "MonsterDemonicBallista.png",
+  "refLevel": 100,
+  "classes": [
+   "construct",
+   "demon"
+  ],
+  "refAtk": 208,
+  "refHp": 728,
+  "ai": "Charge",
+  "moveRange": 1,
+  "attackKind": "ranged",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Ballistic",
+   "Take Aim",
+   "Mighty Blow"
+  ]
+ },
+ {
+  "name": "Devil",
+  "name_kr": "데빌",
+  "name_kr_auto": true,
+  "image": "MonsterDevil.png",
+  "refLevel": 100,
+  "classes": [
+   "demon"
+  ],
+  "refAtk": 273,
+  "refHp": 782,
+  "ai": "Charge",
+  "moveRange": 4,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Mighty Blow"
+  ]
+ },
+ {
+  "name": "Dodo",
+  "name_kr": "도도",
+  "name_kr_auto": true,
+  "image": "MonsterDodo.png",
+  "refLevel": 100,
+  "classes": [],
+  "refAtk": 633,
+  "refHp": 391,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Water Walker",
+   "Prepare",
+   "Prepare",
+   "Brutal Attack"
+  ]
+ },
+ {
+  "name": "Dread Lich",
+  "name_kr": "공포 리치",
+  "name_kr_auto": true,
+  "image": "MonsterDreadLich.png",
+  "refLevel": 100,
+  "classes": [
+   "undead",
+   "skeletal"
+  ],
+  "refAtk": 1462,
+  "refHp": 6253,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Demoralize",
+   "Death Ward"
+  ]
+ },
+ {
+  "name": "Dreadnought",
+  "name_kr": "드레드노트",
+  "name_kr_auto": true,
+  "image": "MonsterDreadnought.png",
+  "refLevel": 100,
+  "classes": [
+   "construct",
+   "clockwork"
+  ],
+  "refAtk": 1481,
+  "refHp": 6871,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Pulverize",
+   "Overpower",
+   "Immobilizing Strike",
+   "Immovable"
+  ]
+ },
+ {
+  "name": "Dryad",
+  "name_kr": "드라이어드",
+  "name_kr_auto": true,
+  "image": "MonsterDryad.png",
+  "refLevel": 100,
+  "classes": [
+   "sylvan"
+  ],
+  "refAtk": 207,
+  "refHp": 1084,
+  "ai": "Tactician",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Whirlwind",
+   "Whirlwind",
+   "Magic Parry"
+  ]
+ },
+ {
+  "name": "Dust Mephit",
+  "name_kr": "먼지 메피트",
+  "name_kr_auto": true,
+  "image": "MonsterDustMephit.png",
+  "refLevel": 100,
+  "classes": [],
+  "refAtk": 168,
+  "refHp": 392,
+  "ai": "Charge",
+  "moveRange": 5,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Flying",
+   "Horde"
+  ]
+ },
+ {
+  "name": "Earth Elemental",
+  "name_kr": "대지 엘리멘탈",
+  "name_kr_auto": true,
+  "image": "MonsterEarthElemental.png",
+  "refLevel": 100,
+  "classes": [
+   "elemental"
+  ],
+  "refAtk": 442,
+  "refHp": 5175,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Overpower",
+   "Retaliate",
+   "Hamstring",
+   "Mightiest Blow"
+  ]
+ },
+ {
+  "name": "Earth Totem",
+  "name_kr": "대지 토템",
+  "name_kr_auto": true,
+  "image": "MonsterEarthTotem.png",
+  "refLevel": 100,
+  "classes": [
+   "construct"
+  ],
+  "refAtk": 1,
+  "refHp": 1,
+  "ai": "Tactician",
+  "moveRange": 0,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Elemental Fury",
+   "Elemental Shield",
+   "Conjure",
+   "Immovable",
+   "Barrier"
+  ]
+ },
+ {
+  "name": "Elder Acid Dragon",
+  "name_kr": "엘더 애시드 드래곤",
+  "name_kr_auto": true,
+  "image": "MonsterElderAcidDragon.png",
+  "refLevel": 100,
+  "classes": [
+   "dragon"
+  ],
+  "refAtk": 921,
+  "refHp": 5726,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Maw & Claw",
+   "Flying",
+   "Unstoppable",
+   "Immovable",
+   "Ancient Scales",
+   "Acid Breath"
+  ]
+ },
+ {
+  "name": "Elder Bright Dragon",
+  "name_kr": "엘더 빛나는 드래곤",
+  "name_kr_auto": true,
+  "image": "MonsterElderBrightDragon.png",
+  "refLevel": 100,
+  "classes": [
+   "dragon"
+  ],
+  "refAtk": 921,
+  "refHp": 5726,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Maw & Claw",
+   "Flying",
+   "Unstoppable",
+   "Immovable",
+   "Ancient Scales",
+   "Dazzling Breath"
+  ]
+ },
+ {
+  "name": "Elder Fire Dragon",
+  "name_kr": "엘더 화염 드래곤",
+  "name_kr_auto": true,
+  "image": "MonsterElderFireDragon.png",
+  "refLevel": 100,
+  "classes": [
+   "dragon"
+  ],
+  "refAtk": 921,
+  "refHp": 5726,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Maw & Claw",
+   "Flying",
+   "Unstoppable",
+   "Immovable",
+   "Ancient Scales",
+   "Fire Breath"
+  ]
+ },
+ {
+  "name": "Elder Ice Dragon",
+  "name_kr": "엘더 아이스 드래곤",
+  "name_kr_auto": true,
+  "image": "MonsterElderIceDragon.png",
+  "refLevel": 100,
+  "classes": [
+   "dragon"
+  ],
+  "refAtk": 921,
+  "refHp": 5726,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Maw & Claw",
+   "Flying",
+   "Unstoppable",
+   "Immovable",
+   "Ancient Scales",
+   "Ice Breath"
+  ]
+ },
+ {
+  "name": "Elder Toxic Dragon",
+  "name_kr": "엘더 맹독 드래곤",
+  "name_kr_auto": true,
+  "image": "MonsterElderToxicDragon.png",
+  "refLevel": 100,
+  "classes": [
+   "dragon"
+  ],
+  "refAtk": 921,
+  "refHp": 5726,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Maw & Claw",
+   "Flying",
+   "Unstoppable",
+   "Immovable",
+   "Ancient Scales",
+   "Poison Breath"
+  ]
+ },
+ {
+  "name": "Elemental",
+  "name_kr": "엘리멘탈",
+  "name_kr_auto": true,
+  "image": null,
+  "refLevel": null,
+  "classes": [
+   "construct"
+  ],
+  "refAtk": null,
+  "refHp": null,
+  "ai": null,
+  "moveRange": null,
+  "attackKind": null,
+  "attackDirs": null,
+  "support": [],
+  "traits": [
+   "Retaliate",
+   "Overpower"
+  ]
+ },
+ {
+  "name": "Erupting Elemental",
+  "name_kr": "분출하는 엘리멘탈",
+  "name_kr_auto": true,
+  "image": "MonsterEruptingElemental.png",
+  "refLevel": 95,
+  "classes": [
+   "elemental"
+  ],
+  "refAtk": 541,
+  "refHp": 2836,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "ranged",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Sniper",
+   "Sniper",
+   "Overpower",
+   "Retaliate"
+  ]
+ },
+ {
+  "name": "Eyes of Providence",
+  "name_kr": "프로비던스의 눈",
+  "name_kr_auto": true,
+  "image": "MonsterEyesOfProvidence.png",
+  "refLevel": 95,
+  "classes": [
+   "ethereal",
+   "ghost"
+  ],
+  "refAtk": 170,
+  "refHp": 2,
+  "ai": "Unpredictable",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Dazzling",
+   "Punishment"
+  ]
+ },
+ {
+  "name": "Faceless",
+  "name_kr": "페이스리스",
+  "name_kr_auto": true,
+  "image": "MonsterFaceless.png",
+  "refLevel": 100,
+  "classes": [
+   "ethereal"
+  ],
+  "refAtk": 243,
+  "refHp": 3394,
+  "ai": "Unpredictable",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Touch of Decay"
+  ]
+ },
+ {
+  "name": "Faerie Flare",
+  "name_kr": "페어리 플레어",
+  "name_kr_auto": true,
+  "image": "MonsterFaerieFlare.png",
+  "refLevel": 90,
+  "classes": [
+   "faerie"
+  ],
+  "refAtk": 192,
+  "refHp": 74,
+  "ai": "Assassin",
+  "moveRange": 6,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Flying",
+   "Barrier",
+   "Dazzling Flare"
+  ]
+ },
+ {
+  "name": "Faerie Knight",
+  "name_kr": "페어리 기사",
+  "name_kr_auto": true,
+  "image": "MonsterFaerieKnight.png",
+  "refLevel": 100,
+  "classes": [
+   "faerie"
+  ],
+  "refAtk": 430,
+  "refHp": 1505,
+  "ai": "Charge",
+  "moveRange": 4,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Brutal Attack",
+   "Overpower"
+  ]
+ },
+ {
+  "name": "Fallen Templar",
+  "name_kr": "타락한 템플러",
+  "name_kr_auto": true,
+  "image": "MonsterFallenTemplar.png",
+  "refLevel": 100,
+  "classes": [
+   "undead"
+  ],
+  "refAtk": 548,
+  "refHp": 1918,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Finishing Blow",
+   "Undead Horde",
+   "Lumbering"
+  ]
+ },
+ {
+  "name": "Fiend",
+  "name_kr": "핀드",
+  "name_kr_auto": true,
+  "image": "MonsterFiend.png",
+  "refLevel": 100,
+  "classes": [
+   "demon"
+  ],
+  "refAtk": 308,
+  "refHp": 1078,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Immovable"
+  ]
+ },
+ {
+  "name": "Fire Chomper",
+  "name_kr": "화염 촘퍼",
+  "name_kr_auto": true,
+  "image": "MonsterFireChomper.png",
+  "refLevel": 40,
+  "classes": [
+   "beast"
+  ],
+  "refAtk": 136,
+  "refHp": 137,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Blazing Blitz"
+  ]
+ },
+ {
+  "name": "Fire Devil",
+  "name_kr": "화염 데빌",
+  "name_kr_auto": true,
+  "image": null,
+  "refLevel": 100,
+  "classes": [
+   "demon"
+  ],
+  "refAtk": 27,
+  "refHp": 832,
+  "ai": "Evade",
+  "moveRange": 2,
+  "attackKind": "ranged",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Fire Walker",
+   "Ignite"
+  ]
+ },
+ {
+  "name": "Fire Dragon",
+  "name_kr": "화염 드래곤",
+  "name_kr_auto": true,
+  "image": "MonsterFireDragon.png",
+  "refLevel": 100,
+  "classes": [
+   "dragon"
+  ],
+  "refAtk": 460,
+  "refHp": 2859,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Maw & Claw",
+   "Flying",
+   "Unstoppable",
+   "Lumbering",
+   "Fire Breath"
+  ]
+ },
+ {
+  "name": "Fire Dragon Whelp",
+  "name_kr": "화염 드래곤 웰프",
+  "name_kr_auto": true,
+  "image": null,
+  "refLevel": 100,
+  "classes": [
+   "dragon"
+  ],
+  "refAtk": 250,
+  "refHp": 1551,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Maw & Claw",
+   "Flying",
+   "Immune to Silence",
+   "Double Strike",
+   "Lesser Fire Breath"
+  ]
+ },
+ {
+  "name": "Fire Fly",
+  "name_kr": "화염 파리",
+  "name_kr_auto": true,
+  "image": "MonsterFireFly.png",
+  "refLevel": 100,
+  "classes": [],
+  "refAtk": 204,
+  "refHp": 871,
+  "ai": "Charge",
+  "moveRange": 4,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Flying",
+   "Ignite",
+   "Dodge"
+  ]
+ },
+ {
+  "name": "Fire Newt",
+  "name_kr": "화염 도롱뇽",
+  "name_kr_auto": true,
+  "image": "MonsterFireNewt.png",
+  "refLevel": 100,
+  "classes": [
+   "lizard"
+  ],
+  "refAtk": 83,
+  "refHp": 355,
+  "ai": "Charge",
+  "moveRange": 4,
+  "attackKind": "ranged",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Fire Walker",
+   "Lava Attunement"
+  ]
+ },
+ {
+  "name": "Fireburst Elemental",
+  "name_kr": "파이어버스트 엘리멘탈",
+  "name_kr_auto": true,
+  "image": "MonsterFireburstElemental.png",
+  "refLevel": 100,
+  "classes": [
+   "elemental"
+  ],
+  "refAtk": 495,
+  "refHp": 5198,
+  "ai": "Charge",
+  "moveRange": 5,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Overpower",
+   "Retaliate",
+   "Overheat",
+   "Fire Walker"
+  ]
+ },
+ {
+  "name": "Fireburst Totem",
+  "name_kr": "파이어버스트 토템",
+  "name_kr_auto": true,
+  "image": "MonsterFireburstTotem.png",
+  "refLevel": 100,
+  "classes": [
+   "construct"
+  ],
+  "refAtk": 1,
+  "refHp": 1,
+  "ai": "Tactician",
+  "moveRange": 0,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Elemental Fury",
+   "Elemental Shield",
+   "Conjure",
+   "Immovable",
+   "Barrier"
+  ]
+ },
+ {
+  "name": "Firecraker Bot",
+  "name_kr": "폭죽 봇",
+  "name_kr_auto": true,
+  "image": "MonsterFirecrackerBot.png",
+  "refLevel": 100,
+  "classes": [
+   "construct"
+  ],
+  "refAtk": 115,
+  "refHp": 173,
+  "ai": "Charge",
+  "moveRange": 4,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Exploder",
+   "Party Starter"
+  ]
+ },
+ {
+  "name": "Flesh Brute",
+  "name_kr": "살점 브루트",
+  "name_kr_auto": true,
+  "image": "MonsterFleshBrute.png",
+  "refLevel": 100,
+  "classes": [
+   "undead"
+  ],
+  "refAtk": 1087,
+  "refHp": 7062,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Immovable",
+   "Decay Cloud",
+   "Flesh to Bone"
+  ]
+ },
+ {
+  "name": "Freezer",
+  "name_kr": "프리저",
+  "name_kr_auto": true,
+  "image": "MonsterFreezer.png",
+  "refLevel": 72,
+  "classes": [
+   "construct",
+   "clockwork"
+  ],
+  "refAtk": 112,
+  "refHp": 670,
+  "ai": "Charge",
+  "moveRange": 1,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Freeze"
+  ]
+ },
+ {
+  "name": "Freezing Wisp",
+  "name_kr": "빙결 위습",
+  "name_kr_auto": true,
+  "image": "MonsterFreezingWisp.png",
+  "refLevel": 100,
+  "classes": [
+   "ethereal"
+  ],
+  "refAtk": 263,
+  "refHp": 357,
+  "ai": "Unpredictable",
+  "moveRange": 5,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Wisp",
+   "Dodge",
+   "Freeze"
+  ]
+ },
+ {
+  "name": "Frost Lich",
+  "name_kr": "서리 리치",
+  "name_kr_auto": true,
+  "image": "MonsterFrostLich.png",
+  "refLevel": 100,
+  "classes": [
+   "undead",
+   "skeletal"
+  ],
+  "refAtk": 753,
+  "refHp": 2155,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Prepare",
+   "Prepared Freeze"
+  ]
+ },
+ {
+  "name": "Frostfire Sage",
+  "name_kr": "서리불꽃 현자",
+  "name_kr_auto": true,
+  "image": "MonsterFrostfireSage.png",
+  "refLevel": 100,
+  "classes": [],
+  "refAtk": 253,
+  "refHp": 1328,
+  "ai": "Tactician",
+  "moveRange": 2,
+  "attackKind": "magic",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Cardinal Aim",
+   "Cardinal Aim",
+   "Cardinal Aim",
+   "Chilling Strike",
+   "Ignite"
+  ]
+ },
+ {
+  "name": "Gargoyle",
+  "name_kr": "가고일",
+  "name_kr_auto": true,
+  "image": "MonsterGargoyle.png",
+  "refLevel": 100,
+  "classes": [
+   "construct",
+   "golem"
+  ],
+  "refAtk": 896,
+  "refHp": 3136,
+  "ai": "Tactician",
+  "moveRange": 1,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Immovable",
+   "Barrier",
+   "Melee Parry",
+   "Melee Parry"
+  ]
+ },
+ {
+  "name": "Ghost",
+  "name_kr": "유령",
+  "name_kr_auto": true,
+  "image": "MonsterGhost.png",
+  "refLevel": 100,
+  "classes": [
+   "ethereal",
+   "ghost"
+  ],
+  "refAtk": 137,
+  "refHp": 3,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Doomed"
+  ]
+ },
+ {
+  "name": "Ghost Spider",
+  "name_kr": "유령 거미",
+  "name_kr_auto": true,
+  "image": "MonsterGhostSpider.png",
+  "refLevel": 100,
+  "classes": [
+   "ethereal",
+   "ghost"
+  ],
+  "refAtk": 227,
+  "refHp": 3,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Doomed",
+   "Acid Explosion"
+  ]
+ },
+ {
+  "name": "Giant",
+  "name_kr": "자이언트",
+  "name_kr_auto": true,
+  "image": null,
+  "refLevel": null,
+  "classes": [
+   "goblinoid"
+  ],
+  "refAtk": null,
+  "refHp": null,
+  "ai": null,
+  "moveRange": null,
+  "attackKind": null,
+  "attackDirs": null,
+  "support": [],
+  "traits": [
+   "Lumbering"
+  ]
+ },
+ {
+  "name": "Giant Ant",
+  "name_kr": "자이언트 개미",
+  "name_kr_auto": true,
+  "image": "MonsterGiantAnt.png",
+  "refLevel": 100,
+  "classes": [
+   "insect"
+  ],
+  "refAtk": 220,
+  "refHp": 770,
+  "ai": "Unpredictable",
+  "moveRange": 4,
+  "attackKind": "melee",
+  "attackDirs": null,
+  "support": [],
+  "traits": []
+ },
+ {
+  "name": "Giant Crab",
+  "name_kr": "자이언트 게",
+  "name_kr_auto": true,
+  "image": "MonsterGiantCrab.png",
+  "refLevel": 100,
+  "classes": [],
+  "refAtk": 432,
+  "refHp": 3528,
+  "ai": "Charge",
+  "moveRange": 4,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Water Walker",
+   "Watery Grave"
+  ]
+ },
+ {
+  "name": "Goblin",
+  "name_kr": "고블린",
+  "name_kr_auto": false,
+  "image": "MonsterGoblin.png",
+  "refLevel": 100,
+  "classes": [
+   "goblinoid"
+  ],
+  "refAtk": 77,
+  "refHp": 180,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": []
+ },
+ {
+  "name": "Goblin Assassin",
+  "name_kr": "고블린 암살자",
+  "name_kr_auto": true,
+  "image": "MonsterGoblinAssassin.png",
+  "refLevel": 100,
+  "classes": [
+   "goblinoid"
+  ],
+  "refAtk": 394,
+  "refHp": 485,
+  "ai": "Assassin",
+  "moveRange": 4,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": []
+ },
+ {
+  "name": "Golem",
+  "name_kr": "골렘",
+  "name_kr_auto": true,
+  "image": "MonsterGolem.png",
+  "refLevel": 100,
+  "classes": [
+   "construct",
+   "golem"
+  ],
+  "refAtk": 878,
+  "refHp": 1884,
+  "ai": "Charge",
+  "moveRange": 1,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Mighty Blow"
+  ]
+ },
+ {
+  "name": "Golem Bowler",
+  "name_kr": "골렘 볼러",
+  "name_kr_auto": true,
+  "image": "MonsterGolemBowler.png",
+  "refLevel": 100,
+  "classes": [
+   "construct",
+   "golem"
+  ],
+  "refAtk": 866,
+  "refHp": 1857,
+  "ai": "Charge",
+  "moveRange": 1,
+  "attackKind": "ranged",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Mighty Blow"
+  ]
+ },
+ {
+  "name": "Great Tiger",
+  "name_kr": "그레이트 호랑이",
+  "name_kr_auto": true,
+  "image": "MonsterGreatTiger.png",
+  "refLevel": 100,
+  "classes": [
+   "beast"
+  ],
+  "refAtk": 450,
+  "refHp": 8925,
+  "ai": "Assassin",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Double Strike",
+   "Vicious",
+   "Sturdy",
+   "Prowling Fury"
+  ]
+ },
+ {
+  "name": "Green Goo",
+  "name_kr": "초록 구",
+  "name_kr_auto": true,
+  "image": "MonsterGreenGoo.png",
+  "refLevel": 90,
+  "classes": [
+   "ooze"
+  ],
+  "refAtk": 178,
+  "refHp": 3535,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Water Walker",
+   "Venom"
+  ]
+ },
+ {
+  "name": "Grotesque",
+  "name_kr": "그로테스크",
+  "name_kr_auto": true,
+  "image": "MonsterGrotesque.png",
+  "refLevel": 100,
+  "classes": [],
+  "refAtk": 1289,
+  "refHp": 7517,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Lumbering",
+   "Mighty Blow",
+   "Brutal Strike"
+  ]
+ },
+ {
+  "name": "Guardian",
+  "name_kr": "수호자",
+  "name_kr_auto": true,
+  "image": null,
+  "refLevel": null,
+  "classes": [
+   "construct"
+  ],
+  "refAtk": null,
+  "refHp": null,
+  "ai": null,
+  "moveRange": null,
+  "attackKind": null,
+  "attackDirs": null,
+  "support": [],
+  "traits": [
+   "Clockwork",
+   "Death Curse",
+   "Mighty Blow"
+  ]
+ },
+ {
+  "name": "Harpy",
+  "name_kr": "하피",
+  "name_kr_auto": true,
+  "image": "MonsterHarpy.png",
+  "refLevel": 100,
+  "classes": [
+   "beast"
+  ],
+  "refAtk": 401,
+  "refHp": 601,
+  "ai": "Charge",
+  "moveRange": 4,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Flying",
+   "Rend",
+   "Disorienting Strike"
+  ]
+ },
+ {
+  "name": "Harvester",
+  "name_kr": "수확자",
+  "name_kr_auto": true,
+  "image": "MonsterHarvester.png",
+  "refLevel": 100,
+  "classes": [],
+  "refAtk": 173,
+  "refHp": 3428,
+  "ai": "Evade",
+  "moveRange": 2,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Wither",
+   "Curse",
+   "Curse",
+   "Temporal Shield",
+   "Lumbering"
+  ]
+ },
+ {
+  "name": "Heavy Animus Mk. II",
+  "name_kr": "헤비 애니머스 Mk. II",
+  "name_kr_auto": true,
+  "image": "MonsterHeavyAnimusMkII.png",
+  "refLevel": 100,
+  "classes": [
+   "construct",
+   "clockwork"
+  ],
+  "refAtk": 216,
+  "refHp": 4284,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Fortress",
+   "Mounting Anger",
+   "Mounting Anger"
+  ]
+ },
+ {
+  "name": "Hive Mother",
+  "name_kr": "하이브 마더",
+  "name_kr_auto": true,
+  "image": null,
+  "refLevel": null,
+  "classes": [
+   "insect"
+  ],
+  "refAtk": null,
+  "refHp": null,
+  "ai": null,
+  "moveRange": null,
+  "attackKind": null,
+  "attackDirs": null,
+  "support": [],
+  "traits": [
+   "Majesty",
+   "Lumbering",
+   "Poison Resistance"
+  ]
+ },
+ {
+  "name": "Hog Guard",
+  "name_kr": "멧돼지 경비병",
+  "name_kr_auto": true,
+  "image": "MonsterHogGuard.png",
+  "refLevel": 50,
+  "classes": [],
+  "refAtk": 311,
+  "refHp": 4363,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Retaliate",
+   "Brutal Attack",
+   "Bloodlust",
+   "Stalwart"
+  ]
+ },
+ {
+  "name": "Horned Skull",
+  "name_kr": "뿔달린 스컬",
+  "name_kr_auto": true,
+  "image": "MonsterHornedSkull.png",
+  "refLevel": 100,
+  "classes": [
+   "undead",
+   "demon"
+  ],
+  "refAtk": 72,
+  "refHp": 1008,
+  "ai": "Charge",
+  "moveRange": 4,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Lumbering",
+   "Rupture",
+   "Flying"
+  ]
+ },
+ {
+  "name": "Hound",
+  "name_kr": "사냥개",
+  "name_kr_auto": true,
+  "image": "MonsterHound.png",
+  "refLevel": 100,
+  "classes": [
+   "beast"
+  ],
+  "refAtk": 238,
+  "refHp": 147,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Rend"
+  ]
+ },
+ {
+  "name": "Howler",
+  "name_kr": "하울러",
+  "name_kr_auto": true,
+  "image": "MonsterHowler.png",
+  "refLevel": 100,
+  "classes": [
+   "beast"
+  ],
+  "refAtk": 620,
+  "refHp": 1527,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Brutal Attack",
+   "Double Strike"
+  ]
+ },
+ {
+  "name": "Hunter Spirit",
+  "name_kr": "헌터 정령",
+  "name_kr_auto": true,
+  "image": "MonsterHunterSpirit.png",
+  "refLevel": 100,
+  "classes": [
+   "ethereal",
+   "ghost"
+  ],
+  "refAtk": 227,
+  "refHp": 3,
+  "ai": "Charge",
+  "moveRange": 4,
+  "attackKind": "ranged",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Doomed",
+   "Hunter's Mark"
+  ]
+ },
+ {
+  "name": "Ice Chomper",
+  "name_kr": "아이스 촘퍼",
+  "name_kr_auto": true,
+  "image": "MonsterIceChomper.png",
+  "refLevel": 100,
+  "classes": [
+   "beast"
+  ],
+  "refAtk": 295,
+  "refHp": 300,
+  "ai": "Charge",
+  "moveRange": 4,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Water Walker",
+   "Sense Ice"
+  ]
+ },
+ {
+  "name": "Ice Dragon",
+  "name_kr": "아이스 드래곤",
+  "name_kr_auto": true,
+  "image": "MonsterIceDragon.png",
+  "refLevel": 100,
+  "classes": [
+   "dragon"
+  ],
+  "refAtk": 460,
+  "refHp": 2859,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Maw & Claw",
+   "Flying",
+   "Unstoppable",
+   "Lumbering",
+   "Ice Breath"
+  ]
+ },
+ {
+  "name": "Ice Dragon Whelp",
+  "name_kr": "아이스 드래곤 웰프",
+  "name_kr_auto": true,
+  "image": "MonsterIceDragonWhelp.png",
+  "refLevel": 100,
+  "classes": [
+   "dragon"
+  ],
+  "refAtk": 250,
+  "refHp": 1551,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Maw & Claw",
+   "Flying",
+   "Immune to Silence",
+   "Double Strike",
+   "Lesser Ice Breath"
+  ]
+ },
+ {
+  "name": "Imp",
+  "name_kr": "임프",
+  "name_kr_auto": true,
+  "image": "MonsterImp.png",
+  "refLevel": 100,
+  "classes": [
+   "demon"
+  ],
+  "refAtk": 112,
+  "refHp": 98,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Flying"
+  ]
+ },
+ {
+  "name": "Infernal Herald",
+  "name_kr": "인페르날 전령",
+  "name_kr_auto": true,
+  "image": "MonsterInfernalHerald.png",
+  "refLevel": 100,
+  "classes": [
+   "demon"
+  ],
+  "refAtk": 152,
+  "refHp": 2999,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "ranged",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Ignite",
+   "Conjure"
+  ]
+ },
+ {
+  "name": "Ironclad Bowler",
+  "name_kr": "철갑 볼러",
+  "name_kr_auto": true,
+  "image": "MonsterIroncladBowler.png",
+  "refLevel": 100,
+  "classes": [
+   "construct",
+   "golem"
+  ],
+  "refAtk": 1560,
+  "refHp": 5460,
+  "ai": "Charge",
+  "moveRange": 1,
+  "attackKind": "ranged",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Mighty Blow",
+   "Sturdy"
+  ]
+ },
+ {
+  "name": "Ironclad Golem",
+  "name_kr": "철갑 골렘",
+  "name_kr_auto": true,
+  "image": "MonsterIroncladGolem.png",
+  "refLevel": 100,
+  "classes": [
+   "construct",
+   "golem"
+  ],
+  "refAtk": 1640,
+  "refHp": 5740,
+  "ai": "Charge",
+  "moveRange": 1,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Mighty Blow",
+   "Sturdy"
+  ]
+ },
+ {
+  "name": "Jurassic Raptor",
+  "name_kr": "쥬라기 랩터",
+  "name_kr_auto": true,
+  "image": "MonsterJurassicRaptor.png",
+  "refLevel": 100,
+  "classes": [
+   "lizard"
+  ],
+  "refAtk": 580,
+  "refHp": 2802,
+  "ai": "Charge",
+  "moveRange": 4,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Sense Blood",
+   "Rend",
+   "Rend",
+   "Rend"
+  ]
+ },
+ {
+  "name": "Keg Golem",
+  "name_kr": "술통 골렘",
+  "name_kr_auto": true,
+  "image": "MonsterKegGolem.png",
+  "refLevel": 95,
+  "classes": [
+   "construct",
+   "golem"
+  ],
+  "refAtk": 709,
+  "refHp": 5792,
+  "ai": "Charge",
+  "moveRange": 1,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Mighty Blow",
+   "Retaliate",
+   "Quadra Fury",
+   "Exploit Weakness"
+  ]
+ },
+ {
+  "name": "King Black Pudding",
+  "name_kr": "킹 검은 푸딩",
+  "name_kr_auto": true,
+  "image": "MonsterKingBlackPudding.png",
+  "refLevel": 100,
+  "classes": [
+   "ooze"
+  ],
+  "refAtk": 797,
+  "refHp": 15792,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Water Walker",
+   "Horde"
+  ]
+ },
+ {
+  "name": "King Green Goo",
+  "name_kr": "킹 초록 구",
+  "name_kr_auto": true,
+  "image": "MonsterKingGreenGoo.png",
+  "refLevel": 50,
+  "classes": [
+   "ooze"
+  ],
+  "refAtk": 388,
+  "refHp": 7702,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Water Walker",
+   "Venom"
+  ]
+ },
+ {
+  "name": "King Kobra",
+  "name_kr": "킹 코브라",
+  "name_kr_auto": true,
+  "image": null,
+  "refLevel": null,
+  "classes": [
+   "beast"
+  ],
+  "refAtk": null,
+  "refHp": null,
+  "ai": null,
+  "moveRange": null,
+  "attackKind": null,
+  "attackDirs": null,
+  "support": [],
+  "traits": [
+   "Venom",
+   "Venom"
+  ]
+ },
+ {
+  "name": "King Red Slime",
+  "name_kr": "킹 붉은 슬라임",
+  "name_kr_auto": true,
+  "image": "MonsterKingRedSlime.png",
+  "refLevel": 100,
+  "classes": [
+   "ooze"
+  ],
+  "refAtk": 797,
+  "refHp": 15792,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Water Walker",
+   "Hamstring"
+  ]
+ },
+ {
+  "name": "Lantern Dragon",
+  "name_kr": "랜턴 드래곤",
+  "name_kr_auto": true,
+  "image": null,
+  "refLevel": 50,
+  "classes": [
+   "dragon",
+   "construct"
+  ],
+  "refAtk": 202,
+  "refHp": 1256,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Maw & Claw",
+   "Unstoppable",
+   "Immovable",
+   "Lesser Dazzling Breath",
+   "Lesser Fire Breath"
+  ]
+ },
+ {
+  "name": "Leshen",
+  "name_kr": "레셴",
+  "name_kr_auto": true,
+  "image": "MonsterLeshen.png",
+  "refLevel": 100,
+  "classes": [
+   "sylvan"
+  ],
+  "refAtk": 978,
+  "refHp": 5133,
+  "ai": "Evade",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Branch & Vine",
+   "Tongue Grab",
+   "Massive Attack",
+   "Protective Harmony"
+  ]
+ },
+ {
+  "name": "Lich",
+  "name_kr": "리치",
+  "name_kr_auto": true,
+  "image": "MonsterLich.png",
+  "refLevel": 100,
+  "classes": [
+   "undead",
+   "skeletal"
+  ],
+  "refAtk": 425,
+  "refHp": 992,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": []
+ },
+ {
+  "name": "Living Ice",
+  "name_kr": "리빙 아이스",
+  "name_kr_auto": true,
+  "image": "MonsterLivingIce.png",
+  "refLevel": 50,
+  "classes": [
+   "elemental"
+  ],
+  "refAtk": 22,
+  "refHp": 32,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Freeze",
+   "Critical Attack"
+  ]
+ },
+ {
+  "name": "Living Sand",
+  "name_kr": "리빙 모래",
+  "name_kr_auto": true,
+  "image": null,
+  "refLevel": null,
+  "classes": [
+   "ethereal"
+  ],
+  "refAtk": null,
+  "refHp": null,
+  "ai": null,
+  "moveRange": null,
+  "attackKind": null,
+  "attackDirs": null,
+  "support": [],
+  "traits": [
+   "Stunning Strike",
+   "Stunning Strike"
+  ]
+ },
+ {
+  "name": "Lizard Matriarch",
+  "name_kr": "리자드 여족장",
+  "name_kr_auto": true,
+  "image": "MonsterLizardMatriarch.png",
+  "refLevel": 100,
+  "classes": [
+   "lizard"
+  ],
+  "refAtk": 960,
+  "refHp": 8221,
+  "ai": "Tactician",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Lumbering",
+   "Autotomy",
+   "Heal Wound",
+   "Primordial Armor"
+  ]
+ },
+ {
+  "name": "Lizard Myrmidon",
+  "name_kr": "리자드 미르미돈",
+  "name_kr_auto": true,
+  "image": "MonsterLizardMyrmidon.png",
+  "refLevel": 100,
+  "classes": [
+   "lizard"
+  ],
+  "refAtk": 1005,
+  "refHp": 1733,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Water Walker",
+   "Rupture",
+   "Primordial Armor"
+  ]
+ },
+ {
+  "name": "Locust",
+  "name_kr": "메뚜기",
+  "name_kr_auto": true,
+  "image": "MonsterLocust.png",
+  "refLevel": 100,
+  "classes": [
+   "insect"
+  ],
+  "refAtk": 346,
+  "refHp": 1479,
+  "ai": "Charge",
+  "moveRange": 5,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Flying",
+   "Swarm"
+  ]
+ },
+ {
+  "name": "Lost One",
+  "name_kr": "잃어버린 원",
+  "name_kr_auto": true,
+  "image": "MonsterLostOne.png",
+  "refLevel": 100,
+  "classes": [
+   "ethereal",
+   "ghost"
+  ],
+  "refAtk": 227,
+  "refHp": 3,
+  "ai": "Unpredictable",
+  "moveRange": 1,
+  "attackKind": "ranged",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Doomed",
+   "Curse"
+  ]
+ },
+ {
+  "name": "Mana Moth",
+  "name_kr": "마나 나방",
+  "name_kr_auto": true,
+  "image": "MonsterManaMoth.png",
+  "refLevel": 100,
+  "classes": [
+   "insect"
+  ],
+  "refAtk": 117,
+  "refHp": 501,
+  "ai": "Unpredictable",
+  "moveRange": 5,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Flying",
+   "Barrier"
+  ]
+ },
+ {
+  "name": "Mandragora",
+  "name_kr": "만드라고라",
+  "name_kr_auto": true,
+  "image": "MonsterMandragora.png",
+  "refLevel": 100,
+  "classes": [
+   "sylvan"
+  ],
+  "refAtk": 1218,
+  "refHp": 7917,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Idioblast",
+   "Disorienting Strike"
+  ]
+ },
+ {
+  "name": "Manticore",
+  "name_kr": "만티코어",
+  "name_kr_auto": true,
+  "image": "MonsterManticore.png",
+  "refLevel": 100,
+  "classes": [
+   "beast"
+  ],
+  "refAtk": 222,
+  "refHp": 1813,
+  "ai": "Assassin",
+  "moveRange": 4,
+  "attackKind": "ranged",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Diagonal Parry",
+   "Flying"
+  ]
+ },
+ {
+  "name": "Mantis",
+  "name_kr": "사마귀",
+  "name_kr_auto": true,
+  "image": "MonsterMantis.png",
+  "refLevel": 100,
+  "classes": [
+   "insect"
+  ],
+  "refAtk": 136,
+  "refHp": 924,
+  "ai": "Unpredictable",
+  "moveRange": 4,
+  "attackKind": "ranged",
+  "attackDirs": null,
+  "support": [],
+  "traits": [
+   "Double Strike"
+  ]
+ },
+ {
+  "name": "Mantis Matriarch",
+  "name_kr": "사마귀 여족장",
+  "name_kr_auto": true,
+  "image": "MonsterMantisMatriarch.png",
+  "refLevel": 18,
+  "classes": [
+   "insect"
+  ],
+  "refAtk": 26,
+  "refHp": 355,
+  "ai": "Supporter",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": null,
+  "support": [
+   "8"
+  ],
+  "traits": [
+   "Pheromones"
+  ]
+ },
+ {
+  "name": "Merfolk Scourgeling",
+  "name_kr": "머포크 스커지링",
+  "name_kr_auto": true,
+  "image": "MonsterMerfolkScourgeling.png",
+  "refLevel": 100,
+  "classes": [
+   "merfolk"
+  ],
+  "refAtk": 366,
+  "refHp": 2376,
+  "ai": "Tactician",
+  "moveRange": 3,
+  "attackKind": "ranged",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Water Walker",
+   "Watery Grave",
+   "Puddle",
+   "Venom"
+  ]
+ },
+ {
+  "name": "Merfolk Siren",
+  "name_kr": "머포크 세이렌",
+  "name_kr_auto": true,
+  "image": "MonsterMerfolkSiren.png",
+  "refLevel": 100,
+  "classes": [
+   "merfolk"
+  ],
+  "refAtk": 221,
+  "refHp": 1160,
+  "ai": "Evade",
+  "moveRange": 3,
+  "attackKind": "magic",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Disorienting Strike",
+   "Arcane Shield",
+   "Water Walker"
+  ]
+ },
+ {
+  "name": "Mini Gargoyle",
+  "name_kr": "미니 가고일",
+  "name_kr_auto": true,
+  "image": "MonsterMiniGargoyle.png",
+  "refLevel": 100,
+  "classes": [
+   "construct",
+   "golem"
+  ],
+  "refAtk": 246,
+  "refHp": 1745,
+  "ai": "Charge",
+  "moveRange": 1,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Barrier"
+  ]
+ },
+ {
+  "name": "Mini Goo",
+  "name_kr": "미니 구",
+  "name_kr_auto": true,
+  "image": "MonsterMiniGoo.png",
+  "refLevel": 90,
+  "classes": [
+   "ooze"
+  ],
+  "refAtk": 223,
+  "refHp": 1169,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": []
+ },
+ {
+  "name": "Minotaur",
+  "name_kr": "미노타우로스",
+  "name_kr_auto": true,
+  "image": "MonsterMinotaur.png",
+  "refLevel": 100,
+  "classes": [
+   "beast"
+  ],
+  "refAtk": 227,
+  "refHp": 1853,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Rush",
+   "Rush",
+   "Mounting Anger",
+   "Mounting Anger",
+   "Mighty Blow",
+   "Sturdy"
+  ]
+ },
+ {
+  "name": "Mummified Dragon",
+  "name_kr": "미라화된 드래곤",
+  "name_kr_auto": true,
+  "image": "MonsterMummifiedDragon.png",
+  "refLevel": 100,
+  "classes": [
+   "dragon",
+   "undead"
+  ],
+  "refAtk": 500,
+  "refHp": 3014,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Maw & Claw",
+   "Flying",
+   "Unstoppable",
+   "Immovable",
+   "Withering Breath"
+  ]
+ },
+ {
+  "name": "Mummified Dragon Whelp",
+  "name_kr": "미라화된 드래곤 웰프",
+  "name_kr_auto": true,
+  "image": "MonsterMummifiedDragonWhelp.png",
+  "refLevel": 100,
+  "classes": [
+   "dragon",
+   "undead"
+  ],
+  "refAtk": 346,
+  "refHp": 1815,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Maw & Claw",
+   "Flying",
+   "Immune to Silence",
+   "Double Strike",
+   "Lesser Withering Breath"
+  ]
+ },
+ {
+  "name": "Mummified Elder Dragon",
+  "name_kr": "미라화된 엘더 드래곤",
+  "name_kr_auto": true,
+  "image": "MonsterMummifiedElderDragon.png",
+  "refLevel": 50,
+  "classes": [
+   "dragon",
+   "undead"
+  ],
+  "refAtk": 525,
+  "refHp": 3272,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Maw & Claw",
+   "Flying",
+   "Unstoppable",
+   "Immovable",
+   "Withering Breath"
+  ]
+ },
+ {
+  "name": "Mummy",
+  "name_kr": "미라",
+  "name_kr_auto": true,
+  "image": "MonsterMummy.png",
+  "refLevel": 100,
+  "classes": [
+   "undead"
+  ],
+  "refAtk": 144,
+  "refHp": 756,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Wither"
+  ]
+ },
+ {
+  "name": "Mummy Lord",
+  "name_kr": "미라 로드",
+  "name_kr_auto": true,
+  "image": "MonsterMummyLord.png",
+  "refLevel": 100,
+  "classes": [
+   "undead"
+  ],
+  "refAtk": 768,
+  "refHp": 4032,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Wither",
+   "Curse",
+   "Immovable",
+   "Undying"
+  ]
+ },
+ {
+  "name": "Naga",
+  "name_kr": "나가",
+  "name_kr_auto": true,
+  "image": "MonsterNaga.png",
+  "refLevel": 100,
+  "classes": [],
+  "refAtk": 493,
+  "refHp": 740,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Water Walker",
+   "Venom",
+   "Chilling Strike"
+  ]
+ },
+ {
+  "name": "Needler",
+  "name_kr": "니들러",
+  "name_kr_auto": true,
+  "image": "MonsterNeedler.png",
+  "refLevel": 100,
+  "classes": [],
+  "refAtk": 199,
+  "refHp": 1042,
+  "ai": "Unpredictable",
+  "moveRange": 4,
+  "attackKind": "ranged",
+  "attackDirs": null,
+  "support": [],
+  "traits": [
+   "Double Strike",
+   "Brutal Attack",
+   "Brutal Attack"
+  ]
+ },
+ {
+  "name": "Nian",
+  "name_kr": "니안",
+  "name_kr_auto": true,
+  "image": "MonsterNian.png",
+  "refLevel": 100,
+  "classes": [
+   "beast"
+  ],
+  "refAtk": 788,
+  "refHp": 8274,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Rune of Earth",
+   "Armor of Earth",
+   "Rupture",
+   "Downfall",
+   "Overpower"
+  ]
+ },
+ {
+  "name": "Ninja",
+  "name_kr": "닌자",
+  "name_kr_auto": true,
+  "image": "MonsterNinja.png",
+  "refLevel": 100,
+  "classes": [],
+  "refAtk": 214,
+  "refHp": 809,
+  "ai": "Charge",
+  "moveRange": 4,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Inverse Ninja Punch",
+   "Inverse Ninja Parry"
+  ]
+ },
+ {
+  "name": "Nymph",
+  "name_kr": "님프",
+  "name_kr_auto": true,
+  "image": "MonsterNymph.png",
+  "refLevel": 100,
+  "classes": [],
+  "refAtk": 208,
+  "refHp": 1092,
+  "ai": "Tactician",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Whirlwind"
+  ]
+ },
+ {
+  "name": "Ochre Jelly",
+  "name_kr": "오커 젤리",
+  "name_kr_auto": true,
+  "image": "MonsterOchreJelly.png",
+  "refLevel": 100,
+  "classes": [
+   "ooze"
+  ],
+  "refAtk": 200,
+  "refHp": 3963,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Water Walker",
+   "Corrosive Slime"
+  ]
+ },
+ {
+  "name": "Ogre",
+  "name_kr": "오거",
+  "name_kr_auto": false,
+  "image": "MonsterOgre.png",
+  "refLevel": 100,
+  "classes": [
+   "goblinoid"
+  ],
+  "refAtk": 151,
+  "refHp": 790,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Mighty Blow"
+  ]
+ },
+ {
+  "name": "Orc",
+  "name_kr": "오크",
+  "name_kr_auto": true,
+  "image": "MonsterOrc.png",
+  "refLevel": 100,
+  "classes": [
+   "goblinoid"
+  ],
+  "refAtk": 114,
+  "refHp": 486,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": []
+ },
+ {
+  "name": "Orc Archer",
+  "name_kr": "오크 아처",
+  "name_kr_auto": true,
+  "image": "MonsterOrcArcher.png",
+  "refLevel": 100,
+  "classes": [
+   "goblinoid"
+  ],
+  "refAtk": 107,
+  "refHp": 455,
+  "ai": "Evade",
+  "moveRange": 2,
+  "attackKind": "ranged",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": []
+ },
+ {
+  "name": "Orc Brutalizer",
+  "name_kr": "오크 브루탈라이저",
+  "name_kr_auto": true,
+  "image": "MonsterOrcBrutalizer.png",
+  "refLevel": 100,
+  "classes": [
+   "goblinoid"
+  ],
+  "refAtk": 425,
+  "refHp": 2432,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Double Strike",
+   "Fortify",
+   "Brutal Attack"
+  ]
+ },
+ {
+  "name": "Orc Captain",
+  "name_kr": "오크 대장",
+  "name_kr_auto": true,
+  "image": "MonsterOrcCaptain.png",
+  "refLevel": 100,
+  "classes": [
+   "goblinoid"
+  ],
+  "refAtk": 222,
+  "refHp": 1507,
+  "ai": "Supporter",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [
+   "8"
+  ],
+  "traits": [
+   "Captain's Command"
+  ]
+ },
+ {
+  "name": "Orc Houndcaller",
+  "name_kr": "오크 하운드콜러",
+  "name_kr_auto": true,
+  "image": "MonsterOrcHoundcaller.png",
+  "refLevel": 23,
+  "classes": [
+   "goblinoid"
+  ],
+  "refAtk": 35,
+  "refHp": 148,
+  "ai": "Charge",
+  "moveRange": 1,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Reinforcements"
+  ]
+ },
+ {
+  "name": "Orc Mage",
+  "name_kr": "오크 메이지",
+  "name_kr_auto": false,
+  "image": "MonsterOrcMage.png",
+  "refLevel": 100,
+  "classes": [
+   "goblinoid"
+  ],
+  "refAtk": 222,
+  "refHp": 332,
+  "ai": "Evade",
+  "moveRange": 2,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": []
+ },
+ {
+  "name": "Orc Shaman",
+  "name_kr": "오크 샤먼",
+  "name_kr_auto": false,
+  "image": "MonsterOrcShaman.png",
+  "refLevel": 100,
+  "classes": [
+   "goblinoid"
+  ],
+  "refAtk": 44,
+  "refHp": 616,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [
+   "8"
+  ],
+  "traits": [
+   "Healer"
+  ]
+ },
+ {
+  "name": "Orc Tearshot",
+  "name_kr": "오크 티어샷",
+  "name_kr_auto": true,
+  "image": "MonsterOrcTearshot.png",
+  "refLevel": 50,
+  "classes": [
+   "goblinoid"
+  ],
+  "refAtk": 411,
+  "refHp": 2062,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "ranged",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Rend",
+   "Rend",
+   "Rend",
+   "Brutal Attack",
+   "Horde"
+  ]
+ },
+ {
+  "name": "Orc Warchief",
+  "name_kr": "오크 워치프",
+  "name_kr_auto": true,
+  "image": "MonsterOrcWarchief.png",
+  "refLevel": 50,
+  "classes": [
+   "goblinoid"
+  ],
+  "refAtk": 526,
+  "refHp": 2614,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [
+   "8"
+  ],
+  "traits": [
+   "Call the Horde",
+   "Chieftains Warcry",
+   "Brutal Attack",
+   "Horde"
+  ]
+ },
+ {
+  "name": "Orc Warlord",
+  "name_kr": "오크 워로드",
+  "name_kr_auto": true,
+  "image": "MonsterOrcWarlord.png",
+  "refLevel": 100,
+  "classes": [
+   "goblinoid"
+  ],
+  "refAtk": 370,
+  "refHp": 2403,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [
+   "8"
+  ],
+  "traits": [
+   "Overpower",
+   "Warcry",
+   "Barrier",
+   "Mounting Anger"
+  ]
+ },
+ {
+  "name": "Orc Warshaman",
+  "name_kr": "오크 워샤먼",
+  "name_kr_auto": true,
+  "image": "MonsterOrcWarshaman.png",
+  "refLevel": 50,
+  "classes": [
+   "goblinoid"
+  ],
+  "refAtk": 306,
+  "refHp": 2319,
+  "ai": "Supporter",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [
+   "8"
+  ],
+  "traits": [
+   "Healer",
+   "Brutal Attack",
+   "Horde"
+  ]
+ },
+ {
+  "name": "Phoenix",
+  "name_kr": "피닉스",
+  "name_kr_auto": true,
+  "image": "MonsterPhoenix.png",
+  "refLevel": 100,
+  "classes": [
+   "beast"
+  ],
+  "refAtk": 1255,
+  "refHp": 3000,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Flying",
+   "Ignite",
+   "Aura Of Fire",
+   "From the Ashes"
+  ]
+ },
+ {
+  "name": "Pixie",
+  "name_kr": "픽시",
+  "name_kr_auto": true,
+  "image": "MonsterPixie.png",
+  "refLevel": 100,
+  "classes": [
+   "faerie"
+  ],
+  "refAtk": 144,
+  "refHp": 168,
+  "ai": "Evade",
+  "moveRange": 4,
+  "attackKind": "ranged",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Flying",
+   "Rend"
+  ]
+ },
+ {
+  "name": "Plague Maggot",
+  "name_kr": "역병 구더기",
+  "name_kr_auto": true,
+  "image": "MonsterPlagueMaggot.png",
+  "refLevel": 100,
+  "classes": [
+   "insect"
+  ],
+  "refAtk": 113,
+  "refHp": 922,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Infected",
+   "Horde"
+  ]
+ },
+ {
+  "name": "Poison Ivy",
+  "name_kr": "독 담쟁이",
+  "name_kr_auto": true,
+  "image": "MonsterPoisonIvy.png",
+  "refLevel": 100,
+  "classes": [
+   "sylvan"
+  ],
+  "refAtk": 282,
+  "refHp": 1479,
+  "ai": "Tactician",
+  "moveRange": 2,
+  "attackKind": "ranged",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Venom"
+  ]
+ },
+ {
+  "name": "Primal Cyclops",
+  "name_kr": "프라이멀 사이클롭스",
+  "name_kr_auto": true,
+  "image": "MonsterPrimalCyclops.png",
+  "refLevel": 100,
+  "classes": [
+   "cyclops"
+  ],
+  "refAtk": 514,
+  "refHp": 8186,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Mighty Blow",
+   "Primal Attack"
+  ]
+ },
+ {
+  "name": "Primal Cyclops Archer",
+  "name_kr": "프라이멀 사이클롭스 아처",
+  "name_kr_auto": true,
+  "image": "MonsterPrimalCyclopsArcher.png",
+  "refLevel": 100,
+  "classes": [
+   "cyclops"
+  ],
+  "refAtk": 307,
+  "refHp": 7861,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "ranged",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Sniper",
+   "Sniper",
+   "Primal Attack"
+  ]
+ },
+ {
+  "name": "Primal Cyclops Mage",
+  "name_kr": "프라이멀 사이클롭스 메이지",
+  "name_kr_auto": true,
+  "image": "MonsterPrimalCyclopsMage.png",
+  "refLevel": 100,
+  "classes": [
+   "cyclops"
+  ],
+  "refAtk": 557,
+  "refHp": 5849,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Brutal Attack",
+   "Primal Attack"
+  ]
+ },
+ {
+  "name": "Primordial Raptor",
+  "name_kr": "태초의 랩터",
+  "name_kr_auto": true,
+  "image": "MonsterPrimordialRaptor.png",
+  "refLevel": 100,
+  "classes": [
+   "lizard"
+  ],
+  "refAtk": 1143,
+  "refHp": 5998,
+  "ai": "Charge",
+  "moveRange": 4,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Rupture",
+   "Vulnerability",
+   "Sense Blood",
+   "Primordial Armor"
+  ]
+ },
+ {
+  "name": "Queen",
+  "name_kr": "퀸",
+  "name_kr_auto": true,
+  "image": "MonsterQueen.png",
+  "refLevel": 100,
+  "classes": [
+   "insect"
+  ],
+  "refAtk": 207,
+  "refHp": 1686,
+  "ai": "Unpredictable",
+  "moveRange": 3,
+  "attackKind": "ranged",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Lumbering",
+   "Corrosive Slime"
+  ]
+ },
+ {
+  "name": "Radiant Chomper",
+  "name_kr": "빛나는 촘퍼",
+  "name_kr_auto": true,
+  "image": "MonsterRadiantChomper.png",
+  "refLevel": 40,
+  "classes": [
+   "beast"
+  ],
+  "refAtk": 136,
+  "refHp": 137,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Brutal Radiance"
+  ]
+ },
+ {
+  "name": "Rat",
+  "name_kr": "쥐",
+  "name_kr_auto": true,
+  "image": "MonsterRat.png",
+  "refLevel": 100,
+  "classes": [
+   "beast"
+  ],
+  "refAtk": 378,
+  "refHp": 1983,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Plaguebearer"
+  ]
+ },
+ {
+  "name": "Reaper",
+  "name_kr": "리퍼",
+  "name_kr_auto": true,
+  "image": "MonsterReaper.png",
+  "refLevel": 100,
+  "classes": [
+   "ethereal",
+   "ghost"
+  ],
+  "refAtk": 674,
+  "refHp": 3,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Doomed",
+   "Mark of Doom",
+   "Mark of Doom"
+  ]
+ },
+ {
+  "name": "Red Slime",
+  "name_kr": "붉은 슬라임",
+  "name_kr_auto": true,
+  "image": "MonsterRedSlime.png",
+  "refLevel": 100,
+  "classes": [
+   "ooze"
+  ],
+  "refAtk": 200,
+  "refHp": 3951,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Water Walker",
+   "Hamstring"
+  ]
+ },
+ {
+  "name": "Ripjaw Brute",
+  "name_kr": "립죠 브루트",
+  "name_kr_auto": true,
+  "image": "MonsterRipjawBrute.png",
+  "refLevel": 100,
+  "classes": [
+   "lizard"
+  ],
+  "refAtk": 1344,
+  "refHp": 10976,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Water Walker",
+   "Primal Attack"
+  ]
+ },
+ {
+  "name": "Ripjaw Hunter",
+  "name_kr": "립죠 헌터",
+  "name_kr_auto": true,
+  "image": "MonsterRipjawHunter.png",
+  "refLevel": 100,
+  "classes": [
+   "lizard"
+  ],
+  "refAtk": 984,
+  "refHp": 8036,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "ranged",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Water Walker",
+   "Primal Attack",
+   "Hamstring"
+  ]
+ },
+ {
+  "name": "Roach",
+  "name_kr": "바퀴벌레",
+  "name_kr_auto": true,
+  "image": "MonsterRoach.png",
+  "refLevel": 100,
+  "classes": [
+   "insect"
+  ],
+  "refAtk": 778,
+  "refHp": 3327,
+  "ai": "Unpredictable",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Survivor",
+   "Death Ward"
+  ]
+ },
+ {
+  "name": "Rocket",
+  "name_kr": "로켓",
+  "name_kr_auto": true,
+  "image": "MonsterRocket.png",
+  "refLevel": 50,
+  "classes": [],
+  "refAtk": 686,
+  "refHp": 83,
+  "ai": "Tactician",
+  "moveRange": 6,
+  "attackKind": "magic",
+  "attackDirs": "all8",
+  "support": [
+   "8"
+  ],
+  "traits": [
+   "Flying",
+   "Rocket",
+   "Short Fuse",
+   "Unstoppable Force"
+  ]
+ },
+ {
+  "name": "Ronin",
+  "name_kr": "로닌",
+  "name_kr_auto": true,
+  "image": "MonsterRonin.png",
+  "refLevel": 100,
+  "classes": [],
+  "refAtk": 666,
+  "refHp": 2849,
+  "ai": "Assassin",
+  "moveRange": 4,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Inverse Ninja Punch",
+   "Inverse Ninja Parry",
+   "Overpower",
+   "Dodge",
+   "Evasive Maneuvers"
+  ]
+ },
+ {
+  "name": "Rotten Tree",
+  "name_kr": "썩은 나무",
+  "name_kr_auto": true,
+  "image": null,
+  "refLevel": null,
+  "classes": [
+   "sylvan"
+  ],
+  "refAtk": null,
+  "refHp": null,
+  "ai": null,
+  "moveRange": null,
+  "attackKind": null,
+  "attackDirs": null,
+  "support": [],
+  "traits": [
+   "Lumbering",
+   "Curse",
+   "Curse",
+   "Overpower"
+  ]
+ },
+ {
+  "name": "Sapling",
+  "name_kr": "묘목",
+  "name_kr_auto": true,
+  "image": "MonsterSapling.png",
+  "refLevel": 100,
+  "classes": [
+   "sylvan"
+  ],
+  "refAtk": 176,
+  "refHp": 409,
+  "ai": "Evade",
+  "moveRange": 1,
+  "attackKind": "ranged",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": []
+ },
+ {
+  "name": "Scarab Beetle",
+  "name_kr": "스카라브 딱정벌레",
+  "name_kr_auto": true,
+  "image": "MonsterScarabBeetle.png",
+  "refLevel": 100,
+  "classes": [
+   "insect"
+  ],
+  "refAtk": 191,
+  "refHp": 721,
+  "ai": "Unpredictable",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Magic Warding"
+  ]
+ },
+ {
+  "name": "Scorpion",
+  "name_kr": "전갈",
+  "name_kr_auto": true,
+  "image": "MonsterScorpion.png",
+  "refLevel": 100,
+  "classes": [
+   "insect"
+  ],
+  "refAtk": 245,
+  "refHp": 700,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "ranged",
+  "attackDirs": null,
+  "support": [],
+  "traits": [
+   "Sting",
+   "Venom"
+  ]
+ },
+ {
+  "name": "Sea Elemental",
+  "name_kr": "바다 엘리멘탈",
+  "name_kr_auto": true,
+  "image": "MonsterSeaElemental.png",
+  "refLevel": 100,
+  "classes": [
+   "elemental"
+  ],
+  "refAtk": 476,
+  "refHp": 2033,
+  "ai": "Evade",
+  "moveRange": 2,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [
+   "8"
+  ],
+  "traits": [
+   "Water Walker",
+   "Melee Warding",
+   "Bubble",
+   "Overpower",
+   "Retaliate"
+  ]
+ },
+ {
+  "name": "Sensei",
+  "name_kr": "센세이",
+  "name_kr_auto": true,
+  "image": "MonsterSensei.png",
+  "refLevel": 100,
+  "classes": [],
+  "refAtk": 236,
+  "refHp": 1009,
+  "ai": "Tactician",
+  "moveRange": 1,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Inverse Ninja Punch",
+   "Inverse Ninja Parry",
+   "Double Strike",
+   "Shuriken",
+   "Mighty Blow"
+  ]
+ },
+ {
+  "name": "Sentry",
+  "name_kr": "센트리",
+  "name_kr_auto": true,
+  "image": "MonsterSentry.png",
+  "refLevel": 100,
+  "classes": [
+   "construct",
+   "clockwork"
+  ],
+  "refAtk": 144,
+  "refHp": 504,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "ranged",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": []
+ },
+ {
+  "name": "Servobot",
+  "name_kr": "서보봇",
+  "name_kr_auto": true,
+  "image": "MonsterServobot.png",
+  "refLevel": 80,
+  "classes": [
+   "construct",
+   "clockwork"
+  ],
+  "refAtk": 72,
+  "refHp": 167,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Magic Warding"
+  ]
+ },
+ {
+  "name": "Shellbreaker",
+  "name_kr": "셸브레이커",
+  "name_kr_auto": true,
+  "image": "MonsterShellbreaker.png",
+  "refLevel": 100,
+  "classes": [
+   "lizard"
+  ],
+  "refAtk": 744,
+  "refHp": 6076,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Conjure",
+   "Primordial Armor"
+  ]
+ },
+ {
+  "name": "Shellbreaker Egg",
+  "name_kr": "셸브레이커 알",
+  "name_kr_auto": true,
+  "image": "MonsterShellbreakerEgg.png",
+  "refLevel": 80,
+  "classes": [],
+  "refAtk": 1,
+  "refHp": 314,
+  "ai": "Charge",
+  "moveRange": 0,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Hatch",
+   "Hatching"
+  ]
+ },
+ {
+  "name": "Shrine Spirit",
+  "name_kr": "사당 정령",
+  "name_kr_auto": true,
+  "image": "MonsterShrineSpirit.png",
+  "refLevel": 100,
+  "classes": [
+   "ethereal"
+  ],
+  "refAtk": 152,
+  "refHp": 353,
+  "ai": "Unpredictable",
+  "moveRange": 3,
+  "attackKind": "magic",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": []
+ },
+ {
+  "name": "Sidhe",
+  "name_kr": "시드",
+  "name_kr_auto": true,
+  "image": "MonsterSidhe.png",
+  "refLevel": 100,
+  "classes": [
+   "faerie"
+  ],
+  "refAtk": 112,
+  "refHp": 728,
+  "ai": "Unpredictable",
+  "moveRange": 4,
+  "attackKind": "magic",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Double Strike",
+   "Dazzling"
+  ]
+ },
+ {
+  "name": "Silverback Alpha",
+  "name_kr": "실버백 알파",
+  "name_kr_auto": true,
+  "image": "MonsterSilverbackAlpha.png",
+  "refLevel": 100,
+  "classes": [
+   "beast"
+  ],
+  "refAtk": 1167,
+  "refHp": 18598,
+  "ai": "Charge",
+  "moveRange": 4,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Unstoppable",
+   "Crushing Blow",
+   "Mighty Blow",
+   "Overpower"
+  ]
+ },
+ {
+  "name": "Skeletal Archer",
+  "name_kr": "해골 아처",
+  "name_kr_auto": true,
+  "image": "MonsterSkeletalArcher.png",
+  "refLevel": 100,
+  "classes": [
+   "undead",
+   "skeletal"
+  ],
+  "refAtk": 178,
+  "refHp": 623,
+  "ai": "Evade",
+  "moveRange": 3,
+  "attackKind": "ranged",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Rend"
+  ]
+ },
+ {
+  "name": "Skeletal Berserker",
+  "name_kr": "해골 버서커",
+  "name_kr_auto": true,
+  "image": "MonsterSkeletalBerserker.png",
+  "refLevel": 100,
+  "classes": [
+   "undead",
+   "skeletal"
+  ],
+  "refAtk": 1216,
+  "refHp": 6384,
+  "ai": "Tactician",
+  "moveRange": 4,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Berserk",
+   "Whirlwind"
+  ]
+ },
+ {
+  "name": "Skeletal Javelineer",
+  "name_kr": "해골 투창병",
+  "name_kr_auto": true,
+  "image": "MonsterSkeletalJavelineer.png",
+  "refLevel": 100,
+  "classes": [
+   "undead",
+   "skeletal"
+  ],
+  "refAtk": 990,
+  "refHp": 3465,
+  "ai": "Evade",
+  "moveRange": 2,
+  "attackKind": "ranged",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Ballistic",
+   "Ballistic"
+  ]
+ },
+ {
+  "name": "Skeletal Warrior",
+  "name_kr": "해골 전사",
+  "name_kr_auto": true,
+  "image": "MonsterSkeletalWarrior.png",
+  "refLevel": 100,
+  "classes": [
+   "undead",
+   "skeletal"
+  ],
+  "refAtk": 204,
+  "refHp": 714,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": []
+ },
+ {
+  "name": "Snatcher",
+  "name_kr": "스내처",
+  "name_kr_auto": true,
+  "image": "MonsterSnatcher.png",
+  "refLevel": 50,
+  "classes": [
+   "undead"
+  ],
+  "refAtk": 642,
+  "refHp": 2249,
+  "ai": "Evade",
+  "moveRange": 3,
+  "attackKind": "ranged",
+  "attackDirs": null,
+  "support": [],
+  "traits": [
+   "Brutal Attack",
+   "Tongue Grab",
+   "Rupture"
+  ]
+ },
+ {
+  "name": "Spellbinder",
+  "name_kr": "스펠바인더",
+  "name_kr_auto": true,
+  "image": "MonsterSpellbinder.png",
+  "refLevel": 100,
+  "classes": [],
+  "refAtk": 170,
+  "refHp": 891,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Death Curse",
+   "Spellbinding",
+   "Magic Parry"
+  ]
+ },
+ {
+  "name": "Spelleater",
+  "name_kr": "스펠이터",
+  "name_kr_auto": true,
+  "image": "MonsterSpelleater.png",
+  "refLevel": 100,
+  "classes": [],
+  "refAtk": 488,
+  "refHp": 3979,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Magic Warding",
+   "Arcane Empowerment"
+  ]
+ },
+ {
+  "name": "Sphinx",
+  "name_kr": "스핑크스",
+  "name_kr_auto": true,
+  "image": "MonsterSphinx.png",
+  "refLevel": 100,
+  "classes": [
+   "beast"
+  ],
+  "refAtk": 106,
+  "refHp": 3327,
+  "ai": "Unpredictable",
+  "moveRange": 2,
+  "attackKind": "ranged",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Lumbering",
+   "Rend",
+   "Curse"
+  ]
+ },
+ {
+  "name": "Spirit",
+  "name_kr": "정령",
+  "name_kr_auto": true,
+  "image": null,
+  "refLevel": null,
+  "classes": [
+   "ethereal"
+  ],
+  "refAtk": null,
+  "refHp": null,
+  "ai": null,
+  "moveRange": null,
+  "attackKind": null,
+  "attackDirs": null,
+  "support": [],
+  "traits": [
+   "-"
+  ]
+ },
+ {
+  "name": "Star-Stone",
+  "name_kr": "스타스톤",
+  "name_kr_auto": true,
+  "image": "MonsterStarStone.png",
+  "refLevel": 100,
+  "classes": [
+   "elemental"
+  ],
+  "refAtk": 4,
+  "refHp": 114,
+  "ai": "Supporter",
+  "moveRange": 1,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [
+   "8"
+  ],
+  "traits": [
+   "Healer",
+   "Elder Aegis",
+   "Elder Cleanse"
+  ]
+ },
+ {
+  "name": "Stinger",
+  "name_kr": "스팅어",
+  "name_kr_auto": true,
+  "image": "MonsterStinger.png",
+  "refLevel": 18,
+  "classes": [
+   "insect"
+  ],
+  "refAtk": 103,
+  "refHp": 89,
+  "ai": "Unpredictable",
+  "moveRange": 4,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Flying",
+   "Acidling"
+  ]
+ },
+ {
+  "name": "Stone Elemental",
+  "name_kr": "돌 엘리멘탈",
+  "name_kr_auto": true,
+  "image": "MonsterStoneElemental.png",
+  "refLevel": 100,
+  "classes": [
+   "elemental"
+  ],
+  "refAtk": 308,
+  "refHp": 2509,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Retaliate",
+   "Overpower"
+  ]
+ },
+ {
+  "name": "Sulfuron",
+  "name_kr": "설퍼론",
+  "name_kr_auto": true,
+  "image": "MonsterSulfuron.png",
+  "refLevel": 100,
+  "classes": [
+   "elemental"
+  ],
+  "refAtk": 420,
+  "refHp": 1470,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "ranged",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Ignite",
+   "Mighty Blow",
+   "Fire Walker"
+  ]
+ },
+ {
+  "name": "Suspicious Shrubbery",
+  "name_kr": "수상한 덤불",
+  "name_kr_auto": true,
+  "image": "MonsterSuspiciousShrubbery.png",
+  "refLevel": 100,
+  "classes": [
+   "sylvan"
+  ],
+  "refAtk": 50,
+  "refHp": 261,
+  "ai": "Charge",
+  "moveRange": 4,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Hiding in the Bushes!"
+  ]
+ },
+ {
+  "name": "T-Rex",
+  "name_kr": "티렉스",
+  "name_kr_auto": true,
+  "image": "MonsterTRex.png",
+  "refLevel": 100,
+  "classes": [
+   "lizard"
+  ],
+  "refAtk": 1155,
+  "refHp": 7508,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Immovable",
+   "Double Strike",
+   "Massive Attack",
+   "Primordial Armor"
+  ]
+ },
+ {
+  "name": "Tentacle",
+  "name_kr": "촉수",
+  "name_kr_auto": true,
+  "image": null,
+  "refLevel": null,
+  "classes": [
+   "non categorized"
+  ],
+  "refAtk": null,
+  "refHp": null,
+  "ai": null,
+  "moveRange": null,
+  "attackKind": null,
+  "attackDirs": null,
+  "support": [],
+  "traits": [
+   "Hamstring",
+   "Lumbering"
+  ]
+ },
+ {
+  "name": "The Dreamer",
+  "name_kr": "몽상가",
+  "name_kr_auto": true,
+  "image": "MonsterTheDreamer.png",
+  "refLevel": 100,
+  "classes": [],
+  "refAtk": 124,
+  "refHp": 434,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "BigDream",
+   "Curse",
+   "Debuff Immunity",
+   "Immovable"
+  ]
+ },
+ {
+  "name": "Toad",
+  "name_kr": "두꺼비",
+  "name_kr_auto": true,
+  "image": "MonsterToad.png",
+  "refLevel": 100,
+  "classes": [],
+  "refAtk": 173,
+  "refHp": 404,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "ranged",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Tongue Grab"
+  ]
+ },
+ {
+  "name": "Toxic Dragon",
+  "name_kr": "맹독 드래곤",
+  "name_kr_auto": true,
+  "image": "MonsterToxicDragon.png",
+  "refLevel": 100,
+  "classes": [
+   "dragon"
+  ],
+  "refAtk": 460,
+  "refHp": 2859,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Maw & Claw",
+   "Flying",
+   "Unstoppable",
+   "Immovable",
+   "Poison Breath"
+  ]
+ },
+ {
+  "name": "Toxic Dragon Whelp",
+  "name_kr": "맹독 드래곤 웰프",
+  "name_kr_auto": true,
+  "image": "MonsterToxicDragonWhelp.png",
+  "refLevel": 100,
+  "classes": [
+   "dragon"
+  ],
+  "refAtk": 250,
+  "refHp": 1551,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Maw & Claw",
+   "Flying",
+   "Immune to Silence",
+   "Double Strike",
+   "Lesser Poison Breath"
+  ]
+ },
+ {
+  "name": "Training Dummy",
+  "name_kr": "훈련용 더미",
+  "name_kr_auto": true,
+  "image": "MonsterTrainingDummy.png",
+  "refLevel": 1,
+  "classes": [
+   "undead"
+  ],
+  "refAtk": 1,
+  "refHp": 1,
+  "ai": null,
+  "moveRange": 0,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Immovable"
+  ]
+ },
+ {
+  "name": "Training Dummy Boss",
+  "name_kr": "훈련용 더미 보스",
+  "name_kr_auto": true,
+  "image": "MonsterTrainingDummyBoss.png",
+  "refLevel": 1,
+  "classes": [
+   "construct",
+   "golem"
+  ],
+  "refAtk": 3,
+  "refHp": 748,
+  "ai": "Charge",
+  "moveRange": 0,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Mighty Blow (Boss)",
+   "Debuff Immunity"
+  ]
+ },
+ {
+  "name": "Treant",
+  "name_kr": "트렌트",
+  "name_kr_auto": true,
+  "image": "MonsterTreant.png",
+  "refLevel": 100,
+  "classes": [
+   "sylvan"
+  ],
+  "refAtk": 504,
+  "refHp": 4116,
+  "ai": "Tactician",
+  "moveRange": 1,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Mounting Anger",
+   "Immovable",
+   "Lumbering"
+  ]
+ },
+ {
+  "name": "Trickster Demon",
+  "name_kr": "트릭스터 악마",
+  "name_kr_auto": true,
+  "image": "MonsterTricksterDemon.png",
+  "refLevel": 100,
+  "classes": [
+   "demon"
+  ],
+  "refAtk": 504,
+  "refHp": 4116,
+  "ai": "Tactician",
+  "moveRange": 5,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Demon",
+   "Flying",
+   "Double Strike",
+   "Staggering Blow"
+  ]
+ },
+ {
+  "name": "Troll",
+  "name_kr": "트롤",
+  "name_kr_auto": false,
+  "image": "MonsterTroll.png",
+  "refLevel": 100,
+  "classes": [
+   "troll"
+  ],
+  "refAtk": 290,
+  "refHp": 1015,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Mighty Blow",
+   "Mighty Blow"
+  ]
+ },
+ {
+  "name": "Troll Stinghag",
+  "name_kr": "트롤 스팅해그",
+  "name_kr_auto": true,
+  "image": "MonsterTrollStinghag.png",
+  "refLevel": 100,
+  "classes": [
+   "troll"
+  ],
+  "refAtk": 790,
+  "refHp": 3817,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Sting"
+  ]
+ },
+ {
+  "name": "Troll Thane",
+  "name_kr": "트롤 테인",
+  "name_kr_auto": true,
+  "image": "MonsterTrollThane.png",
+  "refLevel": 100,
+  "classes": [
+   "troll"
+  ],
+  "refAtk": 483,
+  "refHp": 2331,
+  "ai": "Unpredictable",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Bring It On",
+   "Mighty Blow",
+   "Barrier",
+   "Magic Parry",
+   "Magic Parry"
+  ]
+ },
+ {
+  "name": "Troll Trapper",
+  "name_kr": "트롤 트래퍼",
+  "name_kr_auto": true,
+  "image": "MonsterTrollTrapper.png",
+  "refLevel": 100,
+  "classes": [
+   "troll"
+  ],
+  "refAtk": 1230,
+  "refHp": 5944,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "ranged",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Ballistic",
+   "Immobilizing Strike"
+  ]
+ },
+ {
+  "name": "Troll Tyrant",
+  "name_kr": "트롤 폭군",
+  "name_kr_auto": true,
+  "image": "MonsterTrollTyrant.png",
+  "refLevel": 100,
+  "classes": [
+   "troll"
+  ],
+  "refAtk": 1437,
+  "refHp": 6943,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Mightiest Blow",
+   "Unstoppable"
+  ]
+ },
+ {
+  "name": "Troll Witch",
+  "name_kr": "트롤 마녀",
+  "name_kr_auto": true,
+  "image": "MonsterTrollWitch.png",
+  "refLevel": 50,
+  "classes": [
+   "troll"
+  ],
+  "refAtk": 65,
+  "refHp": 529,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Magic Parry",
+   "Magic Parry",
+   "Magic Parry",
+   "Life Drain"
+  ]
+ },
+ {
+  "name": "Undying Forest Spirit",
+  "name_kr": "불사의 숲 정령",
+  "name_kr_auto": true,
+  "image": "MonsterUndyingForestSpirit.png",
+  "refLevel": 100,
+  "classes": [
+   "insect"
+  ],
+  "refAtk": 402,
+  "refHp": 2612,
+  "ai": "Charge",
+  "moveRange": 4,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Sting",
+   "Poison Cloud"
+  ]
+ },
+ {
+  "name": "Ungol",
+  "name_kr": "운골",
+  "name_kr_auto": true,
+  "image": "MonsterUngol.png",
+  "refLevel": 100,
+  "classes": [
+   "insect"
+  ],
+  "refAtk": 402,
+  "refHp": 2612,
+  "ai": "Charge",
+  "moveRange": 4,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Sting",
+   "Poison Cloud"
+  ]
+ },
+ {
+  "name": "Unshackled Elemental",
+  "name_kr": "해방된 엘리멘탈",
+  "name_kr_auto": true,
+  "image": "MonsterUnshackledElemental.png",
+  "refLevel": 100,
+  "classes": [
+   "elemental"
+  ],
+  "refAtk": 693,
+  "refHp": 4505,
+  "ai": "Tactician",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Whirlwind",
+   "Whirlwind",
+   "Overpower",
+   "Retaliate",
+   "Retaliate"
+  ]
+ },
+ {
+  "name": "Ursa Major",
+  "name_kr": "우르사 메이저",
+  "name_kr_auto": true,
+  "image": "MonsterUrsaMajor.png",
+  "refLevel": 100,
+  "classes": [
+   "beast"
+  ],
+  "refAtk": 438,
+  "refHp": 6980,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Critical Attack",
+   "Ursine Rage",
+   "Stalwart"
+  ]
+ },
+ {
+  "name": "Vampire",
+  "name_kr": "뱀파이어",
+  "name_kr_auto": true,
+  "image": "MonsterVampire.png",
+  "refLevel": 100,
+  "classes": [
+   "undead",
+   "vampire"
+  ],
+  "refAtk": 440,
+  "refHp": 1260,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": []
+ },
+ {
+  "name": "Vampire Lord",
+  "name_kr": "뱀파이어 로드",
+  "name_kr_auto": true,
+  "image": "MonsterVampireLord.png",
+  "refLevel": 100,
+  "classes": [
+   "undead",
+   "vampire"
+  ],
+  "refAtk": 1584,
+  "refHp": 4536,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": []
+ },
+ {
+  "name": "Village Seer",
+  "name_kr": "마을 예언자",
+  "name_kr_auto": true,
+  "image": "MonsterVillageSeer.png",
+  "refLevel": 100,
+  "classes": [],
+  "refAtk": 692,
+  "refHp": 1613,
+  "ai": "Tactician",
+  "moveRange": 1,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Seer's Escort",
+   "Elemental Banisher",
+   "Death Ward",
+   "Revitalize"
+  ]
+ },
+ {
+  "name": "Vine Lasher",
+  "name_kr": "덩굴 래셔",
+  "name_kr_auto": true,
+  "image": "MonsterVineLasher.png",
+  "refLevel": 95,
+  "classes": [
+   "sylvan"
+  ],
+  "refAtk": 178,
+  "refHp": 938,
+  "ai": "Evade",
+  "moveRange": 3,
+  "attackKind": "ranged",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Tongue Grab"
+  ]
+ },
+ {
+  "name": "Voice of Winter",
+  "name_kr": "겨울의 목소리",
+  "name_kr_auto": true,
+  "image": "MonsterVoiceOfWinter.png",
+  "refLevel": 95,
+  "classes": [
+   "celestial"
+  ],
+  "refAtk": 245,
+  "refHp": 2002,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Flying",
+   "Fortress",
+   "Freeze"
+  ]
+ },
+ {
+  "name": "Void Chomper",
+  "name_kr": "공허 촘퍼",
+  "name_kr_auto": true,
+  "image": "MonsterVoidChomper.png",
+  "refLevel": 40,
+  "classes": [
+   "beast"
+  ],
+  "refAtk": 136,
+  "refHp": 137,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Void Surge"
+  ]
+ },
+ {
+  "name": "War Beetle",
+  "name_kr": "전쟁 딱정벌레",
+  "name_kr_auto": true,
+  "image": "MonsterWarBeetle.png",
+  "refLevel": 100,
+  "classes": [
+   "insect"
+  ],
+  "refAtk": 173,
+  "refHp": 3428,
+  "ai": "Unpredictable",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Mighty Blow"
+  ]
+ },
+ {
+  "name": "War Devil",
+  "name_kr": "전쟁 데빌",
+  "name_kr_auto": true,
+  "image": "MonsterWarDevil.png",
+  "refLevel": 100,
+  "classes": [
+   "demon"
+  ],
+  "refAtk": 135,
+  "refHp": 2678,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Immovable",
+   "Barrier",
+   "Mighty Blow",
+   "Rupture"
+  ]
+ },
+ {
+  "name": "War Ogre",
+  "name_kr": "전쟁 오거",
+  "name_kr_auto": true,
+  "image": "MonsterWarOgre.png",
+  "refLevel": 100,
+  "classes": [
+   "goblinoid"
+  ],
+  "refAtk": 773,
+  "refHp": 4058,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Mighty Blow"
+  ]
+ },
+ {
+  "name": "War Troll",
+  "name_kr": "전쟁 트롤",
+  "name_kr_auto": true,
+  "image": "MonsterWarTroll.png",
+  "refLevel": 100,
+  "classes": [
+   "troll"
+  ],
+  "refAtk": 1104,
+  "refHp": 3864,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Mighty Blow",
+   "Mighty Blow"
+  ]
+ },
+ {
+  "name": "War Weaver",
+  "name_kr": "전쟁 위버",
+  "name_kr_auto": true,
+  "image": null,
+  "refLevel": null,
+  "classes": [
+   "insect"
+  ],
+  "refAtk": null,
+  "refHp": null,
+  "ai": null,
+  "moveRange": null,
+  "attackKind": null,
+  "attackDirs": null,
+  "support": [],
+  "traits": [
+   "Poison Resistance",
+   "Demoralizing Strike",
+   "Venom"
+  ]
+ },
+ {
+  "name": "Watcher",
+  "name_kr": "감시자",
+  "name_kr_auto": true,
+  "image": "MonsterWatcher.png",
+  "refLevel": 100,
+  "classes": [
+   "construct",
+   "clockwork"
+  ],
+  "refAtk": 120,
+  "refHp": 630,
+  "ai": "Evade",
+  "moveRange": 3,
+  "attackKind": "magic",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Dodge",
+   "Dodge"
+  ]
+ },
+ {
+  "name": "Water Nix",
+  "name_kr": "물 닉스",
+  "name_kr_auto": true,
+  "image": "MonsterWaterNix.png",
+  "refLevel": 100,
+  "classes": [
+   "undead",
+   "vampire"
+  ],
+  "refAtk": 557,
+  "refHp": 4548,
+  "ai": "Evade",
+  "moveRange": 2,
+  "attackKind": "magic",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Water Walker",
+   "Watery Grave",
+   "Focused Wither"
+  ]
+ },
+ {
+  "name": "Weaver",
+  "name_kr": "위버",
+  "name_kr_auto": true,
+  "image": "MonsterWeaver.png",
+  "refLevel": 100,
+  "classes": [
+   "insect"
+  ],
+  "refAtk": 164,
+  "refHp": 574,
+  "ai": "Unpredictable",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Poison Resistance",
+   "Poison Cloud",
+   "Venom"
+  ]
+ },
+ {
+  "name": "Widow",
+  "name_kr": "위도우",
+  "name_kr_auto": true,
+  "image": "MonsterWidow.png",
+  "refLevel": 100,
+  "classes": [
+   "insect"
+  ],
+  "refAtk": 143,
+  "refHp": 215,
+  "ai": "Unpredictable",
+  "moveRange": 2,
+  "attackKind": "ranged",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Poison Resistance",
+   "Sting"
+  ]
+ },
+ {
+  "name": "Wild Rose",
+  "name_kr": "와일드 장미",
+  "name_kr_auto": true,
+  "image": "MonsterWildRose.png",
+  "refLevel": 50,
+  "classes": [
+   "sylvan"
+  ],
+  "refAtk": 101,
+  "refHp": 435,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Sting",
+   "Critical Attack",
+   "Critical Attack",
+   "Critical Attack"
+  ]
+ },
+ {
+  "name": "Winter Knight",
+  "name_kr": "겨울 기사",
+  "name_kr_auto": false,
+  "image": "MonsterWinterKnight.png",
+  "refLevel": 100,
+  "classes": [],
+  "refAtk": 154,
+  "refHp": 2151,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Massive Attack",
+   "Freeze",
+   "Unstoppable",
+   "Fortress"
+  ]
+ },
+ {
+  "name": "Wisp",
+  "name_kr": "위습",
+  "name_kr_auto": true,
+  "image": "MonsterWisp.png",
+  "refLevel": 100,
+  "classes": [
+   "ethereal"
+  ],
+  "refAtk": 349,
+  "refHp": 475,
+  "ai": "Unpredictable",
+  "moveRange": 5,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Wisp",
+   "Dodge",
+   "Overpower"
+  ]
+ },
+ {
+  "name": "Withering Height",
+  "name_kr": "위더링 하이트",
+  "name_kr_auto": true,
+  "image": "MonsterWitheringHeight.png",
+  "refLevel": 100,
+  "classes": [
+   "sylvan"
+  ],
+  "refAtk": 567,
+  "refHp": 11254,
+  "ai": "Tactician",
+  "moveRange": 1,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Mounting Anger",
+   "Immovable",
+   "Lumbering",
+   "Decay",
+   "Wither"
+  ]
+ },
+ {
+  "name": "Wraith",
+  "name_kr": "레이스",
+  "name_kr_auto": true,
+  "image": "MonsterWraith.png",
+  "refLevel": 100,
+  "classes": [
+   "ethereal"
+  ],
+  "refAtk": 80,
+  "refHp": 1120,
+  "ai": "Supporter",
+  "moveRange": 2,
+  "attackKind": "magic",
+  "attackDirs": "all8",
+  "support": [
+   "8"
+  ],
+  "traits": [
+   "Healer",
+   "Death Curse"
+  ]
+ },
+ {
+  "name": "Wyrmkin Arcane Devourer",
+  "name_kr": "윔킨 아케인 포식자",
+  "name_kr_auto": true,
+  "image": "MonsterWyrmkinArcaneDevourer.png",
+  "refLevel": 100,
+  "classes": [],
+  "refAtk": 704,
+  "refHp": 7392,
+  "ai": "Charge",
+  "moveRange": 3,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Ancient Scales",
+   "Barrier",
+   "Magic Warding",
+   "Arcane Empowerment"
+  ]
+ },
+ {
+  "name": "Wyrmkin Blackguard",
+  "name_kr": "윔킨 블랙가드",
+  "name_kr_auto": true,
+  "image": "MonsterWyrmkinBlackguard.png",
+  "refLevel": 85,
+  "classes": [],
+  "refAtk": 1283,
+  "refHp": 4492,
+  "ai": "Tactician",
+  "moveRange": 5,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Ancient Scales",
+   "Fire Walker",
+   "Barrier",
+   "Ignition Point"
+  ]
+ },
+ {
+  "name": "Yeti",
+  "name_kr": "예티",
+  "name_kr_auto": true,
+  "image": "MonsterYeti.png",
+  "refLevel": 95,
+  "classes": [
+   "troll"
+  ],
+  "refAtk": 581,
+  "refHp": 3050,
+  "ai": "Charge",
+  "moveRange": 1,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Mounting Anger",
+   "Rush"
+  ]
+ },
+ {
+  "name": "Zombie",
+  "name_kr": "좀비",
+  "name_kr_auto": true,
+  "image": "MonsterZombie.png",
+  "refLevel": 100,
+  "classes": [
+   "undead"
+  ],
+  "refAtk": 418,
+  "refHp": 1197,
+  "ai": "Charge",
+  "moveRange": 2,
+  "attackKind": "melee",
+  "attackDirs": "cross",
+  "support": [],
+  "traits": [
+   "Undead Horde",
+   "Infected"
+  ]
+ }
+]

@@ -1003,6 +1003,120 @@
     .exp-range-total { margin-left: 0; width: 100%; margin-top: 6px; }
   }
 
+  /* Board Solver tab */
+  .solver-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .solver-board-col { flex: 1 1 380px; min-width: 320px; }
+  .solver-side-col { flex: 1 1 380px; min-width: 320px; display: flex; flex-direction: column; gap: 16px; }
+  .solver-side-col .panel { background: #16213e; border-radius: 12px; padding: 16px; }
+  .solver-side-col h2 { font-size: 1rem; margin-bottom: 10px; color: #e94560; }
+  .bs-dim { color: #888; font-weight: normal; font-size: 0.8rem; }
+  .bs-board { width: 100%; max-width: 460px; display: block; background: #14283a; border-radius: 12px; }
+  .bs-rail { fill: #7d97ab; font-size: 11px; font-weight: 700; text-anchor: middle; }
+  .bs-unit-name { fill: #fff; font-size: 10.5px; font-weight: 700; text-anchor: middle; }
+  .bs-unit-stat { fill: #9db8cc; font-size: 9px; text-anchor: middle; }
+  .bs-badge-big { fill: #0b1620; font-size: 12px; font-weight: 800; text-anchor: middle; }
+  .bs-badge { font-size: 10px; font-weight: 700; text-anchor: middle; }
+  .bs-swap { fill: #fff; font-size: 14px; font-weight: 800; text-anchor: middle; paint-order: stroke; stroke: #0b1620; stroke-width: 3px; }
+  .bs-toolbar { display: flex; gap: 8px; margin-bottom: 10px; flex-wrap: wrap; }
+  .bs-palette { display: flex; gap: 6px; margin-top: 10px; flex-wrap: wrap; }
+  .bs-palette-btn {
+    display: inline-flex; align-items: center; gap: 5px;
+    padding: 5px 10px; border-radius: 6px; border: 1px solid #2a3f5f;
+    background: #16213e; color: #ccc; cursor: pointer; font-size: 0.8rem;
+  }
+  .bs-palette-btn.active { border-color: #e94560; color: #fff; box-shadow: 0 0 6px rgba(233,69,96,0.5); }
+  .bs-swatch { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+  .bs-swatch-ground { background: #2e4d63; }
+  .bs-swatch-wall { background: #1c7a5c; }
+  .bs-swatch-rubble { background: #5a5248; }
+  .bs-swatch-water { background: #1f5f8f; }
+  .bs-swatch-lava { background: #8f3a1f; }
+  .bs-hint { color: #667; font-size: 0.75rem; margin-top: 8px; }
+  .bs-after-title { color: #ffd166; font-size: 0.85rem; font-weight: bold; margin: 12px 0 6px; }
+  .bs-kill-x { fill: #e2503f; font-size: 22px; font-weight: 800; text-anchor: middle; paint-order: stroke; stroke: #0b1620; stroke-width: 3px; }
+  .bs-size-label {
+    display: inline-flex; align-items: center; gap: 5px;
+    color: #aaa; font-size: 0.85rem;
+  }
+  .bs-size-label input {
+    width: 52px; padding: 6px; border-radius: 6px;
+    border: 1px solid #2a3f5f; background: #1a1a2e; color: #eee;
+  }
+  .bs-shot-panel { background: #16213e; border-radius: 12px; padding: 14px; margin-bottom: 12px; }
+  .bs-shot-panel h2 { font-size: 1rem; margin-bottom: 10px; color: #e94560; }
+  .bs-shot-canvas {
+    width: 100%; max-height: 420px; object-fit: contain;
+    display: block; margin-top: 8px; border-radius: 8px;
+    background: #0b1620; touch-action: none; cursor: crosshair;
+  }
+  .bs-status { color: #e8b04b; font-size: 0.85rem; margin-top: 8px; min-height: 1.2em; }
+  .bs-btn {
+    padding: 8px 14px; border-radius: 8px; border: 1px solid #2a3f5f;
+    background: #0f3460; color: #eee; cursor: pointer; font-size: 0.85rem;
+  }
+  .bs-btn:hover { background: #164a80; }
+  .bs-btn.bs-primary { background: #e94560; border-color: #e94560; font-weight: bold; }
+  .bs-btn.bs-primary:hover { background: #ff5f7a; }
+  .bs-btn:disabled { opacity: 0.5; cursor: wait; }
+  .bs-search-wrap { position: relative; margin-bottom: 10px; }
+  .bs-search-wrap input {
+    width: 100%; padding: 8px 10px; border-radius: 8px;
+    border: 1px solid #2a3f5f; background: #1a1a2e; color: #eee;
+  }
+  .bs-dropdown {
+    display: none; position: absolute; top: 100%; left: 0; right: 0; z-index: 30;
+    background: #1a1a2e; border: 1px solid #2a3f5f; border-radius: 8px;
+    max-height: 260px; overflow-y: auto;
+  }
+  .bs-dropdown-item { padding: 8px 10px; cursor: pointer; font-size: 0.85rem; }
+  .bs-dropdown-item:hover { background: #0f3460; }
+  .bs-unit-row {
+    display: flex; align-items: center; gap: 8px;
+    padding: 6px 0; border-bottom: 1px solid #1f2b47; font-size: 0.85rem;
+  }
+  .bs-unit-row img { width: 28px; height: 28px; border-radius: 6px; object-fit: cover; }
+  .bs-unit-row select, .bs-mon-form select, .bs-mon-form input, .bs-solve-form select, .bs-solve-form input {
+    background: #1a1a2e; color: #eee; border: 1px solid #2a3f5f;
+    border-radius: 6px; padding: 4px 6px; font-size: 0.8rem;
+  }
+  .bs-unit-label { flex: 1; }
+  .bs-stat-input { width: 62px; }
+  .bs-mini-btn {
+    padding: 4px 9px; border-radius: 6px; border: 1px solid #2a3f5f;
+    background: #16213e; color: #ccc; cursor: pointer; font-size: 0.75rem;
+  }
+  .bs-mini-btn.active { border-color: #ffd166; color: #ffd166; }
+  .bs-mini-btn.bs-danger { color: #e2503f; }
+  .bs-mon-form { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-bottom: 10px; }
+  .bs-mon-form label { font-size: 0.75rem; color: #aaa; display: inline-flex; align-items: center; gap: 4px; }
+  .bs-mon-form input[type="number"] { width: 58px; }
+  .bs-mon-form input[type="text"] { width: 90px; }
+  .bs-check { user-select: none; }
+  .bs-solve-form { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+  .bs-solve-form label { font-size: 0.8rem; color: #aaa; display: inline-flex; align-items: center; gap: 6px; }
+  .bs-solve-form input[type="number"] { width: 64px; }
+  .bs-result-card {
+    background: #1a1a2e; border: 1px solid #2a3f5f; border-radius: 10px;
+    padding: 10px 12px; margin-bottom: 8px; cursor: pointer;
+  }
+  .bs-result-card:hover { border-color: #4d94ff; }
+  .bs-result-card.selected { border-color: #ffd166; box-shadow: 0 0 8px rgba(255,209,102,0.35); }
+  .bs-result-title { font-weight: bold; color: #fff; font-size: 0.9rem; margin-bottom: 4px; }
+  .bs-result-line { font-size: 0.78rem; color: #9db8cc; margin-top: 2px; }
+  .bs-drag-line { color: #ffd166; }
+  .bs-warn { color: #e8b04b; }
+  @media (max-width: 800px) {
+    .solver-container { padding: 12px; }
+  }
+
   .selected-trait.boost-item .boost-icon-sm {
     width: 32px;
     height: 32px;
@@ -1028,6 +1142,8 @@
   <button class="tab-btn active" onclick="switchTab('calculator')">Damage Calculator</button>
   <button class="tab-btn" onclick="switchTab('finder')">Trait Finder</button>
   <button class="tab-btn" onclick="switchTab('exp')">EXP Table</button>
+  <!-- Board Solver is under development: hidden unless the URL has ?solver -->
+  <button id="bsTabBtn" class="tab-btn" style="display:none" onclick="switchTab('solver')">Board Solver</button>
 </div>
 
 <div id="tabCalculator" class="tab-content active">
@@ -1222,6 +1338,106 @@
           </thead>
           <tbody id="expTableBody"></tbody>
         </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="tabSolver" class="tab-content">
+  <div class="solver-container">
+    <div class="solver-board-col">
+      <div class="panel bs-shot-panel">
+        <h2>스크린샷 인식 <span class="bs-dim">(전투 화면 업로드 → 자동 배치)</span></h2>
+        <div class="bs-toolbar">
+          <label class="bs-btn">이미지 선택<input type="file" id="bsShotFile" accept="image/*" hidden></label>
+          <button id="bsRecognizeBtn" class="bs-btn bs-primary" disabled>인식 실행</button>
+        </div>
+        <div id="bsShotWrap" style="display:none">
+          <canvas id="bsShotCanvas" class="bs-shot-canvas"></canvas>
+          <div class="bs-hint">노란 격자를 보드 36칸에 맞추세요 — 모서리 원 드래그: 크기 · 내부 드래그: 이동. 팀을 먼저 입력하면 아군이 자동 식별됩니다.</div>
+        </div>
+      </div>
+      <div class="bs-toolbar">
+        <label class="bs-size-label">칸수
+          <input type="number" id="bsCols" value="6" min="3" max="12"> ×
+          <input type="number" id="bsRows" value="6" min="3" max="12">
+          <span class="bs-dim">(가로 × 세로)</span>
+        </label>
+        <button id="bsFixtureBtn" class="bs-btn">심연의 동굴 1-3 불러오기</button>
+        <button id="bsClearBtn" class="bs-btn">초기화</button>
+      </div>
+      <svg id="bsBoard" class="bs-board"></svg>
+      <div id="bsAfterWrap" style="display:none">
+        <div class="bs-after-title">이동 후 배치 <span class="bs-dim" id="bsAfterLabel"></span></div>
+        <svg id="bsBoardAfter" class="bs-board"></svg>
+      </div>
+      <div id="bsPalette" class="bs-palette"></div>
+      <div class="bs-hint">브러시를 고른 뒤 보드 칸을 클릭하세요. 유닛은 목록의 "배치" 버튼 → 칸 클릭.</div>
+      <div id="bsStatus" class="bs-status"></div>
+    </div>
+
+    <div class="solver-side-col">
+      <div class="panel">
+        <h2>팀 <span class="bs-dim">(최대 6명)</span></h2>
+        <div class="bs-search-wrap">
+          <input type="text" id="bsHeroSearch" placeholder="영웅 검색 (이름/한글명)..." autocomplete="off">
+          <div class="bs-dropdown" id="bsHeroDropdown"></div>
+        </div>
+        <div id="bsTeamList"></div>
+        <div class="bs-solve-form" style="margin-top:10px">
+          <label>리더 버프 배수
+            <input type="number" id="bsLeader" value="1" min="0" step="0.01">
+          </label>
+          <span class="bs-dim">던전 입장 시 결정 · 예: 1.15 = +15%</span>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>몬스터</h2>
+        <div class="bs-search-wrap">
+          <input type="text" id="bsMonSearch" placeholder="몬스터 검색 (DB에서 재능 자동 입력)..." autocomplete="off">
+          <div class="bs-dropdown" id="bsMonDropdown"></div>
+        </div>
+        <div class="bs-mon-form">
+          <input type="text" id="bsMonName" placeholder="이름" value="트롤">
+          <select id="bsMonGrade" title="등급">
+            <option value="일반" selected>일반</option>
+            <option value="엘리트">엘리트</option>
+            <option value="선봉장">선봉장</option>
+          </select>
+          <select id="bsMonColor">
+            <option value="red">적</option><option value="blue">청</option>
+            <option value="green">녹</option><option value="light">광</option>
+            <option value="dark">암</option>
+          </select>
+          <label>레벨 <input type="number" id="bsMonLevel" min="1" max="100" placeholder="자동"></label>
+          <label>ATK <input type="number" id="bsMonAtk" value="32" min="0"></label>
+          <label>HP <input type="number" id="bsMonHp" value="114" min="1"></label>
+          <label>이동 <input type="number" id="bsMonMove" value="2" min="0" max="6"></label>
+          <select id="bsMonKind">
+            <option value="melee">근접</option><option value="ranged">원거리</option>
+            <option value="magic">마법</option>
+          </select>
+          <select id="bsMonDirs">
+            <option value="cross">십자</option><option value="all8">8방향</option>
+          </select>
+          <label>공격재능 <input type="number" id="bsMonAtkTraits" value="0" min="0" max="5"></label>
+          <label class="bs-check"><input type="checkbox" id="bsMonGob" checked> 고블리노이드</label>
+          <button id="bsAddMonsterBtn" class="bs-btn">추가 후 배치</button>
+        </div>
+        <div id="bsMonsterList"></div>
+      </div>
+
+      <div class="panel">
+        <div class="bs-solve-form">
+          <button id="bsSolveBtn" class="bs-btn bs-primary">최적 배치 찾기</button>
+          <span class="bs-dim">드래그 1회 · 스텝 무제한 — 도달 가능한 모든 배치를 자동 탐색</span>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>결과 <span class="bs-dim">(카드 클릭 → 경로 표시)</span></h2>
+        <div id="bsResults"></div>
       </div>
     </div>
   </div>
@@ -1686,8 +1902,8 @@ function switchTab(tabName) {
   document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
   document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
 
-  const tabMap = { calculator: 1, finder: 2, exp: 3 };
-  const idMap = { calculator: 'tabCalculator', finder: 'tabFinder', exp: 'tabExp' };
+  const tabMap = { calculator: 1, finder: 2, exp: 3, solver: 4 };
+  const idMap = { calculator: 'tabCalculator', finder: 'tabFinder', exp: 'tabExp', solver: 'tabSolver' };
   document.querySelector(`.tab-btn:nth-child(${tabMap[tabName]})`).classList.add('active');
   document.getElementById(idMap[tabName]).classList.add('active');
 }
@@ -2126,6 +2342,8 @@ let expStar = 5;
 let expAsc = 'A0';
 const ascLabels = { A0: '기본', A1: '1차 승급', A2: '2차 승급', A3: '3차 승급', A4: '4차 승급' };
 
+// Board Solver tab is an ES module: src/board-solver/ui.js (loaded below).
+
 async function loadExpTable() {
   const resp = await fetch('exp_table.json');
   allExpData = await resp.json();
@@ -2265,5 +2483,6 @@ document.getElementById('incomingDmg').addEventListener('input', calculateDmgRed
 init();
 loadExpTable();
 </script>
+<script type="module" src="src/board-solver/ui.js"></script>
 </body>
 </html>

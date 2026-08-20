@@ -1,0 +1,8 @@
+{
+  "name": "damage-calculator",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test 'src/board-solver/test/*.test.js'"
+  }
+}

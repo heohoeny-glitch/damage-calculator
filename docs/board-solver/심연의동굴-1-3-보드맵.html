@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>심연의 동굴 1-3 · 웨이브 1 보드맵</title>
+<style>
+  :root{
+    --abyss:#0b1620;
+    --panel:#14283a;
+    --panel-2:#1b3448;
+    --stone:#2e4d63;
+    --stone-hi:#3d6079;
+    --crystal-a:#5fd3a0;
+    --crystal-b:#1c7a5c;
+    --hero:#4d94ff;
+    --hero-fill:#173355;
+    --foe:#e2503f;
+    --foe-fill:#4a1614;
+    --gold:#e8b04b;
+    --bone:#e8dfc9;
+    --dim:#7d97ab;
+    --threat:#ff6b4a;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    background:
+      radial-gradient(ellipse 120% 60% at 50% -10%, #1d3c52 0%, transparent 60%),
+      var(--abyss);
+    color:var(--bone);
+    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",system-ui,sans-serif;
+    padding:20px 14px 56px;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:660px;margin:0 auto}
+
+  /* ---- header ---- */
+  .eyebrow{
+    font-size:10px;letter-spacing:.34em;text-transform:uppercase;
+    color:var(--gold);font-weight:700;margin-bottom:8px;
+  }
+  h1{
+    font-size:clamp(25px,7.2vw,38px);font-weight:800;letter-spacing:-.02em;
+    line-height:1.1;color:#fff;
+  }
+  .sub{color:var(--dim);font-size:13px;margin-top:7px}
+  .meta{
+    display:flex;flex-wrap:wrap;gap:6px;margin-top:16px;
+  }
+  .chip{
+    background:var(--panel);border:1px solid #24455e;border-radius:999px;
+    padding:4px 11px;font-size:11.5px;color:var(--bone);
+  }
+  .chip b{color:var(--gold);font-weight:700}
+
+  /* ---- board ---- */
+  .board-shell{
+    margin-top:22px;background:var(--panel);
+    border:1px solid #24455e;border-radius:16px;padding:14px 12px 12px;
+  }
+  .grid{
+    display:grid;
+    grid-template-columns:22px repeat(6,1fr);
+    gap:4px;
+  }
+  .rail{
+    display:flex;align-items:center;justify-content:center;
+    font-size:10px;font-weight:800;color:var(--dim);letter-spacing:.08em;
+  }
+  .tile{
+    position:relative;aspect-ratio:1;border-radius:5px;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    font-size:9px;text-align:center;overflow:hidden;
+    transition:box-shadow .18s ease, transform .18s ease;
+  }
+  .floor{
+    background:linear-gradient(160deg,var(--stone-hi),var(--stone));
+    box-shadow:inset 0 1px 0 #4d7793, inset 0 -2px 4px rgba(0,0,0,.35);
+  }
+  /* signature: faceted crystal wall */
+  .wall{
+    background:
+      linear-gradient(135deg,var(--crystal-a) 0%,var(--crystal-b) 55%,#0f4c3a 100%);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.4), inset 0 -3px 6px rgba(0,0,0,.4);
+  }
+  .wall::before,.wall::after{
+    content:"";position:absolute;inset:0;
+  }
+  .wall::before{
+    background:linear-gradient(115deg,rgba(255,255,255,.34) 0 32%,transparent 32.5%);
+  }
+  .wall::after{
+    background:linear-gradient(-58deg,rgba(0,0,0,.3) 0 38%,transparent 38.5%);
+  }
+  .unit{
+    z-index:2;width:88%;height:88%;border-radius:5px;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    gap:1px;padding:2px;
+  }
+  .u-hero{background:var(--hero-fill);border:1.5px solid var(--hero);
+    box-shadow:0 0 10px rgba(77,148,255,.32)}
+  .u-foe{background:var(--foe-fill);border:1.5px solid var(--foe);
+    box-shadow:0 0 10px rgba(226,80,63,.32)}
+  .u-tag{font-size:8.5px;font-weight:800;letter-spacing:-.01em;line-height:1.15;color:#fff}
+  .u-num{font-size:8px;color:var(--dim);font-variant-numeric:tabular-nums}
+  .u-foe .u-num{color:#f0a99e}
+  .u-hero .u-num{color:#9dc4f5}
+  .coord{
+    position:absolute;top:2px;left:3px;font-size:7.5px;color:rgba(255,255,255,.3);
+    font-weight:700;z-index:3;letter-spacing:.02em;
+  }
+  /* threat overlay */
+  .tile.hot::after{
+    content:"";position:absolute;inset:0;z-index:1;
+    background:repeating-linear-gradient(45deg,
+      rgba(255,107,74,.42) 0 4px, rgba(255,107,74,.14) 4px 8px);
+  }
+  .tile.hot{box-shadow:inset 0 0 0 2px var(--threat)}
+
+  .ctrl{
+    display:flex;align-items:center;gap:9px;margin-top:12px;
+    padding-top:11px;border-top:1px solid #24455e;flex-wrap:wrap;
+  }
+  button{
+    font:inherit;font-size:12px;font-weight:700;cursor:pointer;
+    background:var(--panel-2);color:var(--bone);
+    border:1px solid #2f5a78;border-radius:8px;padding:7px 13px;
+    transition:background .16s ease,border-color .16s ease;
+  }
+  button:hover{background:#24455e}
+  button[aria-pressed="true"]{background:#5a2318;border-color:var(--threat);color:#ffd9cf}
+  button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+  .ctrl-note{font-size:11px;color:var(--dim);flex:1;min-width:150px}
+
+  .legend{display:flex;flex-wrap:wrap;gap:10px 16px;margin-top:14px;font-size:11px;color:var(--dim)}
+  .legend span{display:flex;align-items:center;gap:6px}
+  .sw{width:13px;height:13px;border-radius:3px;flex:none}
+
+  /* ---- tables ---- */
+  h2{
+    font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:var(--gold);
+    font-weight:700;margin:34px 0 12px;
+  }
+  table{width:100%;border-collapse:collapse;font-size:12px}
+  th,td{padding:8px 6px;text-align:left;border-bottom:1px solid #23425a}
+  th{color:var(--dim);font-size:10px;letter-spacing:.09em;text-transform:uppercase;font-weight:700}
+  td{font-variant-numeric:tabular-nums}
+  td.name{font-weight:700;color:#fff}
+  .pos{color:var(--gold);font-weight:700}
+  .danger{color:#ff9d8a;font-weight:700}
+
+  .note{
+    margin-top:14px;background:var(--panel);border-left:3px solid var(--gold);
+    border-radius:0 9px 9px 0;padding:12px 14px;font-size:12.5px;color:#cdd9e2;
+  }
+  .note b{color:var(--gold)}
+  .note ul{margin:7px 0 0 17px}
+  .note li{margin-bottom:4px}
+  .missing{border-left-color:var(--threat)}
+  .missing b{color:var(--threat)}
+
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="eyebrow">Wave 1 / 3 · Turn 0</div>
+  <h1>심연의 동굴 1‑3</h1>
+  <p class="sub">전투 시작 시점 보드. 6×6 격자, 아군 5 · 적 4.</p>
+
+  <div class="meta">
+    <div class="chip">배치 시간 <b>5 + 15.5초</b></div>
+    <div class="chip">아군 속성 <b>전원 청색</b></div>
+    <div class="chip">적 속성 <b>전원 적색</b></div>
+    <div class="chip">상성 <b>청 → 적 ×1.5</b></div>
+  </div>
+
+  <div class="board-shell">
+    <div class="grid" id="grid"></div>
+
+    <div class="ctrl">
+      <button id="toggle" aria-pressed="false">위협 범위 켜기</button>
+      <span class="ctrl-note" id="note">적이 이동 후 때릴 수 있는 칸을 표시합니다.</span>
+    </div>
+
+    <div class="legend">
+      <span><i class="sw" style="background:linear-gradient(135deg,#5fd3a0,#1c7a5c)"></i>수정 벽 (이동·사격 불가)</span>
+      <span><i class="sw" style="background:linear-gradient(160deg,#3d6079,#2e4d63)"></i>일반 바닥</span>
+      <span><i class="sw" style="background:#173355;border:1.5px solid #4d94ff"></i>아군</span>
+      <span><i class="sw" style="background:#4a1614;border:1.5px solid #e2503f"></i>적</span>
+      <span><i class="sw" style="background:repeating-linear-gradient(45deg,#ff6b4a 0 3px,#7a2a18 3px 6px)"></i>위협 범위</span>
+    </div>
+  </div>
+
+  <h2>적 정보</h2>
+  <table>
+    <thead>
+      <tr><th>몬스터</th><th>위치</th><th>공격</th><th>HP</th><th>방어</th><th>이동</th><th>재능</th></tr>
+    </thead>
+    <tbody>
+      <tr><td class="name">트롤</td><td class="pos">D1</td><td class="danger">32</td><td>114</td><td>114</td><td>2</td><td>고블리노이드 + 공격 ×2</td></tr>
+      <tr><td class="name">오거</td><td class="pos">C1</td><td>18</td><td>89</td><td>89</td><td>3</td><td>고블리노이드 + 공격 ×1</td></tr>
+      <tr><td class="name">오크 샤먼</td><td class="pos">A3</td><td>5</td><td>69</td><td>69</td><td>3</td><td>고블리노이드 + <b>회복</b></td></tr>
+      <tr><td class="name">오크 샤먼</td><td class="pos">F3</td><td>5</td><td>69</td><td>69</td><td>3</td><td>고블리노이드 + <b>회복</b></td></tr>
+    </tbody>
+  </table>
+  <p class="sub" style="margin-top:9px">전원 4레벨 · 적색 · 십자(상하좌우) 공격 · AI 돌진형. 고블린(공9/HP20)은 이 웨이브에 없고 2~3웨이브에서 등장합니다.</p>
+
+  <h2>아군 배치</h2>
+  <table>
+    <thead>
+      <tr><th>영웅</th><th>위치</th><th>무기</th><th>사거리 표시</th><th>재능</th></tr>
+    </thead>
+    <tbody>
+      <tr><td class="name">멧돼지</td><td class="pos">B2</td><td>십자 마크</td><td>마름모 · 십자</td><td>2</td></tr>
+      <tr><td class="name">얼음 엘프</td><td class="pos">E2</td><td>활</td><td>화살표 · 십자</td><td>4</td></tr>
+      <tr><td class="name">흑발 소녀</td><td class="pos">B5</td><td>활</td><td>화살표 · <b>8방향</b></td><td>3</td></tr>
+      <tr><td class="name">초록 오크</td><td class="pos">E5</td><td>검</td><td>화살표 · 십자</td><td>1</td></tr>
+      <tr><td class="name">콧수염 남자</td><td class="pos">C6</td><td>쌍도끼</td><td>화살표 · 십자</td><td>2</td></tr>
+    </tbody>
+  </table>
+
+  <div class="note">
+    <b>보드에서 바로 읽히는 것</b>
+    <ul>
+      <li>트롤(D1)이 공격 32로 압도적입니다. 오거의 1.8배, 샤먼의 6배.</li>
+      <li>샤먼 2기가 <b>회복</b> 재능을 가집니다. 트롤을 살려두면 계속 채워줍니다.</li>
+      <li>상단 적 2기는 C1·D1에 붙어 있어 세로 관통 사격 한 줄로 동시에 닿습니다.</li>
+      <li>A3·F3 샤먼은 이동 3이라 4행까지 내려옵니다. 아래쪽 아군도 안전하지 않습니다.</li>
+      <li>전원 청색 대 전원 적색 → <b>모든 공격에 ×1.5</b>가 붙습니다.</li>
+    </ul>
+  </div>
+
+  <div class="note missing">
+    <b>최적 배치를 계산하려면 아직 필요한 것</b>
+    <ul>
+      <li>영웅 5명의 <b>공격력 실수치</b>와 <b>클래스명</b></li>
+      <li>영웅별 <b>재능 아이콘의 이름</b> — 길게 눌러 설명 표시</li>
+      <li><b>리더가 누구인지</b> (팀 편성 맨 왼쪽)</li>
+    </ul>
+    이 세 가지가 들어오면 도달 가능한 배치를 전부 돌려서 킬 확률과 드래그 순서까지 뽑을 수 있습니다.
+  </div>
+
+</div>
+
+<script>
+const W='wall', F='floor';
+const board=[
+  [W,W,F,F,W,W],
+  [W,F,F,F,F,W],
+  [F,F,F,F,F,F],
+  [F,F,F,F,F,F],
+  [W,F,F,F,F,W],
+  [W,W,F,F,W,W]
+];
+const units={
+  'C1':{s:'foe',t:'오거',n:'18/89'},
+  'D1':{s:'foe',t:'트롤',n:'32/114'},
+  'A3':{s:'foe',t:'샤먼',n:'5/69'},
+  'F3':{s:'foe',t:'샤먼',n:'5/69'},
+  'B2':{s:'hero',t:'멧돼지',n:'Lv100'},
+  'E2':{s:'hero',t:'얼음엘프',n:'Lv100'},
+  'B5':{s:'hero',t:'흑발',n:'Lv100'},
+  'E5':{s:'hero',t:'초록오크',n:'Lv100'},
+  'C6':{s:'hero',t:'콧수염',n:'Lv100'}
+};
+const COLS='ABCDEF';
+const key=(c,r)=>COLS[c]+(r+1);
+
+const grid=document.getElementById('grid');
+const cells={};
+
+// corner spacer
+grid.appendChild(Object.assign(document.createElement('div'),{className:'rail'}));
+for(let c=0;c<6;c++){
+  const d=document.createElement('div');
+  d.className='rail'; d.textContent=COLS[c];
+  grid.appendChild(d);
+}
+for(let r=0;r<6;r++){
+  const rail=document.createElement('div');
+  rail.className='rail'; rail.textContent=r+1;
+  grid.appendChild(rail);
+  for(let c=0;c<6;c++){
+    const k=key(c,r);
+    const t=document.createElement('div');
+    t.className='tile '+(board[r][c]===W?'wall':'floor');
+    const co=document.createElement('span');
+    co.className='coord'; co.textContent=k;
+    t.appendChild(co);
+    const u=units[k];
+    if(u){
+      const box=document.createElement('div');
+      box.className='unit '+(u.s==='foe'?'u-foe':'u-hero');
+      box.innerHTML='<span class="u-tag">'+u.t+'</span><span class="u-num">'+u.n+'</span>';
+      t.appendChild(box);
+    }
+    cells[k]=t;
+    grid.appendChild(t);
+  }
+}
+
+// --- threat range: BFS over floor tiles, then cardinal strike ring ---
+const foes=[
+  {p:'C1',mv:3},{p:'D1',mv:2},{p:'A3',mv:3},{p:'F3',mv:3}
+];
+function idx(k){return [COLS.indexOf(k[0]), +k[1]-1];}
+function walkable(c,r){
+  if(c<0||c>5||r<0||r>5) return false;
+  if(board[r][c]===W) return false;
+  const u=units[key(c,r)];
+  return !(u&&u.s==='hero');
+}
+function threatTiles(){
+  const hot=new Set();
+  for(const f of foes){
+    const [sc,sr]=idx(f.p);
+    const seen=new Map([[f.p,0]]);
+    const q=[[sc,sr,0]];
+    while(q.length){
+      const [c,r,d]=q.shift();
+      if(d>=f.mv) continue;
+      for(const [dc,dr] of [[0,1],[0,-1],[1,0],[-1,0]]){
+        const nc=c+dc, nr=r+dr;
+        if(!walkable(nc,nr)) continue;
+        const nk=key(nc,nr);
+        if(seen.has(nk)) continue;
+        seen.set(nk,d+1);
+        q.push([nc,nr,d+1]);
+      }
+    }
+    for(const k of seen.keys()){
+      const [c,r]=idx(k);
+      for(const [dc,dr] of [[0,1],[0,-1],[1,0],[-1,0]]){
+        const nc=c+dc, nr=r+dr;
+        if(nc<0||nc>5||nr<0||nr>5) continue;
+        if(board[nr][nc]===W) continue;
+        hot.add(key(nc,nr));
+      }
+    }
+  }
+  return hot;
+}
+
+const btn=document.getElementById('toggle');
+const note=document.getElementById('note');
+let on=false;
+btn.addEventListener('click',()=>{
+  on=!on;
+  btn.setAttribute('aria-pressed',String(on));
+  btn.textContent = on ? '위협 범위 끄기' : '위협 범위 켜기';
+  Object.values(cells).forEach(t=>t.classList.remove('hot'));
+  if(on){
+    const hot=threatTiles();
+    hot.forEach(k=>cells[k]&&cells[k].classList.add('hot'));
+    const safe=[];
+    for(let r=0;r<6;r++)for(let c=0;c<6;c++){
+      const k=key(c,r);
+      if(board[r][c]===F && !hot.has(k) && !units[k]) safe.push(k);
+    }
+    note.textContent = safe.length
+      ? '이번 턴에 안 맞는 빈 칸: ' + safe.join(', ')
+      : '적의 사거리 밖인 빈 칸이 없습니다.';
+  } else {
+    note.textContent='적이 이동 후 때릴 수 있는 칸을 표시합니다.';
+  }
+});
+</script>
+</body>
+</html>
