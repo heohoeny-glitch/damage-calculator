@@ -25,6 +25,8 @@ const state = {
   pendingMonsterDb: null, // monsters.json entry selected in the search box
   results: null,
   selected: -1,
+  planResult: null,   // multi-turn plan
+  planSelected: -1,   // selected turn index within the plan
   monsterSeq: 0,
 };
 
@@ -74,7 +76,8 @@ function placedUnits() {
       id: m.id, side: 'monster',
       name: `${GRADE_PREFIX[m.grade] ?? ''}${m.name}`,
       pos: m.pos, color: m.color,
-      atk: m.atk, hp: m.hp, def: m.def ?? 0, moveRange: m.moveRange, ai: 'charge',
+      atk: m.atk, hp: m.hp, def: m.def ?? 0, moveRange: m.moveRange,
+      ai: m.ai ?? 'charge',
       monsterClasses: [...m.classes],
       attack: { kind: m.kind, dirs: m.dirs },
       traits: [...m.traits],
@@ -118,9 +121,16 @@ function onCellClick(r, c) {
 
 function redraw() {
   const svg = $('bsBoard');
-  drawBoard(svg, board(), safePlacedUnits(), { onCellClick });
-  if (state.results && state.selected >= 0) {
-    drawPaths(svg, state.results.top[state.selected].drags);
+  const planTurn = state.planResult?.plan[state.planSelected];
+  if (planTurn) {
+    // plan view: the selected turn's starting board (read-only) + its drag
+    drawBoard(svg, board(), planTurn.unitsStart);
+    if (planTurn.drag) drawPaths(svg, [planTurn.drag]);
+  } else {
+    drawBoard(svg, board(), safePlacedUnits(), { onCellClick });
+    if (state.results && state.selected >= 0) {
+      drawPaths(svg, state.results.top[state.selected].drags);
+    }
   }
   renderAfterBoard();
   renderTeamList();
@@ -133,6 +143,17 @@ function redraw() {
 // with expected kills dimmed and crossed out.
 function renderAfterBoard() {
   const wrap = $('bsAfterWrap');
+  const planTurn = state.planResult?.plan[state.planSelected];
+  if (planTurn) {
+    // plan view: state after this turn's monster response = next turn start
+    const next = state.planResult.plan[state.planSelected + 1];
+    const units = next ? next.unitsStart : state.planResult.unitsFinal;
+    if (!units) { wrap.style.display = 'none'; return; }
+    drawBoard($('bsBoardAfter'), board(), units);
+    $('bsAfterLabel').textContent = `(턴 ${planTurn.turn} 종료 후${next ? '' : ' · 최종'})`;
+    wrap.style.display = 'block';
+    return;
+  }
   if (!(state.results && state.selected >= 0)) {
     wrap.style.display = 'none';
     return;
@@ -356,6 +377,7 @@ function addMonster() {
     // DEF is not part of the damage formula (spec 3); in-game it mirrors HP
     def: Number($('bsMonHp').value) || 100,
     moveRange: Number($('bsMonMove').value) || 2,
+    ai: db?.ai?.toLowerCase() ?? 'charge',
     kind: $('bsMonKind').value,
     dirs: $('bsMonDirs').value,
     // DB monster: classes + talents from monsters.json.
@@ -476,7 +498,8 @@ function loadFixture() {
         id: u.id, name: u.name, grade: '일반', color: u.color,
         dbName: state.monsterData.find(md => md.name_kr === u.name)?.name ?? null,
         atk: u.atk, hp: u.hpMax, def: u.def,
-        moveRange: u.moveRange, kind: u.attack.kind, dirs: u.attack.dirs,
+        moveRange: u.moveRange, ai: u.ai ?? 'charge',
+        kind: u.attack.kind, dirs: u.attack.dirs,
         classes: [...u.monsterClasses], traits: [...u.traits],
         pos,
       });
@@ -551,6 +574,58 @@ function runSolve() {
 function clearResults() {
   state.results = null;
   state.selected = -1;
+  state.planResult = null;
+  state.planSelected = -1;
+}
+
+function runPlan() {
+  const units = safePlacedUnits();
+  if (units.filter(u => u.side === 'hero').length === 0 ||
+      units.filter(u => u.side === 'monster').length === 0) {
+    setStatus('영웅과 몬스터를 최소 1기씩 배치하세요.');
+    return;
+  }
+  const opts = {
+    maxTurns: Number($('bsPlanTurns').value) || 3,
+    beamWidth: 24,
+    candidatesPerState: 10,
+    firstTurnStates: 40000,
+    laterTurnStates: 5000,
+    leader: Number($('bsLeader').value) || 1,
+    timeBudgetMs: 30000,
+  };
+  clearResults();
+  setStatus('멀티턴 플랜 탐색 중…');
+  $('bsPlanBtn').disabled = true;
+
+  const done = result => {
+    $('bsPlanBtn').disabled = false;
+    state.planResult = result;
+    state.planSelected = result.plan.length ? 0 : -1;
+    const s = result.stats;
+    setStatus((result.cleared
+      ? `✅ ${result.turnsUsed}턴 클리어 플랜 발견`
+      : `⚠ ${opts.maxTurns}턴 내 클리어 실패 — 최선의 진행안 표시 (남은 적 ${result.remainingMonsters.length})`) +
+      ` · ${s.statesEvaluated.toLocaleString()}개 평가 · ${s.elapsedMs}ms${s.timedOut ? ' · 시간 초과' : ''}`);
+    redraw();
+  };
+  const fail = err => {
+    $('bsPlanBtn').disabled = false;
+    setStatus(`오류: ${err}`);
+  };
+
+  try {
+    if (!worker) {
+      worker = new Worker(new URL('./solver.worker.js', import.meta.url), { type: 'module' });
+    }
+    worker.onmessage = e => (e.data.ok ? done(e.data.result) : fail(e.data.error));
+    worker.onerror = e => { worker = null; fail(e.message ?? 'worker error'); };
+    worker.postMessage({ board: board(), units, opts, mode: 'plan' });
+  } catch {
+    import('./planner.js')
+      .then(m => done(m.plan(board(), units, opts)))
+      .catch(err => fail(err.message));
+  }
 }
 
 // ---- results ----
@@ -565,6 +640,10 @@ function unitLabel(id) {
 function renderResults() {
   const wrap = $('bsResults');
   wrap.innerHTML = '';
+  if (state.planResult) {
+    renderPlanResults(wrap);
+    return;
+  }
   if (!state.results) return;
   if (!state.results.top.length) {
     wrap.textContent = '결과 없음';
@@ -624,6 +703,63 @@ function renderResults() {
     if (state.selected >= 0) {
       drawPaths($('bsBoard'), state.results.top[state.selected].drags, { animate: true });
     }
+  });
+  wrap.appendChild(replay);
+}
+
+function renderPlanResults(wrap) {
+  const r = state.planResult;
+
+  const summary = document.createElement('div');
+  summary.className = 'bs-result-card';
+  const sTitle = document.createElement('div');
+  sTitle.className = 'bs-result-title';
+  sTitle.textContent = r.cleared
+    ? `✅ ${r.turnsUsed}턴 클리어 · 최종 아군 HP ${r.heroHpFinal.toLocaleString()}`
+    : `⚠ 클리어 실패 — 최선의 진행안 (남은 적 ${r.remainingMonsters.length})`;
+  summary.appendChild(sTitle);
+  if (!r.cleared && r.remainingMonsters.length) {
+    const line = document.createElement('div');
+    line.className = 'bs-result-line';
+    line.textContent = '남은 적: ' + r.remainingMonsters.map(m => `${m.name}(${m.hp})`).join(', ');
+    summary.appendChild(line);
+  }
+  wrap.appendChild(summary);
+
+  r.plan.forEach((t, i) => {
+    const card = document.createElement('div');
+    card.className = `bs-result-card${i === state.planSelected ? ' selected' : ''}`;
+
+    const title = document.createElement('div');
+    title.className = 'bs-result-title';
+    title.textContent = `턴 ${t.turn} · ${t.drag ? `${t.steps}스텝 드래그` : '이동 없음'} · 딜 ${Math.round(t.totalExpected).toLocaleString()} · 피격 ${Math.round(t.incoming)}`;
+    card.appendChild(title);
+
+    if (t.drag) {
+      const line = document.createElement('div');
+      line.className = 'bs-result-line bs-drag-line';
+      line.textContent = `드래그 ${unitLabel(t.drag.heroId)}: ${t.drag.path.join(' → ')}`;
+      card.appendChild(line);
+    }
+    if (t.kills.length) {
+      const line = document.createElement('div');
+      line.className = 'bs-result-line';
+      line.textContent = '처치: ' + t.kills.join(', ');
+      card.appendChild(line);
+    }
+    card.addEventListener('click', () => {
+      state.planSelected = i;
+      redraw();
+    });
+    wrap.appendChild(card);
+  });
+
+  const replay = document.createElement('button');
+  replay.className = 'bs-mini-btn';
+  replay.textContent = '▶ 경로 재생';
+  replay.addEventListener('click', () => {
+    const t = r.plan[state.planSelected];
+    if (t?.drag) drawPaths($('bsBoard'), [t.drag], { animate: true });
   });
   wrap.appendChild(replay);
 }
@@ -913,6 +1049,7 @@ async function init() {
   window.__bsShot = shot;
   $('bsFixtureBtn').addEventListener('click', loadFixture);
   $('bsSolveBtn').addEventListener('click', runSolve);
+  $('bsPlanBtn').addEventListener('click', runPlan);
   $('bsAddMonsterBtn').addEventListener('click', addMonster);
   const onSizeChange = () => {
     const nc = Math.min(12, Math.max(3, Number($('bsCols').value) || 6));

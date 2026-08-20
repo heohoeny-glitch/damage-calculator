@@ -1431,7 +1431,16 @@
       <div class="panel">
         <div class="bs-solve-form">
           <button id="bsSolveBtn" class="bs-btn bs-primary">최적 배치 찾기</button>
-          <span class="bs-dim">드래그 1회 · 스텝 무제한 — 도달 가능한 모든 배치를 자동 탐색</span>
+          <span class="bs-dim">이번 턴 최적 드래그 1개</span>
+        </div>
+        <div class="bs-solve-form" style="margin-top:8px">
+          <button id="bsPlanBtn" class="bs-btn bs-primary">멀티턴 클리어 플랜</button>
+          <label>최대 턴
+            <select id="bsPlanTurns">
+              <option>2</option><option selected>3</option><option>4</option><option>5</option>
+            </select>
+          </label>
+          <span class="bs-dim">드래그 → 적 턴 → 드래그… 클리어까지 계획</span>
         </div>
       </div>
 

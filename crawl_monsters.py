@@ -29,6 +29,7 @@ CONFIRMED_KR = {
     "Goblin": "고블린",
     "Orc Mage": "오크 메이지",
     "Winter Knight": "겨울 기사",
+    "Harlequin": "할리퀸",
 }
 
 WORD_KR = {
@@ -105,7 +106,44 @@ WORD_KR = {
     "Brawler": "브롤러", "Centipede": "지네", "Elementalist": "엘리멘탈리스트",
     "Hive": "하이브", "Mother": "마더", "Kobra": "코브라", "Sand": "모래",
     "Rotten": "썩은", "Tree": "나무", "Tentacle": "촉수", "Water": "물",
+    # image-only stub additions
+    "Cerberus": "케르베로스", "Titan": "타이탄",
 }
+
+# Monsters that exist on the wiki only as icon uploads — neither table lists
+# them (the fan wiki lags behind new content). Stats/talents unknown: stub
+# entries so search and icon matching still work; classes are best guesses
+# from the name. (name, image file, classes)
+IMAGE_ONLY_STUBS = [
+    ("Blackfire Dragon Whelp", "MonsterBlackfireDragonWhelp.png", ["dragon"]),
+    ("Cerberus", "MonsterCerberus.png", []),
+    ("Crystallian Sage", "MonsterCrystallianSage.png", ["crystallian"]),
+    ("Crystallian Titan", "MonsterCrystallianTitan.png", ["crystallian"]),
+    ("Fire Dragon Whelp", "MonsterFireDraonWhelp.png", ["dragon"]),  # sic: wiki filename typo
+    ("Green Ooze", "MonsterGreenOoze.png", ["ooze"]),
+    ("Heavy Sentry", "MonsterHeavySentry.png", ["construct"]),
+    ("King Beetle", "MonsterKingBeetle.png", ["insect"]),
+]
+
+# Monsters absent from the wiki entirely, registered from in-game inspector
+# captures. Full monster records — merged after everything else.
+MANUAL_MONSTERS = [
+    {
+        # Inspector capture 2026-08-20 (August Dungeon Crawl, dungeon 165):
+        # Lv.100 ATK 500 / HP·DEF 3713, melee 8-direction, move 4,
+        # jester-hat AI icon = Unpredictable. Dark color in that dungeon.
+        # Talents identified by icon comparison against images/traits/:
+        # Aura of Terror, Arcane Shield, Dodge x2. No type icon shown
+        # (typeless, like several main-table monsters). Icon cropped from
+        # the inspector capture (docs/board-solver/reference/).
+        "name": "Harlequin", "image": "MonsterHarlequin.png",
+        "refLevel": 100, "classes": [],
+        "refAtk": 500, "refHp": 3713,
+        "ai": "Unpredictable", "moveRange": 4,
+        "attackKind": "melee", "attackDirs": "all8",
+        "support": [], "traits": ["Aura of Terror", "Arcane Shield", "Dodge", "Dodge"],
+    },
+]
 
 
 def kr_name(name):
@@ -293,6 +331,26 @@ def main():
     extra = parse_types_page({m["name"] for m in monsters})
     monsters.extend(extra)
     print(f"merged from Monster Types page: {len(extra)}")
+
+    known = {m["name"] for m in monsters}
+    for name, image, classes in IMAGE_ONLY_STUBS:
+        if name in known:
+            continue
+        kr, confirmed = kr_name(name)
+        monsters.append({
+            "name": name, "name_kr": kr, "name_kr_auto": not confirmed,
+            "image": image, "refLevel": None, "classes": classes,
+            "refAtk": None, "refHp": None, "ai": None, "moveRange": None,
+            "attackKind": None, "attackDirs": None, "support": [], "traits": [],
+        })
+    print(f"image-only stubs: {len(IMAGE_ONLY_STUBS)}")
+
+    for entry in MANUAL_MONSTERS:
+        if entry["name"] in known:
+            continue
+        kr, confirmed = kr_name(entry["name"])
+        monsters.append({"name_kr": kr, "name_kr_auto": not confirmed, **entry})
+    print(f"manual (inspector-sourced): {len(MANUAL_MONSTERS)}")
 
     monsters.sort(key=lambda m: m["name"])
     with open("monsters.json", "w", encoding="utf-8") as f:

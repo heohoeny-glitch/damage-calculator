@@ -878,6 +878,22 @@
   ]
  },
  {
+  "name": "Cerberus",
+  "name_kr": "케르베로스",
+  "name_kr_auto": true,
+  "image": "MonsterCerberus.png",
+  "refLevel": null,
+  "classes": [],
+  "refAtk": null,
+  "refHp": null,
+  "ai": null,
+  "moveRange": null,
+  "attackKind": null,
+  "attackDirs": null,
+  "support": [],
+  "traits": []
+ },
+ {
   "name": "Cherub",
   "name_kr": "케루브",
   "name_kr_auto": true,
@@ -1113,6 +1129,42 @@
    "Psionic",
    "Mounting Anger"
   ]
+ },
+ {
+  "name": "Crystallian Sage",
+  "name_kr": "크리스탈리안 현자",
+  "name_kr_auto": true,
+  "image": "MonsterCrystallianSage.png",
+  "refLevel": null,
+  "classes": [
+   "crystallian"
+  ],
+  "refAtk": null,
+  "refHp": null,
+  "ai": null,
+  "moveRange": null,
+  "attackKind": null,
+  "attackDirs": null,
+  "support": [],
+  "traits": []
+ },
+ {
+  "name": "Crystallian Titan",
+  "name_kr": "크리스탈리안 타이탄",
+  "name_kr_auto": true,
+  "image": "MonsterCrystallianTitan.png",
+  "refLevel": null,
+  "classes": [
+   "crystallian"
+  ],
+  "refAtk": null,
+  "refHp": null,
+  "ai": null,
+  "moveRange": null,
+  "attackKind": null,
+  "attackDirs": null,
+  "support": [],
+  "traits": []
  },
  {
   "name": "Crystallian Worker",
@@ -2437,6 +2489,24 @@
   ]
  },
  {
+  "name": "Green Ooze",
+  "name_kr": "초록 우즈",
+  "name_kr_auto": true,
+  "image": "MonsterGreenOoze.png",
+  "refLevel": null,
+  "classes": [
+   "ooze"
+  ],
+  "refAtk": null,
+  "refHp": null,
+  "ai": null,
+  "moveRange": null,
+  "attackKind": null,
+  "attackDirs": null,
+  "support": [],
+  "traits": []
+ },
+ {
   "name": "Grotesque",
   "name_kr": "그로테스크",
   "name_kr_auto": true,
@@ -2476,6 +2546,27 @@
    "Clockwork",
    "Death Curse",
    "Mighty Blow"
+  ]
+ },
+ {
+  "name_kr": "할리퀸",
+  "name_kr_auto": false,
+  "name": "Harlequin",
+  "image": "MonsterHarlequin.png",
+  "refLevel": 100,
+  "classes": [],
+  "refAtk": 500,
+  "refHp": 3713,
+  "ai": "Unpredictable",
+  "moveRange": 4,
+  "attackKind": "melee",
+  "attackDirs": "all8",
+  "support": [],
+  "traits": [
+   "Aura of Terror",
+   "Arcane Shield",
+   "Dodge",
+   "Dodge"
   ]
  },
  {
@@ -2544,6 +2635,24 @@
    "Mounting Anger",
    "Mounting Anger"
   ]
+ },
+ {
+  "name": "Heavy Sentry",
+  "name_kr": "헤비 센트리",
+  "name_kr_auto": true,
+  "image": "MonsterHeavySentry.png",
+  "refLevel": null,
+  "classes": [
+   "construct"
+  ],
+  "refAtk": null,
+  "refHp": null,
+  "ai": null,
+  "moveRange": null,
+  "attackKind": null,
+  "attackDirs": null,
+  "support": [],
+  "traits": []
  },
  {
   "name": "Hive Mother",
@@ -2874,6 +2983,24 @@
    "Quadra Fury",
    "Exploit Weakness"
   ]
+ },
+ {
+  "name": "King Beetle",
+  "name_kr": "킹 딱정벌레",
+  "name_kr_auto": true,
+  "image": "MonsterKingBeetle.png",
+  "refLevel": null,
+  "classes": [
+   "insect"
+  ],
+  "refAtk": null,
+  "refHp": null,
+  "ai": null,
+  "moveRange": null,
+  "attackKind": null,
+  "attackDirs": null,
+  "support": [],
+  "traits": []
  },
  {
   "name": "King Black Pudding",
