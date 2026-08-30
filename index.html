@@ -1927,11 +1927,12 @@ const FINDER_FACETS = [
   { key: 'class',        label: 'Class (직업)' },
   { key: 'species',      label: 'Species (종족)' },
   { key: 'stars',        label: 'Stars (별)' },
-  { key: 'availability', label: 'Availability (획득처)' }
+  { key: 'availability', label: 'Availability (획득처)' },
+  { key: 'asc4',         label: 'Asc. 4 (4차 승급)' }
 ];
 const finderFilters = {
   color: new Set(), class: new Set(), species: new Set(),
-  stars: new Set(), availability: new Set()
+  stars: new Set(), availability: new Set(), asc4: new Set()
 };
 
 const PERMANENT = 'Permanent';
@@ -1942,6 +1943,7 @@ function heroFacetValue(hero, key) {
   if (key === 'availability') {
     return hero.availability ? hero.availability.replace(' exclusive', '') : PERMANENT;
   }
+  if (key === 'asc4') return hero.stats && hero.stats.asc4 ? '가능' : '불가';
   return hero[key];
 }
 
@@ -1953,6 +1955,7 @@ function finderFacetValues(key) {
     return values.sort((a, b) =>
       (a === PERMANENT ? -1 : b === PERMANENT ? 1 : a.localeCompare(b)));
   }
+  if (key === 'asc4') return values.sort((a, b) => (a === '가능' ? -1 : 1));
   return values.sort((a, b) => a.localeCompare(b));
 }
 
