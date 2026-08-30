@@ -656,6 +656,14 @@
     "category": "green"
   },
   {
+    "id": "InitiativeExtinguishFire",
+    "name": "Initiative: Extinguish Fire",
+    "file": "images/traits/green/TraitInitiativeExtinguishFire.webp",
+    "desc": "When this character acts first, removes Burning from allies.",
+    "pct": 0,
+    "category": "green"
+  },
+  {
     "id": "InnerPeace",
     "name": "Inner Peace",
     "file": "images/traits/green/TraitInnerPeace.webp",

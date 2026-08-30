@@ -248,6 +248,14 @@
     "category": "red"
   },
   {
+    "id": "Firewhirl",
+    "name": "Firewhirl",
+    "file": "images/traits/red/TraitFirewhirl.webp",
+    "desc": "Deals Burning when attacking in at least 3 directions.",
+    "pct": 0,
+    "category": "red"
+  },
+  {
     "id": "Flank",
     "name": "Flank",
     "file": "images/traits/red/TraitFlank.webp",
@@ -489,9 +497,9 @@
   },
   {
     "id": "PreparedWeakened",
-    "name": "Prepared Weakened",
+    "name": "Prepared Weaken",
     "file": "images/traits/red/TraitPreparedWeakened.webp",
-    "desc": "Applies Weakened on attack while Prepared. (Based on Prepared Freeze pattern: Applies [status] on attack while Prepared)",
+    "desc": "Deals Weakened on damaged enemies while Prepared.",
     "pct": 0,
     "category": "red"
   },

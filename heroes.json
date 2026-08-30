@@ -75,7 +75,8 @@
     "ascension": [
       "Prepare",
       "Melee Parry",
-      "Prepare"
+      "Prepare",
+      "Soul Blade"
     ],
     "merge": [
       "Split Second",
@@ -91,6 +92,7 @@
       "Prepare",
       "Melee Parry",
       "Prepare",
+      "Soul Blade",
       "Split Second",
       "Venom",
       "Melee Parry"
@@ -124,6 +126,12 @@
         "attack_breakdown": "1430 + 215 + 215",
         "health": 2536,
         "health_breakdown": "1950 + 293 + 293"
+      },
+      "asc4": {
+        "attack": 2175,
+        "attack_breakdown": "1740 + 174 + 261",
+        "health": 2963,
+        "health_breakdown": "2370 + 237 + 356"
       }
     },
     "availability": null
@@ -141,7 +149,8 @@
     "ascension": [
       "Sniper",
       "Ballistic",
-      "Rune of Sun"
+      "Rune of Sun",
+      "Poison Resistance"
     ],
     "merge": [
       "Split Second",
@@ -158,6 +167,7 @@
       "Sniper",
       "Ballistic",
       "Rune of Sun",
+      "Poison Resistance",
       "Split Second",
       "Ballistic",
       "Sniper"
@@ -191,6 +201,12 @@
         "attack_breakdown": "1320 + 198 + 198",
         "health": 2574,
         "health_breakdown": "1980 + 297 + 297"
+      },
+      "asc4": {
+        "attack": 2136,
+        "attack_breakdown": "1780 + 89 + 267",
+        "health": 3338,
+        "health_breakdown": "2670 + 267 + 401"
       }
     },
     "availability": null
@@ -208,7 +224,8 @@
     "ascension": [
       "Healing Touch",
       "Healing Touch",
-      "Death Ward"
+      "Death Ward",
+      "Cardinal Heal"
     ],
     "merge": [
       "Split Second",
@@ -225,6 +242,7 @@
       "Healing Touch",
       "Healing Touch",
       "Death Ward",
+      "Cardinal Heal",
       "Split Second",
       "Critical Heal",
       "Healing Touch"
@@ -258,6 +276,12 @@
         "attack_breakdown": "1310 + 197 + 197",
         "health": 3082,
         "health_breakdown": "2370 + 356 + 356"
+      },
+      "asc4": {
+        "attack": 1704,
+        "attack_breakdown": "1420 + 71 + 213",
+        "health": 3188,
+        "health_breakdown": "2550 + 255 + 383"
       }
     },
     "availability": "Summer Solstice exclusive"
@@ -275,7 +299,8 @@
     "ascension": [
       "Rune of Fire",
       "Rune of Fire",
-      "Poison Resistance"
+      "Poison Resistance",
+      "Fire Resistance"
     ],
     "merge": [
       "Split Second",
@@ -292,6 +317,7 @@
       "Rune of Fire",
       "Rune of Fire",
       "Poison Resistance",
+      "Fire Resistance",
       "Split Second",
       "Rune of Fire",
       "Armor of Fire"
@@ -325,6 +351,12 @@
         "attack_breakdown": "1010 + 152 + 152",
         "health": 4954,
         "health_breakdown": "3810 + 572 + 572"
+      },
+      "asc4": {
+        "attack": 1573,
+        "attack_breakdown": "1310 + 66 + 197",
+        "health": 6200,
+        "health_breakdown": "4960 + 496 + 744"
       }
     },
     "availability": null
@@ -342,7 +374,8 @@
     "ascension": [
       "Diagonal Parry",
       "Finishing Blow",
-      "Extra Time"
+      "Extra Time",
+      "Immune to Silence"
     ],
     "merge": [
       "Split Second",
@@ -359,6 +392,7 @@
       "Diagonal Parry",
       "Finishing Blow",
       "Extra Time",
+      "Immune to Silence",
       "Split Second",
       "Melee Parry",
       "Rune of Sea"
@@ -392,6 +426,12 @@
         "attack_breakdown": "1000 + 150 + 150",
         "health": 2444,
         "health_breakdown": "1880 + 282 + 282"
+      },
+      "asc4": {
+        "attack": 1669,
+        "attack_breakdown": "1390 + 70 + 209",
+        "health": 2863,
+        "health_breakdown": "2290 + 229 + 344"
       }
     },
     "availability": null
@@ -408,7 +448,8 @@
     "ascension": [
       "Focus",
       "Focus",
-      "Rune of Moon"
+      "Rune of Moon",
+      "Focus"
     ],
     "merge": [
       "Split Second",
@@ -424,6 +465,7 @@
       "Focus",
       "Focus",
       "Rune of Moon",
+      "Focus",
       "Split Second",
       "Melee Parry",
       "Life Steal"
@@ -457,6 +499,12 @@
         "attack_breakdown": "700 + 105 + 105",
         "health": 1938,
         "health_breakdown": "1490 + 224 + 224"
+      },
+      "asc4": {
+        "attack": 963,
+        "attack_breakdown": "770 + 77 + 116",
+        "health": 2063,
+        "health_breakdown": "1650 + 165 + 248"
       }
     },
     "availability": null
@@ -473,7 +521,8 @@
     "ascension": [
       "Disorienting Strike",
       "Prepare",
-      "Prepare"
+      "Prepare",
+      "Disorienting Strike"
     ],
     "merge": [
       "Split Second",
@@ -489,6 +538,7 @@
       "Disorienting Strike",
       "Prepare",
       "Prepare",
+      "Disorienting Strike",
       "Split Second",
       "Diagonal Parry",
       "Finishing Blow"
@@ -522,6 +572,12 @@
         "attack_breakdown": "730 + 110 + 110",
         "health": 2704,
         "health_breakdown": "2080 + 312 + 312"
+      },
+      "asc4": {
+        "attack": 997,
+        "attack_breakdown": "830 + 42 + 125",
+        "health": 3082,
+        "health_breakdown": "2370 + 356 + 356"
       }
     },
     "availability": null
@@ -539,7 +595,8 @@
     "ascension": [
       "Refresh",
       "Diagonal Parry",
-      "Healing Focus"
+      "Healing Focus",
+      "Death Ward"
     ],
     "merge": [
       "Split Second",
@@ -556,6 +613,7 @@
       "Refresh",
       "Diagonal Parry",
       "Healing Focus",
+      "Death Ward",
       "Split Second",
       "Bleed Resistance",
       "Pacifist"
@@ -589,6 +647,12 @@
         "attack_breakdown": "500 + 75 + 75",
         "health": 2848,
         "health_breakdown": "2190 + 329 + 329"
+      },
+      "asc4": {
+        "attack": 700,
+        "attack_breakdown": "560 + 56 + 84",
+        "health": 2989,
+        "health_breakdown": "2490 + 125 + 374"
       }
     },
     "availability": null
@@ -606,7 +670,8 @@
     "ascension": [
       "Refresh",
       "Diagonal Parry",
-      "Healing Focus"
+      "Healing Focus",
+      "Death Ward"
     ],
     "merge": [
       "Split Second",
@@ -623,6 +688,7 @@
       "Refresh",
       "Diagonal Parry",
       "Healing Focus",
+      "Death Ward",
       "Split Second",
       "Bleed Resistance",
       "Pacifist"
@@ -656,6 +722,12 @@
         "attack_breakdown": "500 + 75 + 75",
         "health": 2848,
         "health_breakdown": "2190 + 329 + 329"
+      },
+      "asc4": {
+        "attack": 700,
+        "attack_breakdown": "560 + 56 + 84",
+        "health": 2989,
+        "health_breakdown": "2490 + 125 + 374"
       }
     },
     "availability": "Summer Solstice exclusive"
@@ -938,7 +1010,8 @@
     "ascension": [
       "Sniper",
       "Ballistic",
-      "Rune of Sea"
+      "Rune of Sea",
+      "Poison Resistance"
     ],
     "merge": [
       "Split Second",
@@ -955,6 +1028,7 @@
       "Sniper",
       "Ballistic",
       "Rune of Sea",
+      "Poison Resistance",
       "Split Second",
       "Ballistic",
       "Sniper"
@@ -988,6 +1062,12 @@
         "attack_breakdown": "1320 + 198 + 198",
         "health": 2574,
         "health_breakdown": "1980 + 297 + 297"
+      },
+      "asc4": {
+        "attack": 2136,
+        "attack_breakdown": "1780 + 89 + 267",
+        "health": 3338,
+        "health_breakdown": "2670 + 267 + 401"
       }
     },
     "availability": "Summer Solstice exclusive"
@@ -1072,7 +1152,8 @@
     "ascension": [
       "Diagonal Aim",
       "Rend",
-      "Ranged Parry"
+      "Ranged Parry",
+      "Slay Beast"
     ],
     "merge": [
       "Split Second",
@@ -1089,6 +1170,7 @@
       "Diagonal Aim",
       "Rend",
       "Ranged Parry",
+      "Slay Beast",
       "Split Second",
       "Rend",
       "Ranged Parry"
@@ -1122,6 +1204,12 @@
         "attack_breakdown": "1000 + 150 + 150",
         "health": 2782,
         "health_breakdown": "2140 + 321 + 321"
+      },
+      "asc4": {
+        "attack": 1464,
+        "attack_breakdown": "1220 + 61 + 183",
+        "health": 3250,
+        "health_breakdown": "2600 + 260 + 390"
       }
     },
     "availability": null
@@ -1138,7 +1226,8 @@
     "ascension": [
       "Cardinal Parry",
       "Focus",
-      "Focus"
+      "Focus",
+      "Impunity"
     ],
     "merge": [
       "Split Second",
@@ -1154,6 +1243,7 @@
       "Cardinal Parry",
       "Focus",
       "Focus",
+      "Impunity",
       "Split Second",
       "Focus",
       "Melee Parry"
@@ -1187,6 +1277,12 @@
         "attack_breakdown": "890 + 134 + 134",
         "health": 2692,
         "health_breakdown": "2070 + 311 + 311"
+      },
+      "asc4": {
+        "attack": 1425,
+        "attack_breakdown": "1140 + 114 + 171",
+        "health": 3313,
+        "health_breakdown": "2650 + 265 + 398"
       }
     },
     "availability": null
@@ -1330,7 +1426,8 @@
     "ascension": [
       "Flank",
       "Fortify",
-      "Flank"
+      "Flank",
+      "Ironskin"
     ],
     "merge": [
       "Split Second",
@@ -1347,6 +1444,7 @@
       "Flank",
       "Fortify",
       "Flank",
+      "Ironskin",
       "Split Second",
       "Ranged Parry",
       "Life Steal"
@@ -1380,6 +1478,12 @@
         "attack_breakdown": "810 + 122 + 122",
         "health": 3654,
         "health_breakdown": "2810 + 422 + 422"
+      },
+      "asc4": {
+        "attack": 1150,
+        "attack_breakdown": "1000 + 0 + 150",
+        "health": 4914,
+        "health_breakdown": "3780 + 567 + 567"
       }
     },
     "availability": null
@@ -1665,7 +1769,8 @@
     "ascension": [
       "Stunning Strike",
       "Melee Parry",
-      "Mighty Blow"
+      "Mighty Blow",
+      "Melee Parry"
     ],
     "merge": [
       "Split Second",
@@ -1682,6 +1787,7 @@
       "Stunning Strike",
       "Melee Parry",
       "Mighty Blow",
+      "Melee Parry",
       "Split Second",
       "Mighty Blow",
       "Melee Parry"
@@ -1715,6 +1821,12 @@
         "attack_breakdown": "840 + 126 + 126",
         "health": 2522,
         "health_breakdown": "1940 + 291 + 291"
+      },
+      "asc4": {
+        "attack": 1237,
+        "attack_breakdown": "1030 + 52 + 155",
+        "health": 3000,
+        "health_breakdown": "2400 + 240 + 360"
       }
     },
     "availability": "Soul Summon exclusive"
@@ -2131,7 +2243,8 @@
     "ascension": [
       "Prepare",
       "Flank",
-      "Immovable"
+      "Immovable",
+      "Cardinal Parry"
     ],
     "merge": [
       "Split Second",
@@ -2148,6 +2261,7 @@
       "Prepare",
       "Flank",
       "Immovable",
+      "Cardinal Parry",
       "Split Second",
       "Rune of Sun",
       "Protector"
@@ -2181,6 +2295,12 @@
         "attack_breakdown": "830 + 125 + 125",
         "health": 4798,
         "health_breakdown": "3690 + 554 + 554"
+      },
+      "asc4": {
+        "attack": 1138,
+        "attack_breakdown": "910 + 91 + 137",
+        "health": 5581,
+        "health_breakdown": "4650 + 233 + 698"
       }
     },
     "availability": null
@@ -2198,7 +2318,8 @@
     "ascension": [
       "Whirlwind",
       "Tumble",
-      "Tumble"
+      "Tumble",
+      "Whirlwind"
     ],
     "merge": [
       "Split Second",
@@ -2215,6 +2336,7 @@
       "Whirlwind",
       "Tumble",
       "Tumble",
+      "Whirlwind",
       "Split Second",
       "Tumble",
       "Cardinal Aim"
@@ -2248,6 +2370,12 @@
         "attack_breakdown": "1330 + 200 + 200",
         "health": 2848,
         "health_breakdown": "2190 + 329 + 329"
+      },
+      "asc4": {
+        "attack": 1988,
+        "attack_breakdown": "1590 + 159 + 239",
+        "health": 3144,
+        "health_breakdown": "2620 + 131 + 393"
       }
     },
     "availability": "Festival of Friendship exclusive"
@@ -2331,6 +2459,7 @@
     "ascension": [
       "Dodge",
       "Dodge",
+      "Prepare",
       "Prepare"
     ],
     "merge": [
@@ -2346,6 +2475,7 @@
       "Dodge",
       "Dodge",
       "Dodge",
+      "Prepare",
       "Prepare",
       "Split Second",
       "Mighty Blow",
@@ -2380,6 +2510,12 @@
         "attack_breakdown": "870 + 131 + 131",
         "health": 1860,
         "health_breakdown": "1430 + 215 + 215"
+      },
+      "asc4": {
+        "attack": 1176,
+        "attack_breakdown": "980 + 49 + 147",
+        "health": 2094,
+        "health_breakdown": "1610 + 242 + 242"
       }
     },
     "availability": null
@@ -2598,7 +2734,8 @@
     "ascension": [
       "Focus",
       "Dodge",
-      "Focus"
+      "Focus",
+      "Eagle Eye"
     ],
     "merge": [
       "Split Second",
@@ -2615,6 +2752,7 @@
       "Focus",
       "Dodge",
       "Focus",
+      "Eagle Eye",
       "Split Second",
       "Point Blank",
       "Finishing Blow"
@@ -2648,6 +2786,12 @@
         "attack_breakdown": "1210 + 182 + 182",
         "health": 2458,
         "health_breakdown": "1890 + 284 + 284"
+      },
+      "asc4": {
+        "attack": 1717,
+        "attack_breakdown": "1430 + 72 + 215",
+        "health": 2800,
+        "health_breakdown": "2240 + 224 + 336"
       }
     },
     "availability": null
@@ -2664,7 +2808,8 @@
     "ascension": [
       "Prepare",
       "Prepare",
-      "Rune of Sea"
+      "Rune of Sea",
+      "Immovable"
     ],
     "merge": [
       "Split Second",
@@ -2680,6 +2825,7 @@
       "Prepare",
       "Prepare",
       "Rune of Sea",
+      "Immovable",
       "Split Second",
       "Rune of Sea",
       "Armor of Sea"
@@ -2713,6 +2859,12 @@
         "attack_breakdown": "740 + 111 + 111",
         "health": 4082,
         "health_breakdown": "3140 + 471 + 471"
+      },
+      "asc4": {
+        "attack": 1038,
+        "attack_breakdown": "830 + 83 + 125",
+        "health": 4400,
+        "health_breakdown": "3520 + 352 + 528"
       }
     },
     "availability": null
@@ -2729,7 +2881,8 @@
     "ascension": [
       "Melee Parry",
       "Melee Parry",
-      "Critical Attack"
+      "Critical Attack",
+      "Resilient"
     ],
     "merge": [
       "Split Second",
@@ -2745,6 +2898,7 @@
       "Melee Parry",
       "Melee Parry",
       "Critical Attack",
+      "Resilient",
       "Split Second",
       "Brutal Attack",
       "Raider Boost"
@@ -2778,6 +2932,12 @@
         "attack_breakdown": "1130 + 170 + 170",
         "health": 3432,
         "health_breakdown": "2640 + 396 + 396"
+      },
+      "asc4": {
+        "attack": 1560,
+        "attack_breakdown": "1300 + 65 + 195",
+        "health": 3926,
+        "health_breakdown": "3020 + 453 + 453"
       }
     },
     "availability": "Raid Summon exclusive"
@@ -2795,7 +2955,8 @@
     "ascension": [
       "Whirlwind",
       "Tumble",
-      "Tumble"
+      "Tumble",
+      "Whirlwind"
     ],
     "merge": [
       "Split Second",
@@ -2812,6 +2973,7 @@
       "Whirlwind",
       "Tumble",
       "Tumble",
+      "Whirlwind",
       "Split Second",
       "Tumble",
       "Cardinal Aim"
@@ -2845,6 +3007,12 @@
         "attack_breakdown": "1330 + 200 + 200",
         "health": 2848,
         "health_breakdown": "2190 + 329 + 329"
+      },
+      "asc4": {
+        "attack": 1988,
+        "attack_breakdown": "1590 + 159 + 239",
+        "health": 3144,
+        "health_breakdown": "2620 + 131 + 393"
       }
     },
     "availability": null
@@ -2861,6 +3029,7 @@
     "ascension": [
       "Magic Parry",
       "Focus",
+      "Focus",
       "Focus"
     ],
     "merge": [
@@ -2875,6 +3044,7 @@
       "Poison Resistance",
       "Venom",
       "Magic Parry",
+      "Focus",
       "Focus",
       "Focus",
       "Split Second",
@@ -2910,6 +3080,12 @@
         "attack_breakdown": "730 + 110 + 110",
         "health": 1794,
         "health_breakdown": "1380 + 207 + 207"
+      },
+      "asc4": {
+        "attack": 973,
+        "attack_breakdown": "810 + 41 + 122",
+        "health": 1976,
+        "health_breakdown": "1520 + 228 + 228"
       }
     },
     "availability": null
@@ -2993,7 +3169,8 @@
     "ascension": [
       "Fortify",
       "Diagonal Parry",
-      "Diagonal Parry"
+      "Diagonal Parry",
+      "Prepared Rupture"
     ],
     "merge": [
       "Split Second",
@@ -3009,6 +3186,7 @@
       "Fortify",
       "Diagonal Parry",
       "Diagonal Parry",
+      "Prepared Rupture",
       "Split Second",
       "Brutal Attack",
       "Protector"
@@ -3042,6 +3220,12 @@
         "attack_breakdown": "850 + 128 + 128",
         "health": 2796,
         "health_breakdown": "2150 + 323 + 323"
+      },
+      "asc4": {
+        "attack": 1141,
+        "attack_breakdown": "950 + 48 + 143",
+        "health": 3108,
+        "health_breakdown": "2390 + 359 + 359"
       }
     },
     "availability": "Soul Summon exclusive"
@@ -3388,7 +3572,8 @@
     "ascension": [
       "Cardinal Aim",
       "Diagonal Parry",
-      "Diagonal Parry"
+      "Diagonal Parry",
+      "Brutal Attack"
     ],
     "merge": [
       "Split Second",
@@ -3404,6 +3589,7 @@
       "Cardinal Aim",
       "Diagonal Parry",
       "Diagonal Parry",
+      "Brutal Attack",
       "Split Second",
       "Magic Parry",
       "Diagonal Aim"
@@ -3437,6 +3623,12 @@
         "attack_breakdown": "730 + 110 + 110",
         "health": 1560,
         "health_breakdown": "1200 + 180 + 180"
+      },
+      "asc4": {
+        "attack": 1063,
+        "attack_breakdown": "850 + 85 + 128",
+        "health": 1738,
+        "health_breakdown": "1390 + 139 + 209"
       }
     },
     "availability": null
@@ -3520,7 +3712,8 @@
     "ascension": [
       "Immobilizing Strike",
       "Mighty Blow",
-      "Rune of Earth"
+      "Rune of Earth",
+      "Fortify"
     ],
     "merge": [
       "Split Second",
@@ -3536,6 +3729,7 @@
       "Immobilizing Strike",
       "Mighty Blow",
       "Rune of Earth",
+      "Fortify",
       "Split Second",
       "Focus",
       "Diagonal Parry"
@@ -3569,6 +3763,12 @@
         "attack_breakdown": "620 + 93 + 93",
         "health": 3446,
         "health_breakdown": "2650 + 398 + 398"
+      },
+      "asc4": {
+        "attack": 925,
+        "attack_breakdown": "740 + 74 + 111",
+        "health": 3938,
+        "health_breakdown": "3150 + 315 + 473"
       }
     },
     "availability": null
@@ -3652,7 +3852,8 @@
     "ascension": [
       "Ranged Parry",
       "Pact Against Beasts",
-      "Rune of Moon"
+      "Rune of Moon",
+      "Ranged Parry"
     ],
     "merge": [
       "Split Second",
@@ -3668,6 +3869,7 @@
       "Ranged Parry",
       "Pact Against Beasts",
       "Rune of Moon",
+      "Ranged Parry",
       "Split Second",
       "Prepare",
       "Melee Parry"
@@ -3701,6 +3903,12 @@
         "attack_breakdown": "440 + 66 + 66",
         "health": 2432,
         "health_breakdown": "1870 + 281 + 281"
+      },
+      "asc4": {
+        "attack": 638,
+        "attack_breakdown": "510 + 51 + 77",
+        "health": 2688,
+        "health_breakdown": "2150 + 215 + 323"
       }
     },
     "availability": null
@@ -3785,7 +3993,8 @@
     "ascension": [
       "Immovable",
       "Bloodlust",
-      "Resilient"
+      "Resilient",
+      "Chromatic Shield"
     ],
     "merge": [
       "Split Second",
@@ -3802,6 +4011,7 @@
       "Immovable",
       "Bloodlust",
       "Resilient",
+      "Chromatic Shield",
       "Split Second",
       "Poison Resistance",
       "Rune of Sun"
@@ -3835,6 +4045,12 @@
         "attack_breakdown": "1100 + 165 + 165",
         "health": 5604,
         "health_breakdown": "4310 + 647 + 647"
+      },
+      "asc4": {
+        "attack": 1549,
+        "attack_breakdown": "1290 + 65 + 194",
+        "health": 6375,
+        "health_breakdown": "5100 + 510 + 765"
       }
     },
     "availability": null
@@ -4104,6 +4320,7 @@
     "ascension": [
       "Ranged Parry",
       "Ranged Parry",
+      "Brutal Attack",
       "Brutal Attack"
     ],
     "merge": [
@@ -4119,6 +4336,7 @@
       "Brutal Attack",
       "Ranged Parry",
       "Ranged Parry",
+      "Brutal Attack",
       "Brutal Attack",
       "Split Second",
       "Ranged Parry",
@@ -4153,6 +4371,12 @@
         "attack_breakdown": "1080 + 162 + 162",
         "health": 2822,
         "health_breakdown": "2170 + 326 + 326"
+      },
+      "asc4": {
+        "attack": 1688,
+        "attack_breakdown": "1350 + 135 + 203",
+        "health": 3388,
+        "health_breakdown": "2710 + 271 + 407"
       }
     },
     "availability": null
@@ -4169,7 +4393,8 @@
     "ascension": [
       "Finishing Blow",
       "Finishing Blow",
-      "Extra Time"
+      "Extra Time",
+      "Rune of Fire"
     ],
     "merge": [
       "Split Second",
@@ -4185,6 +4410,7 @@
       "Finishing Blow",
       "Finishing Blow",
       "Extra Time",
+      "Rune of Fire",
       "Split Second",
       "Brutal Attack",
       "Diagonal Parry"
@@ -4218,6 +4444,12 @@
         "attack_breakdown": "890 + 134 + 134",
         "health": 2080,
         "health_breakdown": "1600 + 240 + 240"
+      },
+      "asc4": {
+        "attack": 1224,
+        "attack_breakdown": "1020 + 51 + 153",
+        "health": 2392,
+        "health_breakdown": "1840 + 276 + 276"
       }
     },
     "availability": null
@@ -4235,7 +4467,8 @@
     "ascension": [
       "Push",
       "Fortify",
-      "Critical Attack"
+      "Critical Attack",
+      "Firewhirl"
     ],
     "merge": [
       "Split Second",
@@ -4252,6 +4485,7 @@
       "Push",
       "Fortify",
       "Critical Attack",
+      "Firewhirl",
       "Split Second",
       "Whirlwind",
       "Cardinal Parry"
@@ -4285,6 +4519,12 @@
         "attack_breakdown": "1090 + 164 + 164",
         "health": 2666,
         "health_breakdown": "2050 + 308 + 308"
+      },
+      "asc4": {
+        "attack": 1597,
+        "attack_breakdown": "1330 + 67 + 200",
+        "health": 3125,
+        "health_breakdown": "2500 + 250 + 375"
       }
     },
     "availability": null
@@ -4621,7 +4861,8 @@
     "ascension": [
       "Diagonal Parry",
       "Whirlwind",
-      "Whirlwind"
+      "Whirlwind",
+      "Diagonal Aim"
     ],
     "merge": [
       "Split Second",
@@ -4637,6 +4878,7 @@
       "Diagonal Parry",
       "Whirlwind",
       "Whirlwind",
+      "Diagonal Aim",
       "Split Second",
       "Ranged Parry",
       "Diagonal Aim"
@@ -4670,6 +4912,12 @@
         "attack_breakdown": "860 + 129 + 129",
         "health": 2380,
         "health_breakdown": "1830 + 275 + 275"
+      },
+      "asc4": {
+        "attack": 1175,
+        "attack_breakdown": "940 + 94 + 141",
+        "health": 2513,
+        "health_breakdown": "2010 + 201 + 302"
       }
     },
     "availability": "Festival of Friendship exclusive"
@@ -5283,7 +5531,8 @@
     "ascension": [
       "Cardinal Parry",
       "Entangle",
-      "Ironskin"
+      "Ironskin",
+      "Exploit Weakness"
     ],
     "merge": [
       "Split Second",
@@ -5300,6 +5549,7 @@
       "Cardinal Parry",
       "Entangle",
       "Ironskin",
+      "Exploit Weakness",
       "Split Second",
       "Immune to Taunt",
       "Entangle"
@@ -5333,6 +5583,12 @@
         "attack_breakdown": "1350 + 203 + 203",
         "health": 5018,
         "health_breakdown": "3860 + 579 + 579"
+      },
+      "asc4": {
+        "attack": 1817,
+        "attack_breakdown": "1580 + 0 + 237",
+        "health": 5876,
+        "health_breakdown": "4520 + 678 + 678"
       }
     },
     "availability": null
@@ -5684,7 +5940,8 @@
     "ascension": [
       "Focus",
       "Sniper",
-      "Magic Parry"
+      "Magic Parry",
+      "Sniper"
     ],
     "merge": [
       "Split Second",
@@ -5700,6 +5957,7 @@
       "Focus",
       "Sniper",
       "Magic Parry",
+      "Sniper",
       "Split Second",
       "Brutal Attack",
       "Ranged Parry"
@@ -5733,6 +5991,12 @@
         "attack_breakdown": "740 + 111 + 111",
         "health": 1976,
         "health_breakdown": "1520 + 228 + 228"
+      },
+      "asc4": {
+        "attack": 1088,
+        "attack_breakdown": "870 + 87 + 131",
+        "health": 2225,
+        "health_breakdown": "1780 + 178 + 267"
       }
     },
     "availability": null
@@ -5951,7 +6215,8 @@
     "ascension": [
       "Magic Parry",
       "Mighty Blow",
-      "Immovable"
+      "Immovable",
+      "Crushing Blow"
     ],
     "merge": [
       "Split Second",
@@ -5968,6 +6233,7 @@
       "Magic Parry",
       "Mighty Blow",
       "Immovable",
+      "Crushing Blow",
       "Split Second",
       "Push",
       "Cardinal Parry"
@@ -6001,6 +6267,12 @@
         "attack_breakdown": "910 + 137 + 137",
         "health": 1938,
         "health_breakdown": "1490 + 224 + 224"
+      },
+      "asc4": {
+        "attack": 1500,
+        "attack_breakdown": "1200 + 120 + 180",
+        "health": 2365,
+        "health_breakdown": "1970 + 99 + 296"
       }
     },
     "availability": null
@@ -6147,7 +6419,8 @@
     "ascension": [
       "Ranged Parry",
       "Point Blank",
-      "Rune of Fire"
+      "Rune of Fire",
+      "Whirlwind"
     ],
     "merge": [
       "Split Second",
@@ -6164,6 +6437,7 @@
       "Ranged Parry",
       "Point Blank",
       "Rune of Fire",
+      "Whirlwind",
       "Split Second",
       "Melee Parry",
       "Finishing Blow"
@@ -6197,6 +6471,12 @@
         "attack_breakdown": "890 + 134 + 134",
         "health": 1352,
         "health_breakdown": "1040 + 156 + 156"
+      },
+      "asc4": {
+        "attack": 1320,
+        "attack_breakdown": "1100 + 55 + 165",
+        "health": 1600,
+        "health_breakdown": "1280 + 128 + 192"
       }
     },
     "availability": null
@@ -6533,10 +6813,10 @@
         "health_breakdown": "3670 + 551 + 551"
       },
       "asc4": {
-        "attack": 2266,
-        "attack_breakdown": "1970 + 0 + 296",
-        "health": 5734,
-        "health_breakdown": "4410 + 662 + 662"
+        "attack": 2128,
+        "attack_breakdown": "1850 + 0 + 278",
+        "health": 5370,
+        "health_breakdown": "4130 + 620 + 620"
       }
     },
     "availability": "Astra Reveria exclusive"
@@ -6680,7 +6960,8 @@
     "ascension": [
       "Immobilizing Strike",
       "Pact Against Undead",
-      "Rune of Earth"
+      "Rune of Earth",
+      "Venom"
     ],
     "merge": [
       "Split Second",
@@ -6696,6 +6977,7 @@
       "Immobilizing Strike",
       "Pact Against Undead",
       "Rune of Earth",
+      "Venom",
       "Split Second",
       "Diagonal Aim",
       "Magic Parry"
@@ -6729,6 +7011,12 @@
         "attack_breakdown": "410 + 62 + 62",
         "health": 2094,
         "health_breakdown": "1610 + 242 + 242"
+      },
+      "asc4": {
+        "attack": 565,
+        "attack_breakdown": "470 + 24 + 71",
+        "health": 2366,
+        "health_breakdown": "1820 + 273 + 273"
       }
     },
     "availability": "Wintertide exclusive"
@@ -6745,6 +7033,7 @@
     "ascension": [
       "Critical Attack",
       "Critical Attack",
+      "Whirlwind",
       "Whirlwind"
     ],
     "merge": [
@@ -6760,6 +7049,7 @@
       "Magic Parry",
       "Critical Attack",
       "Critical Attack",
+      "Whirlwind",
       "Whirlwind",
       "Split Second",
       "Whirlwind",
@@ -6794,6 +7084,12 @@
         "attack_breakdown": "1010 + 152 + 152",
         "health": 3056,
         "health_breakdown": "2350 + 353 + 353"
+      },
+      "asc4": {
+        "attack": 1375,
+        "attack_breakdown": "1100 + 110 + 165",
+        "health": 3200,
+        "health_breakdown": "2560 + 256 + 384"
       }
     },
     "availability": "Raid Summon exclusive"
@@ -6811,7 +7107,8 @@
     "ascension": [
       "Healing Touch",
       "Ranged Parry",
-      "Healing Focus"
+      "Healing Focus",
+      "Silencing Strike"
     ],
     "merge": [
       "Split Second",
@@ -6828,6 +7125,7 @@
       "Healing Touch",
       "Ranged Parry",
       "Healing Focus",
+      "Silencing Strike",
       "Split Second",
       "Immune to Silence",
       "Healing Focus"
@@ -6861,6 +7159,12 @@
         "attack_breakdown": "530 + 80 + 80",
         "health": 2380,
         "health_breakdown": "1830 + 275 + 275"
+      },
+      "asc4": {
+        "attack": 690,
+        "attack_breakdown": "600 + 0 + 90",
+        "health": 2704,
+        "health_breakdown": "2080 + 312 + 312"
       }
     },
     "availability": null
@@ -6944,7 +7248,8 @@
     "ascension": [
       "Venom",
       "Diagonal Parry",
-      "Poison Resistance"
+      "Poison Resistance",
+      "Venom"
     ],
     "merge": [
       "Split Second",
@@ -6960,6 +7265,7 @@
       "Venom",
       "Diagonal Parry",
       "Poison Resistance",
+      "Venom",
       "Split Second",
       "Ranged Parry",
       "Silencing Strike"
@@ -6993,6 +7299,12 @@
         "attack_breakdown": "720 + 108 + 108",
         "health": 2770,
         "health_breakdown": "2130 + 320 + 320"
+      },
+      "asc4": {
+        "attack": 1025,
+        "attack_breakdown": "820 + 82 + 123",
+        "health": 3038,
+        "health_breakdown": "2430 + 243 + 365"
       }
     },
     "availability": null
@@ -7412,7 +7724,8 @@
     "ascension": [
       "Push",
       "Extra Time",
-      "Push"
+      "Push",
+      "Curse Resistance"
     ],
     "merge": [
       "Split Second",
@@ -7429,6 +7742,7 @@
       "Push",
       "Extra Time",
       "Push",
+      "Curse Resistance",
       "Split Second",
       "Diagonal Parry",
       "Protector"
@@ -7462,6 +7776,12 @@
         "attack_breakdown": "650 + 98 + 98",
         "health": 4992,
         "health_breakdown": "3840 + 576 + 576"
+      },
+      "asc4": {
+        "attack": 1045,
+        "attack_breakdown": "870 + 44 + 131",
+        "health": 6463,
+        "health_breakdown": "5170 + 517 + 776"
       }
     },
     "availability": null
@@ -7679,6 +7999,7 @@
     "ascension": [
       "Ranged Parry",
       "Ranged Parry",
+      "Brutal Attack",
       "Brutal Attack"
     ],
     "merge": [
@@ -7694,6 +8015,7 @@
       "Brutal Attack",
       "Ranged Parry",
       "Ranged Parry",
+      "Brutal Attack",
       "Brutal Attack",
       "Split Second",
       "Ranged Parry",
@@ -7728,6 +8050,12 @@
         "attack_breakdown": "1080 + 162 + 162",
         "health": 2822,
         "health_breakdown": "2170 + 326 + 326"
+      },
+      "asc4": {
+        "attack": 1688,
+        "attack_breakdown": "1350 + 135 + 203",
+        "health": 3388,
+        "health_breakdown": "2710 + 271 + 407"
       }
     },
     "availability": "Summer Solstice exclusive"
@@ -8009,7 +8337,8 @@
     "ascension": [
       "Rend",
       "Rend",
-      "Focus"
+      "Focus",
+      "Ironskin"
     ],
     "merge": [
       "Split Second",
@@ -8025,6 +8354,7 @@
       "Rend",
       "Rend",
       "Focus",
+      "Ironskin",
       "Split Second",
       "Brutal Attack",
       "Diagonal Parry"
@@ -8058,6 +8388,12 @@
         "attack_breakdown": "760 + 114 + 114",
         "health": 3732,
         "health_breakdown": "2870 + 431 + 431"
+      },
+      "asc4": {
+        "attack": 1188,
+        "attack_breakdown": "950 + 95 + 143",
+        "health": 4463,
+        "health_breakdown": "3570 + 357 + 536"
       }
     },
     "availability": null
@@ -8142,7 +8478,8 @@
     "ascension": [
       "Steady Heal",
       "Extra Time",
-      "Steady Heal"
+      "Steady Heal",
+      "Mighty Blow"
     ],
     "merge": [
       "Split Second",
@@ -8159,6 +8496,7 @@
       "Steady Heal",
       "Extra Time",
       "Steady Heal",
+      "Mighty Blow",
       "Split Second",
       "Triage",
       "Steady Heal"
@@ -8192,6 +8530,12 @@
         "attack_breakdown": "430 + 65 + 65",
         "health": 2198,
         "health_breakdown": "1690 + 254 + 254"
+      },
+      "asc4": {
+        "attack": 700,
+        "attack_breakdown": "560 + 56 + 84",
+        "health": 2616,
+        "health_breakdown": "2180 + 109 + 327"
       }
     },
     "availability": null
@@ -8272,7 +8616,8 @@
     "ascension": [
       "Venom",
       "Melee Parry",
-      "Melee Parry"
+      "Melee Parry",
+      "Point Blank"
     ],
     "merge": [
       "Split Second",
@@ -8288,6 +8633,7 @@
       "Venom",
       "Melee Parry",
       "Melee Parry",
+      "Point Blank",
       "Split Second",
       "Diagonal Parry",
       "Sniper"
@@ -8321,6 +8667,12 @@
         "attack_breakdown": "770 + 116 + 116",
         "health": 2054,
         "health_breakdown": "1580 + 237 + 237"
+      },
+      "asc4": {
+        "attack": 1088,
+        "attack_breakdown": "870 + 87 + 131",
+        "health": 2225,
+        "health_breakdown": "1780 + 178 + 267"
       }
     },
     "availability": null
@@ -8338,7 +8690,8 @@
     "ascension": [
       "Push",
       "Fortify",
-      "Critical Attack"
+      "Critical Attack",
+      "Firewhirl"
     ],
     "merge": [
       "Split Second",
@@ -8355,6 +8708,7 @@
       "Push",
       "Fortify",
       "Critical Attack",
+      "Firewhirl",
       "Split Second",
       "Whirlwind",
       "Cardinal Parry"
@@ -8388,6 +8742,12 @@
         "attack_breakdown": "1090 + 164 + 164",
         "health": 2666,
         "health_breakdown": "2050 + 308 + 308"
+      },
+      "asc4": {
+        "attack": 1597,
+        "attack_breakdown": "1330 + 67 + 200",
+        "health": 3125,
+        "health_breakdown": "2500 + 250 + 375"
       }
     },
     "availability": "All Hallows Eve exclusive"
@@ -8736,6 +9096,7 @@
     "ascension": [
       "Brutal Attack",
       "Melee Parry",
+      "Sniper",
       "Sniper"
     ],
     "merge": [
@@ -8751,6 +9112,7 @@
       "Brutal Attack",
       "Brutal Attack",
       "Melee Parry",
+      "Sniper",
       "Sniper",
       "Split Second",
       "Ranged Parry",
@@ -8785,6 +9147,12 @@
         "attack_breakdown": "960 + 144 + 144",
         "health": 3550,
         "health_breakdown": "2730 + 410 + 410"
+      },
+      "asc4": {
+        "attack": 1350,
+        "attack_breakdown": "1080 + 108 + 162",
+        "health": 3863,
+        "health_breakdown": "3090 + 309 + 464"
       }
     },
     "availability": null
@@ -8802,7 +9170,8 @@
     "ascension": [
       "Fortify",
       "Brutal Attack",
-      "Blitz"
+      "Blitz",
+      "Swashbuckler"
     ],
     "merge": [
       "Split Second",
@@ -8819,6 +9188,7 @@
       "Fortify",
       "Brutal Attack",
       "Blitz",
+      "Swashbuckler",
       "Split Second",
       "Critical Attack",
       "Whirlwind"
@@ -8852,6 +9222,12 @@
         "attack_breakdown": "1090 + 164 + 164",
         "health": 2666,
         "health_breakdown": "2050 + 308 + 308"
+      },
+      "asc4": {
+        "attack": 1461,
+        "attack_breakdown": "1270 + 0 + 191",
+        "health": 3108,
+        "health_breakdown": "2390 + 359 + 359"
       }
     },
     "availability": null
@@ -8868,7 +9244,8 @@
     "ascension": [
       "Ranged Parry",
       "Ranged Parry",
-      "Healing Wave"
+      "Healing Wave",
+      "Immune to Silence"
     ],
     "merge": [
       "Split Second",
@@ -8884,6 +9261,7 @@
       "Ranged Parry",
       "Ranged Parry",
       "Healing Wave",
+      "Immune to Silence",
       "Split Second",
       "Prepare",
       "Triage"
@@ -8917,6 +9295,12 @@
         "attack_breakdown": "610 + 92 + 92",
         "health": 2782,
         "health_breakdown": "2140 + 321 + 321"
+      },
+      "asc4": {
+        "attack": 912,
+        "attack_breakdown": "760 + 38 + 114",
+        "health": 3432,
+        "health_breakdown": "2640 + 396 + 396"
       }
     },
     "availability": null
@@ -9067,7 +9451,8 @@
     "ascension": [
       "Melee Parry",
       "Protector",
-      "Whirlwind"
+      "Whirlwind",
+      "Inner Peace"
     ],
     "merge": [
       "Split Second",
@@ -9083,6 +9468,7 @@
       "Melee Parry",
       "Protector",
       "Whirlwind",
+      "Inner Peace",
       "Split Second",
       "Whirlwind",
       "Ranged Parry"
@@ -9116,6 +9502,12 @@
         "attack_breakdown": "1000 + 150 + 150",
         "health": 2132,
         "health_breakdown": "1640 + 246 + 246"
+      },
+      "asc4": {
+        "attack": 1475,
+        "attack_breakdown": "1180 + 118 + 177",
+        "health": 2425,
+        "health_breakdown": "1940 + 194 + 291"
       }
     },
     "availability": "Soul Summon exclusive"
@@ -9199,7 +9591,8 @@
     "ascension": [
       "Brutal Backstab",
       "Diagonal Aim",
-      "Diagonal Aim"
+      "Diagonal Aim",
+      "Frostwhirl"
     ],
     "merge": [
       "Split Second",
@@ -9215,6 +9608,7 @@
       "Brutal Backstab",
       "Diagonal Aim",
       "Diagonal Aim",
+      "Frostwhirl",
       "Split Second",
       "Brutal Backstab",
       "Diagonal Parry"
@@ -9248,6 +9642,12 @@
         "attack_breakdown": "1060 + 159 + 159",
         "health": 2600,
         "health_breakdown": "2000 + 300 + 300"
+      },
+      "asc4": {
+        "attack": 1488,
+        "attack_breakdown": "1190 + 119 + 179",
+        "health": 2800,
+        "health_breakdown": "2240 + 224 + 336"
       }
     },
     "availability": null
@@ -9331,7 +9731,8 @@
     "ascension": [
       "Extra Time",
       "Blitz",
-      "Resilient"
+      "Resilient",
+      "Blitz"
     ],
     "merge": [
       "Split Second",
@@ -9347,6 +9748,7 @@
       "Extra Time",
       "Blitz",
       "Resilient",
+      "Blitz",
       "Split Second",
       "Critical Attack",
       "Blitz"
@@ -9380,6 +9782,12 @@
         "attack_breakdown": "1110 + 167 + 167",
         "health": 1678,
         "health_breakdown": "1290 + 194 + 194"
+      },
+      "asc4": {
+        "attack": 1575,
+        "attack_breakdown": "1260 + 126 + 189",
+        "health": 1838,
+        "health_breakdown": "1470 + 147 + 221"
       }
     },
     "availability": "Alpha Genesis exclusive"
@@ -9728,7 +10136,8 @@
     "ascension": [
       "Magic Parry",
       "Rune of Sun",
-      "Magic Parry"
+      "Magic Parry",
+      "Unstoppable Force"
     ],
     "merge": [
       "Split Second",
@@ -9744,6 +10153,7 @@
       "Magic Parry",
       "Rune of Sun",
       "Magic Parry",
+      "Unstoppable Force",
       "Split Second",
       "Diagonal Parry",
       "Point Blank"
@@ -9777,6 +10187,12 @@
         "attack_breakdown": "890 + 134 + 134",
         "health": 2470,
         "health_breakdown": "1900 + 285 + 285"
+      },
+      "asc4": {
+        "attack": 1225,
+        "attack_breakdown": "980 + 98 + 147",
+        "health": 2613,
+        "health_breakdown": "2090 + 209 + 314"
       }
     },
     "availability": null
@@ -9794,7 +10210,8 @@
     "ascension": [
       "Fortify",
       "Ranged Parry",
-      "Bloodlust"
+      "Bloodlust",
+      "Eagle Eye"
     ],
     "merge": [
       "Split Second",
@@ -9811,6 +10228,7 @@
       "Fortify",
       "Ranged Parry",
       "Bloodlust",
+      "Eagle Eye",
       "Split Second",
       "Poison Resistance",
       "Rune of Sun"
@@ -9844,6 +10262,12 @@
         "attack_breakdown": "1520 + 228 + 228",
         "health": 2302,
         "health_breakdown": "1770 + 266 + 266"
+      },
+      "asc4": {
+        "attack": 2093,
+        "attack_breakdown": "1820 + 0 + 273",
+        "health": 2340,
+        "health_breakdown": "1800 + 270 + 270"
       }
     },
     "availability": null
@@ -10129,7 +10553,8 @@
     "ascension": [
       "Focus",
       "Ranged Parry",
-      "Rune of Fire"
+      "Rune of Fire",
+      "Ranged Parry"
     ],
     "merge": [
       "Split Second",
@@ -10146,6 +10571,7 @@
       "Focus",
       "Ranged Parry",
       "Rune of Fire",
+      "Ranged Parry",
       "Split Second",
       "Ballistic",
       "Venom"
@@ -10179,6 +10605,12 @@
         "attack_breakdown": "1210 + 182 + 182",
         "health": 2132,
         "health_breakdown": "1640 + 246 + 246"
+      },
+      "asc4": {
+        "attack": 1938,
+        "attack_breakdown": "1550 + 155 + 233",
+        "health": 2533,
+        "health_breakdown": "2110 + 106 + 317"
       }
     },
     "availability": "Festival of Friendship exclusive"
@@ -10196,7 +10628,8 @@
     "ascension": [
       "Focus",
       "Ranged Parry",
-      "Rune of Sea"
+      "Rune of Sea",
+      "Ranged Parry"
     ],
     "merge": [
       "Split Second",
@@ -10213,6 +10646,7 @@
       "Focus",
       "Ranged Parry",
       "Rune of Sea",
+      "Ranged Parry",
       "Split Second",
       "Ballistic",
       "Venom"
@@ -10246,6 +10680,12 @@
         "attack_breakdown": "1210 + 182 + 182",
         "health": 2132,
         "health_breakdown": "1640 + 246 + 246"
+      },
+      "asc4": {
+        "attack": 1938,
+        "attack_breakdown": "1550 + 155 + 233",
+        "health": 2533,
+        "health_breakdown": "2110 + 106 + 317"
       }
     },
     "availability": null
@@ -10262,7 +10702,8 @@
     "ascension": [
       "Extra Time",
       "Venom",
-      "Rune of Moon"
+      "Rune of Moon",
+      "Flank"
     ],
     "merge": [
       "Split Second",
@@ -10278,6 +10719,7 @@
       "Extra Time",
       "Venom",
       "Rune of Moon",
+      "Flank",
       "Split Second",
       "Ranged Parry",
       "Entangle"
@@ -10311,6 +10753,12 @@
         "attack_breakdown": "820 + 123 + 123",
         "health": 3030,
         "health_breakdown": "2330 + 350 + 350"
+      },
+      "asc4": {
+        "attack": 1175,
+        "attack_breakdown": "940 + 94 + 141",
+        "health": 3350,
+        "health_breakdown": "2680 + 268 + 402"
       }
     },
     "availability": null
@@ -10456,7 +10904,8 @@
     "ascension": [
       "Melee Parry",
       "Backstab",
-      "Brutal Attack"
+      "Brutal Attack",
+      "Dauntless"
     ],
     "merge": [
       "Split Second",
@@ -10472,6 +10921,7 @@
       "Melee Parry",
       "Backstab",
       "Brutal Attack",
+      "Dauntless",
       "Split Second",
       "Extra Time",
       "Fortify"
@@ -10505,6 +10955,12 @@
         "attack_breakdown": "1660 + 249 + 249",
         "health": 2652,
         "health_breakdown": "2040 + 306 + 306"
+      },
+      "asc4": {
+        "attack": 2389,
+        "attack_breakdown": "1990 + 100 + 299",
+        "health": 3172,
+        "health_breakdown": "2440 + 366 + 366"
       }
     },
     "availability": null
@@ -10780,7 +11236,8 @@
     "ascension": [
       "Melee Parry",
       "Melee Parry",
-      "Point Blank"
+      "Point Blank",
+      "Death Ward"
     ],
     "merge": [
       "Split Second",
@@ -10796,6 +11253,7 @@
       "Melee Parry",
       "Melee Parry",
       "Point Blank",
+      "Death Ward",
       "Split Second",
       "Magic Parry",
       "Finishing Blow"
@@ -10829,6 +11287,12 @@
         "attack_breakdown": "790 + 119 + 119",
         "health": 1534,
         "health_breakdown": "1180 + 177 + 177"
+      },
+      "asc4": {
+        "attack": 1045,
+        "attack_breakdown": "870 + 44 + 131",
+        "health": 1704,
+        "health_breakdown": "1310 + 197 + 197"
       }
     },
     "availability": null
@@ -11297,7 +11761,8 @@
     "ascension": [
       "Diagonal Parry",
       "Cardinal Aim",
-      "Diagonal Parry"
+      "Diagonal Parry",
+      "Poison Resistance"
     ],
     "merge": [
       "Split Second",
@@ -11313,6 +11778,7 @@
       "Diagonal Parry",
       "Cardinal Aim",
       "Diagonal Parry",
+      "Poison Resistance",
       "Split Second",
       "Point Blank",
       "Fortify"
@@ -11346,6 +11812,12 @@
         "attack_breakdown": "760 + 114 + 114",
         "health": 1690,
         "health_breakdown": "1300 + 195 + 195"
+      },
+      "asc4": {
+        "attack": 1100,
+        "attack_breakdown": "880 + 88 + 132",
+        "health": 1900,
+        "health_breakdown": "1520 + 152 + 228"
       }
     },
     "availability": null
@@ -11362,6 +11834,7 @@
     "ascension": [
       "Sniper",
       "Ranged Parry",
+      "Brutal Attack",
       "Brutal Attack"
     ],
     "merge": [
@@ -11377,6 +11850,7 @@
       "Brutal Attack",
       "Sniper",
       "Ranged Parry",
+      "Brutal Attack",
       "Brutal Attack",
       "Split Second",
       "Melee Parry",
@@ -11411,6 +11885,12 @@
         "attack_breakdown": "1210 + 182 + 182",
         "health": 2146,
         "health_breakdown": "1650 + 248 + 248"
+      },
+      "asc4": {
+        "attack": 1813,
+        "attack_breakdown": "1510 + 76 + 227",
+        "health": 2666,
+        "health_breakdown": "2050 + 308 + 308"
       }
     },
     "availability": null
@@ -11427,7 +11907,8 @@
     "ascension": [
       "Melee Parry",
       "Inner Peace",
-      "Melee Parry"
+      "Melee Parry",
+      "Rune of Sea"
     ],
     "merge": [
       "Split Second",
@@ -11443,6 +11924,7 @@
       "Melee Parry",
       "Inner Peace",
       "Melee Parry",
+      "Rune of Sea",
       "Split Second",
       "Prepare",
       "Melee Parry"
@@ -11476,6 +11958,12 @@
         "attack_breakdown": "1170 + 176 + 176",
         "health": 2874,
         "health_breakdown": "2210 + 332 + 332"
+      },
+      "asc4": {
+        "attack": 1584,
+        "attack_breakdown": "1320 + 66 + 198",
+        "health": 3212,
+        "health_breakdown": "2470 + 371 + 371"
       }
     },
     "availability": "Soul Summon exclusive"
@@ -11886,7 +12374,8 @@
     "ascension": [
       "Push",
       "Push",
-      "Fortify"
+      "Fortify",
+      "Push"
     ],
     "merge": [
       "Split Second",
@@ -11903,6 +12392,7 @@
       "Push",
       "Push",
       "Fortify",
+      "Push",
       "Split Second",
       "Magic Parry",
       "Immovable"
@@ -11914,28 +12404,34 @@
     "stars": 5,
     "stats": {
       "basic": {
-        "attack": 586,
-        "attack_breakdown": "450 + 68 + 68",
-        "health": 1352,
-        "health_breakdown": "1040 + 156 + 156"
+        "attack": 638,
+        "attack_breakdown": "490 + 74 + 74",
+        "health": 1482,
+        "health_breakdown": "1140 + 171 + 171"
       },
       "asc": {
-        "attack": 754,
-        "attack_breakdown": "580 + 87 + 87",
-        "health": 1756,
-        "health_breakdown": "1350 + 203 + 203"
+        "attack": 806,
+        "attack_breakdown": "620 + 93 + 93",
+        "health": 1886,
+        "health_breakdown": "1450 + 218 + 218"
       },
       "asc2": {
-        "attack": 1054,
-        "attack_breakdown": "810 + 122 + 122",
-        "health": 2444,
-        "health_breakdown": "1880 + 282 + 282"
+        "attack": 1132,
+        "attack_breakdown": "870 + 131 + 131",
+        "health": 2640,
+        "health_breakdown": "2030 + 305 + 305"
       },
       "asc3": {
-        "attack": 1262,
-        "attack_breakdown": "970 + 146 + 146",
-        "health": 3316,
-        "health_breakdown": "2550 + 383 + 383"
+        "attack": 1378,
+        "attack_breakdown": "1060 + 159 + 159",
+        "health": 3628,
+        "health_breakdown": "2790 + 419 + 419"
+      },
+      "asc4": {
+        "attack": 1472,
+        "attack_breakdown": "1280 + 0 + 192",
+        "health": 4394,
+        "health_breakdown": "3380 + 507 + 507"
       }
     },
     "availability": "Summer Solstice exclusive"
@@ -11952,7 +12448,8 @@
     "ascension": [
       "Protector",
       "Rune of Sun",
-      "Melee Parry"
+      "Melee Parry",
+      "Soul Blade"
     ],
     "merge": [
       "Split Second",
@@ -11968,6 +12465,7 @@
       "Protector",
       "Rune of Sun",
       "Melee Parry",
+      "Soul Blade",
       "Split Second",
       "Rune of Sun",
       "Armor of Sun"
@@ -12001,6 +12499,12 @@
         "attack_breakdown": "670 + 101 + 101",
         "health": 4160,
         "health_breakdown": "3200 + 480 + 480"
+      },
+      "asc4": {
+        "attack": 925,
+        "attack_breakdown": "770 + 39 + 116",
+        "health": 4836,
+        "health_breakdown": "3720 + 558 + 558"
       }
     },
     "availability": null
@@ -12018,6 +12522,7 @@
     "ascension": [
       "Mighty Blow",
       "Rune of Sun",
+      "Poison Resistance",
       "Poison Resistance"
     ],
     "merge": [
@@ -12034,6 +12539,7 @@
       "Melee Parry",
       "Mighty Blow",
       "Rune of Sun",
+      "Poison Resistance",
       "Poison Resistance",
       "Split Second",
       "Rune of Sun",
@@ -12068,6 +12574,12 @@
         "attack_breakdown": "1220 + 183 + 183",
         "health": 5552,
         "health_breakdown": "4270 + 641 + 641"
+      },
+      "asc4": {
+        "attack": 1944,
+        "attack_breakdown": "1620 + 81 + 243",
+        "health": 7088,
+        "health_breakdown": "5670 + 567 + 851"
       }
     },
     "availability": "Dragon Egg Hunt exclusive"
@@ -12084,6 +12596,7 @@
     "ascension": [
       "Focus",
       "Point Blank",
+      "Point Blank",
       "Point Blank"
     ],
     "merge": [
@@ -12098,6 +12611,7 @@
       "Melee Parry",
       "Melee Parry",
       "Focus",
+      "Point Blank",
       "Point Blank",
       "Point Blank",
       "Split Second",
@@ -12133,6 +12647,12 @@
         "attack_breakdown": "760 + 114 + 114",
         "health": 2120,
         "health_breakdown": "1630 + 245 + 245"
+      },
+      "asc4": {
+        "attack": 1125,
+        "attack_breakdown": "900 + 90 + 135",
+        "health": 2388,
+        "health_breakdown": "1910 + 191 + 287"
       }
     },
     "availability": null
@@ -12150,7 +12670,8 @@
     "ascension": [
       "Sniper",
       "Sniper",
-      "Critical Attack"
+      "Critical Attack",
+      "Eagle Eye"
     ],
     "merge": [
       "Split Second",
@@ -12167,6 +12688,7 @@
       "Sniper",
       "Sniper",
       "Critical Attack",
+      "Eagle Eye",
       "Split Second",
       "Resilient",
       "Critical Attack: Rupture"
@@ -12200,6 +12722,12 @@
         "attack_breakdown": "2060 + 309 + 309",
         "health": 2354,
         "health_breakdown": "1810 + 272 + 272"
+      },
+      "asc4": {
+        "attack": 2461,
+        "attack_breakdown": "2140 + 0 + 321",
+        "health": 2432,
+        "health_breakdown": "1870 + 281 + 281"
       }
     },
     "availability": null
@@ -12211,7 +12739,7 @@
       "Critical Attack",
       "Prepare",
       "Prepare",
-      "Prepared Weakened",
+      "Prepared Weaken",
       "Refresh"
     ],
     "ascension": [
@@ -12229,7 +12757,7 @@
       "Critical Attack",
       "Prepare",
       "Prepare",
-      "Prepared Weakened",
+      "Prepared Weaken",
       "Refresh",
       "Sentinel",
       "Poison Resistance",
@@ -12284,7 +12812,8 @@
     "ascension": [
       "Demoralizing Strike",
       "Inner Peace",
-      "Magic Parry"
+      "Magic Parry",
+      "Soul Blade"
     ],
     "merge": [
       "Split Second",
@@ -12301,6 +12830,7 @@
       "Demoralizing Strike",
       "Inner Peace",
       "Magic Parry",
+      "Soul Blade",
       "Split Second",
       "Immovable",
       "Whirlwind"
@@ -12334,6 +12864,12 @@
         "attack_breakdown": "1300 + 195 + 195",
         "health": 2652,
         "health_breakdown": "2040 + 306 + 306"
+      },
+      "asc4": {
+        "attack": 2101,
+        "attack_breakdown": "1750 + 88 + 263",
+        "health": 3425,
+        "health_breakdown": "2740 + 274 + 411"
       }
     },
     "availability": null
@@ -12534,10 +13070,10 @@
         "health_breakdown": "1660 + 249 + 249"
       },
       "asc4": {
-        "attack": 1500,
-        "attack_breakdown": "1200 + 120 + 180",
-        "health": 2363,
-        "health_breakdown": "1890 + 189 + 284"
+        "attack": 1450,
+        "attack_breakdown": "1160 + 116 + 174",
+        "health": 2288,
+        "health_breakdown": "1830 + 183 + 275"
       }
     },
     "availability": "Astra Reveria exclusive"
@@ -12554,7 +13090,8 @@
     "ascension": [
       "Dodge",
       "Diagonal Aim",
-      "Rune of Sun"
+      "Rune of Sun",
+      "Fortify"
     ],
     "merge": [
       "Split Second",
@@ -12570,6 +13107,7 @@
       "Dodge",
       "Diagonal Aim",
       "Rune of Sun",
+      "Fortify",
       "Split Second",
       "Sniper",
       "Exploit Weakness"
@@ -12603,6 +13141,12 @@
         "attack_breakdown": "820 + 123 + 123",
         "health": 1002,
         "health_breakdown": "770 + 116 + 116"
+      },
+      "asc4": {
+        "attack": 1188,
+        "attack_breakdown": "950 + 95 + 143",
+        "health": 1100,
+        "health_breakdown": "880 + 88 + 132"
       }
     },
     "availability": "Alpha Genesis exclusive"
@@ -12820,7 +13364,8 @@
     "ascension": [
       "Diagonal Parry",
       "Whirlwind",
-      "Whirlwind"
+      "Whirlwind",
+      "Diagonal Aim"
     ],
     "merge": [
       "Split Second",
@@ -12836,6 +13381,7 @@
       "Diagonal Parry",
       "Whirlwind",
       "Whirlwind",
+      "Diagonal Aim",
       "Split Second",
       "Ranged Parry",
       "Diagonal Aim"
@@ -12869,6 +13415,12 @@
         "attack_breakdown": "860 + 129 + 129",
         "health": 2380,
         "health_breakdown": "1830 + 275 + 275"
+      },
+      "asc4": {
+        "attack": 1175,
+        "attack_breakdown": "940 + 94 + 141",
+        "health": 2513,
+        "health_breakdown": "2010 + 201 + 302"
       }
     },
     "availability": null
@@ -12886,7 +13438,8 @@
     "ascension": [
       "Cardinal Parry",
       "Push",
-      "Whirlwind"
+      "Whirlwind",
+      "Firewhirl"
     ],
     "merge": [
       "Split Second",
@@ -12903,6 +13456,7 @@
       "Cardinal Parry",
       "Push",
       "Whirlwind",
+      "Firewhirl",
       "Split Second",
       "Push",
       "Whirlwind"
@@ -12936,6 +13490,12 @@
         "attack_breakdown": "960 + 144 + 144",
         "health": 3576,
         "health_breakdown": "2750 + 413 + 413"
+      },
+      "asc4": {
+        "attack": 1311,
+        "attack_breakdown": "1140 + 0 + 171",
+        "health": 4252,
+        "health_breakdown": "3270 + 491 + 491"
       }
     },
     "availability": null
@@ -13005,10 +13565,10 @@
         "health_breakdown": "1950 + 293 + 293"
       },
       "asc4": {
-        "attack": 1045,
-        "attack_breakdown": "870 + 44 + 131",
-        "health": 2848,
-        "health_breakdown": "2190 + 329 + 329"
+        "attack": 1008,
+        "attack_breakdown": "840 + 42 + 126",
+        "health": 2756,
+        "health_breakdown": "2120 + 318 + 318"
       }
     },
     "availability": null
@@ -13531,10 +14091,10 @@
         "health_breakdown": "4240 + 636 + 636"
       },
       "asc4": {
-        "attack": 1824,
-        "attack_breakdown": "1520 + 76 + 228",
-        "health": 6363,
-        "health_breakdown": "5090 + 509 + 764"
+        "attack": 1704,
+        "attack_breakdown": "1420 + 71 + 213",
+        "health": 5963,
+        "health_breakdown": "4770 + 477 + 716"
       }
     },
     "availability": "Summer Solstice exclusive"
@@ -13820,7 +14380,8 @@
     "ascension": [
       "Healing Touch",
       "Ranged Parry",
-      "Rune of Earth"
+      "Rune of Earth",
+      "Cardinal Parry"
     ],
     "merge": [
       "Split Second",
@@ -13837,6 +14398,7 @@
       "Healing Touch",
       "Ranged Parry",
       "Rune of Earth",
+      "Cardinal Parry",
       "Split Second",
       "Critical Heal",
       "Triage"
@@ -13870,6 +14432,12 @@
         "attack_breakdown": "340 + 51 + 51",
         "health": 2288,
         "health_breakdown": "1760 + 264 + 264"
+      },
+      "asc4": {
+        "attack": 449,
+        "attack_breakdown": "390 + 0 + 59",
+        "health": 2666,
+        "health_breakdown": "2050 + 308 + 308"
       }
     },
     "availability": null
@@ -14018,7 +14586,8 @@
     "ascension": [
       "Sniper",
       "Cardinal Parry",
-      "Sniper"
+      "Sniper",
+      "Ranged Parry"
     ],
     "merge": [
       "Split Second",
@@ -14035,6 +14604,7 @@
       "Sniper",
       "Cardinal Parry",
       "Sniper",
+      "Ranged Parry",
       "Split Second",
       "Sniper",
       "Arcane Shield"
@@ -14068,6 +14638,12 @@
         "attack_breakdown": "1750 + 263 + 263",
         "health": 2652,
         "health_breakdown": "2040 + 306 + 306"
+      },
+      "asc4": {
+        "attack": 2197,
+        "attack_breakdown": "1830 + 92 + 275",
+        "health": 2663,
+        "health_breakdown": "2130 + 213 + 320"
       }
     },
     "availability": null
@@ -14152,7 +14728,8 @@
     "ascension": [
       "Inner Peace",
       "Rune of Moon",
-      "Prepare"
+      "Prepare",
+      "Prepared Freeze"
     ],
     "merge": [
       "Split Second",
@@ -14169,6 +14746,7 @@
       "Inner Peace",
       "Rune of Moon",
       "Prepare",
+      "Prepared Freeze",
       "Split Second",
       "Inner Peace",
       "Cardinal Parry"
@@ -14202,6 +14780,12 @@
         "attack_breakdown": "1140 + 171 + 171",
         "health": 2444,
         "health_breakdown": "1880 + 282 + 282"
+      },
+      "asc4": {
+        "attack": 1765,
+        "attack_breakdown": "1470 + 74 + 221",
+        "health": 3025,
+        "health_breakdown": "2420 + 242 + 363"
       }
     },
     "availability": "All Hallows Eve exclusive"
@@ -14352,7 +14936,8 @@
     "ascension": [
       "Ranged Parry",
       "Poison Resistance",
-      "Blitz"
+      "Blitz",
+      "Finishing Blow"
     ],
     "merge": [
       "Split Second",
@@ -14368,6 +14953,7 @@
       "Ranged Parry",
       "Poison Resistance",
       "Blitz",
+      "Finishing Blow",
       "Split Second",
       "Critical Attack",
       "Sniper"
@@ -14401,6 +14987,12 @@
         "attack_breakdown": "1160 + 174 + 174",
         "health": 1950,
         "health_breakdown": "1500 + 225 + 225"
+      },
+      "asc4": {
+        "attack": 1663,
+        "attack_breakdown": "1330 + 133 + 200",
+        "health": 2150,
+        "health_breakdown": "1720 + 172 + 258"
       }
     },
     "availability": "Alpha Genesis exclusive"
@@ -14551,7 +15143,8 @@
     "ascension": [
       "Exploit Weakness",
       "Extra Time",
-      "Magic Parry"
+      "Magic Parry",
+      "Protector"
     ],
     "merge": [
       "Split Second",
@@ -14567,6 +15160,7 @@
       "Exploit Weakness",
       "Extra Time",
       "Magic Parry",
+      "Protector",
       "Split Second",
       "Healing Wave",
       "Fortify"
@@ -14600,6 +15194,12 @@
         "attack_breakdown": "850 + 128 + 128",
         "health": 2562,
         "health_breakdown": "1970 + 296 + 296"
+      },
+      "asc4": {
+        "attack": 1200,
+        "attack_breakdown": "960 + 96 + 144",
+        "health": 2775,
+        "health_breakdown": "2220 + 222 + 333"
       }
     },
     "availability": "Soul Summon exclusive"
@@ -15077,7 +15677,8 @@
     "ascension": [
       "Whirlwind",
       "Diagonal Parry",
-      "Rune of Sun"
+      "Rune of Sun",
+      "Whirlwind"
     ],
     "merge": [
       "Split Second",
@@ -15093,6 +15694,7 @@
       "Whirlwind",
       "Diagonal Parry",
       "Rune of Sun",
+      "Whirlwind",
       "Split Second",
       "Diagonal Parry",
       "Point Blank"
@@ -15126,6 +15728,12 @@
         "attack_breakdown": "740 + 111 + 111",
         "health": 2224,
         "health_breakdown": "1710 + 257 + 257"
+      },
+      "asc4": {
+        "attack": 1038,
+        "attack_breakdown": "830 + 83 + 125",
+        "health": 2413,
+        "health_breakdown": "1930 + 193 + 290"
       }
     },
     "availability": null
@@ -15331,10 +15939,10 @@
         "health_breakdown": "980 + 147 + 147"
       },
       "asc4": {
-        "attack": 1625,
-        "attack_breakdown": "1300 + 130 + 195",
-        "health": 1368,
-        "health_breakdown": "1140 + 57 + 171"
+        "attack": 1513,
+        "attack_breakdown": "1210 + 121 + 182",
+        "health": 1272,
+        "health_breakdown": "1060 + 53 + 159"
       }
     },
     "availability": "Astra Reveria exclusive"
@@ -15351,7 +15959,8 @@
     "ascension": [
       "Rend",
       "Pact Against Insects",
-      "Rune of Earth"
+      "Rune of Earth",
+      "Rend"
     ],
     "merge": [
       "Split Second",
@@ -15367,6 +15976,7 @@
       "Rend",
       "Pact Against Insects",
       "Rune of Earth",
+      "Rend",
       "Split Second",
       "Melee Parry",
       "Diagonal Aim"
@@ -15400,6 +16010,12 @@
         "attack_breakdown": "460 + 69 + 69",
         "health": 2094,
         "health_breakdown": "1610 + 242 + 242"
+      },
+      "asc4": {
+        "attack": 637,
+        "attack_breakdown": "530 + 27 + 80",
+        "health": 2380,
+        "health_breakdown": "1830 + 275 + 275"
       }
     },
     "availability": null
@@ -15469,10 +16085,10 @@
         "health_breakdown": "2000 + 300 + 300"
       },
       "asc4": {
-        "attack": 1225,
-        "attack_breakdown": "980 + 98 + 147",
-        "health": 2850,
-        "health_breakdown": "2280 + 228 + 342"
+        "attack": 1188,
+        "attack_breakdown": "950 + 95 + 143",
+        "health": 2750,
+        "health_breakdown": "2200 + 220 + 330"
       }
     },
     "availability": null
@@ -15490,7 +16106,8 @@
     "ascension": [
       "Bleed Resistance",
       "Poison Resistance",
-      "Finishing Blow"
+      "Finishing Blow",
+      "Brutal Attack"
     ],
     "merge": [
       "Split Second",
@@ -15507,6 +16124,7 @@
       "Bleed Resistance",
       "Poison Resistance",
       "Finishing Blow",
+      "Brutal Attack",
       "Split Second",
       "Diagonal Parry",
       "Finishing Blow"
@@ -15540,6 +16158,12 @@
         "attack_breakdown": "1340 + 201 + 201",
         "health": 2042,
         "health_breakdown": "1570 + 236 + 236"
+      },
+      "asc4": {
+        "attack": 1967,
+        "attack_breakdown": "1710 + 0 + 257",
+        "health": 2588,
+        "health_breakdown": "1990 + 299 + 299"
       }
     },
     "availability": null
@@ -15822,7 +16446,8 @@
     "ascension": [
       "Critical Attack",
       "Mighty Blow",
-      "Ranged Parry"
+      "Ranged Parry",
+      "Initiative: Extinguish Fire"
     ],
     "merge": [
       "Split Second",
@@ -15839,6 +16464,7 @@
       "Critical Attack",
       "Mighty Blow",
       "Ranged Parry",
+      "Initiative: Extinguish Fire",
       "Split Second",
       "Raider Boost",
       "Raider Surge"
@@ -15872,6 +16498,12 @@
         "attack_breakdown": "920 + 138 + 138",
         "health": 3146,
         "health_breakdown": "2420 + 363 + 363"
+      },
+      "asc4": {
+        "attack": 1263,
+        "attack_breakdown": "1010 + 101 + 152",
+        "health": 3192,
+        "health_breakdown": "2660 + 133 + 399"
       }
     },
     "availability": "Raid Summon exclusive"
@@ -15888,6 +16520,7 @@
     "ascension": [
       "Brutal Attack",
       "Ranged Parry",
+      "Cardinal Aim",
       "Cardinal Aim"
     ],
     "merge": [
@@ -15903,6 +16536,7 @@
       "Cardinal Aim",
       "Brutal Attack",
       "Ranged Parry",
+      "Cardinal Aim",
       "Cardinal Aim",
       "Split Second",
       "Point Blank",
@@ -15937,6 +16571,12 @@
         "attack_breakdown": "880 + 132 + 132",
         "health": 1560,
         "health_breakdown": "1200 + 180 + 180"
+      },
+      "asc4": {
+        "attack": 1188,
+        "attack_breakdown": "950 + 95 + 143",
+        "health": 1613,
+        "health_breakdown": "1290 + 129 + 194"
       }
     },
     "availability": null
@@ -16218,6 +16858,7 @@
     "ascension": [
       "Brutal Attack",
       "Ranged Parry",
+      "Cardinal Aim",
       "Cardinal Aim"
     ],
     "merge": [
@@ -16233,6 +16874,7 @@
       "Cardinal Aim",
       "Brutal Attack",
       "Ranged Parry",
+      "Cardinal Aim",
       "Cardinal Aim",
       "Split Second",
       "Point Blank",
@@ -16267,6 +16909,12 @@
         "attack_breakdown": "880 + 132 + 132",
         "health": 1560,
         "health_breakdown": "1200 + 180 + 180"
+      },
+      "asc4": {
+        "attack": 1188,
+        "attack_breakdown": "950 + 95 + 143",
+        "health": 1613,
+        "health_breakdown": "1290 + 129 + 194"
       }
     },
     "availability": "Dragon Egg Hunt exclusive"
@@ -16284,7 +16932,8 @@
     "ascension": [
       "Mighty Blow",
       "Prepare",
-      "Rend"
+      "Rend",
+      "Prepared Rupture"
     ],
     "merge": [
       "Split Second",
@@ -16301,6 +16950,7 @@
       "Mighty Blow",
       "Prepare",
       "Rend",
+      "Prepared Rupture",
       "Split Second",
       "Cardinal Parry",
       "Focus"
@@ -16334,6 +16984,12 @@
         "attack_breakdown": "1110 + 167 + 167",
         "health": 3510,
         "health_breakdown": "2700 + 405 + 405"
+      },
+      "asc4": {
+        "attack": 1728,
+        "attack_breakdown": "1440 + 72 + 216",
+        "health": 4363,
+        "health_breakdown": "3490 + 349 + 524"
       }
     },
     "availability": null
@@ -16671,7 +17327,8 @@
     "ascension": [
       "Ranged Parry",
       "Ranged Parry",
-      "Sniper"
+      "Sniper",
+      "Focus"
     ],
     "merge": [
       "Split Second",
@@ -16687,6 +17344,7 @@
       "Ranged Parry",
       "Ranged Parry",
       "Sniper",
+      "Focus",
       "Split Second",
       "Brutal Attack",
       "Point Blank"
@@ -16720,6 +17378,12 @@
         "attack_breakdown": "860 + 129 + 129",
         "health": 2380,
         "health_breakdown": "1830 + 275 + 275"
+      },
+      "asc4": {
+        "attack": 1225,
+        "attack_breakdown": "980 + 98 + 147",
+        "health": 2613,
+        "health_breakdown": "2090 + 209 + 314"
       }
     },
     "availability": null
@@ -16927,7 +17591,8 @@
     "ascension": [
       "Silencing Strike",
       "Pact Against Insects",
-      "Rune of Sea"
+      "Rune of Sea",
+      "Venom"
     ],
     "merge": [
       "Split Second",
@@ -16943,6 +17608,7 @@
       "Silencing Strike",
       "Pact Against Insects",
       "Rune of Sea",
+      "Venom",
       "Split Second",
       "Diagonal Aim",
       "Magic Parry"
@@ -16976,6 +17642,12 @@
         "attack_breakdown": "410 + 62 + 62",
         "health": 2094,
         "health_breakdown": "1610 + 242 + 242"
+      },
+      "asc4": {
+        "attack": 588,
+        "attack_breakdown": "470 + 47 + 71",
+        "health": 2275,
+        "health_breakdown": "1820 + 182 + 273"
       }
     },
     "availability": null
@@ -17127,7 +17799,8 @@
     "ascension": [
       "Fortify",
       "Sniper",
-      "Fortify"
+      "Fortify",
+      "Blitz"
     ],
     "merge": [
       "Split Second",
@@ -17144,6 +17817,7 @@
       "Fortify",
       "Sniper",
       "Fortify",
+      "Blitz",
       "Split Second",
       "Rend",
       "Focus"
@@ -17177,6 +17851,12 @@
         "attack_breakdown": "1150 + 173 + 173",
         "health": 1756,
         "health_breakdown": "1350 + 203 + 203"
+      },
+      "asc4": {
+        "attack": 1512,
+        "attack_breakdown": "1260 + 63 + 189",
+        "health": 1825,
+        "health_breakdown": "1460 + 146 + 219"
       }
     },
     "availability": null
@@ -17261,7 +17941,8 @@
     "ascension": [
       "Brutal Attack",
       "Critical Attack",
-      "Rune of Earth"
+      "Rune of Earth",
+      "Critical Attack"
     ],
     "merge": [
       "Split Second",
@@ -17278,6 +17959,7 @@
       "Brutal Attack",
       "Critical Attack",
       "Rune of Earth",
+      "Critical Attack",
       "Split Second",
       "Brutal Attack",
       "Rune of Earth"
@@ -17311,6 +17993,12 @@
         "attack_breakdown": "2340 + 351 + 351",
         "health": 2666,
         "health_breakdown": "2050 + 308 + 308"
+      },
+      "asc4": {
+        "attack": 3542,
+        "attack_breakdown": "3080 + 0 + 462",
+        "health": 3510,
+        "health_breakdown": "2700 + 405 + 405"
       }
     },
     "availability": null
@@ -17459,7 +18147,8 @@
     "ascension": [
       "Cardinal Parry",
       "Curse Resistance",
-      "Blitz"
+      "Blitz",
+      "Eagle Eye"
     ],
     "merge": [
       "Split Second",
@@ -17476,6 +18165,7 @@
       "Cardinal Parry",
       "Curse Resistance",
       "Blitz",
+      "Eagle Eye",
       "Split Second",
       "Critical Attack",
       "Mighty Blow"
@@ -17509,6 +18199,12 @@
         "attack_breakdown": "1000 + 150 + 150",
         "health": 2548,
         "health_breakdown": "1960 + 294 + 294"
+      },
+      "asc4": {
+        "attack": 1173,
+        "attack_breakdown": "1020 + 0 + 153",
+        "health": 2600,
+        "health_breakdown": "2000 + 300 + 300"
       }
     },
     "availability": "Summer Solstice exclusive"
@@ -17526,7 +18222,8 @@
     "ascension": [
       "Bloodlust",
       "Cardinal Aim",
-      "Mighty Blow"
+      "Mighty Blow",
+      "Crushing Blow"
     ],
     "merge": [
       "Split Second",
@@ -17543,6 +18240,7 @@
       "Bloodlust",
       "Cardinal Aim",
       "Mighty Blow",
+      "Crushing Blow",
       "Split Second",
       "Bloodlust",
       "Crushing Blow"
@@ -17576,6 +18274,12 @@
         "attack_breakdown": "920 + 138 + 138",
         "health": 3432,
         "health_breakdown": "2640 + 396 + 396"
+      },
+      "asc4": {
+        "attack": 1300,
+        "attack_breakdown": "1130 + 0 + 170",
+        "health": 4200,
+        "health_breakdown": "3230 + 485 + 485"
       }
     },
     "availability": null
@@ -17793,6 +18497,7 @@
     "ascension": [
       "Whirlwind",
       "Ranged Parry",
+      "Whirlwind",
       "Whirlwind"
     ],
     "merge": [
@@ -17808,6 +18513,7 @@
       "Venom",
       "Whirlwind",
       "Ranged Parry",
+      "Whirlwind",
       "Whirlwind",
       "Split Second",
       "Ranged Parry",
@@ -17842,6 +18548,12 @@
         "attack_breakdown": "800 + 120 + 120",
         "health": 2406,
         "health_breakdown": "1850 + 278 + 278"
+      },
+      "asc4": {
+        "attack": 1045,
+        "attack_breakdown": "870 + 44 + 131",
+        "health": 2626,
+        "health_breakdown": "2020 + 303 + 303"
       }
     },
     "availability": null
@@ -17987,7 +18699,8 @@
     "ascension": [
       "Melee Parry",
       "Extra Time",
-      "Predator"
+      "Predator",
+      "Swashbuckler"
     ],
     "merge": [
       "Split Second",
@@ -18004,6 +18717,7 @@
       "Melee Parry",
       "Extra Time",
       "Predator",
+      "Swashbuckler",
       "Split Second",
       "Melee Parry",
       "Pulverize"
@@ -18037,6 +18751,12 @@
         "attack_breakdown": "1250 + 188 + 188",
         "health": 3784,
         "health_breakdown": "2910 + 437 + 437"
+      },
+      "asc4": {
+        "attack": 1693,
+        "attack_breakdown": "1410 + 71 + 212",
+        "health": 4100,
+        "health_breakdown": "3280 + 328 + 492"
       }
     },
     "availability": null
@@ -18108,10 +18828,10 @@
         "health_breakdown": "1710 + 257 + 257"
       },
       "asc4": {
-        "attack": 1518,
-        "attack_breakdown": "1320 + 0 + 198",
-        "health": 2458,
-        "health_breakdown": "1890 + 284 + 284"
+        "attack": 1426,
+        "attack_breakdown": "1240 + 0 + 186",
+        "health": 2302,
+        "health_breakdown": "1770 + 266 + 266"
       }
     },
     "availability": "Summer Solstice exclusive"
@@ -18128,7 +18848,8 @@
     "ascension": [
       "Cardinal Parry",
       "Cardinal Heal",
-      "Cardinal Parry"
+      "Cardinal Parry",
+      "Rend"
     ],
     "merge": [
       "Split Second",
@@ -18144,6 +18865,7 @@
       "Cardinal Parry",
       "Cardinal Heal",
       "Cardinal Parry",
+      "Rend",
       "Split Second",
       "Diagonal Parry",
       "Healing Focus"
@@ -18177,6 +18899,12 @@
         "attack_breakdown": "400 + 60 + 60",
         "health": 1938,
         "health_breakdown": "1490 + 224 + 224"
+      },
+      "asc4": {
+        "attack": 600,
+        "attack_breakdown": "480 + 48 + 72",
+        "health": 2238,
+        "health_breakdown": "1790 + 179 + 269"
       }
     },
     "availability": null
@@ -18459,7 +19187,8 @@
     "ascension": [
       "Inner Peace",
       "Rune of Sea",
-      "Prepare"
+      "Prepare",
+      "Prepared Freeze"
     ],
     "merge": [
       "Split Second",
@@ -18476,6 +19205,7 @@
       "Inner Peace",
       "Rune of Sea",
       "Prepare",
+      "Prepared Freeze",
       "Split Second",
       "Inner Peace",
       "Cardinal Parry"
@@ -18509,6 +19239,12 @@
         "attack_breakdown": "1140 + 171 + 171",
         "health": 2444,
         "health_breakdown": "1880 + 282 + 282"
+      },
+      "asc4": {
+        "attack": 1765,
+        "attack_breakdown": "1470 + 74 + 221",
+        "health": 3025,
+        "health_breakdown": "2420 + 242 + 363"
       }
     },
     "availability": null
@@ -18525,7 +19261,8 @@
     "ascension": [
       "Pacifist",
       "Dodge",
-      "Healing Focus"
+      "Healing Focus",
+      "Ranged Parry"
     ],
     "merge": [
       "Split Second",
@@ -18541,6 +19278,7 @@
       "Pacifist",
       "Dodge",
       "Healing Focus",
+      "Ranged Parry",
       "Split Second",
       "Point Blank",
       "Triage"
@@ -18574,6 +19312,12 @@
         "attack_breakdown": "410 + 62 + 62",
         "health": 1860,
         "health_breakdown": "1430 + 215 + 215"
+      },
+      "asc4": {
+        "attack": 552,
+        "attack_breakdown": "460 + 23 + 69",
+        "health": 2094,
+        "health_breakdown": "1610 + 242 + 242"
       }
     },
     "availability": null
@@ -18590,7 +19334,8 @@
     "ascension": [
       "Ranged Parry",
       "Ranged Parry",
-      "Ranged Parry"
+      "Ranged Parry",
+      "Sniper"
     ],
     "merge": [
       "Split Second",
@@ -18606,6 +19351,7 @@
       "Ranged Parry",
       "Ranged Parry",
       "Ranged Parry",
+      "Sniper",
       "Split Second",
       "Diagonal Parry",
       "Point Blank"
@@ -18639,6 +19385,12 @@
         "attack_breakdown": "1090 + 164 + 164",
         "health": 2224,
         "health_breakdown": "1710 + 257 + 257"
+      },
+      "asc4": {
+        "attack": 1525,
+        "attack_breakdown": "1270 + 64 + 191",
+        "health": 2588,
+        "health_breakdown": "1990 + 299 + 299"
       }
     },
     "availability": null
@@ -18917,7 +19669,8 @@
     "ascension": [
       "Triage",
       "Poison Resistance",
-      "Magic Parry"
+      "Magic Parry",
+      "Rune of Sea"
     ],
     "merge": [
       "Split Second",
@@ -18933,6 +19686,7 @@
       "Triage",
       "Poison Resistance",
       "Magic Parry",
+      "Rune of Sea",
       "Split Second",
       "Critical Heal",
       "Fortify"
@@ -18966,6 +19720,12 @@
         "attack_breakdown": "420 + 63 + 63",
         "health": 2054,
         "health_breakdown": "1580 + 237 + 237"
+      },
+      "asc4": {
+        "attack": 528,
+        "attack_breakdown": "440 + 22 + 66",
+        "health": 2172,
+        "health_breakdown": "1670 + 251 + 251"
       }
     },
     "availability": null
@@ -18982,7 +19742,8 @@
     "ascension": [
       "Armor of Blood",
       "Bleed Resistance",
-      "Ranged Parry"
+      "Ranged Parry",
+      "Rend"
     ],
     "merge": [
       "Split Second",
@@ -18998,6 +19759,7 @@
       "Armor of Blood",
       "Bleed Resistance",
       "Ranged Parry",
+      "Rend",
       "Split Second",
       "Ranged Parry",
       "Exploit Weakness"
@@ -19031,6 +19793,12 @@
         "attack_breakdown": "1040 + 156 + 156",
         "health": 2016,
         "health_breakdown": "1550 + 233 + 233"
+      },
+      "asc4": {
+        "attack": 1550,
+        "attack_breakdown": "1240 + 124 + 186",
+        "health": 2325,
+        "health_breakdown": "1860 + 186 + 279"
       }
     },
     "availability": null
@@ -19446,6 +20214,7 @@
     "ascension": [
       "Finishing Blow",
       "Resilient",
+      "Melee Parry",
       "Melee Parry"
     ],
     "merge": [
@@ -19461,6 +20230,7 @@
       "Bloodlust",
       "Finishing Blow",
       "Resilient",
+      "Melee Parry",
       "Melee Parry",
       "Split Second",
       "Resilient",
@@ -19495,6 +20265,12 @@
         "attack_breakdown": "1100 + 165 + 165",
         "health": 3602,
         "health_breakdown": "2770 + 416 + 416"
+      },
+      "asc4": {
+        "attack": 1464,
+        "attack_breakdown": "1220 + 61 + 183",
+        "health": 3992,
+        "health_breakdown": "3070 + 461 + 461"
       }
     },
     "availability": null
@@ -19512,7 +20288,8 @@
     "ascension": [
       "Disorienting Strike",
       "Dodge",
-      "Soul Blade"
+      "Soul Blade",
+      "Disorienting Strike"
     ],
     "merge": [
       "Split Second",
@@ -19529,6 +20306,7 @@
       "Disorienting Strike",
       "Dodge",
       "Soul Blade",
+      "Disorienting Strike",
       "Split Second",
       "Whirlwind",
       "Inner Peace"
@@ -19562,6 +20340,12 @@
         "attack_breakdown": "1130 + 170 + 170",
         "health": 2522,
         "health_breakdown": "1940 + 291 + 291"
+      },
+      "asc4": {
+        "attack": 1728,
+        "attack_breakdown": "1440 + 72 + 216",
+        "health": 3113,
+        "health_breakdown": "2490 + 249 + 374"
       }
     },
     "availability": null
@@ -19578,7 +20362,8 @@
     "ascension": [
       "Diagonal Aim",
       "Diagonal Aim",
-      "Ranged Parry"
+      "Ranged Parry",
+      "Whirlwind"
     ],
     "merge": [
       "Split Second",
@@ -19594,6 +20379,7 @@
       "Diagonal Aim",
       "Diagonal Aim",
       "Ranged Parry",
+      "Whirlwind",
       "Split Second",
       "Poison Resistance",
       "Diagonal Parry"
@@ -19627,6 +20413,12 @@
         "attack_breakdown": "790 + 119 + 119",
         "health": 1066,
         "health_breakdown": "820 + 123 + 123"
+      },
+      "asc4": {
+        "attack": 1032,
+        "attack_breakdown": "860 + 43 + 129",
+        "health": 1170,
+        "health_breakdown": "900 + 135 + 135"
       }
     },
     "availability": null
@@ -19971,7 +20763,8 @@
     "ascension": [
       "Extra Time",
       "Immune to Silence",
-      "Prepare"
+      "Prepare",
+      "Focus"
     ],
     "merge": [
       "Split Second",
@@ -19988,6 +20781,7 @@
       "Extra Time",
       "Immune to Silence",
       "Prepare",
+      "Focus",
       "Split Second",
       "Diagonal Parry",
       "Prepare"
@@ -20021,6 +20815,12 @@
         "attack_breakdown": "1100 + 165 + 165",
         "health": 2340,
         "health_breakdown": "1800 + 270 + 270"
+      },
+      "asc4": {
+        "attack": 1750,
+        "attack_breakdown": "1400 + 140 + 210",
+        "health": 2760,
+        "health_breakdown": "2300 + 115 + 345"
       }
     },
     "availability": null
@@ -20037,6 +20837,7 @@
     "ascension": [
       "Melee Parry",
       "Mighty Blow",
+      "Bloodlust",
       "Bloodlust"
     ],
     "merge": [
@@ -20052,6 +20853,7 @@
       "Bloodlust",
       "Melee Parry",
       "Mighty Blow",
+      "Bloodlust",
       "Bloodlust",
       "Split Second",
       "Ranged Parry",
@@ -20086,6 +20888,12 @@
         "attack_breakdown": "1080 + 162 + 162",
         "health": 3680,
         "health_breakdown": "2830 + 425 + 425"
+      },
+      "asc4": {
+        "attack": 1588,
+        "attack_breakdown": "1270 + 127 + 191",
+        "health": 4188,
+        "health_breakdown": "3350 + 335 + 503"
       }
     },
     "availability": null
@@ -20304,7 +21112,8 @@
     "ascension": [
       "Melee Parry",
       "Cardinal Parry",
-      "Melee Parry"
+      "Melee Parry",
+      "Drainwhirl"
     ],
     "merge": [
       "Split Second",
@@ -20321,6 +21130,7 @@
       "Melee Parry",
       "Cardinal Parry",
       "Melee Parry",
+      "Drainwhirl",
       "Split Second",
       "Life Steal",
       "Push"
@@ -20354,6 +21164,12 @@
         "attack_breakdown": "950 + 143 + 143",
         "health": 3966,
         "health_breakdown": "3050 + 458 + 458"
+      },
+      "asc4": {
+        "attack": 1400,
+        "attack_breakdown": "1120 + 112 + 168",
+        "health": 4309,
+        "health_breakdown": "3590 + 180 + 539"
       }
     },
     "availability": null
@@ -20371,7 +21187,8 @@
     "ascension": [
       "Diagonal Aim",
       "Venom",
-      "Ranged Parry"
+      "Ranged Parry",
+      "Slay Beast"
     ],
     "merge": [
       "Split Second",
@@ -20388,6 +21205,7 @@
       "Diagonal Aim",
       "Venom",
       "Ranged Parry",
+      "Slay Beast",
       "Split Second",
       "Venom",
       "Ranged Parry"
@@ -20421,6 +21239,12 @@
         "attack_breakdown": "1000 + 150 + 150",
         "health": 2782,
         "health_breakdown": "2140 + 321 + 321"
+      },
+      "asc4": {
+        "attack": 1464,
+        "attack_breakdown": "1220 + 61 + 183",
+        "health": 3250,
+        "health_breakdown": "2600 + 260 + 390"
       }
     },
     "availability": "Summer Solstice exclusive"
@@ -20438,7 +21262,8 @@
     "ascension": [
       "Melee Parry",
       "Whirlwind",
-      "Tumble"
+      "Tumble",
+      "Whirlwind"
     ],
     "merge": [
       "Split Second",
@@ -20455,6 +21280,7 @@
       "Melee Parry",
       "Whirlwind",
       "Tumble",
+      "Whirlwind",
       "Split Second",
       "Tumble",
       "Melee Parry"
@@ -20488,6 +21314,12 @@
         "attack_breakdown": "1190 + 179 + 179",
         "health": 3030,
         "health_breakdown": "2330 + 350 + 350"
+      },
+      "asc4": {
+        "attack": 1800,
+        "attack_breakdown": "1440 + 144 + 216",
+        "health": 3384,
+        "health_breakdown": "2820 + 141 + 423"
       }
     },
     "availability": "Soul Summon exclusive"
@@ -20504,7 +21336,8 @@
     "ascension": [
       "Immobilizing Strike",
       "Dodge",
-      "Diagonal Aim"
+      "Diagonal Aim",
+      "Dodge"
     ],
     "merge": [
       "Split Second",
@@ -20520,6 +21353,7 @@
       "Immobilizing Strike",
       "Dodge",
       "Diagonal Aim",
+      "Dodge",
       "Split Second",
       "Diagonal Parry",
       "Immobilizing Strike"
@@ -20553,6 +21387,12 @@
         "attack_breakdown": "860 + 129 + 129",
         "health": 1912,
         "health_breakdown": "1470 + 221 + 221"
+      },
+      "asc4": {
+        "attack": 1104,
+        "attack_breakdown": "920 + 46 + 138",
+        "health": 2068,
+        "health_breakdown": "1590 + 239 + 239"
       }
     },
     "availability": null
@@ -20569,7 +21409,8 @@
     "ascension": [
       "Diagonal Parry",
       "Rune of Fire",
-      "Diagonal Parry"
+      "Diagonal Parry",
+      "Prepared Rupture"
     ],
     "merge": [
       "Split Second",
@@ -20585,6 +21426,7 @@
       "Diagonal Parry",
       "Rune of Fire",
       "Diagonal Parry",
+      "Prepared Rupture",
       "Split Second",
       "Rend",
       "Extra Time"
@@ -20618,6 +21460,12 @@
         "attack_breakdown": "990 + 149 + 149",
         "health": 2016,
         "health_breakdown": "1550 + 233 + 233"
+      },
+      "asc4": {
+        "attack": 1475,
+        "attack_breakdown": "1180 + 118 + 177",
+        "health": 2313,
+        "health_breakdown": "1850 + 185 + 278"
       }
     },
     "availability": null
@@ -20903,7 +21751,8 @@
     "ascension": [
       "Venom",
       "Diagonal Parry",
-      "Disorienting Strike"
+      "Disorienting Strike",
+      "Initiative: Cure Poison"
     ],
     "merge": [
       "Split Second",
@@ -20920,6 +21769,7 @@
       "Venom",
       "Diagonal Parry",
       "Disorienting Strike",
+      "Initiative: Cure Poison",
       "Split Second",
       "Disorienting Strike",
       "Cardinal Parry"
@@ -20953,6 +21803,12 @@
         "attack_breakdown": "770 + 116 + 116",
         "health": 3796,
         "health_breakdown": "2920 + 438 + 438"
+      },
+      "asc4": {
+        "attack": 1021,
+        "attack_breakdown": "850 + 43 + 128",
+        "health": 4025,
+        "health_breakdown": "3220 + 322 + 483"
       }
     },
     "availability": null
@@ -21024,10 +21880,10 @@
         "health_breakdown": "4350 + 653 + 653"
       },
       "asc4": {
-        "attack": 1645,
-        "attack_breakdown": "1370 + 69 + 206",
-        "health": 5988,
-        "health_breakdown": "4790 + 479 + 719"
+        "attack": 1536,
+        "attack_breakdown": "1280 + 64 + 192",
+        "health": 5600,
+        "health_breakdown": "4480 + 448 + 672"
       }
     },
     "availability": "Astra Reveria exclusive"
@@ -21044,6 +21900,7 @@
     "ascension": [
       "Whirlwind",
       "Ranged Parry",
+      "Whirlwind",
       "Whirlwind"
     ],
     "merge": [
@@ -21059,6 +21916,7 @@
       "Venom",
       "Whirlwind",
       "Ranged Parry",
+      "Whirlwind",
       "Whirlwind",
       "Split Second",
       "Ranged Parry",
@@ -21093,6 +21951,12 @@
         "attack_breakdown": "800 + 120 + 120",
         "health": 2406,
         "health_breakdown": "1850 + 278 + 278"
+      },
+      "asc4": {
+        "attack": 1045,
+        "attack_breakdown": "870 + 44 + 131",
+        "health": 2626,
+        "health_breakdown": "2020 + 303 + 303"
       }
     },
     "availability": "All Hallows Eve exclusive"
@@ -21109,7 +21973,8 @@
     "ascension": [
       "Diagonal Parry",
       "Focus",
-      "Focus"
+      "Focus",
+      "Healing Touch"
     ],
     "merge": [
       "Split Second",
@@ -21125,6 +21990,7 @@
       "Diagonal Parry",
       "Focus",
       "Focus",
+      "Healing Touch",
       "Split Second",
       "Melee Parry",
       "Finishing Blow"
@@ -21158,6 +22024,12 @@
         "attack_breakdown": "740 + 111 + 111",
         "health": 1742,
         "health_breakdown": "1340 + 201 + 201"
+      },
+      "asc4": {
+        "attack": 984,
+        "attack_breakdown": "820 + 41 + 123",
+        "health": 1924,
+        "health_breakdown": "1480 + 222 + 222"
       }
     },
     "availability": null
@@ -21227,10 +22099,10 @@
         "health_breakdown": "2200 + 330 + 330"
       },
       "asc4": {
-        "attack": 912,
-        "attack_breakdown": "760 + 38 + 114",
-        "health": 3458,
-        "health_breakdown": "2660 + 399 + 399"
+        "attack": 888,
+        "attack_breakdown": "740 + 37 + 111",
+        "health": 3354,
+        "health_breakdown": "2580 + 387 + 387"
       }
     },
     "availability": "Astra Reveria exclusive"
@@ -21516,7 +22388,8 @@
     "ascension": [
       "Push",
       "Extra Time",
-      "Push"
+      "Push",
+      "Curse Resistance"
     ],
     "merge": [
       "Split Second",
@@ -21533,6 +22406,7 @@
       "Push",
       "Extra Time",
       "Push",
+      "Curse Resistance",
       "Split Second",
       "Diagonal Parry",
       "Protector"
@@ -21566,6 +22440,12 @@
         "attack_breakdown": "650 + 98 + 98",
         "health": 4992,
         "health_breakdown": "3840 + 576 + 576"
+      },
+      "asc4": {
+        "attack": 1045,
+        "attack_breakdown": "870 + 44 + 131",
+        "health": 6463,
+        "health_breakdown": "5170 + 517 + 776"
       }
     },
     "availability": "Summer Solstice exclusive"
@@ -21717,6 +22597,7 @@
     "ascension": [
       "Mighty Blow",
       "Rune of Earth",
+      "Poison Resistance",
       "Poison Resistance"
     ],
     "merge": [
@@ -21733,6 +22614,7 @@
       "Melee Parry",
       "Mighty Blow",
       "Rune of Earth",
+      "Poison Resistance",
       "Poison Resistance",
       "Split Second",
       "Rune of Earth",
@@ -21767,6 +22649,12 @@
         "attack_breakdown": "1220 + 183 + 183",
         "health": 5552,
         "health_breakdown": "4270 + 641 + 641"
+      },
+      "asc4": {
+        "attack": 1944,
+        "attack_breakdown": "1620 + 81 + 243",
+        "health": 7088,
+        "health_breakdown": "5670 + 567 + 851"
       }
     },
     "availability": null
@@ -21783,7 +22671,8 @@
     "ascension": [
       "Immobilizing Strike",
       "Magic Parry",
-      "Magic Parry"
+      "Magic Parry",
+      "Sniper"
     ],
     "merge": [
       "Split Second",
@@ -21799,6 +22688,7 @@
       "Immobilizing Strike",
       "Magic Parry",
       "Magic Parry",
+      "Sniper",
       "Split Second",
       "Brutal Attack",
       "Whirlwind"
@@ -21832,6 +22722,12 @@
         "attack_breakdown": "870 + 131 + 131",
         "health": 3484,
         "health_breakdown": "2680 + 402 + 402"
+      },
+      "asc4": {
+        "attack": 1213,
+        "attack_breakdown": "970 + 97 + 146",
+        "health": 3763,
+        "health_breakdown": "3010 + 301 + 452"
       }
     },
     "availability": null
@@ -21911,7 +22807,8 @@
     "ascension": [
       "Whirlwind",
       "Whirlwind",
-      "Prepared Ignite"
+      "Prepared Ignite",
+      "Swashbuckler"
     ],
     "merge": [
       "Split Second",
@@ -21928,6 +22825,7 @@
       "Whirlwind",
       "Whirlwind",
       "Prepared Ignite",
+      "Swashbuckler",
       "Split Second",
       "Melee Parry",
       "Prepare"
@@ -21961,6 +22859,12 @@
         "attack_breakdown": "1150 + 173 + 173",
         "health": 2704,
         "health_breakdown": "2080 + 312 + 312"
+      },
+      "asc4": {
+        "attack": 1622,
+        "attack_breakdown": "1410 + 0 + 212",
+        "health": 3316,
+        "health_breakdown": "2550 + 383 + 383"
       }
     },
     "availability": null
@@ -21977,7 +22881,8 @@
     "ascension": [
       "Sniper",
       "Sniper",
-      "Rune of Fire"
+      "Rune of Fire",
+      "Extra Time"
     ],
     "merge": [
       "Split Second",
@@ -21993,6 +22898,7 @@
       "Sniper",
       "Sniper",
       "Rune of Fire",
+      "Extra Time",
       "Split Second",
       "Rend",
       "Focus"
@@ -22026,6 +22932,12 @@
         "attack_breakdown": "800 + 120 + 120",
         "health": 3342,
         "health_breakdown": "2570 + 386 + 386"
+      },
+      "asc4": {
+        "attack": 1200,
+        "attack_breakdown": "960 + 96 + 144",
+        "health": 3850,
+        "health_breakdown": "3080 + 308 + 462"
       }
     },
     "availability": null
@@ -22307,6 +23219,7 @@
     "ascension": [
       "Melee Parry",
       "Brutal Backstab",
+      "Brutal Backstab",
       "Brutal Backstab"
     ],
     "merge": [
@@ -22321,6 +23234,7 @@
       "Melee Parry",
       "Finishing Blow",
       "Melee Parry",
+      "Brutal Backstab",
       "Brutal Backstab",
       "Brutal Backstab",
       "Split Second",
@@ -22356,6 +23270,12 @@
         "attack_breakdown": "1590 + 239 + 239",
         "health": 2288,
         "health_breakdown": "1760 + 264 + 264"
+      },
+      "asc4": {
+        "attack": 2425,
+        "attack_breakdown": "1940 + 194 + 291",
+        "health": 2688,
+        "health_breakdown": "2150 + 215 + 323"
       }
     },
     "availability": null
@@ -22435,7 +23355,8 @@
     "ascension": [
       "Melee Parry",
       "Rune of Sun",
-      "Acid Resistance"
+      "Acid Resistance",
+      "Armor of Sun"
     ],
     "merge": [
       "Split Second",
@@ -22452,6 +23373,7 @@
       "Melee Parry",
       "Rune of Sun",
       "Acid Resistance",
+      "Armor of Sun",
       "Split Second",
       "Rune of Sun",
       "Armor of Sun"
@@ -22485,6 +23407,12 @@
         "attack_breakdown": "1430 + 215 + 215",
         "health": 3978,
         "health_breakdown": "3060 + 459 + 459"
+      },
+      "asc4": {
+        "attack": 2112,
+        "attack_breakdown": "1760 + 88 + 264",
+        "health": 4713,
+        "health_breakdown": "3770 + 377 + 566"
       }
     },
     "availability": null
